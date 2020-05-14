@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins' ,sans-serif;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+#mainNav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #000;
+  transition: background-color 0.2s ease;
+  /* height: 150px;  */
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+  /* color: rgba(0,0,0,.5); */
+  color: #fff !important;
+  font-weight: 800;
+}
+.nav-link:hover{
+  /* color: #D3D3D3 !important; */
+  color: gold !important;
+}
+
+.navbar-brand img{
+  width: 260px;
+}
+
+#mainNav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #000;
+  }
+
+
+.navbar{
+  padding: .8rem;
+}
+
+.navbar li{
+  padding-right: 20px;
+}
+
+#aboutus{
+  margin: 25px 0 25px 0;
+
+}
+#aboutus h2{
+  margin-top: 25px;
+}
+.img-wrap{
+  width: 100%;
+}
+.img-wrap img{
+  width: 100%;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #999999;
+}
+
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
+    background-image: url('/assets/img/backgound.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.masthead h1{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+/* .masthead p.lead{
+  color: #A9A9A9;
+} */
+
+footer{
+  background-color: #3f3f3f;
+  padding-top: 2rem;
+  color: #A9A9A9;
+}
+
+.masthead a.lead{
+  color: white;
+  border: 2px solid;
+  cursor: pointer;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.masthead a.lead:hover{
+  background-color: #393939;
+  /* opacity: 0.5; */
+  color: gold;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .masthead h1{
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+  }
+  .masthead a.lead{
+    padding: 17px 25px 17px 25px;
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .masthead h1{
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  .masthead a.lead{
+    padding: 17px 30px 17px 30px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .masthead h1{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+
+  .masthead a.lead{
+    padding: 17px 35px 17px 35px;
+    font-size: 1.5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .nav-link{
+    font-size: 1.1em !important;
+    /* color: #A9A9A9 !important; */
+    color: #fff !important;
+  }
+  /* .nav-link:hover{
+    color: gold !important;
+  } */
+  .masthead h1{
+    font-size: 3rem;
+    margin-bottom: 25px;
+  }
+
+  .masthead a.lead{
+    padding: 17px 40px 17px 40px;
+    font-size: 2rem ;
+
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
