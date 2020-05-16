@@ -20,7 +20,7 @@ which output streams to you use for better performance in java.</p>
 3. BufferedWriter</p>
 <h2>1. FileOutputStream</h2>
 <h3>Code-</h3>
-<script src="https://gist.github.com/techybeast/c0085193c2ca789639ba43f9d6646323.js"></script>
+<script src="https://gist.github.com/techypoint/c0085193c2ca789639ba43f9d6646323.js"></script>
 <h3>Analysis data -</h3>
 <div class="imgCont">
 <img src="/assets/img/java/first-post/a.png" />
@@ -28,7 +28,7 @@ which output streams to you use for better performance in java.</p>
 <p>Average Time- 332 ms</p>
 <h2>2. RandomAccessFile</h2>
 <h3>Code-</h3>
-<script src="https://gist.github.com/techybeast/19acef34cb63f91b1524d7c15f0f5c2c.js"></script>
+<script src="https://gist.github.com/techypoint/19acef34cb63f91b1524d7c15f0f5c2c.js"></script>
 <h3>Analysis data -</h3>
 <div class="imgCont">
 <img src="/assets/img/java/first-post/b.png" />
@@ -36,14 +36,14 @@ which output streams to you use for better performance in java.</p>
 <p>Average Time- 365 ms</p>
 <h2>3. BufferedWriter</h2>
 <h3>Code-</h3>
-<script src="https://gist.github.com/techybeast/baba3bd33613557f7f434657a53e339a.js"></script>
+<script src="https://gist.github.com/techypoint/baba3bd33613557f7f434657a53e339a.js"></script>
 <h3>Analysis data -</h3>
 <div class="imgCont">
 <img src="/assets/img/java/first-post/c.png" />
 </div>
 <p>Average Time- 286 ms</p>
 <h2>Results -</h2>
-<script src="https://gist.github.com/techybeast/9d4824c0e76e5a6f4bea92506951bea6.js"></script>
+<script src="https://gist.github.com/techypoint/9d4824c0e76e5a6f4bea92506951bea6.js"></script>
 <h2>CONCLUSION</h2>
 <p>From the results, you can choose which output stream to use based on your requirements.</p>
 <p>In memory and CPU perspective, choose RandomAccessFile </p>
