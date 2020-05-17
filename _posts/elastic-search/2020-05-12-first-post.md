@@ -1,9 +1,9 @@
 ---
-title: "How to write large data in a file in java — analysis"
+title: "Elastic search — analysis"
 description: "The aim of this tutorial is to show how to write bulky or large data in files and which output streams to you use for better performance in java."
 keywords: "How to write large data in a file in java,write bulk file in java"
-category: "java"
-permalink: "/java/a"
+category: "elastic-search"
+permalink: "/elastic-search/a"
 ---
 <div class="imgCont">
   <img src="/assets/img/java/first-post/test5.jpg" />
