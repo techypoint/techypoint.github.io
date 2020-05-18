@@ -25,7 +25,7 @@ html,body{
 #blog-cont #blog-posts .bg-img {
   background-size: cover;
   min-height: 200px;
-  max-height: 380px;
+  /* max-height: 380px; */
   background-position: center;
   margin-top: 15px;
 }
@@ -51,7 +51,8 @@ html,body{
 #blog-cont #blog-posts h4{
   font-weight: 700;
 }
-#blog-cont #blog-posts button {
+
+#blog-cont #blog-posts a {
   background-color: transparent;
   border: 1px solid #2196F3;
   padding: .5rem 1rem;
