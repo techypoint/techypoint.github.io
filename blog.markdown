@@ -1,14 +1,15 @@
 ---
 layout: blog
 permalink: /blog/
+description: "This Page contains blogs related to java, java blogs, amazon S3 blogs"
 ---
 <div id="blog-posts">
 <div class="grid-container">
 {% for post in site.posts %}
 <div class="card">
   <div class="card-info">
-    <h4> {{post.title}} </h4>
-    <span>Varun Bisht</span>  <span> <i class="far fa-clock pr-2 clock-icon"></i>{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
+    <span> <i class="fa fa-user user-icon" aria-hidden="true"></i> Varun Bisht</span>  
+    <span class="clockCont"> <i class="fa fa-clock-o clock-icon"></i>{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
   </div>
   <div class="bg-img">
     <img src="{{post.image}}">
