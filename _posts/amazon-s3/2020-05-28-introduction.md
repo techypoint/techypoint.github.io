@@ -9,6 +9,7 @@ image: "/assets/img/amazon-s3/introduction/introduction.jpg"
 <h1> Introduction To Amazon S3 Series</h1>
 This Series give you understanding of S3 and its comprises of -
 1. [Introduction]({% post_url amazon-s3/2020-05-28-introduction %})
+2. [Creating a Bucket]({% post_url amazon-s3/2020-05-29-createABucket %})
 
 <h2>What is Amazon S3?</h2>
 <p>Amazon S3 is a Simple Storage Service(S3) that allows you to store and retrieve data.
