@@ -54,6 +54,11 @@ html,body{
 }
 /* code style */
 
+/* comment box */
+#disqus_thread {
+    min-height: 100px;
+}
+/* comment box */
 /* blog card */
 
 #blog-cont #blog-posts .grid-container {
