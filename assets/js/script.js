@@ -19,6 +19,8 @@ loadNavigation();
 loadFooter();
 })
 
+if(document.querySelector("#disqus_thread")){
+
 var disqusObserver=new IntersectionObserver(function(entries){
 
   if(entries[0].isIntersecting){
@@ -36,5 +38,6 @@ var disqusObserver=new IntersectionObserver(function(entries){
     disqusObserver.disconnect();
   }
 },{threshold:[0]});
-
 disqusObserver.observe(document.querySelector("#disqus_thread"));
+
+}

@@ -32,20 +32,20 @@ Then we will create project in java and create connection with Amazon S3.
 
 1. Create a maven project in your favourite IDE.
 2. Add maven dependency for AWS java sdk in pom.xml
-   <pre><code class="language-markup"><script>
+{% highlight html %}{% raw %}
    <dependency>
    <groupId>com.amazonaws</groupId>
    <artifactId>aws-java-sdk-s3</artifactId>
    <version>1.11.781</version>
-   </dependency></script></code></pre>
+   </dependency>
+   {% endraw %}{% endhighlight %}
 3. Now to create connection with AmazonS3, you will need to know
 - AWS account
 - AWS security credentials (Access key and Secret Key)
 - AWS Region
 
 Code to create connection with Amazon S3
-<pre>
-<code class="lang-java">
+{% highlight html %}{% raw %}
 public static void main(String[] args) {
     // now create BasicAWSCredentials object by using access key and secret key
     BasicAWSCredentials basicAWSCredentials=new BasicAWSCredentials("pass access key",
@@ -57,8 +57,7 @@ public static void main(String[] args) {
         .withRegion(Regions.AP_SOUTH_1)
         .build();
   }
-</code>
-</pre>
+{% endraw %}{% endhighlight %}
 
 You are successfully able to create java project and able to make connection with Amazon S3.
 
