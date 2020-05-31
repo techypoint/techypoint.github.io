@@ -96,7 +96,7 @@ margin-bottom: 20px;
   border: 1px solid;
   color: white;
   background-color: #323a45;
-  width: 200px;
+  width: 120px;
   padding: 7px;
   font-weight: 700;
   border-radius: 5px;
@@ -244,7 +244,6 @@ footer .address > p{
   footer .address > h4,footer .address > p{
     text-align: center;
   }
-
   #contactus{
     padding: 20px 40px;
   }
@@ -267,6 +266,9 @@ footer .address > p{
   #contactus{
     padding: 40px 80px;
   }
+  #contactus #submit-cont input{
+    width: 150px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -282,6 +284,9 @@ footer .address > p{
   }
   #contactus #message-cont textarea,#contactus .upper-half input{
   padding: 24px 50px ;
+  }
+  #contactus #submit-cont input{
+    width: 200px;
   }
 }
 
