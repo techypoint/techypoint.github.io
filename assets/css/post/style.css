@@ -8,6 +8,10 @@ html,body{
   scroll-behavior: smooth;
 }
 
+/* subscribe */
+/* #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;} */
+/* subscribe */
+
 /* prev and next style */
 .PageNavigation {
   display: block;
@@ -225,8 +229,37 @@ margin-top: 1rem !important;
 footer{
   background-color: #3f3f3f;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   color: #A9A9A9;
 }
+footer .address{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .address > h4{
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer .address > p{
+  text-align: left;
+  margin: 0;
+}
+
+/* subscribe */
+footer > #mc_embed_signup{
+  background:#fff;
+}
+footer #mc_embed_signup input.email{
+  color: white;
+  background-color: #3f3f3f;
+  outline: none;
+}
+/* subscribe */
+
 /* footer */
 
 

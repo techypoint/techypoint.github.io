@@ -6,17 +6,9 @@ var navbarCollapse = function() {
     }
   };
 $(window).scroll(navbarCollapse);
-var loadNavigation=function(){
-    $('#navigation').load('/template/navigation.html',function() {
-  navbarCollapse();
-});
-}
-var loadFooter=function(){
-  $('#footer').load('/template/footer.html');
-}
+
 $(document).ready(function(){
-loadNavigation();
-loadFooter();
+navbarCollapse();
 })
 
 if(document.querySelector("#disqus_thread")){
