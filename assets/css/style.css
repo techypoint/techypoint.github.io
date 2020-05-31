@@ -29,11 +29,7 @@ footer #mc_embed_signup input.email{
 /* contact us form */
 #contactus{
   background-color: #323a45;
-  /* #65bc7b */
-  /* #323a45; */
-  /* 212934 */
-
-  padding: 50px 120px;
+  padding: 20px 40px;
 }
 
 #contactus h2{
@@ -62,12 +58,6 @@ footer #mc_embed_signup input.email{
 #contactus input:-webkit-autofill {
     -webkit-text-fill-color: green !important;
 }
-/* #contactus .upper-half input{
-  width: 100%;
-  outline: none;
-  border: none;
-  border-bottom: 1px solid;
-} */
 
 #contactus #message-cont{
   margin-top: 40px;
@@ -81,10 +71,9 @@ color: white;
 background-color: #2a313c;
 /* -webkit-transition: border 4s linear; */
 /* transition: border 4s linear; */
-padding: 24px 50px;
-  /* #212934 */
-  /* #65bc7b */
-  /* #323a45; */
+/* padding: 24px 50px ; */
+padding: 12px 25px;
+margin-bottom: 20px;
 }
 #contactus #message-cont textarea:focus,#contactus .upper-half input:focus{
   border: 2px solid #7b6b4d;
@@ -255,6 +244,10 @@ footer .address > p{
   footer .address > h4,footer .address > p{
     text-align: center;
   }
+
+  #contactus{
+    padding: 20px 40px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -266,6 +259,13 @@ footer .address > p{
   .masthead a.lead{
     padding: 17px 30px 17px 30px;
     font-size: 1.3rem;
+  }
+
+  #contactus #message-cont textarea,#contactus .upper-half input{
+    padding: 18px 35px;
+  }
+  #contactus{
+    padding: 40px 80px;
   }
 }
 
@@ -279,6 +279,9 @@ footer .address > p{
   .masthead a.lead{
     padding: 17px 35px 17px 35px;
     font-size: 1.5rem;
+  }
+  #contactus #message-cont textarea,#contactus .upper-half input{
+  padding: 24px 50px ;
   }
 }
 
@@ -305,7 +308,12 @@ footer .address > p{
   .masthead a.lead{
     padding: 17px 40px 17px 40px;
     font-size: 2rem ;
-
+  }
+  #contactus #message-cont textarea,#contactus .upper-half input{
+  padding: 24px 50px ;
+  }
+  #contactus{
+    padding: 50px 120px;
   }
 
 }
