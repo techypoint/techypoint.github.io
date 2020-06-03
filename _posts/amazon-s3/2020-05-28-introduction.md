@@ -14,6 +14,8 @@ This Series give you understanding of S3 and its comprises of -
 4. [Versioning]({% post_url amazon-s3/2020-05-31-versioning %})
 5. [Operations]({% post_url amazon-s3/2020-06-01-operations %})
 6. [Sharing Object URL]({% post_url amazon-s3/2020-06-02-shareObject %})
+7. [Storage Classes]({% post_url amazon-s3/2020-06-03-storageClasses %})
+8. [LifeCycle Management]({% post_url amazon-s3/2020-06-03-lifecycleManagement %})
 
 <h2>What is Amazon S3?</h2>
 <p>Amazon S3 is a Simple Storage Service(S3) that allows you to store and retrieve data.
