@@ -1,6 +1,6 @@
 ---
 title: "Amazon S3 Versioning"
-description: "This tutorial describes what is Amazon S3 versioning and how to enable versioning in a bucket."
+description: "what is Amazon S3 versioning and how to enable versioning in a bucket."
 keywords: "amazon s3 introduction,aws s3 what is versioning,enable versioning s3,aws s3 enable versioning"
 category: "amazon s3"
 permalink: "/AmazonS3/versioning"

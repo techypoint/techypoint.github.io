@@ -1,6 +1,6 @@
 ---
 title: "Amazon S3 Sharing Object URL"
-description: "This tutorial describes how to share Amazon S3 Object URL - PreSigned URL and Public URL."
+description: "Share Amazon S3 Object URL - PreSigned URL and Public URL."
 keywords: "s3 pre signed url,aws s3 get object url java,s3 signed url,amazon s3 get url of uploaded file,s3 bucket url access denied,aws s3 public url"
 category: "amazon s3"
 permalink: "/AmazonS3/object-url"

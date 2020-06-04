@@ -1,6 +1,6 @@
 ---
 title: "Amazon S3 LifeCycle Management"
-description: "This tutorial tells you what is object LifeCycle, how to manage objects, use cases when you need object life cycle and how to manage objects using java sdk."
+description: "What is object LifeCycle, manage objects, use cases when you need object life cycle and how to manage objects using java sdk."
 keywords: "s3 object expiration java,s3 object expiration java,s3 object expiration java,set lifecycle policy,aws s3 lifecycle example,get-bucket-lifecycle-configuration,s3 object lifecycle java"
 category: "amazon s3"
 date: 2020-06-03 09:00:00

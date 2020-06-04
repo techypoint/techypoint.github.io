@@ -1,6 +1,6 @@
 ---
 title: "Amazon S3 Set Up Java Project"
-description: "This tutorial will show how to create access key, secret key, set up java project and what are the requirements to create connection with Amazon S3."
+description: "Create access key, secret key, set up java project and create connection with Amazon S3."
 keywords: "amazon s3,amazon s3 tutorial,amazon s3 client java example,aws java example,aws java sdk maven,aws java sdk tutorial,amazons3clientbuilder,aws java sdk 2 tutorial,java aws project"
 category: "amazon s3"
 permalink: "/AmazonS3/setup-java-project"
