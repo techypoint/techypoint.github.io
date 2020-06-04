@@ -1,5 +1,6 @@
 ---
 title: "Amazon S3 Operations"
+author: "Varun Bisht"
 description: "operations on bucket and objects using java sdk. Operations includes create bucket,
 list buckets, delete buckets, get Object, list Objects, list Objects With limit, upload or put object in a bucket, delete Object,
 copy Object and read file content."

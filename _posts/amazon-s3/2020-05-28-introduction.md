@@ -1,5 +1,6 @@
 ---
 title: "Amazon S3 Introduction"
+author: "Varun Bisht"
 description: "This tutorial describes what is Amazon S3, its advantages and Amazon S3 basic Concepts - Bucket, Object, Keys and Region."
 keywords: "amazon s3,amazon s3 tutorial,amazon s3 introduction,aws s3 basics,aws s3 benefits,aws s3 core concepts,aws s3 bucket,what does s3 stand for?,aws s3 key,what is s3 bucket,aws s3 what is versioning"
 category: "amazon s3"

@@ -1,5 +1,6 @@
 ---
 title: "Amazon S3 Storage Classes"
+author: "Varun Bisht"
 description: "What is AWS Storage Classes, classes Types, Factors making Storage Classes different and Comparison graph of AWS S3 Storage class."
 keywords: "Amazon S3 Storage Classes,s3 intelligent-tiering,s3 rrs,s3 glacier,s3 one zone ia,s3 standard,s3 standard-ia,s3 glacier deep archive,aws s3 compare,Comparison graph of AWS S3 Storage class"
 category: "amazon s3"

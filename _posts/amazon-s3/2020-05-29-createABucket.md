@@ -1,5 +1,6 @@
 ---
 title: "Amazon S3 Creating a Bucket"
+author: "Varun Bisht"
 description: "Create a bucket in Amazon S3 through AWS Management Console."
 keywords: "amazon s3,amazon s3 tutorialaws s3 basics,aws s3 core concepts,aws s3 bucket,amazon s3 bucket tutorial,aws s3 create a bucket,Aws "
 category: "amazon s3"
