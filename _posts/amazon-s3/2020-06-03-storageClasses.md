@@ -7,6 +7,7 @@ category: "amazon s3"
 date: 2020-06-03 08:00:00
 permalink: "/AmazonS3/storage-classes"
 image: "/assets/img/amazon-s3/storage-classes/storage-classes.jpg"
+featureImage: "/assets/img/amazon-s3/storage-classes/storage-classes.jpg"
 ---
 ## AWS Storage Classes
 Storage Classes in AWS lets you store objects in a cost effecient manner.

@@ -6,6 +6,7 @@ keywords: "s3 pre signed url,aws s3 get object url java,s3 signed url,amazon s3 
 category: "amazon s3"
 permalink: "/AmazonS3/object-url"
 image: "/assets/img/amazon-s3/object-url/sharing-Object-Url.jpg"
+featureImage: "/assets/img/amazon-s3/object-url/sharing-Object-Url.jpg"
 ---
 ## Objective
 This tutorial describes how to share Amazon S3 Object URL - PreSigned URL and Public URL.

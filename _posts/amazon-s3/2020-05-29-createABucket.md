@@ -6,6 +6,7 @@ keywords: "amazon s3,amazon s3 tutorialaws s3 basics,aws s3 core concepts,aws s3
 category: "amazon s3"
 permalink: "/AmazonS3/create-a-bucket"
 image: "/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg"
+featureImage: "/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg"
 ---
 ## Objective
 This tutorial shows how to create a bucket in Amazon S3 through AWS Management Console.

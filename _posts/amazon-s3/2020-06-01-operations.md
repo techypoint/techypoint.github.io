@@ -8,6 +8,7 @@ keywords: "aws s3 programmatic access,s3 listbucket,s3 putobject example,upload 
 category: "amazon s3"
 permalink: "/AmazonS3/operations"
 image: "/assets/img/amazon-s3/operations/operations.jpg"
+featureImage: "/assets/img/amazon-s3/operations/operations.jpg"
 ---
 
 ## Objective

@@ -7,6 +7,7 @@ category: "amazon s3"
 date: 2020-06-03 09:00:00
 permalink: "/AmazonS3/lifecycle-management"
 image: "/assets/img/amazon-s3/lifecycle-management/lifecycle-management.jpg"
+featureImage: "/assets/img/amazon-s3/lifecycle-management/lifecycle-management.jpg"
 ---
 ## Object Life Cycle
 You can handle objects by managing its lifecycle.

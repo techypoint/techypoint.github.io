@@ -6,6 +6,7 @@ keywords: "amazon s3,amazon s3 tutorial,amazon s3 client java example,aws java e
 category: "amazon s3"
 permalink: "/AmazonS3/setup-java-project"
 image: "/assets/img/amazon-s3/setup-java-project/Set-Up-Java-Project.jpg"
+featureImage: "/assets/img/amazon-s3/setup-java-project/Set-Up-Java-Project.jpg"
 ---
 
 ## Objective

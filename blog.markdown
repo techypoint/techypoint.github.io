@@ -8,11 +8,11 @@ description: "This Page contains blogs related to java, java blogs, amazon S3 bl
 {% for post in site.posts %}
 <div class="card">
   <div class="card-info">
-    <span> <i class="fa fa-user user-icon" aria-hidden="true"></i> Varun Bisht</span>  
+    <span> <i class="fa fa-user user-icon" aria-hidden="true"></i> {{post.author}}</span>  
     <span class="clockCont"> <i class="fa fa-clock-o clock-icon"></i>{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
   </div>
   <div class="bg-img">
-    <img src="{{post.image}}">
+    <img alt="{{post.title}}" src="{{post.image}}">
   </div>
   <div class="content">    
     <p>{{post.description}}</p>

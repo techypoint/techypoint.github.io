@@ -6,6 +6,8 @@ keywords: "amazon s3 introduction,aws s3 what is versioning,enable versioning s3
 category: "amazon s3"
 permalink: "/AmazonS3/versioning"
 image: "/assets/img/amazon-s3/versioning/Versioning.jpg"
+featureImage: "/assets/img/amazon-s3/versioning/Versioning.jpg"
+
 ---
 ## What is Amazon S3 Versioning
 

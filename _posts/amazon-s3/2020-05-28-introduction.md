@@ -6,6 +6,7 @@ keywords: "amazon s3,amazon s3 tutorial,amazon s3 introduction,aws s3 basics,aws
 category: "amazon s3"
 permalink: "/AmazonS3/introduction"
 image: "/assets/img/amazon-s3/introduction/introduction.jpg"
+featureImage: "/assets/img/amazon-s3/introduction/introduction.jpg"
 ---
 <h1> Introduction To Amazon S3 Series</h1>
 This Series give you understanding of S3 and its comprises of -

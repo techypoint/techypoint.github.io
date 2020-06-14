@@ -1,65 +1,733 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-14T21:13:12+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">How to write large data in a file in java — analysis</title><link href="http://localhost:4000/java/a" rel="alternate" type="text/html" title="How to write large data in a file in java — analysis" /><published>2020-05-12T00:00:00+05:30</published><updated>2020-05-12T00:00:00+05:30</updated><id>http://localhost:4000/java/first-post</id><content type="html" xml:base="http://localhost:4000/java/a">&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img src=&quot;/assets/img/java/first-post/test5.jpg&quot; /&gt;
-&lt;/div&gt;
-&lt;h1&gt;How to write large data in a file in java — analysis&lt;/h1&gt;
-&lt;p&gt;The aim of this tutorial is to show how to write bulky or large data in files and
-which output streams to you use for better performance in java.&lt;/p&gt;
-&lt;p&gt;For the analysis purpose, I write 90 Mb(generated in code) of data in a file around 2000 times.so that I am able to analyze the following points —
-1. heap memory used
-2. avg time taken to write file
-3. CPU performance&lt;/p&gt;
-&lt;p&gt;To write files in java, I have used the following output stream -
-1. FileOutputStream
-2. RandomAccessFile
-3. BufferedWriter&lt;/p&gt;
-&lt;h2&gt;1. FileOutputStream&lt;/h2&gt;
-&lt;h3&gt;Code-&lt;/h3&gt;
-&lt;script src=&quot;https://gist.github.com/techybeast/c0085193c2ca789639ba43f9d6646323.js&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-13T16:21:46+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site give you technical series releated to java, java related topics, amazon S3. Our aim is to provide brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Amazon S3 LifeCycle Management</title><link href="http://localhost:4000/AmazonS3/lifecycle-management" rel="alternate" type="text/html" title="Amazon S3 LifeCycle Management" /><published>2020-06-03T14:30:00+05:30</published><updated>2020-06-03T14:30:00+05:30</updated><id>http://localhost:4000/AmazonS3/lifecycleManagement</id><content type="html" xml:base="http://localhost:4000/AmazonS3/lifecycle-management">&lt;h2 id=&quot;object-life-cycle&quot;&gt;Object Life Cycle&lt;/h2&gt;
+&lt;p&gt;You can handle objects by managing its lifecycle.&lt;/p&gt;
+&lt;h2 id=&quot;how-will-you-manage&quot;&gt;How will you manage?&lt;/h2&gt;
+&lt;p&gt;You can create S3 LifeCycle configuration which is basically a set of rules that define actions that S3 performs on the group of objects.&lt;/p&gt;
 
-&lt;h3&gt;Analysis data -&lt;/h3&gt;
+&lt;p&gt;These action can be of two types -&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Transition Action&lt;/strong&gt; -
+This action performs transition of group of objects from one storage class to another at any given time.
+Eg- transition from S3 Standard to S3 Glacier Storage Class.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Expiration Action&lt;/strong&gt; -
+This Action performs deletion of objects at any given time.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Note - S3 deletes on your behalf by running some process.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases-when-you-need-object-life-cycle&quot;&gt;Use cases when you need object Life Cycle&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You need to backup long term database backups, business reports.&lt;/li&gt;
+  &lt;li&gt;You need to delete server or application logs after some time.&lt;/li&gt;
+  &lt;li&gt;You need to move records which are not used frequently after some time.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;1-create-bucketlifecycleconfiguration-rule&quot;&gt;1. create BucketLifecycleConfiguration Rule&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void createLifeCycleConfiguration(AmazonS3 amazonS3,String bucketName){
+
+  // apply this rules to the objects having prefix heavyReports which gets filtered through prefix
+  // LifecyclePrefixPredicate - to filter objects through prefix to report
+  BucketLifecycleConfiguration.Rule rule1=new Rule()
+      .withId(&quot;rule id 1&quot;)
+      .withFilter(new LifecycleFilter(new LifecyclePrefixPredicate(&quot;heavyReports/&quot;)))
+      .addTransition(new Transition().withDays(90).withStorageClass(StorageClass.Glacier))
+      .addTransition(new Transition().withDays(180).withStorageClass(StorageClass.DeepArchive))
+      .withExpirationInDays(700)
+      .withStatus(BucketLifecycleConfiguration.ENABLED);
+
+
+  // apply this rules to the objects which has keyName tag and value - tagValue
+  // LifecycleTagPredicate - to filter objects through tags
+  BucketLifecycleConfiguration.Rule rule2=new Rule()
+      .withId(&quot;rule id 2&quot;)
+      .withFilter(new LifecycleFilter(new LifecycleTagPredicate(new Tag(&quot;keyName&quot;,&quot;tagValue&quot;))))
+      .addTransition(new Transition().withDays(60).withStorageClass(StorageClass.Glacier))
+      .withExpirationInDays(120)
+      .withStatus(BucketLifecycleConfiguration.ENABLED);
+
+  // create BucketLifecycleConfiguration and set rule list
+  BucketLifecycleConfiguration bucketLifecycleConfiguration=new BucketLifecycleConfiguration();
+  bucketLifecycleConfiguration.setRules(Arrays.asList(rule1,rule2));
+
+  // save the configuration
+  amazonS3.setBucketLifecycleConfiguration(bucketName,bucketLifecycleConfiguration);
+
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now we use amazonS3 client we created in this &lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rule 1&lt;/strong&gt; - it moves all the objects which has &lt;strong&gt;prefix - heavyReports&lt;/strong&gt;. &lt;strong&gt;After 90 days&lt;/strong&gt;, it gets move to Glacier Storage Class. &lt;strong&gt;After 180 days&lt;/strong&gt;, it gets move to DeepArchive Storage Class. &lt;strong&gt;After 700 days&lt;/strong&gt;, it gets delete by the Amazon S3.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rule 2&lt;/strong&gt;- it moves all the objects which has &lt;strong&gt;keyName tag’s value- tagValue&lt;/strong&gt;. &lt;strong&gt;After 60 days&lt;/strong&gt;, it gets move to Glacier Storage Class. &lt;strong&gt;After 120 days&lt;/strong&gt;, it gets delete by the Amazon S3.&lt;/p&gt;
+
+&lt;p&gt;Then add those rules to BucketLifecycleConfiguration object and set this LifeCycle Configuration using setBucketLifecycleConfiguration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note - You cannot use Prefix base tag and Filter base tag in a Single LifeCycle Policy.These tags cannot be used within a single policy.&lt;/strong&gt;
+&lt;a href=&quot;https://forums.aws.amazon.com/thread.jspa?threadID=266960&quot;&gt;Check this thread for more info&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-get-rules-from-bucketlifecycleconfiguration&quot;&gt;2. get Rules from BucketLifecycleConfiguration&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void getLifeCycleConfiguration(AmazonS3 amazonS3,String bucketName){
+    BucketLifecycleConfiguration bucketLifecycleConfiguration=amazonS3.getBucketLifecycleConfiguration(bucketName);
+    List&lt;span class=&quot;nt&quot;&gt;&amp;lt;BucketLifecycleConfiguration&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Rule&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; rulesList=bucketLifecycleConfiguration.getRules();
+    for(BucketLifecycleConfiguration.Rule rule:rulesList){
+      LOG.info(&quot;bucket rule id- &quot;+rule.getId());
+    }
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Call getBucketLifecycleConfiguration() to get the configuration and then get rules from it by calling getRules()&lt;/p&gt;
+
+&lt;h3 id=&quot;3-delete-bucketlifecycleconfiguration&quot;&gt;3. delete BucketLifecycleConfiguration&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void deleteLifeCycleConfiguration(AmazonS3 amazonS3,String bucketName){
+    amazonS3.deleteBucketLifecycleConfiguration(bucketName);
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Call deleteBucketLifecycleConfiguration() to delete the configuration.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/s3/index.html&quot;&gt;Amazon S3 Official Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;completion-of-amazon-s3-series&quot;&gt;COMPLETION OF AMAZON S3 SERIES&lt;/h2&gt;
+
+&lt;p&gt;Now you have the knowledge of the Amazon S3, it basic concepts, how to integrate in java and perform operations.&lt;/p&gt;
+
+&lt;p&gt;Hope this series helps you in unsertanding Amazon S3.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Object Life Cycle You can handle objects by managing its lifecycle. How will you manage? You can create S3 LifeCycle configuration which is basically a set of rules that define actions that S3 performs on the group of objects.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/lifecycle-management/lifecycle-management.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/lifecycle-management/lifecycle-management.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Storage Classes</title><link href="http://localhost:4000/AmazonS3/storage-classes" rel="alternate" type="text/html" title="Amazon S3 Storage Classes" /><published>2020-06-03T13:30:00+05:30</published><updated>2020-06-03T13:30:00+05:30</updated><id>http://localhost:4000/AmazonS3/storageClasses</id><content type="html" xml:base="http://localhost:4000/AmazonS3/storage-classes">&lt;h2 id=&quot;aws-storage-classes&quot;&gt;AWS Storage Classes&lt;/h2&gt;
+&lt;p&gt;Storage Classes in AWS lets you store objects in a cost effecient manner.
+Every Object belong to a Storage class.&lt;/p&gt;
+
+&lt;h2 id=&quot;types-of-storage-classes-in-aws&quot;&gt;Types of Storage Classes in AWS&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;S3 Standard&lt;/strong&gt; - Frequently accessed data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;S3 Standard-IA&lt;/strong&gt; - Long-lived, infrequently accessed data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;S3 Intelligent-Tiering&lt;/strong&gt; - Long-lived data with changing or unknown access pattern&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;S3 One Zone-IA&lt;/strong&gt; - Long-lived, infrequently accessed, non-critical data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;S3 Glacier&lt;/strong&gt; - Long-term data archiving with retrieval times ranging from minutes to hours&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;S3 Glacier Deep Archive&lt;/strong&gt; - Archiving rarely accessed data with a default retrieval time of 12 hours&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reduced Redundancy Storage (RRS)&lt;/strong&gt; - Frequently accessed, non-critical data&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Note - RSS not recommended&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;factors-considering-while-selecting-storage-classes&quot;&gt;Factors considering while selecting Storage Classes&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Access of data&lt;/strong&gt; - how frequently you want to access data&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Durability&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Availability&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Min Storage duration&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cost&lt;/strong&gt;
+and many more&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;there-are--many-examples-for-which-you-need-to-change-storage-class-of-objects&quot;&gt;There are  many examples for which you need to change Storage Class of objects.&lt;/h3&gt;
+&lt;p&gt;Eg - Suppose you are storing reports in AWS which are used by the clients.&lt;/p&gt;
+&lt;p&gt;For 10-15 days,it is accessed frequently by the clients, so you need S3 Standard Storage Class.&lt;/p&gt;
+&lt;p&gt;After 1 month, the reports are not accessed frequently, so you can move these reports to S3 Standard-IA Storage Classes.&lt;/p&gt;
+&lt;p&gt;After 2 months, the reports are accessed rarely, so you can move these reports to S3 Glacier Deep Archive Storage Classes.&lt;/p&gt;
+
+&lt;p&gt;By doing this, you can use your money effectively.&lt;/p&gt;
+
+&lt;p&gt;Transition of objects from one storage class to another can be set by making rules at bucket level. This feature can be done in
+&lt;a href=&quot;/AmazonS3/lifecycle-management&quot;&gt;&lt;strong&gt;Life Cycle Management&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;comparison-graph-of-aws-s3-storage-class&quot;&gt;Comparison graph of AWS S3 Storage class&lt;/h2&gt;
+&lt;div class=&quot;table&quot;&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-31ua{background-color:#ffcc67;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-ik58{background-color:#ffcb2f;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-i1q2{background-color:#34cdf9;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+&lt;/style&gt;
+&lt;table class=&quot;tg&quot;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Storage class&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Designed for&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&quot;tg-31ua&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Durability (designed for)&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Availability (designed for)&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Availability Zones&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Min storage duration&lt;/span&gt;&lt;/th&gt;
+    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Min billable object size&lt;/span&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Standard&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;Frequently accessed data&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Standard-IA&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;Long-lived, infrequently accessed data&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.9%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;30 days&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;128 KB&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Intelligent-Tiering&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;Long-lived data with changing or unknown access patterns&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.9%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;30 days&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 One Zone-IA&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;Long-lived, infrequently accessed, non-critical data&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.5%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;1&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;30 days&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;128 KB&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Glacier&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;Long-term data archiving with retrieval times ranging from minutes to hours&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;90 days&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;40 KB&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Glacier Deep Archive&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;Archiving rarely accessed data with a default retrieval time of 12 hours&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;180 days&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;40 KB&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-i1q2&quot;&gt;RRS (Not recommended)&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;Frequently accessed, non-critical data&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
+    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You are successfully able to understand Object Storage Classes.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">AWS Storage Classes Storage Classes in AWS lets you store objects in a cost effecient manner. Every Object belong to a Storage class.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/storage-classes/storage-classes.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/storage-classes/storage-classes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Sharing Object URL</title><link href="http://localhost:4000/AmazonS3/object-url" rel="alternate" type="text/html" title="Amazon S3 Sharing Object URL" /><published>2020-06-02T00:00:00+05:30</published><updated>2020-06-02T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/shareObject</id><content type="html" xml:base="http://localhost:4000/AmazonS3/object-url">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;This tutorial describes how to share Amazon S3 Object URL - PreSigned URL and Public URL.&lt;/p&gt;
+
+&lt;p&gt;There are two ways to share URL -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;By Generating &lt;strong&gt;PreSigned URL&lt;/strong&gt; (for public and private objects).&lt;/li&gt;
+  &lt;li&gt;By Sharing &lt;strong&gt;public URL&lt;/strong&gt; (for public objects).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1-by-generating-presigned-url&quot;&gt;1. By Generating PreSigned URL&lt;/h2&gt;
+
+&lt;p&gt;PreSigned URL is the URL created by the owner of the object from its security credentials to grant others time limited access.&lt;/p&gt;
+&lt;p&gt;The PreSigned URL comprises of &lt;strong&gt;Security Credentials + Bucket Name + object key + Expiration time and date + HTTP Method (GET to download the object and PUT to upload an object).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code to generate PreSigned URL -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void generatePreSignedURL(AmazonS3 amazonS3,String bucketName,String objectKey){
+
+    Calendar calendar= Calendar.getInstance();
+    calendar.add(Calendar.DAY_OF_MONTH,5); // expiration time - 5 days
+
+    GeneratePresignedUrlRequest generatePresignedUrlRequest =
+        new GeneratePresignedUrlRequest(bucketName,objectKey)
+            .withMethod(HttpMethod.GET)
+            .withExpiration(calendar.getTime());
+
+    URL url = amazonS3.generatePresignedUrl(generatePresignedUrlRequest);
+    LOG.info(&quot;URL- &quot; + url.toString());
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now we use amazonS3 client we created in this &lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We created a GeneratePresignedUrlRequest by passing object key, HttpMethod and expiration time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note - This link will expire after 5 days (value set in expiration).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-public-url&quot;&gt;2. Public URL&lt;/h2&gt;
+&lt;p&gt;For this URL to work, you need to give &lt;strong&gt;public permission to object&lt;/strong&gt;.&lt;a href=&quot;https://docs.aws.amazon.com/AmazonS3/latest/user-guide/set-object-permissions.html&quot;&gt; Check this link for how to set object permsission.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code to generate Public URL -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// it creates URL for public objects
+public static void generatePublicURL(AmazonS3 amazonS3,String bucketName,String objectKey){
+  URL url=amazonS3.getUrl(bucketName,objectKey);
+  LOG.info(&quot;URL- &quot; + url.toString());
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;We simply call getUrl() on amazon S3 client.&lt;/p&gt;
+
+&lt;p&gt;You are successfully able to share object URL.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/techypoint/amazon-s3.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial describes how to share Amazon S3 Object URL - PreSigned URL and Public URL.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/object-url/sharing-Object-Url.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/object-url/sharing-Object-Url.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Operations</title><link href="http://localhost:4000/AmazonS3/operations" rel="alternate" type="text/html" title="Amazon S3 Operations" /><published>2020-06-01T00:00:00+05:30</published><updated>2020-06-01T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/operations</id><content type="html" xml:base="http://localhost:4000/AmazonS3/operations">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;This tutorial describes the basics operations on bucket and objects using java sdk.&lt;/p&gt;
+
+&lt;p&gt;Operations includes&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create bucket&lt;/li&gt;
+  &lt;li&gt;List buckets&lt;/li&gt;
+  &lt;li&gt;Delete buckets&lt;/li&gt;
+  &lt;li&gt;Get Object&lt;/li&gt;
+  &lt;li&gt;List Objects&lt;/li&gt;
+  &lt;li&gt;List Objects With limit&lt;/li&gt;
+  &lt;li&gt;Upload or put object in a bucket&lt;/li&gt;
+  &lt;li&gt;Delete Object&lt;/li&gt;
+  &lt;li&gt;Copy Object&lt;/li&gt;
+  &lt;li&gt;Read File Content&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;1-create-bucket&quot;&gt;1. Create bucket&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   public static void createBucket(AmazonS3 amazonS3,String bucketName){
+    if(!amazonS3.doesBucketExistV2(bucketName)){
+      Bucket bucket=amazonS3.createBucket(new CreateBucketRequest(bucketName));
+    }else{
+      LOG.info(&quot;Bucket name already exists&quot;);
+    }
+  }
+   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now we use amazonS3 client we created in this &lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First we check whether bucketName exists or not. If not exists, then we create by using createBucket().&lt;/p&gt;
+
+&lt;h2 id=&quot;2-list-buckets&quot;&gt;2. List buckets&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   public static void listBuckets(AmazonS3 amazonS3){
+    List&lt;span class=&quot;nt&quot;&gt;&amp;lt;Bucket&amp;gt;&lt;/span&gt; bucketList=amazonS3.listBuckets();
+    for(Bucket bucket : bucketList) {
+      LOG.info(&quot;bucket name - &quot;+bucket.getName());
+    }
+  }
+   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;We call listBuckets() on amazonS3 client to get all the bucket list created.
+Here, we we use only bucket name. You can also fetch other information from the Bucket object.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-delete-buckets&quot;&gt;3. Delete buckets&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// it is important to empty bucket before deleting it
+public static void deleteBuckets(AmazonS3 amazonS3,String bucketName){
+
+  // delete all objects in a bucket
+  ObjectListing listObjects = amazonS3.listObjects(bucketName);
+  List&lt;span class=&quot;nt&quot;&gt;&amp;lt;S3ObjectSummary&amp;gt;&lt;/span&gt; s3ObjectSummaryList=listObjects.getObjectSummaries();
+  while (true){
+    for(S3ObjectSummary s3ObjectSummary:s3ObjectSummaryList){
+      amazonS3.deleteObject(bucketName,s3ObjectSummary.getKey());
+    }
+    if(listObjects.isTruncated()){
+      // listNextBatchOfObjects - this will next batch of objects
+      listObjects=amazonS3.listNextBatchOfObjects(listObjects);
+    }else{
+      break;
+    }
+  }
+
+  // delete all version objects in a buckets
+  VersionListing versionList = amazonS3.listVersions(new ListVersionsRequest().withBucketName(bucketName));
+  List&lt;span class=&quot;nt&quot;&gt;&amp;lt;S3VersionSummary&amp;gt;&lt;/span&gt; versionSummaryList=versionList.getVersionSummaries();
+  while (true){
+    for(S3VersionSummary s3VersionSummary:versionSummaryList){
+      amazonS3.deleteVersion(bucketName,s3VersionSummary.getKey(),s3VersionSummary.getVersionId());
+    }
+    if(versionList.isTruncated()){
+      // listNextBatchOfObjects - this will next batch of objects
+      versionList=amazonS3.listNextBatchOfVersions(versionList);
+    }else{
+      break;
+    }
+  }
+  // finally delete bucket
+  amazonS3.deleteBucket(bucketName);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;It is important to empty bucket before deleting it.&lt;/p&gt;
+
+&lt;p&gt;To Empty a bucket, we need to delete version objects and not version objects.
+Check this tutorial for &lt;a href=&quot;/AmazonS3/versioning&quot;&gt;versioning&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First we call listObjects() to fetch object list. It returns some or all (up to 1,000) of the objects in a bucket.
+Then we delete object one by one by calling deleteObject().
+Then we call isTruncated() to check whether Amazon S3 returned all the objects.
+If not, then we again fetch the next batch of objects by calling listNextBatchOfObjects().&lt;/p&gt;
+
+&lt;p&gt;In the Same Manner, we deleted verion objects.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-get-object&quot;&gt;4. Get Object&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void getObject(AmazonS3 amazonS3,String bucketName){
+  String objectKey=&quot;object key 1&quot;;
+  S3Object s3Object=amazonS3.getObject(bucketName,objectKey);
+  LOG.info(&quot;object key- &quot;+s3Object.getKey());
+  LOG.info(&quot;object metadata- &quot;+s3Object.getObjectContent());
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;We need to know key of the object. Then we call getObject() to fetch S3 object.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-list-objects&quot;&gt;5. List Objects&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void listObjects(AmazonS3 amazonS3,String bucketName){
+    // list all objects in a buckets
+    ObjectListing objectListing=amazonS3.listObjects(bucketName);
+    for(S3ObjectSummary os : objectListing.getObjectSummaries()) {
+      LOG.info(&quot;key-&quot;+os.getKey());
+      LOG.info(&quot;Size -&quot;+os.getSize());
+    }
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;We can list all objects in a buckets by calling listObjects().&lt;/p&gt;
+
+&lt;h2 id=&quot;6-list-objects-with-limit&quot;&gt;6. List Objects With limit&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// list n no. of objects of a buckets at a time
+// and get more object keys if require
+public static void listObjectsWithLimit(AmazonS3 amazonS3,String bucketName){
+  ListObjectsV2Request listObjectsV2Request=new ListObjectsV2Request().withBucketName(bucketName).withMaxKeys(5);
+  ListObjectsV2Result listObjectsV2Result=amazonS3.listObjectsV2(listObjectsV2Request);
+  while (true){
+    List&lt;span class=&quot;nt&quot;&gt;&amp;lt;S3ObjectSummary&amp;gt;&lt;/span&gt; s3ObjectSummaryList=listObjectsV2Result.getObjectSummaries();
+    for(S3ObjectSummary s3ObjectSummary:s3ObjectSummaryList){
+      // you can other values of s3ObjectSummary
+      LOG.info(&quot;key- &quot;+s3ObjectSummary.getKey());
+    }
+    if(listObjectsV2Result.isTruncated()){
+      String token=listObjectsV2Result.getNextContinuationToken();
+      listObjectsV2Request.setContinuationToken(token);
+    }else{
+      break;
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can fetch n number of objects at a time by creating ListObjectsV2Request object and setting max keys to n
+and then call listObjectsV2(listObjectsV2Request).&lt;/p&gt;
+
+&lt;h2 id=&quot;7-upload-or-put-object-in-a-bucket&quot;&gt;7. Upload or put object in a bucket&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void uploadObjectInABucket(AmazonS3 amazonS3,String bucketName){
+    // code to upload a text as a object
+    String objectKey1=&quot;object key 1&quot;;
+    String objectValue=&quot;Upload a Text String&quot;;
+    amazonS3.putObject(bucketName,objectKey1,objectValue);
+
+    // code to upload a file as a object
+    String objectKey2=&quot;object key 2&quot;;
+    String pathToFile=&quot;Path of File&quot;;
+    PutObjectRequest putObjectRequest=new PutObjectRequest(bucketName,objectKey2,
+        new File(pathToFile));
+    ObjectMetadata objectMetadata=new ObjectMetadata();
+    objectMetadata.setContentType(&quot;application/pdf&quot;);
+    // use can set other meta data as a key value pair in ObjectMetadata
+    objectMetadata.addUserMetadata(&quot;metaDataKey&quot;,&quot;metaDataValue&quot;);
+    putObjectRequest.setMetadata(objectMetadata);
+    amazonS3.putObject(putObjectRequest);
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Use putObject() to upload object to Amazon S3.
+It takes bucket name, object key and data(string or file).
+You can upload any file and need to set the setContentType in the metadata.
+You can also set custom key-value pair against a object in the ObjectMetadata using addUserMetadata().&lt;/p&gt;
+
+&lt;h2 id=&quot;8-delete-object&quot;&gt;8. Delete Object&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void deleteObject(AmazonS3 amazonS3,String bucketName){
+  String objectKey=&quot;object key 1&quot;;
+  amazonS3.deleteObject(new DeleteObjectRequest(bucketName,objectKey));
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Use deleteObject() to delete the object from the bucket.&lt;/p&gt;
+
+&lt;h2 id=&quot;9-copy-object&quot;&gt;9. Copy Object&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// copy object in bucketName1 having key - objectKey1 to bucketName2 having key - objectKey2
+public static void copyObjectFromOneKeyToAnother(AmazonS3 amazonS3){
+  String bucketName1=&quot;bucketnametocreate&quot;; // source bucket name
+  String bucketName2=&quot;bucketName2&quot;; // destination bucket name
+  String objectKey1=&quot;objectKey1&quot;;   // source object key
+  String objectKey2=&quot;objectKey2&quot;;   // destination object key
+  amazonS3.copyObject(new CopyObjectRequest(bucketName1,objectKey1,bucketName2,objectKey2));
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can also copy object from one bucket to another bucket by using copyObject().&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note - Bucket needs to be exist before copying&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10-read-file-content&quot;&gt;10. Read File Content&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void readFileContent(AmazonS3 amazonS3,String bucketName) throws IOException {
+    String objectKey=&quot;object key 1&quot;;
+    S3Object s3Object=amazonS3.getObject(bucketName,objectKey);
+    BufferedReader reader = new BufferedReader(new InputStreamReader(s3Object.getObjectContent()));
+    String line = null;
+    // read input stream line by line
+    while ((line = reader.readLine()) != null) {
+      LOG.info(&quot;line - &quot;+line);
+    }
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Call getObjectContent() to get the input steam and then read line by line using BufferedReader object.&lt;/p&gt;
+
+&lt;p&gt;You are successfully able to execute most common operations on bucket and objects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/techypoint/amazon-s3.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial describes the basics operations on bucket and objects using java sdk.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/operations/operations.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/operations/operations.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Versioning</title><link href="http://localhost:4000/AmazonS3/versioning" rel="alternate" type="text/html" title="Amazon S3 Versioning" /><published>2020-05-31T00:00:00+05:30</published><updated>2020-05-31T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/versioning</id><content type="html" xml:base="http://localhost:4000/AmazonS3/versioning">&lt;h2 id=&quot;what-is-amazon-s3-versioning&quot;&gt;What is Amazon S3 Versioning&lt;/h2&gt;
+
+&lt;p&gt;Versioning in aws s3 means to keep &lt;strong&gt;variants of the same object.&lt;/strong&gt;
+Versioning can be helpful in maintaining different states of objects.
+If versioning is enabled for bucket, Amazon S3 automatically creates &lt;strong&gt;version id&lt;/strong&gt; for the object.&lt;/p&gt;
+
+&lt;p&gt;Eg -
+In the bucket, you have two object with the same key but with different version id&lt;/p&gt;
+
+&lt;p&gt;Object 1  - object 1 key + version id(1)&lt;/p&gt;
+
+&lt;p&gt;Object 2  - object 1 key + version id(2)&lt;/p&gt;
+
+&lt;p&gt;Version enabled buckets can be recovered from accidental deletion or overwrite.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note - you need to explicitly enable version for the bucket.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enable-versioning-in-a-bucket&quot;&gt;Enable Versioning In a Bucket&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Login in to your Amazon S3 account.&lt;/li&gt;
+  &lt;li&gt;Step 2 - Search s3 on search bar and select S3&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-&lt;img src=&quot;/assets/img/java/first-post/a.png&quot; /&gt;
+  &lt;img alt=&quot;AWS Management Console Panel&quot; title=&quot;AWS Management Console Panel&quot; src=&quot;/assets/img/amazon-s3/versioning/aws_console_panel.png&quot; /&gt;
 &lt;/div&gt;
-&lt;p&gt;Average Time- 332 ms&lt;/p&gt;
-&lt;h2&gt;2. RandomAccessFile&lt;/h2&gt;
-&lt;h3&gt;Code-&lt;/h3&gt;
-&lt;script src=&quot;https://gist.github.com/techybeast/19acef34cb63f91b1524d7c15f0f5c2c.js&quot;&gt;&lt;/script&gt;
-
-&lt;h3&gt;Analysis data -&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Click on bucket name&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-&lt;img src=&quot;/assets/img/java/first-post/b.png&quot; /&gt;
+  &lt;img alt=&quot;Amazon S3 Bucket list&quot; title=&quot;Amazon S3 Bucket list&quot; src=&quot;/assets/img/amazon-s3/versioning/amazon-s3-bucket-list.png&quot; /&gt;
 &lt;/div&gt;
-&lt;p&gt;Average Time- 365 ms&lt;/p&gt;
-&lt;h2&gt;3. BufferedWriter&lt;/h2&gt;
-&lt;h3&gt;Code-&lt;/h3&gt;
-&lt;script src=&quot;https://gist.github.com/techybeast/baba3bd33613557f7f434657a53e339a.js&quot;&gt;&lt;/script&gt;
-
-&lt;h3&gt;Analysis data -&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - Go to Properties and Enable Versioning.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-&lt;img src=&quot;/assets/img/java/first-post/c.png&quot; /&gt;
+  &lt;img alt=&quot;AWS Management Console Panel&quot; title=&quot;AWS Management Console Panel&quot; src=&quot;/assets/img/amazon-s3/versioning/bucket_properties.png&quot; /&gt;
 &lt;/div&gt;
-&lt;p&gt;Average Time- 286 ms&lt;/p&gt;
-&lt;h2&gt;Results -&lt;/h2&gt;
-&lt;script src=&quot;https://gist.github.com/techybeast/9d4824c0e76e5a6f4bea92506951bea6.js&quot;&gt;&lt;/script&gt;
 
-&lt;h2&gt;CONCLUSION&lt;/h2&gt;
-&lt;p&gt;From the results, you can choose which output stream to use based on your requirements.&lt;/p&gt;
-&lt;p&gt;In memory and CPU perspective, choose RandomAccessFile &lt;/p&gt;
-&lt;p&gt;In speed and CPU perspective, choose BufferedWriter&lt;/p&gt;
-&lt;p&gt;I hope it helps you.&lt;/p&gt;</content><author><name></name></author><summary type="html">How to write large data in a file in java — analysis The aim of this tutorial is to show how to write bulky or large data in files and which output streams to you use for better performance in java. For the analysis purpose, I write 90 Mb(generated in code) of data in a file around 2000 times.so that I am able to analyze the following points — 1. heap memory used 2. avg time taken to write file 3. CPU performance To write files in java, I have used the following output stream - 1. FileOutputStream 2. RandomAccessFile 3. BufferedWriter 1. FileOutputStream Code- Analysis data - Average Time- 332 ms 2. RandomAccessFile Code- Analysis data - Average Time- 365 ms 3. BufferedWriter Code- Analysis data - Average Time- 286 ms Results - CONCLUSION From the results, you can choose which output stream to use based on your requirements. In memory and CPU perspective, choose RandomAccessFile In speed and CPU perspective, choose BufferedWriter I hope it helps you.</summary></entry><entry><title type="html">Welcome vbeast</title><link href="http://localhost:4000/java/garbage-collection" rel="alternate" type="text/html" title="Welcome vbeast" /><published>2020-05-09T23:56:34+05:30</published><updated>2020-05-09T23:56:34+05:30</updated><id>http://localhost:4000/java/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/java/garbage-collection">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;Now you are successfully able to enable versioning of a bucket.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">What is Amazon S3 Versioning</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/versioning/Versioning.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/versioning/Versioning.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Set Up Java Project</title><link href="http://localhost:4000/AmazonS3/setup-java-project" rel="alternate" type="text/html" title="Amazon S3 Set Up Java Project" /><published>2020-05-30T00:00:00+05:30</published><updated>2020-05-30T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/setUpJavaProject</id><content type="html" xml:base="http://localhost:4000/AmazonS3/setup-java-project">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;This tutorial will help you in creating access key and secret key which required in making connection.
+Then we will create project in java and create connection with Amazon S3.&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;h2 id=&quot;now-lets-create-your-access-key-and-secret-key&quot;&gt;Now lets create your access key and secret key&lt;/h2&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Login in to your Amazon S3 account.&lt;/li&gt;
+  &lt;li&gt;Step 2 - Click on My Security Credentials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Security Credentials Option&quot; title=&quot;Security Credentials Option&quot; src=&quot;/assets/img/amazon-s3/setup-java-project/security_credential_option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Now select Access keys (access key id and secret access key)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;AWS Security Credentials&quot; title=&quot;AWS Security Credentials&quot; src=&quot;/assets/img/amazon-s3/setup-java-project/aws_security_credentials.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - click on create new Access key, you will get the option of download key file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;AWS Credential Download Option&quot; title=&quot;AWS Credential Download Option&quot; src=&quot;/assets/img/amazon-s3/setup-java-project/aws_credential_download_option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 5 - In the file, you will get access key and secret key.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;now-set-up-java-project&quot;&gt;Now Set Up Java Project&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create a maven project in your favourite IDE.&lt;/li&gt;
+  &lt;li&gt;Add maven dependency for AWS java sdk in pom.xml&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.amazonaws&lt;span class=&quot;nt&quot;&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;aws-java-sdk-s3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;version&amp;gt;&lt;/span&gt;1.11.781&lt;span class=&quot;nt&quot;&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
+   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;ol&gt;
+  &lt;li&gt;Now to create connection with AmazonS3, you will need to know
+    &lt;ul&gt;
+      &lt;li&gt;AWS account&lt;/li&gt;
+      &lt;li&gt;AWS security credentials (Access key and Secret Key)&lt;/li&gt;
+      &lt;li&gt;AWS Region&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Code to create connection with Amazon S3&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void main(String[] args) {
+    // now create BasicAWSCredentials object by using access key and secret key
+    BasicAWSCredentials basicAWSCredentials=new BasicAWSCredentials(&quot;pass access key&quot;,
+        &quot;pass secret key&quot;);
+    // get AmazonS3 Client by passing basicAWSCredentials and specify region which is closest to you
+    // or let it pick default region
+    AmazonS3 amazonS3 = AmazonS3ClientBuilder.standard()
+        .withCredentials(new AWSStaticCredentialsProvider(basicAWSCredentials))
+        .withRegion(Regions.AP_SOUTH_1)
+        .build();
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You are successfully able to create java project and able to make connection with Amazon S3.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/techypoint/amazon-s3.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial will help you in creating access key and secret key which required in making connection. Then we will create project in java and create connection with Amazon S3.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/setup-java-project/Set-Up-Java-Project.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/setup-java-project/Set-Up-Java-Project.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Creating a Bucket</title><link href="http://localhost:4000/AmazonS3/create-a-bucket" rel="alternate" type="text/html" title="Amazon S3 Creating a Bucket" /><published>2020-05-29T00:00:00+05:30</published><updated>2020-05-29T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/createABucket</id><content type="html" xml:base="http://localhost:4000/AmazonS3/create-a-bucket">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;This tutorial shows how to create a bucket in Amazon S3 through AWS Management Console.&lt;/p&gt;
+
+&lt;h2 id=&quot;now-lets-create-a-bucket&quot;&gt;Now Lets create a bucket&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Create an account on Amazon S3&lt;/li&gt;
+  &lt;li&gt;Step 2 - After Creating account, login into Amazon S3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Amazon Login Screen&quot; title=&quot;Amazon Login Screen&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/amazon_login_screen.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Search s3 on search bar and select S3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;AWS Management Console Panel&quot; title=&quot;AWS Management Console Panel&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/aws_console_panel.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - After Selecting S3, you will get the option to create bucket&lt;/li&gt;
+  &lt;li&gt;Step 5 - Click on create bucket button and enter bucket name and make it public for now.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Create a bucket screen&quot; title=&quot;create a bucket screen&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/create_bucket_screen.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 6 - You will see the created bucket in the list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Bucket list screen&quot; title=&quot;bucket list screen&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/bucket_list_screen.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now you are successfully able to create bucket in Amazon S3 account.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial shows how to create a bucket in Amazon S3 through AWS Management Console.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Introduction</title><link href="http://localhost:4000/AmazonS3/introduction" rel="alternate" type="text/html" title="Amazon S3 Introduction" /><published>2020-05-28T00:00:00+05:30</published><updated>2020-05-28T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/introduction</id><content type="html" xml:base="http://localhost:4000/AmazonS3/introduction">&lt;h1&gt; Introduction To Amazon S3 Series&lt;/h1&gt;
+&lt;p&gt;This Series give you understanding of S3 and its comprises of -&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/create-a-bucket&quot;&gt;Creating a Bucket&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;Set Up Java Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/versioning&quot;&gt;Versioning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/operations&quot;&gt;Operations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/object-url&quot;&gt;Sharing Object URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/storage-classes&quot;&gt;Storage Classes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/AmazonS3/lifecycle-management&quot;&gt;LifeCycle Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;What is Amazon S3?&lt;/h2&gt;
+&lt;p&gt;Amazon S3 is a Simple Storage Service(S3) that allows you to store and retrieve data.
+It offers scalability, data availability, performace and security.&lt;/p&gt;
+&lt;h2&gt;Why Amazon S3?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Performance&lt;/li&gt;
+  &lt;li&gt;Availability&lt;/li&gt;
+  &lt;li&gt;Scalability&lt;/li&gt;
+  &lt;li&gt;Security&lt;/li&gt;
+  &lt;li&gt;Wide range of cost effective Storage classes&lt;/li&gt;
+  &lt;li&gt;Easily manage data and access controls&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Lets start with Amazon S3 basic concepts&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-bucket&quot;&gt;1. Bucket&lt;/h3&gt;
+&lt;p&gt;Bucket in S3 is a container for objects.In bucket, you can contain any type of object(images, pdf, csv etc).
+Eg - consider bucket as a fridge which contains objects(vegetables, fruits etc).&lt;/p&gt;
+&lt;h3 id=&quot;2object&quot;&gt;2.Object&lt;/h3&gt;
+&lt;p&gt;Object are the basic unit in Amazon S3.All the units in a bucket are objects.&lt;/p&gt;
+&lt;p&gt;Objects consist of&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;object data&lt;/li&gt;
+  &lt;li&gt;object meta data - meta data contains name-value pairs that stores object related information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The only way to modify object meta data is to make a copy of object and set metadata.&lt;/p&gt;
+&lt;h3 id=&quot;3-keys&quot;&gt;3. keys&lt;/h3&gt;
+&lt;p&gt;A key is the unique identifier of the object in a bucket.
+An object can be identified by combination of web service end point + bucket name + key + version (optional).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingMetadata.html&quot;&gt; There is guideline for object key name.You can find it from here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-regions&quot;&gt;4. Regions&lt;/h3&gt;
+&lt;p&gt;You can store bucket in a specific region that is close to you to optimize latency and minimize costs.&lt;/p&gt;
+&lt;p&gt;Objects stored in a region never leave the region unless you transfer it to another region.
+You can access any bucket from any region.
+Eg - suppose you are located in Asia so you want to store bucket in a region closest to you.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Introduction To Amazon S3 Series This Series give you understanding of S3 and its comprises of - Introduction Creating a Bucket Set Up Java Project Versioning Operations Sharing Object URL Storage Classes LifeCycle Management</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/introduction/introduction.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/introduction/introduction.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Comment System Using Disqus</title><link href="http://localhost:4000/create-a-webiste/comment-box" rel="alternate" type="text/html" title="Comment System Using Disqus" /><published>2020-05-14T00:00:00+05:30</published><updated>2020-05-14T00:00:00+05:30</updated><id>http://localhost:4000/create-a-webiste/integrate-disqus</id><content type="html" xml:base="http://localhost:4000/create-a-webiste/comment-box">&lt;h1 id=&quot;contact-page-using-formspree&quot;&gt;Contact Page Using FormsPree&lt;/h1&gt;</content><author><name>Varun Bisht</name></author><category term="create a webiste" /><summary type="html">Contact Page Using FormsPree</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-webiste/comment-box/" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-webiste/comment-box/" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Design Home Page</title><link href="http://localhost:4000/create-a-webiste/create-a-blog-part2" rel="alternate" type="text/html" title="Design Home Page " /><published>2020-05-13T00:00:00+05:30</published><updated>2020-05-13T00:00:00+05:30</updated><id>http://localhost:4000/create-a-webiste/create-a-blog-part2</id><content type="html" xml:base="http://localhost:4000/create-a-webiste/create-a-blog-part2">&lt;h1 id=&quot;create-a-blog-for-your-website---part-2&quot;&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 2&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;PREREQUISITE&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 1
+In PART 1 - we have created basic wesbite Using Jekyll. Before Going further, you need to read PART 1.
+So link for PART 1 is - CREATE A BLOG FOR YOUR WEBSITE - PART 1 link&lt;/li&gt;
+  &lt;li&gt;JEKYLL
+Please watch Jekyll tutorials as it is necessary for futher tutorials. I have provided some Jekyll Video tutorials in Further Study Material.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this part i.e PART 2, we are going to create Blog Posts for our webiste.&lt;/p&gt;
+
+&lt;p&gt;So lets start&lt;/p&gt;
+
+&lt;p&gt;In the project, there is a _posts folder which will contains all the blog posts.
+There is already a post create by Jekyll for your reference.&lt;/p&gt;
+
+&lt;p&gt;Lets understand the basics of Blog Post&lt;/p&gt;
+
+&lt;p&gt;Open file, you will see something like this -&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+layout: post
+title:  &quot;Welcome to Jekyll!&quot;
+date:   2020-06-12 23:26:47 +0530
+categories: jekyll update
+---&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here, this blog post is using
+layout - post layout(default layout available in default theme by Jekyll).
+title - Title of the Page
+date - post created date
+categories - defines post category&lt;/p&gt;
+
+&lt;p&gt;Theses key value pairs between triple-dashed lines are called Front Matters.
+There are many default Front Matter provided by Jekyll which you can use.Front Matter Link -&lt;/p&gt;
+
+&lt;p&gt;What we need to create a non veg category recipe blog post&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;We will create a custom layout named post just like home.md in _layouts folder and will use Front Matter in the layout.
+We will custom layout for post so that every post you create will use it.&lt;/li&gt;
+  &lt;li&gt;We need to provide URL to the post using permalink front matter.&lt;/li&gt;
+  &lt;li&gt;Then We will modify other Front Matters for our post like title, date and categories.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Further Study Material&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;For Jekyll Installation- https://jekyllrb.com/docs/installation/&lt;/li&gt;
+  &lt;li&gt;For Jekyll - https://www.youtube.com/watch?v=T1itpPvFWHI&amp;amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&lt;/li&gt;
+  &lt;li&gt;For Front Matter- https://jekyllrb.com/docs/front-matter&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Varun Bisht</name></author><category term="create a webiste" /><summary type="html">CREATE A BLOG FOR YOUR WEBSITE - PART 2</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-webiste/create-a-blog/" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-webiste/create-a-blog/" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
