@@ -169,6 +169,8 @@ Noy you can access this post at http://localhost:4000/non-veg/butterChicken
 Now save or push changes to Github Account.
 file:///home/varun/my-pro-projects/website/techypoint.github.io/assets/img/create-a-website/create-a-blog-part2/save_post.png
 
+You can delete old files which we create in PART 1, i am renaming it filename_old so that these files are available to you for reference.
+
 In part 2, we successfully able to create a blog post.
 
 Further Study Material

@@ -111,7 +111,8 @@ Now go to your website and checkout blog post through navigation panel.
 
 Now save or push changes to the github Account.
 
-
+Now we are successfully able to create a blog and set to publish posts but there is one thing missing i.e user engagement.
+We have dedicated further tutorials for this.
 
 Further Study Material
 1. For Jekyll Installation- https://jekyllrb.com/docs/installation/
@@ -120,3 +121,5 @@ Further Study Material
 4. For Variables - https://jekyllrb.com/docs/variables/
 5. For Liquid - https://jekyllrb.com/docs/liquid/
 4. For Markdown- https://www.markdownguide.org/basic-syntax/
+
+In the next tutorial, we will focus on how to integrate commenting for our blog posts.
