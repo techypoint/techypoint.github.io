@@ -98,9 +98,11 @@ You can find full code(including css and js) at the end of this tutorial.
 We have designed our homepage and now its time to push this code to Github repository so that our awesome website design will be visible to others.
 
 You know the steps, but i will show you again
-file:///home/varun/my-pro-projects/website/techypoint.github.io/assets/img/create-a-website/push_homepage_steps.png
+<div class="imgCont">
+  <img alt="Push HomePage Steps" title="Push HomePage Steps" src="/assets/img/create-a-website/homepage-design/push_homepage_steps.png"/>
+</div>
 
 Further Study Material
 1. Desiging webiste - youtube
 
-In the next tutorial, we will focus on how to users can contact you.
+In the next tutorial, we will focus on how to add Custom Domain to Github Pages.

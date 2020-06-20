@@ -50,12 +50,18 @@ After Installing Ruby and Jekyll, now creates a Jekyll project.
 ## Create a Jekyll project
 1. Go to the directory where you want to create project.
 2. create new Jekyll project - jekyll new vbisht7038.github.io
-file:///home/varun/my-pro-projects/website/techypoint.github.io/assets/img/create-a-website/create-a-blog/jekyll-new-project.png
+<div class="imgCont">
+  <img alt="Jekyll New Project" title="Jekyll New Project" src="/assets/img/create-a-website/create-a-blog-part1/jekyll-new-project.png"/>
+</div>
 3. cd vbisht7038.github.io
 4. To access your website, run command- bundle exec jekyll serve
-file:///home/varun/Pictures/jekyll_serve_command.png
-5. Open localhost:4000 url on browser, you will see a dummy webiste.
-file:///home/varun/my-pro-projects/website/techypoint.github.io/assets/img/create-a-website/create-a-blog/jekyll_demo_page.png
+<div class="imgCont">
+  <img alt="Jekyll Serve Command" title="Jekyll Serve Command" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_serve_command.png"/>
+</div>
+5. Open localhost:4000 url on browser, you will see a dummy website.
+<div class="imgCont">
+  <img alt="Jekyll Demo Page" title="Jekyll Demo Page" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_demo_page.png"/>
+</div>
 
 Now you have successfully created Jekyll project and able to access it on website.
 
@@ -97,7 +103,9 @@ For git commands, Take a look at our Git Use Tutorial.
 2. Then add git repository url which you previously created.
 3. Take all the changes from Github Account.
 4. Now Push all the changes to the Github Account.
-file:///home/varun/Pictures/recreate_website_push.png
+<div class="imgCont">
+  <img alt="Recreate Website Push" title="Recreate Website Push" src="/assets/img/create-a-website/create-a-blog-part1/recreate_website_push.png"/>
+</div>
 
 You can check your website and it needs to be working perfectly.
 

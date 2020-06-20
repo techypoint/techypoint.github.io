@@ -23,14 +23,22 @@ Step 3 - Fill the sign Up form.Here username will be used later in your webiste 
 For Eg-  your username is - techylane, then your website name would be techylane.github.io.
 You can also change your username if you want to.
 After filling, Click on Create Account.
-create-account-screen.png
+<div class="imgCont">
+  <img alt="Create Account Screen" title="Create Account Screen" src="/assets/img/create-a-website/create-github-account/create-account-screen.png"/>
+</div>
 Step 4 - On next screen, Click on Join a free plan button.
-join-free-plan.png
+<div class="imgCont">
+  <img alt="Join Free Plan" title="Join Free Plan" src="/assets/img/create-a-website/create-github-account/join-free-plan.png"/>
+</div>
 Step 5 - Choose the option which suits you best and then click on Complete Setup.
 Step 6 - Now you get this screen
-verify-email-address.png
+<div class="imgCont">
+  <img alt="Verify Email Address" title="Verify Email Address" src="/assets/img/create-a-website/create-github-account/verify-email-address.png"/>
+</div>
 Step 7 - Now verfiy by clicking on the link you get in email box. After clicking on link,you will get below screen.
-github-skip-now.png
+<div class="imgCont">
+  <img alt="GitHub Skip Now" title="GitHub Skip Now" src="/assets/img/create-a-website/create-github-account/github-skip-now.png"/>
+</div>
 Step 8 - Choose skip for now option
 Step 9 - You have successfully created your Github acount.
 
@@ -38,14 +46,20 @@ Step 9 - You have successfully created your Github acount.
 
 Step 1 - Login to your Github Account.
 Step 2 - After login,you will get below screen.
-github-homepage.png
+<div class="imgCont">
+  <img alt="GitHub Homepage" title="GitHub Homepage" src="/assets/img/create-a-website/create-github-account/github-homepage.png"/>
+</div>
 Step 3 - click on create repository
-create_repository_screen.png
+<div class="imgCont">
+  <img alt="Create Repository Screen" title="Create Repository Screen" src="/assets/img/create-a-website/create-github-account/create_repository_screen.png"/>
+</div>
 In this screen, enter repository name in the same format i have filled.
 Later, your website can be accessed by this domain name.
 Select public option, this repository will be public.
 Step 4 - Click on Create repository and you will get below screen.
-repostiory-download-screen.png
+<div class="imgCont">
+  <img alt="Repository Download Screen" title="Repository Download Screen" src="/assets/img/create-a-website/create-github-account/repostiory-download-screen.png"/>
+</div>
 Step 5 - Copy the repository link which we will be use in next tutorial.
 
 Now you are successfully able to create your repository.

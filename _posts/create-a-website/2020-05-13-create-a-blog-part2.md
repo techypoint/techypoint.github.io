@@ -167,7 +167,9 @@ For Eg- To write heading, you can use -
 Noy you can access this post at http://localhost:4000/non-veg/butterChicken
 
 Now save or push changes to Github Account.
-file:///home/varun/my-pro-projects/website/techypoint.github.io/assets/img/create-a-website/create-a-blog-part2/save_post.png
+<div class="imgCont">
+  <img alt="Save Post" title="Save Post" src="/assets/img/create-a-website/create-a-blog-part2/save_post.png" />
+</div>
 
 You can delete old files which we create in PART 1, i am renaming it filename_old so that these files are available to you for reference.
 
