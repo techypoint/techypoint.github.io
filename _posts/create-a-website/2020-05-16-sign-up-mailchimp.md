@@ -3,9 +3,11 @@ title: "SignUp Form(Subscribe) Using MailChimp"
 author: "Varun Bisht"
 description: "Integrate SignUp Form(Subscribe) Using MailChimp"
 keywords: ""
-category: "create a webiste"
-permalink: "/create-a-webiste/signUp-mailchimp"
-image: "/assets/img/create-a-webiste/signUp-mailchimp/"
+category: "create a website"
+permalink: "/create-a-website/signUp-mailchimp"
+image: "/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg"
+featureImage: "/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg"
+imgText: "Image by Biljana Jovanovic from Pixabay"
 ---
 # SignUp Form(Subscribe) Using MailChimp
 
@@ -78,7 +80,7 @@ You have successfully able to sign up
 <div class="imgCont">
   <img alt="Mailchimp Signup Form Type" title="Mailchimp Signup Form Type" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form-type.png" />
 </div>
--Step 3- Now there are different designs of Form. You can choose whichever suits your webiste design.
+-Step 3- Now there are different designs of Form. You can choose whichever suits your website design.
 I will go with Horizontal design.
 You can change the form title. After Changing, copy code
 {% highlight html %}{% raw %}
@@ -134,7 +136,9 @@ There are many other features and customization available.
 - But one you may wish to add is to confirm the email address of the subscriber.
 For that, you need to enable double opt-in option
 Link on how to enable double opt-in option - https://mailchimp.com/help/set-signup-preferences/
-Further Study Material
+
+### Further Study Material
+
 1. For MailChimp - https://mailchimp.com
 2. Explore MailChimp Portal
 

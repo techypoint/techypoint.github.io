@@ -1,56 +1,62 @@
 ---
-title: "Contact Page Using FormsPree"
+title: "Contact Us Page Using FormsPree"
 author: "Varun Bisht"
 description: "Integrate Contact Us Page Using FormsPree"
 keywords: ""
-category: "create a webiste"
-permalink: "/create-a-webiste/contact-mail"
-image: "/assets/img/create-a-webiste/contact-mail/"
+category: "create a website"
+permalink: "/create-a-website/contact-mail"
+image: "/assets/img/create-a-website/contact-mail/contact.jpg"
+featureImage: "/assets/img/create-a-website/contact-mail/contact.jpg"
+imgText: "Image by Gerd Altmann from Pixabay"
 ---
-# Contact Page Using FormsPree
+# Contact Us Page Using FormsPree
 
-In this tutorial, We will create contact page through which user can mail you.
+In this tutorial, We will create contact Us page through which user can mail you.
 
-FormsPree lets you insert mail functionality in your own website.
+FormsPree lets you insert mail functionality in your website.
 
 So lets Integrate it -
 
 1. Sign Up on FormsPree
-2. create form
-3. Integrate Forms in your website
+2. Create Form
+3. Integrate Form in your website
 4. Mail inbox
 
 ### 1. Sign Up
 
-- Step 1. Go to https://formspree.io
-- Step 2. Click on Sign Up
-- Step 3. Enter your email address and password for sign up.
+- Step 1 - Go to [FormsPree](https://formspree.io "FormsPree")
+- Step 2 - Click on Sign Up
+- Step 3 - Enter your email address and password for sign up.
 <div class="imgCont">
   <img alt="FormsPree Register Page" title="FormsPree Register Page" src="/assets/img/create-a-website/contact-mail/formspree_register_page.png"/>
 </div>
-- Step 4. Click on Register.
-- Step 5. Now go to your email inbox and verify your email address.
-- Step 6. After verfiication, you get this screen.
+- Step 4 - Click on Register.
+- Step 5 - Now go to your email inbox and verify your email address.
+- Step 6 - After verfiication, you get this screen.
 <div class="imgCont">
   <img alt="FormsPree Inbox" title="FormsPree Inbox" src="/assets/img/create-a-website/contact-mail/formspree_inbox.png"/>
 </div>
 
 ### CREATE FORM
 
-- Step 1. Click on + icon and enter form name and email address in which you want mails to and then create form button.
+- Step 1 - Click on + icon and enter form name and email address in which you want mails to and then click create form button.
 <div class="imgCont">
   <img alt="FormsPree Create Form" title="FormsPree Create Form" src="/assets/img/create-a-website/contact-mail/formspree_create_form.png"/>
 </div>
-- Step 2 - Now go to Settings tab and enter your domain name in Restrict to Domain and save changes.
-In my case, it is - https://vbisht7038.github.io
+- Step 2 - Click on Form Name, Now go to Settings tab and enter your domain name in Restrict to Domain textbox and save changes.
+
+   In my case, it is - https://vbisht7038.github.io
+<div class="imgCont">
+  <img alt="FormsPree Form Setting" title="FormsPree Form Setting" src="/assets/img/create-a-website/contact-mail/formspree-settings.png"/>
+</div>
 
 ### INTEGRATE FORM IN YOUR WEBSITE
-- Step 1. Now go to Integration tab and cooy the code from **HTML** tab.
-You can copy from **HTML with file uploads** tab, if you want file upload option.
+- Step 1 - Now go to Integration tab and copy the code from **HTML** tab.
+You can copy from **HTML with file uploads** tab, if you also want file upload option.
 
-- Step 2. Place this code in yout Html file and design it.
+- Step 2 - Place this code in yout Html file and design it.
 
-After designing, HTML code for **contact Us** is -
+After designing, HTML code for **Contact Us** is -
 
 {% highlight html %}{% raw %}
 <section id="contactus">
@@ -82,22 +88,22 @@ I have updated this code in index.html and added css in style.css
 
 We have designed our contact page and now its time to push this code to Github repository so that our users can mail us.
 
-You know the steps, but i will show again
+You know the steps, but I will show again
 <div class="imgCont">
   <img alt="Push Contact Us Feature" title="Push Contact Us Feature" src="/assets/img/create-a-website/contact-mail/push_contact_us_feature.png"/>
 </div>
 
 ### MAIL INBOX
 
-you can check mails in the Submission tab of your form.
-Sharing the screen shot -
+You can check mails in the Submission tab of your Form.
+
 <div class="imgCont">
   <img alt="FormsPree Submission Tab" title="FormsPree Submission Tab" src="/assets/img/create-a-website/contact-mail/formspree_submission_tab.png"/>
 </div>
 
-You can find the update code from here - github url
+<a href="https://github.com/vbisht7038/vbisht7038.github.io.git">Click to get the full Implementation of this tutorial on Github</a>
 
-Further Study Material
+### Further Study Material
 1. For FormsPree, you can check other functionalies on your formspree account- https://formspree.io/
 
 In the next tutorial, we will focus on how to create blogs for our website.

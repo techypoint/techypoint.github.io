@@ -3,9 +3,12 @@ title: "Share Post Using MailChimp"
 author: "Varun Bisht"
 description: "Share post by sending it straight to their inboxes Using MailChimp"
 keywords: ""
-category: "create a webiste"
-permalink: "/create-a-webiste/share-post"
-image: "/assets/img/create-a-webiste/share-post/"
+category: "create a website"
+permalink: "/create-a-website/share-post"
+image: "/assets/img/create-a-website/share-post/share-post.jpg"
+featureImage: "/assets/img/create-a-website/share-post/share-post.jpg"
+imgText: "Photo by Torsten Dettlaff from Pexels"
+
 ---
 # Share Post Using MailChimp
 
@@ -23,7 +26,7 @@ Below is a screenshot of RSS feed.
 
 
 **How does it work**
-1. We will create RSS feed in our webiste.
+1. We will create RSS feed in our website.
 2. Change title and subtitle of RSS Feed.
 3. Set up MailChimp to automatically fetch blog info and send mails to contacts.It includes many steps which we will show below.
 
@@ -108,7 +111,7 @@ You can analyze information like
 Now you have successfully create a blog with almost all necessary features.
 We will target next on how to rank high in Search Results.
 
-Further Study Material
+### Further Study Material
 1. For MailChimp - https://mailchimp.com
 2. Explore MailChimp Portal
 

@@ -1,11 +1,13 @@
 ---
 title: "Design Home Page "
 author: "Varun Bisht"
-description: "Design cool Home Page for the webiste."
+description: "Create a blog part-1"
 keywords: ""
-category: "create a webiste"
-permalink: "/create-a-webiste/create-a-blog-part1"
-image: "/assets/img/create-a-webiste/create-a-blog/"
+category: "create a website"
+permalink: "/create-a-website/create-a-blog-part1"
+image: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
+featureImage: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
+imgText: "Photo by Miguel Á. Padriñán from Pexels"
 ---
 # CREATE A BLOG FOR YOUR WEBSITE - PART 1
 
@@ -14,7 +16,7 @@ But some of you are looking to Integrate blogging or to start blogging.
 So this tutorial is for those who wants to create a blog website.
 I have divided this blog into three parts -
 PART 1 - We first create a new Jekyll project and then move all the things we have build till now to this project.
-PART 2 - We will create blog posts for your webiste.
+PART 2 - We will create blog posts for your website.
 PART 3 - Show all the blog post on the page so that people can search it.
 
 Note- If you are just looking for website not blogs. Then you can skip this tutorial for now and continue with further tutorials.
@@ -111,7 +113,7 @@ You can check your website and it needs to be working perfectly.
 
 In Part 1, we are successfully able to recreate our website using Jekyll.
 
-Further Study Material
+### Further Study Material
 1. For Jekyll Installation- https://jekyllrb.com/docs/installation/
 2. For Jekyll - https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
 3. Jekyll directory structure- https://jekyllrb.com/docs/structure/

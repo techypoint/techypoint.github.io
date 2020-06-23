@@ -1,11 +1,13 @@
 ---
-title: "Design Home Page "
+title: "Design Home Page"
 author: "Varun Bisht"
-description: "Design cool Home Page for the webiste."
-keywords: ""
-category: "create a webiste"
-permalink: "/create-a-webiste/homepage-design"
-image: "/assets/img/create-a-webiste/homepage-design/"
+description: "Design cool Home Page for the website."
+keywords: "html web page design examples,html code for website design,how to create a webpage using html and css,website layout examples"
+category: "create a website"
+permalink: "/create-a-website/homepage-design"
+image: "/assets/img/create-a-website/homepage-design/design.jpg"
+featureImage: "/assets/img/create-a-website/homepage-design/design.jpg"
+imgText: "Photo by Edho Pratama on Unsplash"
 ---
 # HomePage Design
 
@@ -13,11 +15,21 @@ In this tutorial, we design homepage for the website which includes-
 - Navigation
 - Front Page
 - About Me/About Company
+- Contact Us
 - Footer
 
-I am not focusing on desiging websites that you can learn online or from youtube.
+### Basic Structue of the website looks like-
+
+<div class="imgCont">
+  <img alt="HomePage Structue" title="HomePage Structue" src="/assets/img/create-a-website/homepage-design/homepage_layout.png"/>
+</div>
+
+**Note**- I am not focusing on designing websites that you can learn online or from youtube.
 
 ## HTML code for homepage
+
+I am providing you the code piece by piece.
+You can write this code in index.html
 
 ### Navigation HTML -
 {% highlight html %}{% raw %}
@@ -93,7 +105,7 @@ I am not focusing on desiging websites that you can learn online or from youtube
 </footer>
 {% endraw %}{% endhighlight %}
 
-You can find full code(including css and js) at the end of this tutorial.
+You can find full code(including css and js) - [https://github.com/vbisht7038/vbisht7038.github.io.git](https://github.com/vbisht7038/vbisht7038.github.io.git "https://github.com/vbisht7038/vbisht7038.github.io.git")
 
 We have designed our homepage and now its time to push this code to Github repository so that our awesome website design will be visible to others.
 
@@ -102,7 +114,9 @@ You know the steps, but i will show you again
   <img alt="Push HomePage Steps" title="Push HomePage Steps" src="/assets/img/create-a-website/homepage-design/push_homepage_steps.png"/>
 </div>
 
-Further Study Material
-1. Desiging webiste - youtube
+<a href="https://github.com/vbisht7038/vbisht7038.github.io.git">Click to get the full Implementation of this tutorial on Github</a>
 
-In the next tutorial, we will focus on how to add Custom Domain to Github Pages.
+### Further Study Material
+1. Desiging website - youtube
+
+**In the next tutorial**, we will focus on how to add Custom Domain to Github Pages.

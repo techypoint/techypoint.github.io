@@ -1,17 +1,19 @@
 ---
 title: "Design Home Page "
 author: "Varun Bisht"
-description: "Design cool Home Page for the webiste."
+description: "Design cool Home Page for the website."
 keywords: ""
-category: "create a webiste"
-permalink: "/create-a-webiste/create-a-blog-part2"
-image: "/assets/img/create-a-webiste/create-a-blog/"
+category: "create a website"
+permalink: "/create-a-website/create-a-blog-part3"
+image: "/assets/img/create-a-website/create-a-blog-part3/blog.jpg"
+featureImage: "/assets/img/create-a-website/create-a-blog-part3/blog.jpg"
+imgText: "Photo by Miguel Á. Padriñán from Pexels"
 ---
 # CREATE A BLOG FOR YOUR WEBSITE - PART 3
 
 **PREREQUISITE**
 1. CREATE A BLOG FOR YOUR WEBSITE - PART 1
-In PART 1 - we have created basic wesbite Using Jekyll. Before Going further, you need to read PART 1.
+In PART 1 - we have created basic Website Using Jekyll. Before Going further, you need to read PART 1.
 So link for PART 1 is - CREATE A BLOG FOR YOUR WEBSITE - PART 1 link
 2. CREATE A BLOG FOR YOUR WEBSITE - PART 2
 In PART 2 - we have created blog post for our website Using Jekyll. Before Going further, you need to read PART 2.
@@ -114,7 +116,7 @@ Now save or push changes to the github Account.
 Now we are successfully able to create a blog and set to publish posts but there is one thing missing i.e user engagement.
 We have dedicated further tutorials for this.
 
-Further Study Material
+### Further Study Material
 1. For Jekyll Installation- https://jekyllrb.com/docs/installation/
 2. For Jekyll- https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
 3. For Front Matter- https://jekyllrb.com/docs/front-matter

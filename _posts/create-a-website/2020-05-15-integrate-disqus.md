@@ -3,9 +3,11 @@ title: "Comment System Using Disqus"
 author: "Varun Bisht"
 description: "Integrate Comment Systen On Blog Post Using Disqus"
 keywords: ""
-category: "create a webiste"
-permalink: "/create-a-webiste/comment-disqus"
-image: "/assets/img/create-a-webiste/comment-disqus/"
+category: "create a website"
+permalink: "/create-a-website/comment-disqus"
+image: "/assets/img/create-a-website/comment-disqus/comment.jpg"
+featureImage: "/assets/img/create-a-website/comment-disqus/comment.jpg"
+imgText: "Image by Werner Moser from Pixabay"
 ---
 # Comment System Using Disqus
 
@@ -108,7 +110,7 @@ On Disqus portal,
 - you can see the latest comments and deletes them and much more.
 
 
-Further Study Material
+### Further Study Material
 1. For Disqus - https://disqus.com/
 2. Explore Disqus Portal
 
