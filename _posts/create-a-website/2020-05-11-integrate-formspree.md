@@ -15,7 +15,7 @@ In this tutorial, We will create contact Us page through which user can mail you
 
 FormsPree lets you insert mail functionality in your website.
 
-So lets Integrate it -
+### So lets Integrate it -
 
 1. Sign Up on FormsPree
 2. Create Form
@@ -106,4 +106,4 @@ You can check mails in the Submission tab of your Form.
 ### Further Study Material
 1. For FormsPree, you can check other functionalies on your formspree account- https://formspree.io/
 
-In the next tutorial, we will focus on how to create blogs for our website.
+**In the next tutorial**, we will focus on how to create blogs for our website.

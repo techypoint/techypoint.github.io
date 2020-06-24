@@ -97,4 +97,4 @@ We are able to create website in a week, lets see how it works for you.
 
 At the end of this series, you will get a website like [Foody Blog](https://vbisht7038.github.io "Foody Blog").
 
-In the next tutorial, we will talk about the basic concepts in website creation.
+**In the next tutorial**, we will talk about the basic concepts in website creation.

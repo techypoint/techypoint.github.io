@@ -213,6 +213,10 @@ html,body{
 margin-top: 1rem !important;
 }
 
+#mainContainer div#center #post-cont li ul{
+  margin-top: 0 !important;
+}
+
 #mainContainer div#center #post-cont li{
   line-height: 32px;
   font-size: 16px;

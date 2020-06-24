@@ -1,8 +1,8 @@
 ---
-title: "Design Home Page "
+title: "Create a Blog Part 3"
 author: "Varun Bisht"
-description: "Design cool Home Page for the website."
-keywords: ""
+description: "Create a blog- create a page to show all the blog posts"
+keywords: "Display all posts in the same page,list all posts jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part3"
 image: "/assets/img/create-a-website/create-a-blog-part3/blog.jpg"
@@ -11,35 +11,37 @@ imgText: "Photo by Miguel Á. Padriñán from Pexels"
 ---
 # CREATE A BLOG FOR YOUR WEBSITE - PART 3
 
-**PREREQUISITE**
+## PREREQUISITE
+
 1. CREATE A BLOG FOR YOUR WEBSITE - PART 1
-In PART 1 - we have created basic Website Using Jekyll. Before Going further, you need to read PART 1.
-So link for PART 1 is - CREATE A BLOG FOR YOUR WEBSITE - PART 1 link
+
+   In PART 1 - we have created basic website using Jekyll. Before Going further, you need to read [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %})
 2. CREATE A BLOG FOR YOUR WEBSITE - PART 2
-In PART 2 - we have created blog post for our website Using Jekyll. Before Going further, you need to read PART 2.
-So link for PART 2 is - CREATE A BLOG FOR YOUR WEBSITE - PART 2 link
 
-In this part i.e PART 3, we are going to create a Page To show all the blog posts.
+   In PART 2 - we have created blog post for our website using Jekyll. Before Going further, you need to read [PART 2]({% post_url create-a-website/2020-05-13-create-a-blog-part2 %})
 
-Why we need to create this page for all blog posts?
-because when a user lands to your homepage,he/she needs a way to your blog posts.
+In this part i.e PART 3, we are going to create a page to show all the blog posts.
 
-What we will do -
-1. create a blog.md file in base directory.
+### Why we need to create this page for all blog posts?
+because when a user lands to your homepage, he/she needs a way to your blog posts.
+
+### What we will do-
+1. Create a blog.md file in base directory.
 2. Add blog link in navigation.md
 3. Instead of manually copying the post content to this page, Jekyll gives a feature to access all the posts in _post directory.
 This feature helps a lot in your future post development. You dont need to update post contaent everywhere. Just create a post and its done.
 4. Design this page.
 
-So lets start
-1. created blog.md in base directory.
-2. Add blog link in navigation.md
+### So lets start -
+
+- Created blog.md in base directory.
+- Add blog link in navigation.md
 {% highlight html %}{% raw %}
  <li class="nav-item">
   <a class="nav-link" href="/blog">BLOG</a>
  </li>
 {% endraw %}{% endhighlight %}
-3. Now add Front Matters like title, description, permalink for this page and copy the HTML code.
+- Now add Front Matters like title, description, permalink in blog.md and copy the HTML code.
 {% highlight html %}{% raw %}
 ---
 layout: post
@@ -67,21 +69,22 @@ description: "This Page contains cooking recipe posts"
 </div>
 {% endraw %}{% endhighlight %}
 
-Here, apart from HTML code, there are Jekyll variables and Jekyll Liquid.
+- Here, apart from HTML code, there are Jekyll variables and Jekyll Liquid.
 
-Jekyll Variables - Jekyll provides some default variables related to post and site. Here we are using
-- site.posts- A reverse chronological list of all Posts.
-- post.url- The URL of the Post without the domain, but with a leading slash, e.g. /2008/12/14/my-post.html.
-- post.date- The Date assigned to the Post. This can be overridden in a Post’s front matter by specifying a new date/time in the format.
-- post.description - description of the post
-- post.author - author of this post
-- post.blogImg - image for this blog
+   **Jekyll Variables** - Jekyll provides some default variables related to post and site. Here we are using
+
+   - **site.posts**- A reverse chronological list of all Posts.
+   - **post.url**- The URL of the post without the domain, but with a leading slash, e.g. /2008/12/14/my-post.html.
+   - **post.date**- The date assigned to the Post. This can be overridden in a post’s front matter by specifying a new date/time in the format.
+   - **post.description** - description of the post
+   - **post.author** - author of the post
+   - **post.blogImg** - image for the blog
 
 You can also create your own front Matter and used to display information.
-Jekyll Liquid - lets you output content using two curly braces. For Eg - {{variable}}
-- {{post.url}} - we are displaying this post url.
 
-4. CSS for this page -
+   **Jekyll Liquid** - lets you output content using two curly braces. For Eg - {% highlight html %}{% raw %}{{variable}}{% endraw %}{% endhighlight %}
+
+- CSS for this page -
 
 {% highlight html %}{% raw %}
 #blog-posts .card{
@@ -112,16 +115,21 @@ Jekyll Liquid - lets you output content using two curly braces. For Eg - {{varia
 Now go to your website and checkout blog post through navigation panel.
 
 Now save or push changes to the github Account.
+<div class="imgCont">
+  <img alt="save blog part 3" title="save blog part 3" src="/assets/img/create-a-website/create-a-blog-part3/save-blog3.png"/>
+</div>
 
-Now we are successfully able to create a blog and set to publish posts but there is one thing missing i.e user engagement.
+Now we are successfully able to create a blog and ready to publish posts but there is one thing missing i.e **user engagement**.
+
 We have dedicated further tutorials for this.
 
-### Further Study Material
-1. For Jekyll Installation- https://jekyllrb.com/docs/installation/
-2. For Jekyll- https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
-3. For Front Matter- https://jekyllrb.com/docs/front-matter
-4. For Variables - https://jekyllrb.com/docs/variables/
-5. For Liquid - https://jekyllrb.com/docs/liquid/
-4. For Markdown- https://www.markdownguide.org/basic-syntax/
+<a href="https://github.com/vbisht7038/vbisht7038.github.io.git">Click to get the full Implementation of this tutorial on Github</a>
 
-In the next tutorial, we will focus on how to integrate commenting for our blog posts.
+### Further Study Material
+1. For Jekyll - [Jekyll Youtube Playlist](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB "Jekyll Youtube Playlist")
+2. [For Front Matter](https://jekyllrb.com/docs/front-matter "For Front Matter")
+3. [For Variables](https://jekyllrb.com/docs/variables "For Variables")
+5. [For Liquid](https://jekyllrb.com/docs/liquid "For Liquid")
+4. [For Markdown](https://www.markdownguide.org/basic-syntax "For Markdown")
+
+**In the next tutorial**, we will focus on how to integrate commenting for our blog posts.

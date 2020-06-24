@@ -19,7 +19,8 @@ What we will do -
 2. Integrate this domain for Github Pages
 3. Create A and CNAME record in your DNS Provider DNS Setting
 
-So lets start-
+### So lets start -
+
 ### 1. Buy domain from domain provider.
 You can buy domain from any domain provider.
 [How to buy Domain From GoDaddy](https://www.youtube.com/watch?v=ONyEEfNxHcQ "How to buy Domain From GoDaddy")
@@ -70,4 +71,4 @@ In Further tutorials, We are using gitub.io domain but you can use your custom d
 1. Buy Domain- Youtube
 2. To Integrate Custom Domain - [managing a custom-domain for your github pages site](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site "managing-a-custom-domain-for-your-github-pages-site")
 
-In the next tutorial, we will focus on how users can contact you.
+**In the next tutorial**, we will focus on how users can contact you.

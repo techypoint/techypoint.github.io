@@ -1,8 +1,8 @@
 ---
-title: "Design Home Page "
+title: "Create a Blog Part 2"
 author: "Varun Bisht"
-description: "Design cool Home Page for the website."
-keywords: ""
+description: "Create a blog- creating post using Jekyll"
+keywords: "jekyll post,create a blog google,how to create a blog for free,free blog,how to start a blog"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part2"
 image: "/assets/img/create-a-website/create-a-blog-part2/blog.jpg"
@@ -11,17 +11,18 @@ imgText: "Photo by Miguel Á. Padriñán from Pexels"
 ---
 # CREATE A BLOG FOR YOUR WEBSITE - PART 2
 
-**PREREQUISITE**
+## PREREQUISITE
+
 1. CREATE A BLOG FOR YOUR WEBSITE - PART 1
-In PART 1 - we have created basic Website Using Jekyll. Before Going further, you need to read PART 1.
-So link for PART 1 is - CREATE A BLOG FOR YOUR WEBSITE - PART 1 link
+
+   In PART 1 - we have created basic website using Jekyll. Before Going further, you need to read [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %})
 
 In this part i.e PART 2, we are going to create Blog Posts for our website.
 
-So lets start
+### So lets start -
 
 In the project, there is a _posts folder which will contains all the blog posts.
-There is already a post create by Jekyll for your reference.
+There is already a post created by Jekyll for your reference.
 
 Lets understand the basics of Blog Post
 
@@ -36,24 +37,25 @@ categories: jekyll update
 {% endraw %}{% endhighlight %}
 
 Here, this blog post is using
-layout - post layout(default layout available in default theme by Jekyll).
-title - Title of the Page
-date - post created date
-categories - defines post category
+- layout- post layout(layout available in default theme by Jekyll).
+- title- Title of the Page
+- date- post date
+- categories- defines post category
 
-Theses key value pairs between triple-dashed lines are called Front Matters.
-There are many default Front Matter provided by Jekyll which you can use.Front Matter Link -
+Theses key value pairs between triple-dashed lines are called **Front Matters**.
+
+There are many default Front Matter provided by Jekyll which you can use. Link is available in Further Study Material
 
 What we need to create a non veg category recipe blog post
-1. We will create a custom layout named post.md just like home.md in _layouts folder.
-2. Rename file from 2020-06-12-welcome-to-jekyll.markdown to 2020-06-12-butterChicken.markdown
-File Name should be in this formate only - YYYY-MM-DD-name-here.md
-3. We need to provide URL to the post using permalink front matter.
-4. Then We will modify other Front Matters for our post like title, date and categories.
-5. Write Blog post
+- We will create a custom layout named post.md just like home.md in _layouts folder.
+- Rename file from 2020-06-12-welcome-to-jekyll.markdown to 2020-06-12-butterChicken.markdown
+   - File Name should be in this format only - YYYY-MM-DD-name-here.md
+- We need to provide URL to the post using permalink front matter.
+- Then We will modify other Front Matters for our post like title, date and categories.
+- Write blog post
 
 ### So lets start -
-1. create post.md in _layouts folder and lets create a layout which has navigation and footer and in between your blog content.
+- create post.md in _layouts folder and lets create a layout which has navigation and footer and in between your blog content.
 {% highlight html %}{% raw %}
 <!DOCTYPE html>
 <html lang="en">
@@ -140,12 +142,12 @@ and added
 }
 {% endraw %}{% endhighlight %}
 
-{{content}} - will copy the content of the file in which you will use this layout.
-So blog post data gets replaced by Jekyll.
+{% highlight html %}{% raw %}{{content}}{% endraw %}{% endhighlight %}
+will copy the content of the file in which you will use this layout. So blog post data gets replaced by Jekyll.
 
-2. Rename file to 2020-06-12-butterChicken.markdown.
-3. In the post, we added permalink Front Matter to specify the URL of the blog post
-4. We changed other Front Matters in the post to -
+- Rename file to 2020-06-12-butterChicken.markdown.
+- In the post, we added permalink Front Matter to specify the URL of the blog post
+- We changed other Front Matters in the post to -
 {% highlight html %}{% raw %}
 ---
 layout: post
@@ -158,31 +160,30 @@ permalink: "/non-veg/butterChicken"
 blogImg: "/assets/img/non-veg/butterChicken.jpg"
 ---
 {% endraw %}{% endhighlight %}
+   - author and blogImg are Custom Front Matters and we will use them in next tutorial.
 
-author and blogImg are Custom Front Matters and we will use them in next tutorial.
+- write blog - this need to be done by you
+You can use markdown language to write heading, inserting images and links. Its very simple.
+For Eg- To write heading, you can use- # Butter Chicken Recipe
 
-5. write blog - this need to be done by you
-You can use markdown language to write heading, inserting images and links.Its very simple.
-For Eg- To write heading, you can use -
-# Butter Chicken Recipe
-
-Noy you can access this post at http://localhost:4000/non-veg/butterChicken
+Noy you can access this post at [http://localhost:4000/non-veg/butterChicken](http://localhost:4000/non-veg/butterChicken "http://localhost:4000/non-veg/butterChicken")
 
 Now save or push changes to Github Account.
 <div class="imgCont">
   <img alt="Save Post" title="Save Post" src="/assets/img/create-a-website/create-a-blog-part2/save_post.png" />
 </div>
 
-You can delete old files which we create in PART 1, i am renaming it filename_old so that these files are available to you for reference.
+You can delete old files which we created in PART 1, I am renaming to filename_old so that these files are available to you for reference.
 
-In part 2, we successfully able to create a blog post.
+In part 2, we are successfully able to create a blog post.
+
+<a href="https://github.com/vbisht7038/vbisht7038.github.io.git">Click to get the full Implementation of this tutorial on Github</a>
 
 ### Further Study Material
 
-1. For Jekyll Installation- https://jekyllrb.com/docs/installation/
-2. For Jekyll- https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
-3. For Front Matter- https://jekyllrb.com/docs/front-matter
-4. For Markdown- https://www.markdownguide.org/basic-syntax/
+1. For Jekyll - [Jekyll Youtube Playlist](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB "Jekyll Youtube Playlist")
+2. [For Front Matter](https://jekyllrb.com/docs/front-matter "For Front Matter")
+3. [For Markdown](https://www.markdownguide.org/basic-syntax "For Markdown")
 
 
-In Part 3, we will create a page to show the blog posts.
+**In Part 3**, we will create a page to show the blog posts.
