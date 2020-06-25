@@ -1,7 +1,7 @@
 ---
 title: "Create a Blog Part 3"
 author: "Varun Bisht"
-description: "Create a blog- create a page to show all the blog posts"
+description: "Create a blog Part 3- create a page to show all the blog posts"
 keywords: "Display all posts in the same page,list all posts jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part3"

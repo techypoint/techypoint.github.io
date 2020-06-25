@@ -1,7 +1,7 @@
 ---
 title: "Create a Blog Part 2"
 author: "Varun Bisht"
-description: "Create a blog- creating post using Jekyll"
+description: "Create a blog Part 2- creating post using Jekyll"
 keywords: "jekyll post,create a blog google,how to create a blog for free,free blog,how to start a blog"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part2"

@@ -1,7 +1,7 @@
 ---
 title: "Create a Blog Part 1"
 author: "Varun Bisht"
-description: "Create a blog- Jekyll and Github"
+description: "Create a blog Part 1- Jekyll and Github"
 keywords: "jekyll github,jekyll new blog,install jekyll,blog github markdown,building a blog with jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part1"
@@ -78,7 +78,7 @@ We are creating separate file for them so that they can be easily integrate in o
 Project structure we are going to create-
 
 <div class="imgCont">
-  <img alt="Jekyll Demo Page" title="Jekyll Demo Page" src="/assets/img/create-a-website/create-a-blog-part1/JekyllProjectStructure.png"/>
+  <img alt="Jekyll Demo Page" title="Jekyll Demo Page" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png"/>
 </div>
 
 - Create _layouts folder in the base directory.
