@@ -2,7 +2,7 @@
 title: "Create Github Account"
 author: "Varun Bisht"
 description: "Create Github Account and Repository"
-keywords: ""
+keywords: "how to create github repository,how to create github account and repository,git account setup,create git repository on github"
 category: "create a website"
 permalink: "/create-a-website/create-github-account"
 image: "/assets/img/create-a-website/create-github-account/github.png"

@@ -2,7 +2,7 @@
 title: "Contact Us Page Using FormsPree"
 author: "Varun Bisht"
 description: "Integrate Contact Us Page Using FormsPree"
-keywords: ""
+keywords: "formspree signup,formspree create account,html contact form send email,how to use formspree,send email from static website"
 category: "create a website"
 permalink: "/create-a-website/contact-mail"
 image: "/assets/img/create-a-website/contact-mail/contact.jpg"
