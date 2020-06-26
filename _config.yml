@@ -21,8 +21,8 @@
 title: TechyLane - Tech Tutorials
 email: varun.bisht8@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Our site give you technical series releated to java, java related topics,
-  amazon S3. Our aim is to provide brief knowledge on these topics so that you can easily understand them.
+  Our site gives you technical series related to java, java related topics, amazon S3.
+  Our aim is to provide a brief knowledge on these topics so that you can easily understand them.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://techylane.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
