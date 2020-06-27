@@ -5,6 +5,7 @@ description: "Integrate SignUp Form(Subscribe) Using MailChimp"
 keywords: "mailchimp signup form,mailchimp create embedded form,mailchimp websites,how to setup mailchimp"
 category: "create a website"
 permalink: "/create-a-website/signUp-mailchimp"
+published: false
 image: "/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg"
 featureImage: "/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg"
 imgText: "Image by Biljana Jovanovic from Pixabay"
@@ -13,7 +14,7 @@ imgText: "Image by Biljana Jovanovic from Pixabay"
 
 In this Tutorial, we will talk about how we will integrate Sign Up Form on our website.
 
-This feature lets users Subscribe for latest updates. We are integrating this using MailChimp.
+This feature lets users subscribe for latest updates. We are integrating this using MailChimp.
 
 ## What is MailChimp
 
@@ -41,7 +42,7 @@ You can also target your audience by segmenting them.
 <div class="imgCont">
   <img alt="MailChimp SignUp Form" title="MailChimp SignUp Form" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form.png" />
 </div>
-- Step 4 - Go to Email box and verfiy your email address.
+- Step 4 - Go to Email box and verify your email address.
 - Step 5 - After verification and confirming you are human. You will see below screen. Choose Free Plan and Click Complete button.
 <div class="imgCont">
   <img alt="MailChimp Plans" title="MailChimp Plans" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-plans.png" />
@@ -54,11 +55,11 @@ You can also target your audience by segmenting them.
 <div class="imgCont">
   <img alt="MailChimp Tell Me Business" title="MailChimp Tell Me Business" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-tellme-business.png" />
 </div>
-- Step 8 - Now Enter your address details and phone number.
+- Step 8 - Now enter your address details and phone number.
 <div class="imgCont">
   <img alt="MailChimp Add Address" title="MailChimp Add Address" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-add-address.png" />
 </div>
-- Step 9 - Now Select suitable option and Continue.
+- Step 9 - Now select suitable option and Continue.
 <div class="imgCont">
   <img alt="MailChimp Contacts" title="MailChimp Contacts" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-contacts.png" />
 </div>
@@ -66,7 +67,7 @@ You can also target your audience by segmenting them.
 <div class="imgCont">
   <img alt="MailChimp Offer" title="MailChimp Offer" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-offer.png" />
 </div>
-- Step 11 - Subsctibe to the options and Click on Lets Go.
+- Step 11 - Subscribe to the options and click on Lets Go.
 <div class="imgCont">
   <img alt="MailChimp Subscribe Option" title="MailChimp Subscribe Option" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-subscribe-option.png" />
 	</div>
@@ -74,11 +75,11 @@ You have successfully able to sign up
 
 ### 2. Design Sign Up Form Code
 
-- Step 1 - Now Go to create option on the top-left corner. Select SignUpForm Option.
+- Step 1 - Now go to create option on the top-left corner and select SignUp Form Option.
 <div class="imgCont">
   <img alt="Mailchimp Create Signup Form" title="Mailchimp Create Signup Form" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-create-signup-form.png" />
 </div>
-- Step 2 - Select the form type and Click on Begin.
+- Step 2 - Select the Embedded form type and Click on Begin.
 <div class="imgCont">
   <img alt="Mailchimp Signup Form Type" title="Mailchimp Signup Form Type" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form-type.png" />
 </div>
@@ -86,7 +87,7 @@ You have successfully able to sign up
 
    I will go with Horizontal design.
 
-   You can change the form title. After Changing, copy code from screen
+   You can change the form title. After changing, copy code from screen
 {% highlight html %}{% raw %}
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -133,6 +134,9 @@ Now save your changes to Github Account.
 Now any users can subscribe for updates and you can expand your audience.
 
 You can see your subscribed users under **Audience section on MailChimp portal**.
+<div class="imgCont">
+  <img alt="MailChimp Audience Portal" title="MailChimp Audience Portal" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-audience-portal.png" />
+	</div>
 
 There are many other features and customization available-
 - But one you may wish to add is to confirm the email address of the subscriber.
@@ -147,4 +151,4 @@ For that, you need to enable double opt-in option.
 1. [For MailChimp](https://mailchimp.com "MailChimp")
 2. Explore MailChimp Portal
 
-**In the next tutorial**, we will talk about how you can share post to your audience(will automate process).
+**In the next tutorial**, we will talk about how you can share post to your audience whenever you create a post(will automate process).

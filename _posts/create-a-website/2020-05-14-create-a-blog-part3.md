@@ -5,6 +5,7 @@ description: "Create a blog Part 3- create a page to show all the blog posts"
 keywords: "Display all posts in the same page,list all posts jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part3"
+published: false
 image: "/assets/img/create-a-website/create-a-blog-part3/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part3/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"
@@ -18,7 +19,7 @@ imgText: "Photo by Miguel Á. Padriñán from Pexels"
    In PART 1 - we have created basic website using Jekyll. Before Going further, you need to read [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %})
 2. CREATE A BLOG FOR YOUR WEBSITE - PART 2
 
-   In PART 2 - we have created blog post for our website using Jekyll. Before Going further, you need to read [PART 2]({% post_url create-a-website/2020-05-13-create-a-blog-part2 %})
+   In PART 2 - we have created blog post for our website using Jekyll. Before going further, you need to read [PART 2]({% post_url create-a-website/2020-05-13-create-a-blog-part2 %})
 
 In this part i.e PART 3, we are going to create a page to show all the blog posts.
 
@@ -29,7 +30,7 @@ because when a user lands to your homepage, he/she needs a way to your blog post
 1. Create a blog.md file in base directory.
 2. Add blog link in navigation.md
 3. Instead of manually copying the post content to this page, Jekyll gives a feature to access all the posts in _post directory.
-This feature helps a lot in your future post development. You dont need to update post contaent everywhere. Just create a post and its done.
+This feature helps a lot in your future post development. You don't need to update post content everywhere. Just create a post and it's done.
 4. Design this page.
 
 ### So lets start -
@@ -41,7 +42,7 @@ This feature helps a lot in your future post development. You dont need to updat
   <a class="nav-link" href="/blog">BLOG</a>
  </li>
 {% endraw %}{% endhighlight %}
-- Now add Front Matters like title, description, permalink in blog.md and copy the HTML code.
+- Now add Front Matters like title, description, permalink in blog.md and copy the HTML code. We are using post layout for this file.
 {% highlight html %}{% raw %}
 ---
 layout: post
@@ -72,17 +73,16 @@ description: "This Page contains cooking recipe posts"
 - Here, apart from HTML code, there are Jekyll variables and Jekyll Liquid.
 
    **Jekyll Variables** - Jekyll provides some default variables related to post and site. Here we are using
-
-   - **site.posts**- A reverse chronological list of all Posts.
+   - **site.posts**- A reverse chronological list of all posts.
    - **post.url**- The URL of the post without the domain, but with a leading slash, e.g. /2008/12/14/my-post.html.
-   - **post.date**- The date assigned to the Post. This can be overridden in a post’s front matter by specifying a new date/time in the format.
+   - **post.date**- The date assigned to the post. This can be overridden in a post’s front matter by specifying a new date/time in the format.
    - **post.description** - description of the post
    - **post.author** - author of the post
    - **post.blogImg** - image for the blog
 
 You can also create your own front Matter and used to display information.
 
-   **Jekyll Liquid** - lets you output content using two curly braces. For Eg - {% highlight html %}{% raw %}{{variable}}{% endraw %}{% endhighlight %}
+   **Jekyll Liquid** - lets you output content of variable using two curly braces. For Eg - {% highlight html %}{% raw %}{{variable}}{% endraw %}{% endhighlight %}
 
 - CSS for this page -
 
@@ -119,7 +119,7 @@ Now save or push changes to the github Account.
   <img alt="save blog part 3" title="save blog part 3" src="/assets/img/create-a-website/create-a-blog-part3/save-blog3.png"/>
 </div>
 
-Now we are successfully able to create a blog and ready to publish posts but there is one thing missing i.e **user engagement**.
+Now we are successfully able to create a blog and ready to publish posts but there is one feature missing i.e **user engagement**.
 
 We have dedicated further tutorials for this.
 

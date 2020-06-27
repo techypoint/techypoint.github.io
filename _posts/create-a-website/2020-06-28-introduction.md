@@ -16,8 +16,8 @@ I am gonna create a website from scratch to full featured in this series.
 After that, we will learn how to earn money by integrating Google Adsense.
 
 This series helps you in -
-1. Create a website for free (with limited feature), i will call it as **FREE** website
-2. Website with almost all necessary features (requires some money) - I will call it as **PAID** website
+1. Create a website for free (with limited feature), I will call it as **FREE** website
+2. Website with almost all necessary features (requires some money), I will call it as **PAID** website
 
 **Note** - This series will not focus on designing Website.
 
@@ -43,7 +43,7 @@ This series helps you in -
 ## What knowledge you require for this series
 - Github
 - Jekyll  
-- HTLM, CSS
+- HTML, CSS
 - your favourite IDE
 
 If you dont know above skills, dont worry we will teach you basic things about them and believe me its easy.
@@ -90,7 +90,7 @@ In my opinion, build a **FREE** website(which we will tell you how) and then dec
 12. Integrate Sign Up Form(Subscribe Form) Using MailChimp
 13. Share Post to Subscribers Automatically
 
-You can skip to any tutorial if you want, but i will recommend to watch series tutorial by tutorial as they are linked to each other.
+You can skip to any tutorial if you want, but I will recommend to watch series tutorial by tutorial as they are linked to each other.
 
 At the end of each tutorial, we will provide you some reference for that tutorial for your further study.
 We are able to create website in a week, lets see how it works for you.

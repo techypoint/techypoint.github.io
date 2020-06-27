@@ -4,17 +4,19 @@ author: "Varun Bisht"
 description: "Use Custom Domain For Github Pages and Enable HTTPS"
 keywords: "github pages custom domain ip,github pages custom domain https,github pages custom domain godaddy,use your own domain name github pages,github pages custom domain name,github pages cname file"
 category: "create a website"
+date: 2020-05-10 08:00:00
 permalink: "/create-a-website/custom-domain-for-github-pages"
+published: false
 image: "/assets/img/create-a-website/custom-domain-for-github-pages/custom_domain.jpg"
 featureImage: "/assets/img/create-a-website/custom-domain-for-github-pages/custom_domain.jpg"
 imgText: "By Santeri Viinamäki"
 ---
 # Add Custom Domain To Github Pages
 
-If you dont like your domain which ends with github.io. Then you can purchase a domain from domain providers and add it in Github Pages.
+If you don't like your domain which ends with github.io. Then you can purchase a domain from domain providers and add it in Github Pages.
 Custom domain basically adds to your brand value and later you can easily switch to other web hosting providers.
 
-What we will do -
+### What we will do -
 1. Buy a domain from domain providers
 2. Integrate this domain for Github Pages
 3. Create A and CNAME record in your DNS Provider DNS Setting
@@ -63,9 +65,9 @@ Below is the screenshot of GoDaddy Domain Setting-
 
 Sometimes, these changes takes times to reflect so dont worry.
 
-After these stpes, Search website using custom domanin and it works perfectly.
+After these stpes, Search website using custom domain and it works perfectly.
 
-In Further tutorials, We are using gitub.io domain but you can use your custom domain.
+In Further tutorials, We are using github.io domain but you can use your custom domain.
 
 ### Further Study Material
 1. Buy Domain- Youtube

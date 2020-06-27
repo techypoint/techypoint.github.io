@@ -5,6 +5,7 @@ description: "Create a blog Part 2- creating post using Jekyll"
 keywords: "jekyll post,create a blog google,how to create a blog for free,free blog,how to start a blog"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part2"
+published: false
 image: "/assets/img/create-a-website/create-a-blog-part2/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part2/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"
@@ -15,18 +16,21 @@ imgText: "Photo by Miguel Á. Padriñán from Pexels"
 
 1. CREATE A BLOG FOR YOUR WEBSITE - PART 1
 
-   In PART 1 - we have created basic website using Jekyll. Before Going further, you need to read [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %})
+   In PART 1 - we have created basic website using Jekyll. Before going further, you need to read [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %})
 
-In this part i.e PART 2, we are going to create Blog Posts for our website.
+In this part i.e PART 2, we are going to create blog posts for our website.
 
-### So lets start -
+### Basic Structue of the blog looks like-
+<div class="imgCont">
+  <img alt="Blog Structue" title="Blog Structue" src="/assets/img/create-a-website/create-a-blog-part2/blog_structure.png"/>
+</div>
 
 In the project, there is a _posts folder which will contains all the blog posts.
 There is already a post created by Jekyll for your reference.
 
-Lets understand the basics of Blog Post
+Lets understand the basics of blog post
 
-Open file, you will see something like this -
+Open post file, you will see something like this -
 {% highlight html %}{% raw %}
 ---
 layout: post
@@ -44,15 +48,15 @@ Here, this blog post is using
 
 Theses key value pairs between triple-dashed lines are called **Front Matters**.
 
-There are many default Front Matter provided by Jekyll which you can use. Link is available in Further Study Material
+There are many default Front Matter provided by Jekyll which you can use. Link is available in **Further Study Material**.
 
 What we need to create a non veg category recipe blog post
 - We will create a custom layout named post.md just like home.md in _layouts folder.
 - Rename file from 2020-06-12-welcome-to-jekyll.markdown to 2020-06-12-butterChicken.markdown
    - File Name should be in this format only - YYYY-MM-DD-name-here.md
-- We need to provide URL to the post using permalink front matter.
-- Then We will modify other Front Matters for our post like title, date and categories.
-- Write blog post
+- We need to provide URL to the post using **permalink** front matter.
+- Then we will modify other Front Matters for our post like title, date and categories.
+- At last, write blog post
 
 ### So lets start -
 - create post.md in _layouts folder and lets create a layout which has navigation and footer and in between your blog content.
@@ -162,18 +166,17 @@ blogImg: "/assets/img/non-veg/butterChicken.jpg"
 {% endraw %}{% endhighlight %}
    - author and blogImg are Custom Front Matters and we will use them in next tutorial.
 
-- write blog - this need to be done by you
-You can use markdown language to write heading, inserting images and links. Its very simple.
+- write blog - this need to be done by you. You can use markdown language to write heading, inserting images and links. Its very simple.
 For Eg- To write heading, you can use- # Butter Chicken Recipe
 
-Noy you can access this post at [http://localhost:4000/non-veg/butterChicken](http://localhost:4000/non-veg/butterChicken "http://localhost:4000/non-veg/butterChicken")
+You can delete old files which we created in [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %}), I am renaming to filename_old so that these files are available to you for reference.
 
 Now save or push changes to Github Account.
 <div class="imgCont">
   <img alt="Save Post" title="Save Post" src="/assets/img/create-a-website/create-a-blog-part2/save_post.png" />
 </div>
 
-You can delete old files which we created in PART 1, I am renaming to filename_old so that these files are available to you for reference.
+Now you can access this post at [Butter Chicken Recipe](https://vbisht7038.github.io/non-veg/butterChicken "Butter Chicken Recipe")
 
 In part 2, we are successfully able to create a blog post.
 

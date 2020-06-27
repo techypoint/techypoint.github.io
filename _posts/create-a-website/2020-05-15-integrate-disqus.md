@@ -5,6 +5,7 @@ description: "Integrate Comment Box On Blog Post Using Disqus"
 keywords: "disqus jekyll,disqus blog,disqus integration,disqus comments,add comments to jekyll blog"
 category: "create a website"
 permalink: "/create-a-website/comment-disqus"
+published: false
 image: "/assets/img/create-a-website/comment-disqus/comment.jpg"
 featureImage: "/assets/img/create-a-website/comment-disqus/comment.jpg"
 imgText: "Image by Werner Moser from Pixabay"
@@ -15,7 +16,7 @@ In this tutorial, we will create comment box using Disqus so that others can sha
 
 ### What we will do-
 1. Sign Up On Disqus.
-2. Integrate Code in our website.
+2. Integrate code in our website.
 
 ### 1. Sign Up
 - Step 1 - Go to [Disqus](https://disqus.com "Disqus")
@@ -43,7 +44,7 @@ In this tutorial, we will create comment box using Disqus so that others can sha
 <div class="imgCont">
   <img alt="Disqus Platform option" title="Disqus Platform option" src="/assets/img/create-a-website/comment-disqus/disqus-platform.png" />
 </div>
-- Step 8 - In this screen, you will see how to Integrate code in your website and video instruction is also available.
+- Step 8 - In this screen, we will see how to Integrate code in our website and video instruction is also available.
 
 ### 2. Integrate Code
 
@@ -77,7 +78,7 @@ s.setAttribute('data-timestamp', +new Date());
   margin-top: 50px;
 }
 {% endraw %}{% endhighlight %}
-- Step 3 - Now replace below lines for page identification.
+- Step 3 - Now replace below lines for page identification so that Disqus can easily identify comment box is located on which page.
 {% highlight html %}{% raw %}
 this.page.url = "{{ page.url || prepend: site.url}}";
 this.page.identifier = "{{ page.url }}";

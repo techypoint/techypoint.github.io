@@ -4,16 +4,17 @@ author: "Varun Bisht"
 description: "Create Github Account and Repository"
 keywords: "how to create github repository,how to create github account and repository,git account setup,create git repository on github"
 category: "create a website"
+published: false
 permalink: "/create-a-website/create-github-account"
 image: "/assets/img/create-a-website/create-github-account/github.png"
 featureImage: "/assets/img/create-a-website/create-github-account/github.png"
 ---
 # Create Hosting Using Github
 
-In this tutorial, we learn about Github, how to create account on github and create place i.e repository to push or save our code(website code).
+In this tutorial, we will learn about Github, how to create account on Github and create place i.e repository to push or save our code(website code).
 
 ## What is Github?
-Github is a platform where you can host your code, projects (website in our case).
+Github is a platform where you can host your code, projects(website in our case).
 It ranges from open source and also fits for business.
 
 ## To Create Github Account
@@ -37,13 +38,13 @@ It ranges from open source and also fits for business.
 <div class="imgCont">
   <img alt="Verify Email Address" title="Verify Email Address" src="/assets/img/create-a-website/create-github-account/verify-email-address.png"/>
 </div>
-- Step 7 - Now verfiy by clicking on the link you get in email box. After clicking on link, you will get below screen.
+- Step 7 - Now verify by clicking on the link you get in email box. After clicking on link, you will get below screen.
 <div class="imgCont">
   <img alt="GitHub Skip Now" title="GitHub Skip Now" src="/assets/img/create-a-website/create-github-account/github-skip-now.png"/>
 </div>
 - Step 8 - Choose skip for now option.
 
-You have successfully created your Github acount.
+You have successfully created your Github account.
 
 ## Create repository on Github
 
@@ -56,7 +57,7 @@ You have successfully created your Github acount.
 <div class="imgCont">
   <img alt="Create Repository Screen" title="Create Repository Screen" src="/assets/img/create-a-website/create-github-account/create_repository_screen.png"/>
 </div>
-In this screen, Enter Repository name in the same format i have filled.
+In this screen, Enter Repository name in the same format we have filled.
 
   Later, your website can be accessed by this domain name.
 
@@ -71,10 +72,9 @@ Now you are successfully able to create your repository.
 
 In this tutorial, we learned about Github and how to create repository.
 
-
 ### Further Study Material
 1. For Github - [Github](https://github.com "For GitHub")
 2. To create repository - [Creating a new repository](https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository "To create Repository")
 
 
-**In the next tutorial**, we will learn how to get and save website code to the github account.
+**In the next tutorial**, we will learn how to get and save website code to the Github account.

@@ -5,6 +5,7 @@ description: "Integrate Contact Us Page Using FormsPree"
 keywords: "formspree signup,formspree create account,html contact form send email,how to use formspree,send email from static website"
 category: "create a website"
 permalink: "/create-a-website/contact-mail"
+published: false
 image: "/assets/img/create-a-website/contact-mail/contact.jpg"
 featureImage: "/assets/img/create-a-website/contact-mail/contact.jpg"
 imgText: "Image by Gerd Altmann from Pixabay"
@@ -32,7 +33,7 @@ FormsPree lets you insert mail functionality in your website.
 </div>
 - Step 4 - Click on Register.
 - Step 5 - Now go to your email inbox and verify your email address.
-- Step 6 - After verfiication, you get this screen.
+- Step 6 - After verification, you will get this screen.
 <div class="imgCont">
   <img alt="FormsPree Inbox" title="FormsPree Inbox" src="/assets/img/create-a-website/contact-mail/formspree_inbox.png"/>
 </div>
@@ -104,6 +105,6 @@ You can check mails in the Submission tab of your Form.
 <a href="https://github.com/vbisht7038/vbisht7038.github.io.git">Click to get the full Implementation of this tutorial on Github</a>
 
 ### Further Study Material
-1. For FormsPree, you can check other functionalies on your formspree account- https://formspree.io/
+1. For FormsPree, you can check other features on your formspree account- [FormsPree](https://formspree.io "FormsPree")
 
 **In the next tutorial**, we will focus on how to create blogs for our website.

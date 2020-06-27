@@ -4,7 +4,9 @@ author: "Varun Bisht"
 description: "Design cool Home Page for the website."
 keywords: "html web page design examples,html code for website design,how to create a webpage using html and css,website layout examples"
 category: "create a website"
+date: 2020-05-10 07:00:00
 permalink: "/create-a-website/homepage-design"
+published: false
 image: "/assets/img/create-a-website/homepage-design/design.jpg"
 featureImage: "/assets/img/create-a-website/homepage-design/design.jpg"
 imgText: "Photo by Edho Pratama on Unsplash"

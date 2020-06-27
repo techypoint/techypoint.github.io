@@ -5,6 +5,7 @@ description: "Create a blog Part 1- Jekyll and Github"
 keywords: "jekyll github,jekyll new blog,install jekyll,blog github markdown,building a blog with jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part1"
+published: false
 image: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"
@@ -13,12 +14,12 @@ imgText: "Photo by Miguel Á. Padriñán from Pexels"
 
 Till now, we have created a website(hompage + about us + contact us).
 
-But some of you are looking to Integrate blogging or to start blogging. So this tutorial is for those who wants to create a blog website.
+But some of you are looking to integrate blogging or to start blogging. So this tutorial is for those who wants to create a blog website.
 
 I have divided this blog into three parts -
-PART 1 - We first create a new Jekyll project and then move all the things we have build till now to this project.
-PART 2 - We will create blog posts for your website.
-PART 3 - Show all the blog post on the page so that people can navigate it.
+- PART 1 - We first create a new Jekyll project and then move all the things we have build till now to this project.
+- PART 2 - We will create blog posts for our website.
+- PART 3 - Show all the blog post on the page so that users can navigate.
 
 **Note**- If you are just looking for website not blogs. Then you can skip this tutorial for now and continue with further tutorials.
 But Jekyll knowledge is required for further tutorials.
@@ -33,11 +34,12 @@ We will be using Jekyll which is compatible with github and easy to learn.
 Jekyll also has free plugins which later simplifies and fast your development.
 Trust me, its very easy.
 
-You can use any other tool which is suitable to you but we are going to use Jekyll in further tutorial for development (as it makes development easy and fast).
+You can use any other tool which is suitable to you but we are going to use Jekyll in further tutorials for development (as it makes development easy and fast).
 
 So before going further, Jekyll knowledge is required.
+
 **Recommendation** - Please watch Jekyll tutorials as it is necessary for futher tutorials.
-I have provided some Jekyll Video tutorials in Further Study Material.
+I have provided some Jekyll video tutorials in **Further Study Material**.
 
 ### So lets start -
 
@@ -48,7 +50,10 @@ I have provided some Jekyll Video tutorials in Further Study Material.
 3. Check jekyll is installed or not
    - jekyll -v
 
-Link is provided for installation on other systems in Further Study Material.
+<div class="imgCont">
+  <img alt="Jekyll New Project" title="Jekyll New Project" src="/assets/img/create-a-website/create-a-blog-part1/install_jekyll.png"/>
+</div>
+Link is provided for installation on other systems in **Further Study Material**.
 
 After Installing Ruby and Jekyll, now creates a Jekyll project.
 
@@ -78,7 +83,7 @@ We are creating separate file for them so that they can be easily integrate in o
 Project structure we are going to create-
 
 <div class="imgCont">
-  <img alt="Jekyll Demo Page" title="Jekyll Demo Page" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png"/>
+  <img alt="Jekyll Project Structure" title="Jekyll Project Structure" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png"/>
 </div>
 
 - Create _layouts folder in the base directory.
@@ -104,7 +109,10 @@ Create navigation.md and cut and paster navigation HTML code and then include
 - Now create assets folder - all static files will be kept here
 - then copy img, css and js folder inside assets folder.
 - change image,css and js path in .md files
-   - from to src=”img/ to src="{{ "/assets/img/logo.jpg" | prepend: site.url}}
+   - from to src=”img/logo_red.png to
+   {% highlight html %}{% raw %}
+   src="{{ "/assets/img/logo.jpg" | prepend: site.url}}
+   {% endraw %}{% endhighlight %}
    - from href="css/ to href="/assets/css/
    - from src="js/ to src="/assets/js/
    - from href="#aboutus" to href="/#aboutus"
@@ -125,7 +133,7 @@ For git commands, Take a look at our [Git Use Tutorial]({% post_url create-a-web
   <img alt="Recreate Website Push" title="Recreate Website Push" src="/assets/img/create-a-website/create-a-blog-part1/recreate_website_push.png"/>
 </div>
 
-You can check your website and it needs to be work perfectly.
+You can check website and it needs to be work perfectly.
 
 In Part 1, we are successfully able to recreate our website using Jekyll.
 
@@ -136,4 +144,4 @@ In Part 1, we are successfully able to recreate our website using Jekyll.
 2. For Jekyll - [Jekyll Youtube Playlist](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB "Jekyll Youtube Playlist")
 3. [Jekyll directory structure](https://jekyllrb.com/docs/structure/ "Jekyll directory structure")
 
-**In Part 2**, we are going to crate Blog Posts using Jekyll.
+**In Part 2**, we are going to create Blog Posts using Jekyll.
