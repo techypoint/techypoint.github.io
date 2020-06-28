@@ -76,7 +76,7 @@ I personally not recommend it as -
 In my opinion, build a **FREE** website(which we will tell you how) and then decide to invest money on the basis of response.
 
 ### This Series comprises -
-1. Introduction
+1. [Introduction]({% post_url create-a-website/2020-06-28-introduction %} "Introduction")
 2. Website Basics
 3. Create Github Account
 4. How to Use Git
