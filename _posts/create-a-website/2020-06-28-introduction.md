@@ -77,8 +77,8 @@ In my opinion, build a **FREE** website(which we will tell you how) and then dec
 
 ### This Series comprises -
 1. [Introduction]({% post_url create-a-website/2020-06-28-introduction %} "Introduction")
-2. Website Basics
-3. Create Github Account
+2. [Website Basics]({% post_url create-a-website/2020-06-28-basics %} "Website Basics")
+3. [Create Github Account]({% post_url create-a-website/2020-06-28-create-github-account %} "Create Github Account")
 4. How to Use Git
 5. HomePage Design
 6. Use Custom Domain For Github Pages
