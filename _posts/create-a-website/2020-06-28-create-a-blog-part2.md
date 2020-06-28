@@ -5,7 +5,7 @@ description: "Create a blog Part 2- creating post using Jekyll"
 keywords: "jekyll post,create a blog google,how to create a blog for free,free blog,how to start a blog"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part2"
-published: false
+date: 2020-06-28 18:10:00 pm
 image: "/assets/img/create-a-website/create-a-blog-part2/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part2/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"
@@ -16,7 +16,7 @@ imgText: "Photo by Miguel Á. Padriñán from Pexels"
 
 1. CREATE A BLOG FOR YOUR WEBSITE - PART 1
 
-   In PART 1 - we have created basic website using Jekyll. Before going further, you need to read [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %})
+   In PART 1 - we have created basic website using Jekyll. Before going further, you need to read [PART 1]({% post_url create-a-website/2020-06-28-create-a-blog-part1 %})
 
 In this part i.e PART 2, we are going to create blog posts for our website.
 
@@ -169,7 +169,7 @@ blogImg: "/assets/img/non-veg/butterChicken.jpg"
 - write blog - this need to be done by you. You can use markdown language to write heading, inserting images and links. Its very simple.
 For Eg- To write heading, you can use- # Butter Chicken Recipe
 
-You can delete old files which we created in [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %}), I am renaming to filename_old so that these files are available to you for reference.
+You can delete old files which we created in [PART 1]({% post_url create-a-website/2020-06-28-create-a-blog-part1 %}), I am renaming to filename_old so that these files are available to you for reference.
 
 Now save or push changes to Github Account.
 <div class="imgCont">

@@ -5,7 +5,7 @@ description: "Create a blog Part 1- Jekyll and Github"
 keywords: "jekyll github,jekyll new blog,install jekyll,blog github markdown,building a blog with jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part1"
-published: false
+date: 2020-06-28 18:00:00 pm
 image: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"
@@ -123,7 +123,7 @@ Now you have just recreated your website in Jekyll project.
 
 ### PUSH WEBSITE TO GITHUB
 
-For git commands, Take a look at our [Git Use Tutorial]({% post_url create-a-website/2020-05-09-git-use %})
+For git commands, Take a look at our [Git Use Tutorial]({% post_url create-a-website/2020-06-28-git-use %})
 
 1. Create this directory as Git directory.
 2. Then add git repository url which you previously created.

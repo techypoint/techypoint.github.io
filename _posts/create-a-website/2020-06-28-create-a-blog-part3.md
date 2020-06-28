@@ -5,7 +5,7 @@ description: "Create a blog Part 3- create a page to show all the blog posts"
 keywords: "Display all posts in the same page,list all posts jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part3"
-published: false
+date: 2020-06-28 18:20:00 pm
 image: "/assets/img/create-a-website/create-a-blog-part3/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part3/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"
@@ -16,10 +16,10 @@ imgText: "Photo by Miguel Á. Padriñán from Pexels"
 
 1. CREATE A BLOG FOR YOUR WEBSITE - PART 1
 
-   In PART 1 - we have created basic website using Jekyll. Before Going further, you need to read [PART 1]({% post_url create-a-website/2020-05-12-create-a-blog-part1 %})
+   In PART 1 - we have created basic website using Jekyll. Before Going further, you need to read [PART 1]({% post_url create-a-website/2020-06-28-create-a-blog-part1 %})
 2. CREATE A BLOG FOR YOUR WEBSITE - PART 2
 
-   In PART 2 - we have created blog post for our website using Jekyll. Before going further, you need to read [PART 2]({% post_url create-a-website/2020-05-13-create-a-blog-part2 %})
+   In PART 2 - we have created blog post for our website using Jekyll. Before going further, you need to read [PART 2]({% post_url create-a-website/2020-06-28-create-a-blog-part2 %})
 
 In this part i.e PART 3, we are going to create a page to show all the blog posts.
 

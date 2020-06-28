@@ -5,7 +5,7 @@ description: "Integrate SignUp Form(Subscribe) Using MailChimp"
 keywords: "mailchimp signup form,mailchimp create embedded form,mailchimp websites,how to setup mailchimp"
 category: "create a website"
 permalink: "/create-a-website/signUp-mailchimp"
-published: false
+date: 2020-06-28 19:00:00 pm
 image: "/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg"
 featureImage: "/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg"
 imgText: "Image by Biljana Jovanovic from Pixabay"

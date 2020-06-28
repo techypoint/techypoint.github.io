@@ -79,16 +79,16 @@ In my opinion, build a **FREE** website(which we will tell you how) and then dec
 1. [Introduction]({% post_url create-a-website/2020-06-28-introduction %} "Introduction")
 2. [Website Basics]({% post_url create-a-website/2020-06-28-basics %} "Website Basics")
 3. [Create Github Account]({% post_url create-a-website/2020-06-28-create-github-account %} "Create Github Account")
-4. How to Use Git
-5. HomePage Design
-6. Use Custom Domain For Github Pages
-7. Integrate Contact Us Form Using FormsPree
-8. Create A Blog PART 1 - Jekyll Project
-9. Create A Blog PART 2 - Create Blog Post
-10. Create A Blog PART 3 - Show All Blog Posts
-11. Integrate Comment Box Using Disqus
-12. Integrate Sign Up Form(Subscribe Form) Using MailChimp
-13. Share Post to Subscribers Automatically
+4. [How to Use Git]({% post_url create-a-website/2020-06-28-git-use %} "How to Use Git")
+5. [HomePage Design]({% post_url create-a-website/2020-06-28-homepage-design %} "HomePage Design")
+6. [Use Custom Domain For Github Pages]({% post_url create-a-website/2020-06-28-custom-domain-for-github-pages %} "Use Custom Domain For Github Pages")
+7. [Integrate Contact Us Form Using FormsPree]({% post_url create-a-website/2020-06-28-integrate-formspree %} "Integrate Contact Us Form Using FormsPree")
+8. [Create A Blog PART 1 - Jekyll Project]({% post_url create-a-website/2020-06-28-create-a-blog-part1 %} "Create A Blog PART 1 - Jekyll Project")
+9. [Create A Blog PART 2 - Create Blog Post]({% post_url create-a-website/2020-06-28-create-a-blog-part2 %} "Create A Blog PART 2 - Create Blog Post")
+10. [Create A Blog PART 3 - Show All Blog Posts]({% post_url create-a-website/2020-06-28-create-a-blog-part3 %} "Create A Blog PART 3 - Show All Blog Posts")
+11. [Integrate Comment Box Using Disqus]({% post_url create-a-website/2020-06-28-integrate-disqus %} "Integrate Comment Box Using Disqus")
+12. [Integrate Sign Up Form(Subscribe Form) Using MailChimp]({% post_url create-a-website/2020-06-28-sign-up-mailchimp %} "Integrate Sign Up Form(Subscribe Form) Using MailChimp")
+13. [Share Post to Subscribers Automatically]({% post_url create-a-website/2020-06-28-share-post %} "Share Post to Subscribers Automatically")
 
 You can skip to any tutorial if you want, but I will recommend to watch series tutorial by tutorial as they are linked to each other.
 
