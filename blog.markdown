@@ -1,7 +1,7 @@
 ---
 layout: blog
 permalink: /blog/
-description: "This  Page contains blogs related to java, java blogs, amazon S3 blogs"
+description: "This Page contains blogs related to java, java blogs, amazon S3 blogs"
 ---
 <div id="blog-posts">
 <div class="grid-container">

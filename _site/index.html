@@ -1,134 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="google-site-verification" content="2552ysw8xadzie_z1W191DP3y06hZWYhA40ULvZFRFk" />
-  <meta name="keywords" content="java, java Tutorials, amazon S3 Tutorials" >
+  <meta name="keywords" content="java, java Tutorials, amazon S3 Tutorials">
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>TechyLane - Tech Tutorials | Our site give you technical series releated to java, java related topics, amazon S3. Our aim is to provide brief knowledge on these topics so that you can easily understand them.</title>
+<title>TechyLane - Tech Tutorials | Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="TechyLane - Tech Tutorials" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Our site give you technical series releated to java, java related topics, amazon S3. Our aim is to provide brief knowledge on these topics so that you can easily understand them." />
-<meta property="og:description" content="Our site give you technical series releated to java, java related topics, amazon S3. Our aim is to provide brief knowledge on these topics so that you can easily understand them." />
+<meta name="description" content="Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them." />
+<meta property="og:description" content="Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them." />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="TechyLane - Tech Tutorials" />
 <script type="application/ld+json">
-{"headline":"TechyLane - Tech Tutorials","@type":"WebSite","url":"http://localhost:4000/","name":"TechyLane - Tech Tutorials","description":"Our site give you technical series releated to java, java related topics, amazon S3. Our aim is to provide brief knowledge on these topics so that you can easily understand them.","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/","name":"TechyLane - Tech Tutorials","description":"Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.","headline":"TechyLane - Tech Tutorials","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="icon" type="image/x-icon" href="http://localhost:4000/assets/img/favicon.ico" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
   <!-- // for subscribe -->
-   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KWR5GVFG7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6KWR5GVFG7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-6KWR5GVFG7');
-</script>
+    gtag('config', 'G-6KWR5GVFG7');
+  </script>
 </head>
+
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/#"><img alt="techylane logo" src="http://localhost:4000/assets/img/logo.jpg"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-      <span class="navbar-toggle-icon"><i class="fa fa-bars fa-1x"></i></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/blog">BLOG</a>
+  <header class="header-section">
+  <div class="container flex">
+    <a class="logo relative" href="/#">
+      <img alt="techylane logo" class="object-fit" src="http://localhost:4000/assets/img/logo.jpg">
+    </a>
+    <ul class="menu-links flex fcenter">
+      <li class="menu-item flex fcenter">
+        <a class="nav-link f14" href="/blog">Blog</a>
+      </li>
+      <li class="menu-item flex fcenter">
+        <a class="nav-link f14" href="/contact-us">Contact Us</a>
+      </li>
+      <li class="menu-item flex fcenter">
+        <a class="nav-link f14" href="/about-us">
+            About Us
+        </a>
+      </li>
+    </ul>
+    <div class="subscribe">
+      <button class="subs-btn">Subscribe</button>
+    </div>
+  </div>
+</header>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="icon-search" viewBox="0 0 20 20" width="20" height="20">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0401 13.253C11.71 14.4174 9.96816 15.1231 8.06152 15.1231C3.88541 15.1231 0.5 11.7376 0.5 7.56153C0.5 3.38541 3.88541 0 8.06152 0C12.2376 0 15.623 3.38541 15.623 7.56153C15.623 9.46816 14.9174 11.21 13.753 12.54L18.5 17.2871L17.7871 18L13.0401 13.253ZM14.6148 7.56153C14.6148 11.1808 11.6808 14.1149 8.06152 14.1149C4.44222 14.1149 1.5082 11.1808 1.5082 7.56153C1.5082 3.94223 4.44222 1.0082 8.06152 1.0082C11.6808 1.0082 14.6148 3.94223 14.6148 7.56153Z"></path>
+  </symbol>
+  <symbol viewBox="0 0 31 23" id="check-mark" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M26.1241 0L30.089 3.95878L11.3238 22.753L0.911133 12.3242L4.87603 8.36539L11.3231 14.8226L26.1241 0Z"
+      fill="#64B305" />
+  </symbol>
+</svg>
+  <section class="latest-posts flex">
+    <div class="container">
+      <ul class="latest-posts-list">
+        <li class="post-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section">
+            <p class="category">Create Website</p>
+            <h2 class="heading">Share Post Updates Using MailChimp Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by sending post straight to contacts inboxes.  we will teach you how you can share blog updates automatically by sending post straight to contacts inboxes.</p>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#aboutus">About Me</a>
+        <li class="post-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section">
+            <p class="category">Create Website</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
+          </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#contactus">Contact Us</a>
+        <li class="post-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section">
+            <p class="category">Create Website</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
+          </div>
+        </li>
+        <li class="post-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section">
+            <p class="category">Create Website</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
+          </div>
         </li>
       </ul>
     </div>
-  </div>
-</nav>
-
-
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
-          <h1 class="font-weight-light">Check out the latest tech blogs</h1>
-          <a class="lead" href="blog">EXPLORE</a>
-        </div>
+  </section>
+  <section class="read-all-blogs">
+    <div class="container">
+      <div class="content-section">
+        <h1 class="font-weight-light">Check out the latest tech blogs</h1>
+        <a class="lead" href="blog">EXPLORE ALL</a>
       </div>
     </div>
-  </header>
-
-<section id="aboutus">
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="img-wrap">
-        <img alt="varun profile pic" src="assets/img/profile.jpg">
-      </div>
+  </section>
+  <section class="blog-categories flex">
+    <div class="container">
+      <ul class="categories-list flex">
+        <li class="categories-item">
+          <a class="cat-lnk">Create a Website</a>
+        </li>
+        <li class="categories-item">
+            <a class="cat-lnk">Amazon S3</a>
+        </li>
+        <li class="categories-item">
+            <a class="cat-lnk">Amazon S3</a>
+        </li>
+      </ul>
     </div>
-  <div class="col-sm-8">
-    <h2>Varun Bisht</h2>
-    <h4>Software Developer</h4>
-    <p></p>
-    <p>I have been working in IT industry for around 5 years with technologies related to Java.</p>
-    <p>While building applications, there are topics which need detailed research which takes a lot of time and effort of the developer.</p>
-    <p>So to save time and effort of the developers, I will try to provide detailed knowledge of these topics through this platform.</p>
-    <p>I hope my blogs will help you and save your time.</p>
-  </div>
-</div>
-</div>
-</section>
-<section id="contactus">
-  <h2>FEEL FREE TO CONTACT</h2>
-  <div class="container-fluid">
-    <div class="row">
-        <form autocomplete="off" action="https://formspree.io/mvowkjdn" method="POST">
-          <div class="row upper-half" >
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="name-cont">
-          <input type="text" id="name" name="name" placeholder="NAME" required>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="email-cont">
-          <input type="email" id="email" name="_replyto" placeholder="EMAIL" required>
+  </section>
+  <section class="trending-blogs">
+    <div class="container">
+      <ul class="trending-list flex">
+        <li class="trending-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section flex">
+            <p class="category">Create Website</p>
+            <p class="s-date">Jul 01, 2020</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
           </div>
+        </li>
+        <li class="trending-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section flex">
+            <p class="category">Create Website</p>
+            <p class="s-date">Jul 01, 2020</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
           </div>
-          <div id="message-cont">
-          <textarea id="message" rows="7" name="message" placeholder="MESSAGE" required></textarea>
+        </li>
+        <li class="trending-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section flex">
+            <p class="category">Create Website</p>
+            <p class="s-date">Jul 01, 2020</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
           </div>
-          <div id="submit-cont">
-            <input type="submit" value="Send Mail">
+        </li>
+        <li class="trending-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section flex">
+            <p class="category">Create Website</p>
+            <p class="s-date">Jul 01, 2020</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
           </div>
-        </form>
-  </div>
-  </div>
-</section>
+        </li>
+        <li class="trending-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section flex">
+            <p class="category">Create Website</p>
+            <p class="s-date">Jul 01, 2020</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
+          </div>
+        </li>
+        <li class="trending-item">
+          <figure class="image-section relative">
+            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+          </figure>
+          <div class="lower-section flex">
+            <p class="category">Create Website</p>
+            <p class="s-date">Jul 01, 2020</p>
+            <h2 class="heading">Share Post Updates Using MailChimp</h2>
+            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
+              sending post straight to contacts inboxes.</p>
+          </div>
+        </li>
+      </ul>
 
-
-<footer>
-  <div class="container-fluid padding">
-    <div class="row text-center">
-
-      <div class="address col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-        <h4>Address:</h4>
-        <p>B-10/85, Sector-18</p>
-        <p>Rohini, Delhi-110089</p>
-      </div>
-
-      <div class="col-xs-6 col-sm-6 col-md-9 col-lg-9 col-xl-10">
-        
+    </div>
+  </section>
+  <section class="newsletter relative">
+    <figure class="image-section relative">
+      <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+    </figure>
+    <div class="news-container relative flex">
+        <div class="container flex">
+            <h2 class="heading">Get our Tech Newsletter Weekly</h2>
+            
 <div id="mc_embed_signup">
 <form action="https://techylane.us10.list-manage.com/subscribe/post?u=fa810139fe7202797f523cfd3&amp;id=7b0b586fcc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
@@ -141,15 +243,43 @@
 </form>
 </div>
 
-      </div>
-
+          </div>
     </div>
-  </div>
+  </section>
+  <section id="aboutus" class="who-we-are">
+    <div class="container flex">
+      <h2 class="heading">We at TechyLane write blogs to help technical people solve their technical queries</h2>
+      <ul class="item-list">
+        <li class="item flex">
+          <svg class="svg-icon">
+            <use xlink:href="#icon-search" />
+          </svg>
+          <p>Deliver Richful Content</p>
+        </li>
+        <li class="item flex">
+          <svg class="svg-icon">
+            <use xlink:href="#icon-search"/>
+          </svg>
+            <p>Helps Save Time and Effort of Developers</p>
+        </li>
+        <li class="item flex">
+            <svg class="svg-icon">
+                <use xlink:href="#icon-search"/>
+            </svg>
+            <p>Provide Detailed knowledge of the topics</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+  <p class="rights-reserved">
+      All rights reserved © 2020
+  </p>
 </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>

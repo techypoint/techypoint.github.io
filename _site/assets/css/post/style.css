@@ -171,12 +171,22 @@ html,body{
 #mainContainer .imgCont{
   margin-top: 1rem;
   margin-bottom: 1rem;
+  position: relative;
 }
 
 #mainContainer .imgCont img{
   width: 100%;
   margin-bottom: 10px;
 }
+
+/* Bottom right text */
+.imgCont .bottom-right {
+  position: absolute;
+  background-color: white;
+  bottom: 8px;
+  right: 16px;
+}
+
 #mainContainer div#left{
   /* background-color: blue; */
   /* height: 400px; */
@@ -201,6 +211,10 @@ html,body{
 
 #mainContainer div#center #post-cont ul,#mainContainer div#center #post-cont ol{
 margin-top: 1rem !important;
+}
+
+#mainContainer div#center #post-cont li ul{
+  margin-top: 0 !important;
 }
 
 #mainContainer div#center #post-cont li{
