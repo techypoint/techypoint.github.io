@@ -1,4 +1,233 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-13T16:21:46+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site give you technical series releated to java, java related topics, amazon S3. Our aim is to provide brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Amazon S3 LifeCycle Management</title><link href="http://localhost:4000/AmazonS3/lifecycle-management" rel="alternate" type="text/html" title="Amazon S3 LifeCycle Management" /><published>2020-06-03T14:30:00+05:30</published><updated>2020-06-03T14:30:00+05:30</updated><id>http://localhost:4000/AmazonS3/lifecycleManagement</id><content type="html" xml:base="http://localhost:4000/AmazonS3/lifecycle-management">&lt;h2 id=&quot;object-life-cycle&quot;&gt;Object Life Cycle&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-04T17:20:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Create Github Account</title><link href="http://localhost:4000/create-a-website/create-github-account" rel="alternate" type="text/html" title="Create Github Account" /><published>2020-06-28T12:00:00+05:30</published><updated>2020-06-28T12:00:00+05:30</updated><id>http://localhost:4000/create-a-website/create-github-account</id><content type="html" xml:base="http://localhost:4000/create-a-website/create-github-account">&lt;h1 id=&quot;create-hosting-using-github&quot;&gt;Create Hosting Using Github&lt;/h1&gt;
+
+&lt;p&gt;In this tutorial, we will learn about Github, how to create account on Github and create place i.e repository to push or save our code(website code).&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-github&quot;&gt;What is Github?&lt;/h2&gt;
+&lt;p&gt;Github is a platform where you can host your code, projects(website in our case).
+It ranges from open source and also fits for business.&lt;/p&gt;
+
+&lt;h2 id=&quot;to-create-github-account&quot;&gt;To Create Github Account&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Go to &lt;a href=&quot;https://github.com&quot; title=&quot;Github&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Step 2 - Click on Sign Up.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 3 - Fill the sign Up form. Here username will be used later in your website name.&lt;/p&gt;
+
+    &lt;p&gt;For Eg- your username is - techylane, then your website name would be techylane.github.io. You can also change your username if you want to.&lt;/p&gt;
+
+    &lt;p&gt;After filling, Click on Create Account.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Create Account Screen&quot; title=&quot;Create Account Screen&quot; src=&quot;/assets/img/create-a-website/create-github-account/create-account-screen.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - In this screen, Click on Join a free plan button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Join Free Plan&quot; title=&quot;Join Free Plan&quot; src=&quot;/assets/img/create-a-website/create-github-account/join-free-plan.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 5 - Choose the option which suits you best and then click on Complete Setup.&lt;/li&gt;
+  &lt;li&gt;Step 6 - Now you get this screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Verify Email Address&quot; title=&quot;Verify Email Address&quot; src=&quot;/assets/img/create-a-website/create-github-account/verify-email-address.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 7 - Now verify by clicking on the link you get in email box. After clicking on link, you will get below screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;GitHub Skip Now&quot; title=&quot;GitHub Skip Now&quot; src=&quot;/assets/img/create-a-website/create-github-account/github-skip-now.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 8 - Choose skip for now option.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You have successfully created your Github account.&lt;/p&gt;
+
+&lt;h2 id=&quot;create-repository-on-github&quot;&gt;Create repository on Github&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Login to your Github Account.&lt;/li&gt;
+  &lt;li&gt;Step 2 - After login, you will get below screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;GitHub Homepage&quot; title=&quot;GitHub Homepage&quot; src=&quot;/assets/img/create-a-website/create-github-account/github-homepage.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Click on Create Repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Create Repository Screen&quot; title=&quot;Create Repository Screen&quot; src=&quot;/assets/img/create-a-website/create-github-account/create_repository_screen.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;In this screen, Enter Repository name in the same format we have filled.&lt;/p&gt;
+
+&lt;p&gt;Later, your website can be accessed by this domain name.&lt;/p&gt;
+
+&lt;p&gt;Select public option to make this repository public.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - Click on Create repository and you will get below screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Repository Download Screen&quot; title=&quot;Repository Download Screen&quot; src=&quot;/assets/img/create-a-website/create-github-account/repostiory-download-screen.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 5 - Copy the repository link which we will use in next tutorial.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you are successfully able to create your repository.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, we learned about Github and how to create repository.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;For Github - &lt;a href=&quot;https://github.com&quot; title=&quot;For GitHub&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;To create repository - &lt;a href=&quot;https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository&quot; title=&quot;To create Repository&quot;&gt;Creating a new repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will learn how to get and save website code to the Github account.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Create Hosting Using Github</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/create-github-account/github.png" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/create-github-account/github.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Website Basics Terminology</title><link href="http://localhost:4000/create-a-website/basics" rel="alternate" type="text/html" title="Website Basics Terminology" /><published>2020-06-28T11:00:00+05:30</published><updated>2020-06-28T11:00:00+05:30</updated><id>http://localhost:4000/create-a-website/basics</id><content type="html" xml:base="http://localhost:4000/create-a-website/basics">&lt;p&gt;In this basically, we will learn about the website topics, technologies used by us and will write short discription about them.
+Later in the series, we will learn about these topics in detail.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;h2 id=&quot;1-domain-name&quot;&gt;1. Domain Name&lt;/h2&gt;
+
+&lt;p&gt;It is used for finding your website. This is basically the name of the website.
+Other users can access yur website using this name by searching on google.&lt;/p&gt;
+
+&lt;p&gt;You need to buy domain name from the domain name registrar.
+Eg - &lt;a href=&quot;https://www.domain.com&quot; title=&quot;Domain&quot;&gt;Domain&lt;/a&gt;, &lt;a href=&quot;https://www.bluehost.in&quot; title=&quot;Bluehost&quot;&gt;Bluehost&lt;/a&gt;, &lt;a href=&quot;https://www.hostgator.in&quot; title=&quot;HostGator&quot;&gt;HostGator&lt;/a&gt;, &lt;a href=&quot;https://in.godaddy.com&quot; title=&quot;GoDaddy&quot;&gt;GoDaddy&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-hosting&quot;&gt;2. Hosting&lt;/h2&gt;
+
+&lt;p&gt;This is the place where your website live.
+Basically, its a machine or server where website code lives.
+You need to buy hosting package for your website from these Websites.
+Eg - &lt;a href=&quot;https://www.domain.com&quot; title=&quot;Domain&quot;&gt;Domain&lt;/a&gt;, &lt;a href=&quot;https://www.bluehost.in&quot; title=&quot;Bluehost&quot;&gt;Bluehost&lt;/a&gt;, &lt;a href=&quot;https://www.hostgator.in&quot; title=&quot;HostGator&quot;&gt;HostGator&lt;/a&gt;, &lt;a href=&quot;https://in.godaddy.com&quot; title=&quot;GoDaddy&quot;&gt;GoDaddy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this series, we will use &lt;strong&gt;Github&lt;/strong&gt; as it’s free and suits for our objective perfectly.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-git&quot;&gt;3. Git&lt;/h2&gt;
+&lt;p&gt;Git is the most widely used version control system.
+It helps in managing and tracking code.
+In our case, You are able to get and save code on the Github repository using Git.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-website-creation&quot;&gt;4. Website Creation&lt;/h2&gt;
+
+&lt;p&gt;You need to build your website through CMS like wordpress.com or you can write some basic HTML code directly.
+We will use Jekyll for blog development as it is easy to use and is compatible with Github.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-search-engine-optimizationseo&quot;&gt;5. Search Engine Optimization(SEO)&lt;/h2&gt;
+
+&lt;p&gt;SEO is the most important part of the website development. It increases the visibility of the website to users who are searching on web search engine. It helps the web crawlers to know the intent of your site.&lt;/p&gt;
+
+&lt;p&gt;SEO plays the most important part in getting “Organic” search results.&lt;/p&gt;
+
+&lt;p&gt;Now you know the basic terminology and ready to dive in for website creation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will talk about the first step for website creation i.e Github Account Setup.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">In this basically, we will learn about the website topics, technologies used by us and will write short discription about them. Later in the series, we will learn about these topics in detail.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/basics/basics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/basics/basics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Create A Website-Introduction</title><link href="http://localhost:4000/create-a-website/introduction" rel="alternate" type="text/html" title="Create A Website-Introduction" /><published>2020-06-28T00:00:00+05:30</published><updated>2020-06-28T00:00:00+05:30</updated><id>http://localhost:4000/create-a-website/introduction</id><content type="html" xml:base="http://localhost:4000/create-a-website/introduction">&lt;h1 id=&quot;introduction-to-the-series&quot;&gt;INTRODUCTION TO THE SERIES&lt;/h1&gt;
+
+&lt;p&gt;This series is all about how to create a website for &lt;strong&gt;FREE&lt;/strong&gt;. Yes, it’s &lt;strong&gt;FREE&lt;/strong&gt;.
+I am gonna create a website from scratch to full featured in this series.
+After that, we will learn how to earn money by integrating Google Adsense.&lt;/p&gt;
+
+&lt;p&gt;This series helps you in -&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create a website for free (with limited feature), I will call it as &lt;strong&gt;FREE&lt;/strong&gt; website&lt;/li&gt;
+  &lt;li&gt;Website with almost all necessary features (requires some money), I will call it as &lt;strong&gt;PAID&lt;/strong&gt; website&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; - This series will not focus on designing Website.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-will-you-get-in-final-website-&quot;&gt;What will you get in Final website-&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;FREE&lt;/strong&gt; Website&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;HomePage&lt;/li&gt;
+  &lt;li&gt;HTTPS domain&lt;/li&gt;
+  &lt;li&gt;Contact through Mail&lt;/li&gt;
+  &lt;li&gt;Blog&lt;/li&gt;
+  &lt;li&gt;Comment Box&lt;/li&gt;
+  &lt;li&gt;Sign Up Form(Subscribe  Form)&lt;/li&gt;
+  &lt;li&gt;Share Post Automatically&lt;/li&gt;
+  &lt;li&gt;SEO&lt;/li&gt;
+  &lt;li&gt;Caching static files&lt;/li&gt;
+  &lt;li&gt;Google Adsense&lt;/li&gt;
+  &lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;PAID&lt;/strong&gt; Website&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;FREE website Features&lt;/li&gt;
+  &lt;li&gt;Custom domain name&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-knowledge-you-require-for-this-series&quot;&gt;What knowledge you require for this series&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Github&lt;/li&gt;
+  &lt;li&gt;Jekyll&lt;/li&gt;
+  &lt;li&gt;HTML, CSS&lt;/li&gt;
+  &lt;li&gt;your favourite IDE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you dont know above skills, dont worry we will teach you basic things about them and believe me its easy.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-alternatives&quot;&gt;Other Alternatives&lt;/h2&gt;
+
+&lt;p&gt;Before coming to this website, you may heard of various ways to create website or blog&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Wordpress&lt;/li&gt;
+  &lt;li&gt;Medium or Ghost&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;1-wordpress&quot;&gt;1. Wordpress&lt;/h3&gt;
+&lt;p&gt;You can use wordpress as it provides User Interface to build your website and there are lot of plugins available.
+But for that, you need to buy domain and hosting which requires some money.&lt;/p&gt;
+
+&lt;p&gt;I will prefer this option when you want your own brand and are ready to invest some money.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-portals-like-medium-and-ghost&quot;&gt;2. Portals like Medium and Ghost&lt;/h3&gt;
+
+&lt;p&gt;If you are thinking to start blogs, you can also opt for medium or ghost.
+They are free and lets you earn money (need to check whether your country lies in this or not).&lt;/p&gt;
+
+&lt;p&gt;I personally not recommend it as -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;it works only for blogs&lt;/li&gt;
+  &lt;li&gt;if you are willing to make your own brand&lt;/li&gt;
+  &lt;li&gt;you have to compromise with any change they make&lt;/li&gt;
+  &lt;li&gt;look and feel of your blogs not controlled by you.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In my opinion, build a &lt;strong&gt;FREE&lt;/strong&gt; website(which we will tell you how) and then decide to invest money on the basis of response.&lt;/p&gt;
+
+&lt;h3 id=&quot;this-series-comprises--&quot;&gt;This Series comprises -&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/create-a-website/introduction&quot; title=&quot;Introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/create-a-website/basics&quot; title=&quot;Website Basics&quot;&gt;Website Basics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/create-a-website/create-github-account&quot; title=&quot;Create Github Account&quot;&gt;Create Github Account&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;How to Use Git&lt;/li&gt;
+  &lt;li&gt;HomePage Design&lt;/li&gt;
+  &lt;li&gt;Use Custom Domain For Github Pages&lt;/li&gt;
+  &lt;li&gt;Integrate Contact Us Form Using FormsPree&lt;/li&gt;
+  &lt;li&gt;Create A Blog PART 1 - Jekyll Project&lt;/li&gt;
+  &lt;li&gt;Create A Blog PART 2 - Create Blog Post&lt;/li&gt;
+  &lt;li&gt;Create A Blog PART 3 - Show All Blog Posts&lt;/li&gt;
+  &lt;li&gt;Integrate Comment Box Using Disqus&lt;/li&gt;
+  &lt;li&gt;Integrate Sign Up Form(Subscribe Form) Using MailChimp&lt;/li&gt;
+  &lt;li&gt;Share Post to Subscribers Automatically&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can skip to any tutorial if you want, but I will recommend to watch series tutorial by tutorial as they are linked to each other.&lt;/p&gt;
+
+&lt;p&gt;At the end of each tutorial, we will provide you some reference for that tutorial for your further study.
+We are able to create website in a week, lets see how it works for you.&lt;/p&gt;
+
+&lt;p&gt;At the end of this series, you will get a website like &lt;a href=&quot;https://vbisht7038.github.io&quot; title=&quot;Foody Blog&quot;&gt;Foody Blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will talk about the basic concepts in website creation.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">INTRODUCTION TO THE SERIES</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/introduction/introduction.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/introduction/introduction.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 LifeCycle Management</title><link href="http://localhost:4000/AmazonS3/lifecycle-management" rel="alternate" type="text/html" title="Amazon S3 LifeCycle Management" /><published>2020-06-03T14:30:00+05:30</published><updated>2020-06-03T14:30:00+05:30</updated><id>http://localhost:4000/AmazonS3/lifecycleManagement</id><content type="html" xml:base="http://localhost:4000/AmazonS3/lifecycle-management">&lt;h2 id=&quot;object-life-cycle&quot;&gt;Object Life Cycle&lt;/h2&gt;
 &lt;p&gt;You can handle objects by managing its lifecycle.&lt;/p&gt;
 &lt;h2 id=&quot;how-will-you-manage&quot;&gt;How will you manage?&lt;/h2&gt;
 &lt;p&gt;You can create S3 LifeCycle configuration which is basically a set of rules that define actions that S3 performs on the group of objects.&lt;/p&gt;
@@ -628,106 +857,4 @@ Then we will create project in java and create connection with Amazon S3.&lt;/p&
   &lt;img alt=&quot;Bucket list screen&quot; title=&quot;bucket list screen&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/bucket_list_screen.png&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Now you are successfully able to create bucket in Amazon S3 account.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial shows how to create a bucket in Amazon S3 through AWS Management Console.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Introduction</title><link href="http://localhost:4000/AmazonS3/introduction" rel="alternate" type="text/html" title="Amazon S3 Introduction" /><published>2020-05-28T00:00:00+05:30</published><updated>2020-05-28T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/introduction</id><content type="html" xml:base="http://localhost:4000/AmazonS3/introduction">&lt;h1&gt; Introduction To Amazon S3 Series&lt;/h1&gt;
-&lt;p&gt;This Series give you understanding of S3 and its comprises of -&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/create-a-bucket&quot;&gt;Creating a Bucket&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;Set Up Java Project&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/versioning&quot;&gt;Versioning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/operations&quot;&gt;Operations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/object-url&quot;&gt;Sharing Object URL&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/storage-classes&quot;&gt;Storage Classes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/AmazonS3/lifecycle-management&quot;&gt;LifeCycle Management&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;What is Amazon S3?&lt;/h2&gt;
-&lt;p&gt;Amazon S3 is a Simple Storage Service(S3) that allows you to store and retrieve data.
-It offers scalability, data availability, performace and security.&lt;/p&gt;
-&lt;h2&gt;Why Amazon S3?&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Performance&lt;/li&gt;
-  &lt;li&gt;Availability&lt;/li&gt;
-  &lt;li&gt;Scalability&lt;/li&gt;
-  &lt;li&gt;Security&lt;/li&gt;
-  &lt;li&gt;Wide range of cost effective Storage classes&lt;/li&gt;
-  &lt;li&gt;Easily manage data and access controls&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Lets start with Amazon S3 basic concepts&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-bucket&quot;&gt;1. Bucket&lt;/h3&gt;
-&lt;p&gt;Bucket in S3 is a container for objects.In bucket, you can contain any type of object(images, pdf, csv etc).
-Eg - consider bucket as a fridge which contains objects(vegetables, fruits etc).&lt;/p&gt;
-&lt;h3 id=&quot;2object&quot;&gt;2.Object&lt;/h3&gt;
-&lt;p&gt;Object are the basic unit in Amazon S3.All the units in a bucket are objects.&lt;/p&gt;
-&lt;p&gt;Objects consist of&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;object data&lt;/li&gt;
-  &lt;li&gt;object meta data - meta data contains name-value pairs that stores object related information.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The only way to modify object meta data is to make a copy of object and set metadata.&lt;/p&gt;
-&lt;h3 id=&quot;3-keys&quot;&gt;3. keys&lt;/h3&gt;
-&lt;p&gt;A key is the unique identifier of the object in a bucket.
-An object can be identified by combination of web service end point + bucket name + key + version (optional).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingMetadata.html&quot;&gt; There is guideline for object key name.You can find it from here.&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;4-regions&quot;&gt;4. Regions&lt;/h3&gt;
-&lt;p&gt;You can store bucket in a specific region that is close to you to optimize latency and minimize costs.&lt;/p&gt;
-&lt;p&gt;Objects stored in a region never leave the region unless you transfer it to another region.
-You can access any bucket from any region.
-Eg - suppose you are located in Asia so you want to store bucket in a region closest to you.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Introduction To Amazon S3 Series This Series give you understanding of S3 and its comprises of - Introduction Creating a Bucket Set Up Java Project Versioning Operations Sharing Object URL Storage Classes LifeCycle Management</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/introduction/introduction.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/introduction/introduction.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Comment System Using Disqus</title><link href="http://localhost:4000/create-a-webiste/comment-box" rel="alternate" type="text/html" title="Comment System Using Disqus" /><published>2020-05-14T00:00:00+05:30</published><updated>2020-05-14T00:00:00+05:30</updated><id>http://localhost:4000/create-a-webiste/integrate-disqus</id><content type="html" xml:base="http://localhost:4000/create-a-webiste/comment-box">&lt;h1 id=&quot;contact-page-using-formspree&quot;&gt;Contact Page Using FormsPree&lt;/h1&gt;</content><author><name>Varun Bisht</name></author><category term="create a webiste" /><summary type="html">Contact Page Using FormsPree</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-webiste/comment-box/" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-webiste/comment-box/" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Design Home Page</title><link href="http://localhost:4000/create-a-webiste/create-a-blog-part2" rel="alternate" type="text/html" title="Design Home Page " /><published>2020-05-13T00:00:00+05:30</published><updated>2020-05-13T00:00:00+05:30</updated><id>http://localhost:4000/create-a-webiste/create-a-blog-part2</id><content type="html" xml:base="http://localhost:4000/create-a-webiste/create-a-blog-part2">&lt;h1 id=&quot;create-a-blog-for-your-website---part-2&quot;&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 2&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;PREREQUISITE&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 1
-In PART 1 - we have created basic wesbite Using Jekyll. Before Going further, you need to read PART 1.
-So link for PART 1 is - CREATE A BLOG FOR YOUR WEBSITE - PART 1 link&lt;/li&gt;
-  &lt;li&gt;JEKYLL
-Please watch Jekyll tutorials as it is necessary for futher tutorials. I have provided some Jekyll Video tutorials in Further Study Material.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In this part i.e PART 2, we are going to create Blog Posts for our webiste.&lt;/p&gt;
-
-&lt;p&gt;So lets start&lt;/p&gt;
-
-&lt;p&gt;In the project, there is a _posts folder which will contains all the blog posts.
-There is already a post create by Jekyll for your reference.&lt;/p&gt;
-
-&lt;p&gt;Lets understand the basics of Blog Post&lt;/p&gt;
-
-&lt;p&gt;Open file, you will see something like this -&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
-layout: post
-title:  &quot;Welcome to Jekyll!&quot;
-date:   2020-06-12 23:26:47 +0530
-categories: jekyll update
----&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Here, this blog post is using
-layout - post layout(default layout available in default theme by Jekyll).
-title - Title of the Page
-date - post created date
-categories - defines post category&lt;/p&gt;
-
-&lt;p&gt;Theses key value pairs between triple-dashed lines are called Front Matters.
-There are many default Front Matter provided by Jekyll which you can use.Front Matter Link -&lt;/p&gt;
-
-&lt;p&gt;What we need to create a non veg category recipe blog post&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;We will create a custom layout named post just like home.md in _layouts folder and will use Front Matter in the layout.
-We will custom layout for post so that every post you create will use it.&lt;/li&gt;
-  &lt;li&gt;We need to provide URL to the post using permalink front matter.&lt;/li&gt;
-  &lt;li&gt;Then We will modify other Front Matters for our post like title, date and categories.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Further Study Material&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;For Jekyll Installation- https://jekyllrb.com/docs/installation/&lt;/li&gt;
-  &lt;li&gt;For Jekyll - https://www.youtube.com/watch?v=T1itpPvFWHI&amp;amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&lt;/li&gt;
-  &lt;li&gt;For Front Matter- https://jekyllrb.com/docs/front-matter&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Varun Bisht</name></author><category term="create a webiste" /><summary type="html">CREATE A BLOG FOR YOUR WEBSITE - PART 2</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-webiste/create-a-blog/" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-webiste/create-a-blog/" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Now you are successfully able to create bucket in Amazon S3 account.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial shows how to create a bucket in Amazon S3 through AWS Management Console.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

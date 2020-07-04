@@ -1,21 +1,23 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/#"><img alt="techylane logo" src="{{ "/assets/img/logo.jpg" | prepend: site.url}}"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-      <span class="navbar-toggle-icon"><i class="fa fa-bars fa-1x"></i></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/blog">BLOG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#aboutus">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#contactus">Contact Us</a>
-        </li>
-      </ul>
+<header class="header-section">
+  <div class="container flex">
+    <a class="logo relative" href="/#">
+      <img alt="techylane logo" class="object-fit" src="{{ "/assets/img/logo.jpg" | prepend: site.url}}">
+    </a>
+    <ul class="menu-links flex fcenter">
+      <li class="menu-item flex fcenter">
+        <a class="nav-link f14" href="/blog">Blog</a>
+      </li>
+      <li class="menu-item flex fcenter">
+        <a class="nav-link f14" href="/contact-us">Contact Us</a>
+      </li>
+      <li class="menu-item flex fcenter">
+        <a class="nav-link f14" href="/about-us">
+            About Us
+        </a>
+      </li>
+    </ul>
+    <div class="subscribe">
+      <button class="subs-btn">Subscribe</button>
     </div>
   </div>
-</nav>
+</header>
