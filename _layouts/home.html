@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -18,61 +17,27 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-6KWR5GVFG7');
   </script>
 </head>
-
 <body>
-
   {% include header.html %}
   {% include icons.html %}
   <section class="latest-posts flex">
     <div class="container">
       <ul class="latest-posts-list">
+        {% for post in site.posts limit:4%}
         <li class="post-item">
           <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+            <img class="object-fit lazy" src="{{post.image}}">
           </figure>
           <div class="lower-section">
-            <p class="category">Create Website</p>
-            <h2 class="heading">Share Post Updates Using MailChimp Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by sending post straight to contacts inboxes.  we will teach you how you can share blog updates automatically by sending post straight to contacts inboxes.</p>
+            <p class="category">{{post.category}}</p>
+            <h2 class="heading">{{post.title}}</h2>
+            <p class="content">{{post.description}}</p>
           </div>
         </li>
-        <li class="post-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section">
-            <p class="category">Create Website</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
-        <li class="post-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section">
-            <p class="category">Create Website</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
-        <li class="post-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section">
-            <p class="category">Create Website</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
+        {% endfor%}
       </ul>
     </div>
   </section>
@@ -87,93 +52,33 @@
   <section class="blog-categories flex">
     <div class="container">
       <ul class="categories-list flex">
+        {% for category in site.categories %}
         <li class="categories-item">
-          <a class="cat-lnk">Create a Website</a>
+          <a class="cat-lnk">{{category[0]}}</a>
         </li>
-        <li class="categories-item">
-            <a class="cat-lnk">Amazon S3</a>
-        </li>
-        <li class="categories-item">
-            <a class="cat-lnk">Amazon S3</a>
-        </li>
+        {% endfor %}
       </ul>
     </div>
   </section>
   <section class="trending-blogs">
     <div class="container">
       <ul class="trending-list flex">
+        {% for post in site.posts %}
+        {% if post.trending == true %}
         <li class="trending-item">
           <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
+            <img class="object-fit lazy" src="{{post.image}}">
           </figure>
           <div class="lower-section flex">
-            <p class="category">Create Website</p>
-            <p class="s-date">Jul 01, 2020</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
+            <p class="category">{{post.category}}</p>
+            <p class="s-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
+            <h2 class="heading">{{post.title}}</h2>
+            <p class="content">{{post.description}}</p>
           </div>
         </li>
-        <li class="trending-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section flex">
-            <p class="category">Create Website</p>
-            <p class="s-date">Jul 01, 2020</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
-        <li class="trending-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section flex">
-            <p class="category">Create Website</p>
-            <p class="s-date">Jul 01, 2020</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
-        <li class="trending-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section flex">
-            <p class="category">Create Website</p>
-            <p class="s-date">Jul 01, 2020</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
-        <li class="trending-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section flex">
-            <p class="category">Create Website</p>
-            <p class="s-date">Jul 01, 2020</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
-        <li class="trending-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="/assets/img/create-a-website/share-post-updates/share-post.jpg">
-          </figure>
-          <div class="lower-section flex">
-            <p class="category">Create Website</p>
-            <p class="s-date">Jul 01, 2020</p>
-            <h2 class="heading">Share Post Updates Using MailChimp</h2>
-            <p class="content">In this Tutorial, we will teach you how you can share blog updates automatically by
-              sending post straight to contacts inboxes.</p>
-          </div>
-        </li>
+        {% endif %}
+        {% endfor%}
+
       </ul>
 
     </div>

@@ -6,6 +6,7 @@ keywords: "jekyll github,jekyll new blog,install jekyll,blog github markdown,bui
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part1"
 date: 2020-06-28 18:00:00 pm
+trending: true
 image: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part1/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"
