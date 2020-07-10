@@ -117,6 +117,7 @@ Create navigation.md and cut and paster navigation HTML code and then include
    - from src="js/ to src="/assets/js/
    - from href="#aboutus" to href="/#aboutus"
    - from href="#" to href="/#"
+- modify **url: "https://vbisht7038.github.io"** in _config.yml file.
 - Go to the browser and refresh URL - localhost:4000
 
 Now you have just recreated your website in Jekyll project.
