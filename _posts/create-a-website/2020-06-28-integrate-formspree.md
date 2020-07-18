@@ -5,7 +5,7 @@ description: "Integrate Contact Us Page Using FormsPree"
 keywords: "formspree signup,formspree create account,html contact form send email,how to use formspree,send email from static website"
 category: "create a website"
 permalink: "/create-a-website/contact-mail"
-published: false
+date: 2020-06-28 17:45:00 pm
 image: "/assets/img/create-a-website/contact-mail/contact.jpg"
 featureImage: "/assets/img/create-a-website/contact-mail/contact.jpg"
 imgText: "Image by Gerd Altmann from Pixabay"

@@ -5,7 +5,7 @@ description: "Share post by sending it straight to audience inboxes Using MailCh
 keywords: "mailchimp blog post,embed rss feed in email,rss automation mailchimp,share blog updates mailchimp"
 category: "create a website"
 permalink: "/create-a-website/share-post-updates"
-published: false
+date: 2020-06-28 19:30:00 pm
 image: "/assets/img/create-a-website/share-post-updates/share-post.jpg"
 featureImage: "/assets/img/create-a-website/share-post-updates/share-post.jpg"
 imgText: "Photo by Torsten Dettlaff from Pexels"

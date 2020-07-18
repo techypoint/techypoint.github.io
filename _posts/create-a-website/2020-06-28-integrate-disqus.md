@@ -5,7 +5,8 @@ description: "Integrate Comment Box On Blog Post Using Disqus"
 keywords: "disqus jekyll,disqus blog,disqus integration,disqus comments,add comments to jekyll blog"
 category: "create a website"
 permalink: "/create-a-website/comment-disqus"
-published: false
+date: 2020-06-28 18:40:00 pm
+trending: true
 image: "/assets/img/create-a-website/comment-disqus/comment.jpg"
 featureImage: "/assets/img/create-a-website/comment-disqus/comment.jpg"
 imgText: "Image by Werner Moser from Pixabay"
