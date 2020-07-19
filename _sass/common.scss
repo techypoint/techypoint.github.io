@@ -41,3 +41,19 @@ a{
   font-size: 14px;
   line-height: 28px;
 }
+.mob-visible{
+  display: none !important;
+}
+
+.pc-visible{
+  display: block !important;
+}
+
+@media (max-width:767px){
+  .mob-visible{
+    display: block !important;
+  }
+  .pc-visible{
+    display: none !important;
+  }
+}
