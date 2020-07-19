@@ -1,9 +1,12 @@
 .header-section{
-  background: #0082e5;
+  background: #133271;
   height: 50px;
   .container{
     align-items: center;
     height: 100%;
+    .toggle-container{
+      flex: 1;
+    }
     .logo{
       height: 43px;
       width: 120px;
@@ -33,6 +36,54 @@
         letter-spacing: .88px;
         border-radius: 4px;
       }
+    }
+  }
+}
+
+@media (max-width:767px){
+  .header-section{
+    .container{
+      padding: 0 16px;
+      .toggle-container{
+        display: none;
+      }
+    }
+  }
+  .toggle-bar{
+    position: absolute;
+    right: 16px;
+    width: 20px;
+    height: 18px;
+    border: none;
+    -webkit-perspective: 400px;
+    perspective: 400px;
+    background: 0 0;
+    cursor: pointer;
+    opacity: 1;
+    &::before, &::after, .main-tick{
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background: #ebeff2;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+    &::before, &::after{
+      content: "";
+      transform-origin: center right;
+    }
+    &::before{
+      top: 0;
+    }
+    &::after{
+      bottom: 0;
+    }
+    .main-tick{
+      top: 50%;
+      transform-origin: 50% 50%;
+      transform: translate3d(0,-50%,0);
     }
   }
 }
