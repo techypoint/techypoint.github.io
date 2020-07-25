@@ -2,6 +2,7 @@
 title: "Share Post Updates Using MailChimp"
 author: "Varun Bisht"
 description: "Share post by sending it straight to audience inboxes Using MailChimp"
+blogDesc: "We will teach you how to share post by sending it straight to audience inboxes Using MailChimp."
 keywords: "mailchimp blog post,embed rss feed in email,rss automation mailchimp,share blog updates mailchimp"
 category: "create a website"
 permalink: "/create-a-website/share-post-updates"

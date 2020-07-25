@@ -2,6 +2,7 @@
 title: "Create a Blog Part 1"
 author: "Varun Bisht"
 description: "Create a blog Part 1- Jekyll and Github"
+blogDesc: "We first create a new Jekyll project and then move all the things we have build till now to this project."
 keywords: "jekyll github,jekyll new blog,install jekyll,blog github markdown,building a blog with jekyll"
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part1"
