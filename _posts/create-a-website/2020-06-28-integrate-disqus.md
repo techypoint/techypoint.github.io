@@ -2,6 +2,7 @@
 title: "Comment Box Using Disqus"
 author: "Varun Bisht"
 description: "Integrate Comment Box On Blog Post Using Disqus"
+blogDesc: "In this tutorial, we will create comment box using Disqus so that others can share its views."
 keywords: "disqus jekyll,disqus blog,disqus integration,disqus comments,add comments to jekyll blog"
 category: "create a website"
 permalink: "/create-a-website/comment-disqus"

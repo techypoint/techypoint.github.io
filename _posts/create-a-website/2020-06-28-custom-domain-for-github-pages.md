@@ -2,6 +2,7 @@
 title: "Use Custom Domain For Github Pages"
 author: "Varun Bisht"
 description: "Use Custom Domain For Github Pages and Enable HTTPS"
+blogDesc: "We will integrate custom domain so that you can increase your brand value and will enable HTTPS for authencity."
 keywords: "github pages custom domain ip,github pages custom domain https,github pages custom domain godaddy,use your own domain name github pages,github pages custom domain name,github pages cname file"
 category: "create a website"
 date: 2020-06-28 17:30:00 pm

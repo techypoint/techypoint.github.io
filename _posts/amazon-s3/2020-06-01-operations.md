@@ -1,9 +1,9 @@
 ---
 title: "Amazon S3 Operations"
 author: "Varun Bisht"
-description: "operations on bucket and objects using java sdk. Operations includes create bucket,
-list buckets, delete buckets, get Object, list Objects, list Objects With limit, upload or put object in a bucket, delete Object,
-copy Object and read file content."
+description: "Operations on bucket and objects using java sdk. Operations includes create bucket,
+list buckets, delete buckets, get Object, list Objects, list Objects With limit, upload or put object in a bucket, delete Object,copy Object and read file content."
+blogDesc: "operations on bucket and objects using java sdk. Operations includes create bucket, list buckets, delete buckets, get Object, list Objects, list Objects With limit, upload or put object in a bucket, delete Object,copy Object and read file content."
 keywords: "aws s3 programmatic access,s3 listbucket,s3 putobject example,upload file to s3 java,aws s3 list objects in folder,s3 list objects java,aws s3 delete bucket,aws s3 create bucket java,read file from amazon s3 java"
 category: "amazon s3"
 trending: true
