@@ -28,14 +28,16 @@
       <ul class="latest-posts-list">
         {% for post in site.posts limit:4%}
         <li class="post-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="{{post.image}}">
-          </figure>
-          <div class="lower-section">
-            <p class="category">{{post.category}}</p>
-            <h2 class="heading">{{post.title}}</h2>
-            <p class="content">{{post.description}}</p>
-          </div>
+          <a class="flex flex-col">
+              <figure class="image-section relative">
+                  <img class="object-fit lazy" src="{{post.image}}">
+                </figure>
+                <div class="lower-section">
+                  <p class="category">{{post.category}}</p>
+                  <h2 class="heading">{{post.title}}</h2>
+                  <p class="content">{{post.description}}</p>
+                </div>
+          </a>
         </li>
         {% endfor%}
       </ul>
@@ -66,15 +68,17 @@
         {% for post in site.posts %}
         {% if post.trending == true %}
         <li class="trending-item">
-          <figure class="image-section relative">
-            <img class="object-fit lazy" src="{{post.image}}">
-          </figure>
-          <div class="lower-section flex">
-            <p class="category">{{post.category}}</p>
-            <p class="s-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
-            <h2 class="heading">{{post.title}}</h2>
-            <p class="content">{{post.description}}</p>
-          </div>
+          <a class="flex col">
+              <figure class="image-section relative">
+                  <img class="object-fit lazy" src="{{post.image}}">
+                </figure>
+                <div class="lower-section flex">
+                  <p class="category">{{post.category}}</p>
+                  <p class="s-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
+                  <h2 class="heading">{{post.title}}</h2>
+                  <p class="content">{{post.description}}</p>
+                </div>
+          </a>
         </li>
         {% endif %}
         {% endfor%}

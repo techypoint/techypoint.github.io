@@ -10,9 +10,7 @@
   {% seo %}
   <meta name="keywords" content="{{ page.keywords }}" >
   <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | prepend: site.url}}" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="/assets/css/post/style.css" rel="stylesheet">
+  <link href="/assets/css/post/styles.css" rel="stylesheet">
   <!-- // for subscribe -->
    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,7 +25,8 @@
 </head>
 <body>
 {% include header.html %}
-<div class="container-fluid" id="mainContainer">
+{% include icons.html %}
+<div class="container-fluid container" id="mainContainer">
   <div class="row">
 <div id="left" class="col-xs-1 col-sm-1 col-md-2 col-lg-2 col-xl-2">
 </div>
