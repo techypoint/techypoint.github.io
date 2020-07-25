@@ -1,860 +1,1400 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-04T17:20:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Create Github Account</title><link href="http://localhost:4000/create-a-website/create-github-account" rel="alternate" type="text/html" title="Create Github Account" /><published>2020-06-28T12:00:00+05:30</published><updated>2020-06-28T12:00:00+05:30</updated><id>http://localhost:4000/create-a-website/create-github-account</id><content type="html" xml:base="http://localhost:4000/create-a-website/create-github-account">&lt;h1 id=&quot;create-hosting-using-github&quot;&gt;Create Hosting Using Github&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-25T19:46:52+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Share Post Updates Using MailChimp</title><link href="http://localhost:4000/create-a-website/share-post-updates" rel="alternate" type="text/html" title="Share Post Updates Using MailChimp" /><published>2020-06-28T19:30:00+05:30</published><updated>2020-06-28T19:30:00+05:30</updated><id>http://localhost:4000/create-a-website/share-post</id><content type="html" xml:base="http://localhost:4000/create-a-website/share-post-updates">&lt;h1 id=&quot;share-post-updates-using-mailchimp&quot;&gt;Share Post Updates Using MailChimp&lt;/h1&gt;
 
-&lt;p&gt;In this tutorial, we will learn about Github, how to create account on Github and create place i.e repository to push or save our code(website code).&lt;/p&gt;
+&lt;p&gt;In this Tutorial, we will teach you how you can share blog updates automatically by sending post straight to contacts inboxes.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-is-github&quot;&gt;What is Github?&lt;/h2&gt;
-&lt;p&gt;Github is a platform where you can host your code, projects(website in our case).
-It ranges from open source and also fits for business.&lt;/p&gt;
+&lt;h2 id=&quot;prerequisite&quot;&gt;PREREQUISITE&lt;/h2&gt;
 
-&lt;h2 id=&quot;to-create-github-account&quot;&gt;To Create Github Account&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 1 - Go to &lt;a href=&quot;https://github.com&quot; title=&quot;Github&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Step 2 - Click on Sign Up.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Step 3 - Fill the sign Up form. Here username will be used later in your website name.&lt;/p&gt;
-
-    &lt;p&gt;For Eg- your username is - techylane, then your website name would be techylane.github.io. You can also change your username if you want to.&lt;/p&gt;
-
-    &lt;p&gt;After filling, Click on Create Account.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Create Account Screen&quot; title=&quot;Create Account Screen&quot; src=&quot;/assets/img/create-a-website/create-github-account/create-account-screen.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 4 - In this screen, Click on Join a free plan button.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Join Free Plan&quot; title=&quot;Join Free Plan&quot; src=&quot;/assets/img/create-a-website/create-github-account/join-free-plan.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 5 - Choose the option which suits you best and then click on Complete Setup.&lt;/li&gt;
-  &lt;li&gt;Step 6 - Now you get this screen&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Verify Email Address&quot; title=&quot;Verify Email Address&quot; src=&quot;/assets/img/create-a-website/create-github-account/verify-email-address.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 7 - Now verify by clicking on the link you get in email box. After clicking on link, you will get below screen.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;GitHub Skip Now&quot; title=&quot;GitHub Skip Now&quot; src=&quot;/assets/img/create-a-website/create-github-account/github-skip-now.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 8 - Choose skip for now option.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You have successfully created your Github account.&lt;/p&gt;
-
-&lt;h2 id=&quot;create-repository-on-github&quot;&gt;Create repository on Github&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 1 - Login to your Github Account.&lt;/li&gt;
-  &lt;li&gt;Step 2 - After login, you will get below screen.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;GitHub Homepage&quot; title=&quot;GitHub Homepage&quot; src=&quot;/assets/img/create-a-website/create-github-account/github-homepage.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 3 - Click on Create Repository&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Create Repository Screen&quot; title=&quot;Create Repository Screen&quot; src=&quot;/assets/img/create-a-website/create-github-account/create_repository_screen.png&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;In this screen, Enter Repository name in the same format we have filled.&lt;/p&gt;
-
-&lt;p&gt;Later, your website can be accessed by this domain name.&lt;/p&gt;
-
-&lt;p&gt;Select public option to make this repository public.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 4 - Click on Create repository and you will get below screen.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Repository Download Screen&quot; title=&quot;Repository Download Screen&quot; src=&quot;/assets/img/create-a-website/create-github-account/repostiory-download-screen.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 5 - Copy the repository link which we will use in next tutorial.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now you are successfully able to create your repository.&lt;/p&gt;
-
-&lt;p&gt;In this tutorial, we learned about Github and how to create repository.&lt;/p&gt;
-
-&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt;For Github - &lt;a href=&quot;https://github.com&quot; title=&quot;For GitHub&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;To create repository - &lt;a href=&quot;https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository&quot; title=&quot;To create Repository&quot;&gt;Creating a new repository&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;RSS&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will learn how to get and save website code to the Github account.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Create Hosting Using Github</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/create-github-account/github.png" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/create-github-account/github.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Website Basics Terminology</title><link href="http://localhost:4000/create-a-website/basics" rel="alternate" type="text/html" title="Website Basics Terminology" /><published>2020-06-28T11:00:00+05:30</published><updated>2020-06-28T11:00:00+05:30</updated><id>http://localhost:4000/create-a-website/basics</id><content type="html" xml:base="http://localhost:4000/create-a-website/basics">&lt;p&gt;In this basically, we will learn about the website topics, technologies used by us and will write short discription about them.
-Later in the series, we will learn about these topics in detail.&lt;/p&gt;
+    &lt;p&gt;RSS stands for &lt;strong&gt;Really Simple Syndication&lt;/strong&gt; is a web feed that allows users to fetch latest updates.
+It is basically a xml file which contains website information.&lt;/p&gt;
+
+    &lt;p&gt;In our case, it is blog info like&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;post date-time&lt;/li&gt;
+      &lt;li&gt;author&lt;/li&gt;
+      &lt;li&gt;content&lt;/li&gt;
+      &lt;li&gt;link of the post.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Below is a screenshot of RSS feed&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Foody Blog RSS Feed&quot; title=&quot;Foody Blog RSS Feed&quot; src=&quot;/assets/img/create-a-website/share-post-updates/foodyblog_rss_feed.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;what-we-will-do-&quot;&gt;What we will do-&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;We will create RSS feed in our website.&lt;/li&gt;
+  &lt;li&gt;Change title and subtitle of RSS Feed.&lt;/li&gt;
+  &lt;li&gt;Set up MailChimp to automatically fetch blog info and send mails to contacts. It includes many steps which we will show below.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
 
-&lt;h2 id=&quot;1-domain-name&quot;&gt;1. Domain Name&lt;/h2&gt;
-
-&lt;p&gt;It is used for finding your website. This is basically the name of the website.
-Other users can access yur website using this name by searching on google.&lt;/p&gt;
-
-&lt;p&gt;You need to buy domain name from the domain name registrar.
-Eg - &lt;a href=&quot;https://www.domain.com&quot; title=&quot;Domain&quot;&gt;Domain&lt;/a&gt;, &lt;a href=&quot;https://www.bluehost.in&quot; title=&quot;Bluehost&quot;&gt;Bluehost&lt;/a&gt;, &lt;a href=&quot;https://www.hostgator.in&quot; title=&quot;HostGator&quot;&gt;HostGator&lt;/a&gt;, &lt;a href=&quot;https://in.godaddy.com&quot; title=&quot;GoDaddy&quot;&gt;GoDaddy&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-hosting&quot;&gt;2. Hosting&lt;/h2&gt;
-
-&lt;p&gt;This is the place where your website live.
-Basically, its a machine or server where website code lives.
-You need to buy hosting package for your website from these Websites.
-Eg - &lt;a href=&quot;https://www.domain.com&quot; title=&quot;Domain&quot;&gt;Domain&lt;/a&gt;, &lt;a href=&quot;https://www.bluehost.in&quot; title=&quot;Bluehost&quot;&gt;Bluehost&lt;/a&gt;, &lt;a href=&quot;https://www.hostgator.in&quot; title=&quot;HostGator&quot;&gt;HostGator&lt;/a&gt;, &lt;a href=&quot;https://in.godaddy.com&quot; title=&quot;GoDaddy&quot;&gt;GoDaddy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;In this series, we will use &lt;strong&gt;Github&lt;/strong&gt; as it’s free and suits for our objective perfectly.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-git&quot;&gt;3. Git&lt;/h2&gt;
-&lt;p&gt;Git is the most widely used version control system.
-It helps in managing and tracking code.
-In our case, You are able to get and save code on the Github repository using Git.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-website-creation&quot;&gt;4. Website Creation&lt;/h2&gt;
-
-&lt;p&gt;You need to build your website through CMS like wordpress.com or you can write some basic HTML code directly.
-We will use Jekyll for blog development as it is easy to use and is compatible with Github.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-search-engine-optimizationseo&quot;&gt;5. Search Engine Optimization(SEO)&lt;/h2&gt;
-
-&lt;p&gt;SEO is the most important part of the website development. It increases the visibility of the website to users who are searching on web search engine. It helps the web crawlers to know the intent of your site.&lt;/p&gt;
-
-&lt;p&gt;SEO plays the most important part in getting “Organic” search results.&lt;/p&gt;
-
-&lt;p&gt;Now you know the basic terminology and ready to dive in for website creation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will talk about the first step for website creation i.e Github Account Setup.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">In this basically, we will learn about the website topics, technologies used by us and will write short discription about them. Later in the series, we will learn about these topics in detail.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/basics/basics.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/basics/basics.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Create A Website-Introduction</title><link href="http://localhost:4000/create-a-website/introduction" rel="alternate" type="text/html" title="Create A Website-Introduction" /><published>2020-06-28T00:00:00+05:30</published><updated>2020-06-28T00:00:00+05:30</updated><id>http://localhost:4000/create-a-website/introduction</id><content type="html" xml:base="http://localhost:4000/create-a-website/introduction">&lt;h1 id=&quot;introduction-to-the-series&quot;&gt;INTRODUCTION TO THE SERIES&lt;/h1&gt;
-
-&lt;p&gt;This series is all about how to create a website for &lt;strong&gt;FREE&lt;/strong&gt;. Yes, it’s &lt;strong&gt;FREE&lt;/strong&gt;.
-I am gonna create a website from scratch to full featured in this series.
-After that, we will learn how to earn money by integrating Google Adsense.&lt;/p&gt;
-
-&lt;p&gt;This series helps you in -&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Create a website for free (with limited feature), I will call it as &lt;strong&gt;FREE&lt;/strong&gt; website&lt;/li&gt;
-  &lt;li&gt;Website with almost all necessary features (requires some money), I will call it as &lt;strong&gt;PAID&lt;/strong&gt; website&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; - This series will not focus on designing Website.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-will-you-get-in-final-website-&quot;&gt;What will you get in Final website-&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;FREE&lt;/strong&gt; Website&lt;/p&gt;
+&lt;h3 id=&quot;1-create-rss-feed&quot;&gt;1. Create RSS Feed&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;HomePage&lt;/li&gt;
-  &lt;li&gt;HTTPS domain&lt;/li&gt;
-  &lt;li&gt;Contact through Mail&lt;/li&gt;
-  &lt;li&gt;Blog&lt;/li&gt;
-  &lt;li&gt;Comment Box&lt;/li&gt;
-  &lt;li&gt;Sign Up Form(Subscribe  Form)&lt;/li&gt;
-  &lt;li&gt;Share Post Automatically&lt;/li&gt;
-  &lt;li&gt;SEO&lt;/li&gt;
-  &lt;li&gt;Caching static files&lt;/li&gt;
-  &lt;li&gt;Google Adsense&lt;/li&gt;
-  &lt;li&gt;Google Analytics&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 1 - Check whether you already have RSS Feed.&lt;/p&gt;
+
+    &lt;p&gt;Open- &lt;a href=&quot;http://localhost:4000/feed.xml&quot; title=&quot;http://localhost:4000/feed.xml&quot;&gt;http://localhost:4000/feed.xml&lt;/a&gt;, If this file exists then you have done your first step.&lt;/p&gt;
+
+    &lt;p&gt;If it doesn’t exist, then create it by using Jekyll RSS plugin.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;PAID&lt;/strong&gt; Website&lt;/p&gt;
+&lt;p&gt;To use RSS plugin-&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;FREE website Features&lt;/li&gt;
-  &lt;li&gt;Custom domain name&lt;/li&gt;
+  &lt;li&gt;Add this line to Gemfile located in root directory&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;what-knowledge-you-require-for-this-series&quot;&gt;What knowledge you require for this series&lt;/h2&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;gem 'jekyll-feed'&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Github&lt;/li&gt;
-  &lt;li&gt;Jekyll&lt;/li&gt;
-  &lt;li&gt;HTML, CSS&lt;/li&gt;
-  &lt;li&gt;your favourite IDE&lt;/li&gt;
+  &lt;li&gt;In _config.yml, add&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;plugins:
+   - jekyll-feed&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;That’s it to create feed.xml. Now check your feed.xml at &lt;a href=&quot;http://localhost:4000/feed.xml&quot; title=&quot;http://localhost:4000/feed.xml&quot;&gt;http://localhost:4000/feed.xml&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2-change-title-and-subtitle-of-rss-feed&quot;&gt;2. Change title and subtitle of RSS Feed&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Go to _config file, change&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you dont know above skills, dont worry we will teach you basic things about them and believe me its easy.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;title: Foody Blog
+email: contact.techylane@gmail.com
+description: &amp;gt;- # this means to ignore newlines until &quot;baseurl:
+  Foody blogs offers you a vast veriety of recipes which you can cook at home.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;other-alternatives&quot;&gt;Other Alternatives&lt;/h2&gt;
-
-&lt;p&gt;Before coming to this website, you may heard of various ways to create website or blog&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Wordpress&lt;/li&gt;
-  &lt;li&gt;Medium or Ghost&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;1-wordpress&quot;&gt;1. Wordpress&lt;/h3&gt;
-&lt;p&gt;You can use wordpress as it provides User Interface to build your website and there are lot of plugins available.
-But for that, you need to buy domain and hosting which requires some money.&lt;/p&gt;
-
-&lt;p&gt;I will prefer this option when you want your own brand and are ready to invest some money.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-portals-like-medium-and-ghost&quot;&gt;2. Portals like Medium and Ghost&lt;/h3&gt;
-
-&lt;p&gt;If you are thinking to start blogs, you can also opt for medium or ghost.
-They are free and lets you earn money (need to check whether your country lies in this or not).&lt;/p&gt;
-
-&lt;p&gt;I personally not recommend it as -&lt;/p&gt;
+&lt;p&gt;Save these changes to Github&lt;/p&gt;
+&lt;h3 id=&quot;3-set-up-mailchimp&quot;&gt;3. Set up MailChimp&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;it works only for blogs&lt;/li&gt;
-  &lt;li&gt;if you are willing to make your own brand&lt;/li&gt;
-  &lt;li&gt;you have to compromise with any change they make&lt;/li&gt;
-  &lt;li&gt;look and feel of your blogs not controlled by you.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In my opinion, build a &lt;strong&gt;FREE&lt;/strong&gt; website(which we will tell you how) and then decide to invest money on the basis of response.&lt;/p&gt;
-
-&lt;h3 id=&quot;this-series-comprises--&quot;&gt;This Series comprises -&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/create-a-website/introduction&quot; title=&quot;Introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/create-a-website/basics&quot; title=&quot;Website Basics&quot;&gt;Website Basics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/create-a-website/create-github-account&quot; title=&quot;Create Github Account&quot;&gt;Create Github Account&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;How to Use Git&lt;/li&gt;
-  &lt;li&gt;HomePage Design&lt;/li&gt;
-  &lt;li&gt;Use Custom Domain For Github Pages&lt;/li&gt;
-  &lt;li&gt;Integrate Contact Us Form Using FormsPree&lt;/li&gt;
-  &lt;li&gt;Create A Blog PART 1 - Jekyll Project&lt;/li&gt;
-  &lt;li&gt;Create A Blog PART 2 - Create Blog Post&lt;/li&gt;
-  &lt;li&gt;Create A Blog PART 3 - Show All Blog Posts&lt;/li&gt;
-  &lt;li&gt;Integrate Comment Box Using Disqus&lt;/li&gt;
-  &lt;li&gt;Integrate Sign Up Form(Subscribe Form) Using MailChimp&lt;/li&gt;
-  &lt;li&gt;Share Post to Subscribers Automatically&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can skip to any tutorial if you want, but I will recommend to watch series tutorial by tutorial as they are linked to each other.&lt;/p&gt;
-
-&lt;p&gt;At the end of each tutorial, we will provide you some reference for that tutorial for your further study.
-We are able to create website in a week, lets see how it works for you.&lt;/p&gt;
-
-&lt;p&gt;At the end of this series, you will get a website like &lt;a href=&quot;https://vbisht7038.github.io&quot; title=&quot;Foody Blog&quot;&gt;Foody Blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will talk about the basic concepts in website creation.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">INTRODUCTION TO THE SERIES</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/introduction/introduction.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/introduction/introduction.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 LifeCycle Management</title><link href="http://localhost:4000/AmazonS3/lifecycle-management" rel="alternate" type="text/html" title="Amazon S3 LifeCycle Management" /><published>2020-06-03T14:30:00+05:30</published><updated>2020-06-03T14:30:00+05:30</updated><id>http://localhost:4000/AmazonS3/lifecycleManagement</id><content type="html" xml:base="http://localhost:4000/AmazonS3/lifecycle-management">&lt;h2 id=&quot;object-life-cycle&quot;&gt;Object Life Cycle&lt;/h2&gt;
-&lt;p&gt;You can handle objects by managing its lifecycle.&lt;/p&gt;
-&lt;h2 id=&quot;how-will-you-manage&quot;&gt;How will you manage?&lt;/h2&gt;
-&lt;p&gt;You can create S3 LifeCycle configuration which is basically a set of rules that define actions that S3 performs on the group of objects.&lt;/p&gt;
-
-&lt;p&gt;These action can be of two types -&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Transition Action&lt;/strong&gt; -
-This action performs transition of group of objects from one storage class to another at any given time.
-Eg- transition from S3 Standard to S3 Glacier Storage Class.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Expiration Action&lt;/strong&gt; -
-This Action performs deletion of objects at any given time.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Note - S3 deletes on your behalf by running some process.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;use-cases-when-you-need-object-life-cycle&quot;&gt;Use cases when you need object Life Cycle&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;You need to backup long term database backups, business reports.&lt;/li&gt;
-  &lt;li&gt;You need to delete server or application logs after some time.&lt;/li&gt;
-  &lt;li&gt;You need to move records which are not used frequently after some time.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;1-create-bucketlifecycleconfiguration-rule&quot;&gt;1. create BucketLifecycleConfiguration Rule&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void createLifeCycleConfiguration(AmazonS3 amazonS3,String bucketName){
-
-  // apply this rules to the objects having prefix heavyReports which gets filtered through prefix
-  // LifecyclePrefixPredicate - to filter objects through prefix to report
-  BucketLifecycleConfiguration.Rule rule1=new Rule()
-      .withId(&quot;rule id 1&quot;)
-      .withFilter(new LifecycleFilter(new LifecyclePrefixPredicate(&quot;heavyReports/&quot;)))
-      .addTransition(new Transition().withDays(90).withStorageClass(StorageClass.Glacier))
-      .addTransition(new Transition().withDays(180).withStorageClass(StorageClass.DeepArchive))
-      .withExpirationInDays(700)
-      .withStatus(BucketLifecycleConfiguration.ENABLED);
-
-
-  // apply this rules to the objects which has keyName tag and value - tagValue
-  // LifecycleTagPredicate - to filter objects through tags
-  BucketLifecycleConfiguration.Rule rule2=new Rule()
-      .withId(&quot;rule id 2&quot;)
-      .withFilter(new LifecycleFilter(new LifecycleTagPredicate(new Tag(&quot;keyName&quot;,&quot;tagValue&quot;))))
-      .addTransition(new Transition().withDays(60).withStorageClass(StorageClass.Glacier))
-      .withExpirationInDays(120)
-      .withStatus(BucketLifecycleConfiguration.ENABLED);
-
-  // create BucketLifecycleConfiguration and set rule list
-  BucketLifecycleConfiguration bucketLifecycleConfiguration=new BucketLifecycleConfiguration();
-  bucketLifecycleConfiguration.setRules(Arrays.asList(rule1,rule2));
-
-  // save the configuration
-  amazonS3.setBucketLifecycleConfiguration(bucketName,bucketLifecycleConfiguration);
-
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now we use amazonS3 client we created in this &lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rule 1&lt;/strong&gt; - it moves all the objects which has &lt;strong&gt;prefix - heavyReports&lt;/strong&gt;. &lt;strong&gt;After 90 days&lt;/strong&gt;, it gets move to Glacier Storage Class. &lt;strong&gt;After 180 days&lt;/strong&gt;, it gets move to DeepArchive Storage Class. &lt;strong&gt;After 700 days&lt;/strong&gt;, it gets delete by the Amazon S3.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rule 2&lt;/strong&gt;- it moves all the objects which has &lt;strong&gt;keyName tag’s value- tagValue&lt;/strong&gt;. &lt;strong&gt;After 60 days&lt;/strong&gt;, it gets move to Glacier Storage Class. &lt;strong&gt;After 120 days&lt;/strong&gt;, it gets delete by the Amazon S3.&lt;/p&gt;
-
-&lt;p&gt;Then add those rules to BucketLifecycleConfiguration object and set this LifeCycle Configuration using setBucketLifecycleConfiguration.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note - You cannot use Prefix base tag and Filter base tag in a Single LifeCycle Policy.These tags cannot be used within a single policy.&lt;/strong&gt;
-&lt;a href=&quot;https://forums.aws.amazon.com/thread.jspa?threadID=266960&quot;&gt;Check this thread for more info&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-get-rules-from-bucketlifecycleconfiguration&quot;&gt;2. get Rules from BucketLifecycleConfiguration&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void getLifeCycleConfiguration(AmazonS3 amazonS3,String bucketName){
-    BucketLifecycleConfiguration bucketLifecycleConfiguration=amazonS3.getBucketLifecycleConfiguration(bucketName);
-    List&lt;span class=&quot;nt&quot;&gt;&amp;lt;BucketLifecycleConfiguration&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Rule&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; rulesList=bucketLifecycleConfiguration.getRules();
-    for(BucketLifecycleConfiguration.Rule rule:rulesList){
-      LOG.info(&quot;bucket rule id- &quot;+rule.getId());
-    }
-  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Call getBucketLifecycleConfiguration() to get the configuration and then get rules from it by calling getRules()&lt;/p&gt;
-
-&lt;h3 id=&quot;3-delete-bucketlifecycleconfiguration&quot;&gt;3. delete BucketLifecycleConfiguration&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void deleteLifeCycleConfiguration(AmazonS3 amazonS3,String bucketName){
-    amazonS3.deleteBucketLifecycleConfiguration(bucketName);
-  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Call deleteBucketLifecycleConfiguration() to delete the configuration.&lt;/p&gt;
-
-&lt;h3 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.aws.amazon.com/s3/index.html&quot;&gt;Amazon S3 Official Documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;completion-of-amazon-s3-series&quot;&gt;COMPLETION OF AMAZON S3 SERIES&lt;/h2&gt;
-
-&lt;p&gt;Now you have the knowledge of the Amazon S3, it basic concepts, how to integrate in java and perform operations.&lt;/p&gt;
-
-&lt;p&gt;Hope this series helps you in unsertanding Amazon S3.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Object Life Cycle You can handle objects by managing its lifecycle. How will you manage? You can create S3 LifeCycle configuration which is basically a set of rules that define actions that S3 performs on the group of objects.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/lifecycle-management/lifecycle-management.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/lifecycle-management/lifecycle-management.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Storage Classes</title><link href="http://localhost:4000/AmazonS3/storage-classes" rel="alternate" type="text/html" title="Amazon S3 Storage Classes" /><published>2020-06-03T13:30:00+05:30</published><updated>2020-06-03T13:30:00+05:30</updated><id>http://localhost:4000/AmazonS3/storageClasses</id><content type="html" xml:base="http://localhost:4000/AmazonS3/storage-classes">&lt;h2 id=&quot;aws-storage-classes&quot;&gt;AWS Storage Classes&lt;/h2&gt;
-&lt;p&gt;Storage Classes in AWS lets you store objects in a cost effecient manner.
-Every Object belong to a Storage class.&lt;/p&gt;
-
-&lt;h2 id=&quot;types-of-storage-classes-in-aws&quot;&gt;Types of Storage Classes in AWS&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;S3 Standard&lt;/strong&gt; - Frequently accessed data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;S3 Standard-IA&lt;/strong&gt; - Long-lived, infrequently accessed data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;S3 Intelligent-Tiering&lt;/strong&gt; - Long-lived data with changing or unknown access pattern&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;S3 One Zone-IA&lt;/strong&gt; - Long-lived, infrequently accessed, non-critical data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;S3 Glacier&lt;/strong&gt; - Long-term data archiving with retrieval times ranging from minutes to hours&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;S3 Glacier Deep Archive&lt;/strong&gt; - Archiving rarely accessed data with a default retrieval time of 12 hours&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reduced Redundancy Storage (RRS)&lt;/strong&gt; - Frequently accessed, non-critical data&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Note - RSS not recommended&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;factors-considering-while-selecting-storage-classes&quot;&gt;Factors considering while selecting Storage Classes&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Access of data&lt;/strong&gt; - how frequently you want to access data&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Durability&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Availability&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Min Storage duration&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cost&lt;/strong&gt;
-and many more&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;there-are--many-examples-for-which-you-need-to-change-storage-class-of-objects&quot;&gt;There are  many examples for which you need to change Storage Class of objects.&lt;/h3&gt;
-&lt;p&gt;Eg - Suppose you are storing reports in AWS which are used by the clients.&lt;/p&gt;
-&lt;p&gt;For 10-15 days,it is accessed frequently by the clients, so you need S3 Standard Storage Class.&lt;/p&gt;
-&lt;p&gt;After 1 month, the reports are not accessed frequently, so you can move these reports to S3 Standard-IA Storage Classes.&lt;/p&gt;
-&lt;p&gt;After 2 months, the reports are accessed rarely, so you can move these reports to S3 Glacier Deep Archive Storage Classes.&lt;/p&gt;
-
-&lt;p&gt;By doing this, you can use your money effectively.&lt;/p&gt;
-
-&lt;p&gt;Transition of objects from one storage class to another can be set by making rules at bucket level. This feature can be done in
-&lt;a href=&quot;/AmazonS3/lifecycle-management&quot;&gt;&lt;strong&gt;Life Cycle Management&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;comparison-graph-of-aws-s3-storage-class&quot;&gt;Comparison graph of AWS S3 Storage class&lt;/h2&gt;
-&lt;div class=&quot;table&quot;&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-31ua{background-color:#ffcc67;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-ik58{background-color:#ffcb2f;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-i1q2{background-color:#34cdf9;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-&lt;/style&gt;
-&lt;table class=&quot;tg&quot;&gt;
-&lt;thead&gt;
-  &lt;tr&gt;
-    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Storage class&lt;/span&gt;&lt;/th&gt;
-    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Designed for&lt;/span&gt;&lt;/th&gt;
-    &lt;th class=&quot;tg-31ua&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Durability (designed for)&lt;/span&gt;&lt;/th&gt;
-    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Availability (designed for)&lt;/span&gt;&lt;/th&gt;
-    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Availability Zones&lt;/span&gt;&lt;/th&gt;
-    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Min storage duration&lt;/span&gt;&lt;/th&gt;
-    &lt;th class=&quot;tg-ik58&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;Min billable object size&lt;/span&gt;&lt;/th&gt;
-  &lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Standard&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;Frequently accessed data&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Standard-IA&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;Long-lived, infrequently accessed data&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.9%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;30 days&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;128 KB&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Intelligent-Tiering&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;Long-lived data with changing or unknown access patterns&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.9%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;30 days&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 One Zone-IA&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;Long-lived, infrequently accessed, non-critical data&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.5%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;1&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;30 days&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;128 KB&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Glacier&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;Long-term data archiving with retrieval times ranging from minutes to hours&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;90 days&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;40 KB&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-i1q2&quot;&gt;S3 Glacier Deep Archive&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;Archiving rarely accessed data with a default retrieval time of 12 hours&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.999999999%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;180 days&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;40 KB&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class=&quot;tg-i1q2&quot;&gt;RRS (Not recommended)&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;Frequently accessed, non-critical data&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;99.99%&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;&amp;gt;= 3&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
-    &lt;td class=&quot;tg-0pky&quot;&gt;None&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You are successfully able to understand Object Storage Classes.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">AWS Storage Classes Storage Classes in AWS lets you store objects in a cost effecient manner. Every Object belong to a Storage class.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/storage-classes/storage-classes.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/storage-classes/storage-classes.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Sharing Object URL</title><link href="http://localhost:4000/AmazonS3/object-url" rel="alternate" type="text/html" title="Amazon S3 Sharing Object URL" /><published>2020-06-02T00:00:00+05:30</published><updated>2020-06-02T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/shareObject</id><content type="html" xml:base="http://localhost:4000/AmazonS3/object-url">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;This tutorial describes how to share Amazon S3 Object URL - PreSigned URL and Public URL.&lt;/p&gt;
-
-&lt;p&gt;There are two ways to share URL -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;By Generating &lt;strong&gt;PreSigned URL&lt;/strong&gt; (for public and private objects).&lt;/li&gt;
-  &lt;li&gt;By Sharing &lt;strong&gt;public URL&lt;/strong&gt; (for public objects).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;1-by-generating-presigned-url&quot;&gt;1. By Generating PreSigned URL&lt;/h2&gt;
-
-&lt;p&gt;PreSigned URL is the URL created by the owner of the object from its security credentials to grant others time limited access.&lt;/p&gt;
-&lt;p&gt;The PreSigned URL comprises of &lt;strong&gt;Security Credentials + Bucket Name + object key + Expiration time and date + HTTP Method (GET to download the object and PUT to upload an object).&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Code to generate PreSigned URL -&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void generatePreSignedURL(AmazonS3 amazonS3,String bucketName,String objectKey){
-
-    Calendar calendar= Calendar.getInstance();
-    calendar.add(Calendar.DAY_OF_MONTH,5); // expiration time - 5 days
-
-    GeneratePresignedUrlRequest generatePresignedUrlRequest =
-        new GeneratePresignedUrlRequest(bucketName,objectKey)
-            .withMethod(HttpMethod.GET)
-            .withExpiration(calendar.getTime());
-
-    URL url = amazonS3.generatePresignedUrl(generatePresignedUrlRequest);
-    LOG.info(&quot;URL- &quot; + url.toString());
-  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now we use amazonS3 client we created in this &lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We created a GeneratePresignedUrlRequest by passing object key, HttpMethod and expiration time.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note - This link will expire after 5 days (value set in expiration).&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-public-url&quot;&gt;2. Public URL&lt;/h2&gt;
-&lt;p&gt;For this URL to work, you need to give &lt;strong&gt;public permission to object&lt;/strong&gt;.&lt;a href=&quot;https://docs.aws.amazon.com/AmazonS3/latest/user-guide/set-object-permissions.html&quot;&gt; Check this link for how to set object permsission.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Code to generate Public URL -&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// it creates URL for public objects
-public static void generatePublicURL(AmazonS3 amazonS3,String bucketName,String objectKey){
-  URL url=amazonS3.getUrl(bucketName,objectKey);
-  LOG.info(&quot;URL- &quot; + url.toString());
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;We simply call getUrl() on amazon S3 client.&lt;/p&gt;
-
-&lt;p&gt;You are successfully able to share object URL.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/techypoint/amazon-s3.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial describes how to share Amazon S3 Object URL - PreSigned URL and Public URL.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/object-url/sharing-Object-Url.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/object-url/sharing-Object-Url.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Operations</title><link href="http://localhost:4000/AmazonS3/operations" rel="alternate" type="text/html" title="Amazon S3 Operations" /><published>2020-06-01T00:00:00+05:30</published><updated>2020-06-01T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/operations</id><content type="html" xml:base="http://localhost:4000/AmazonS3/operations">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;This tutorial describes the basics operations on bucket and objects using java sdk.&lt;/p&gt;
-
-&lt;p&gt;Operations includes&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Create bucket&lt;/li&gt;
-  &lt;li&gt;List buckets&lt;/li&gt;
-  &lt;li&gt;Delete buckets&lt;/li&gt;
-  &lt;li&gt;Get Object&lt;/li&gt;
-  &lt;li&gt;List Objects&lt;/li&gt;
-  &lt;li&gt;List Objects With limit&lt;/li&gt;
-  &lt;li&gt;Upload or put object in a bucket&lt;/li&gt;
-  &lt;li&gt;Delete Object&lt;/li&gt;
-  &lt;li&gt;Copy Object&lt;/li&gt;
-  &lt;li&gt;Read File Content&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;1-create-bucket&quot;&gt;1. Create bucket&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   public static void createBucket(AmazonS3 amazonS3,String bucketName){
-    if(!amazonS3.doesBucketExistV2(bucketName)){
-      Bucket bucket=amazonS3.createBucket(new CreateBucketRequest(bucketName));
-    }else{
-      LOG.info(&quot;Bucket name already exists&quot;);
-    }
-  }
-   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Now we use amazonS3 client we created in this &lt;a href=&quot;/AmazonS3/setup-java-project&quot;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;First we check whether bucketName exists or not. If not exists, then we create by using createBucket().&lt;/p&gt;
-
-&lt;h2 id=&quot;2-list-buckets&quot;&gt;2. List buckets&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   public static void listBuckets(AmazonS3 amazonS3){
-    List&lt;span class=&quot;nt&quot;&gt;&amp;lt;Bucket&amp;gt;&lt;/span&gt; bucketList=amazonS3.listBuckets();
-    for(Bucket bucket : bucketList) {
-      LOG.info(&quot;bucket name - &quot;+bucket.getName());
-    }
-  }
-   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;We call listBuckets() on amazonS3 client to get all the bucket list created.
-Here, we we use only bucket name. You can also fetch other information from the Bucket object.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-delete-buckets&quot;&gt;3. Delete buckets&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// it is important to empty bucket before deleting it
-public static void deleteBuckets(AmazonS3 amazonS3,String bucketName){
-
-  // delete all objects in a bucket
-  ObjectListing listObjects = amazonS3.listObjects(bucketName);
-  List&lt;span class=&quot;nt&quot;&gt;&amp;lt;S3ObjectSummary&amp;gt;&lt;/span&gt; s3ObjectSummaryList=listObjects.getObjectSummaries();
-  while (true){
-    for(S3ObjectSummary s3ObjectSummary:s3ObjectSummaryList){
-      amazonS3.deleteObject(bucketName,s3ObjectSummary.getKey());
-    }
-    if(listObjects.isTruncated()){
-      // listNextBatchOfObjects - this will next batch of objects
-      listObjects=amazonS3.listNextBatchOfObjects(listObjects);
-    }else{
-      break;
-    }
-  }
-
-  // delete all version objects in a buckets
-  VersionListing versionList = amazonS3.listVersions(new ListVersionsRequest().withBucketName(bucketName));
-  List&lt;span class=&quot;nt&quot;&gt;&amp;lt;S3VersionSummary&amp;gt;&lt;/span&gt; versionSummaryList=versionList.getVersionSummaries();
-  while (true){
-    for(S3VersionSummary s3VersionSummary:versionSummaryList){
-      amazonS3.deleteVersion(bucketName,s3VersionSummary.getKey(),s3VersionSummary.getVersionId());
-    }
-    if(versionList.isTruncated()){
-      // listNextBatchOfObjects - this will next batch of objects
-      versionList=amazonS3.listNextBatchOfVersions(versionList);
-    }else{
-      break;
-    }
-  }
-  // finally delete bucket
-  amazonS3.deleteBucket(bucketName);
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;It is important to empty bucket before deleting it.&lt;/p&gt;
-
-&lt;p&gt;To Empty a bucket, we need to delete version objects and not version objects.
-Check this tutorial for &lt;a href=&quot;/AmazonS3/versioning&quot;&gt;versioning&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;First we call listObjects() to fetch object list. It returns some or all (up to 1,000) of the objects in a bucket.
-Then we delete object one by one by calling deleteObject().
-Then we call isTruncated() to check whether Amazon S3 returned all the objects.
-If not, then we again fetch the next batch of objects by calling listNextBatchOfObjects().&lt;/p&gt;
-
-&lt;p&gt;In the Same Manner, we deleted verion objects.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-get-object&quot;&gt;4. Get Object&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void getObject(AmazonS3 amazonS3,String bucketName){
-  String objectKey=&quot;object key 1&quot;;
-  S3Object s3Object=amazonS3.getObject(bucketName,objectKey);
-  LOG.info(&quot;object key- &quot;+s3Object.getKey());
-  LOG.info(&quot;object metadata- &quot;+s3Object.getObjectContent());
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;We need to know key of the object. Then we call getObject() to fetch S3 object.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-list-objects&quot;&gt;5. List Objects&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void listObjects(AmazonS3 amazonS3,String bucketName){
-    // list all objects in a buckets
-    ObjectListing objectListing=amazonS3.listObjects(bucketName);
-    for(S3ObjectSummary os : objectListing.getObjectSummaries()) {
-      LOG.info(&quot;key-&quot;+os.getKey());
-      LOG.info(&quot;Size -&quot;+os.getSize());
-    }
-  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;We can list all objects in a buckets by calling listObjects().&lt;/p&gt;
-
-&lt;h2 id=&quot;6-list-objects-with-limit&quot;&gt;6. List Objects With limit&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// list n no. of objects of a buckets at a time
-// and get more object keys if require
-public static void listObjectsWithLimit(AmazonS3 amazonS3,String bucketName){
-  ListObjectsV2Request listObjectsV2Request=new ListObjectsV2Request().withBucketName(bucketName).withMaxKeys(5);
-  ListObjectsV2Result listObjectsV2Result=amazonS3.listObjectsV2(listObjectsV2Request);
-  while (true){
-    List&lt;span class=&quot;nt&quot;&gt;&amp;lt;S3ObjectSummary&amp;gt;&lt;/span&gt; s3ObjectSummaryList=listObjectsV2Result.getObjectSummaries();
-    for(S3ObjectSummary s3ObjectSummary:s3ObjectSummaryList){
-      // you can other values of s3ObjectSummary
-      LOG.info(&quot;key- &quot;+s3ObjectSummary.getKey());
-    }
-    if(listObjectsV2Result.isTruncated()){
-      String token=listObjectsV2Result.getNextContinuationToken();
-      listObjectsV2Request.setContinuationToken(token);
-    }else{
-      break;
-    }
-  }
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can fetch n number of objects at a time by creating ListObjectsV2Request object and setting max keys to n
-and then call listObjectsV2(listObjectsV2Request).&lt;/p&gt;
-
-&lt;h2 id=&quot;7-upload-or-put-object-in-a-bucket&quot;&gt;7. Upload or put object in a bucket&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void uploadObjectInABucket(AmazonS3 amazonS3,String bucketName){
-    // code to upload a text as a object
-    String objectKey1=&quot;object key 1&quot;;
-    String objectValue=&quot;Upload a Text String&quot;;
-    amazonS3.putObject(bucketName,objectKey1,objectValue);
-
-    // code to upload a file as a object
-    String objectKey2=&quot;object key 2&quot;;
-    String pathToFile=&quot;Path of File&quot;;
-    PutObjectRequest putObjectRequest=new PutObjectRequest(bucketName,objectKey2,
-        new File(pathToFile));
-    ObjectMetadata objectMetadata=new ObjectMetadata();
-    objectMetadata.setContentType(&quot;application/pdf&quot;);
-    // use can set other meta data as a key value pair in ObjectMetadata
-    objectMetadata.addUserMetadata(&quot;metaDataKey&quot;,&quot;metaDataValue&quot;);
-    putObjectRequest.setMetadata(objectMetadata);
-    amazonS3.putObject(putObjectRequest);
-  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Use putObject() to upload object to Amazon S3.
-It takes bucket name, object key and data(string or file).
-You can upload any file and need to set the setContentType in the metadata.
-You can also set custom key-value pair against a object in the ObjectMetadata using addUserMetadata().&lt;/p&gt;
-
-&lt;h2 id=&quot;8-delete-object&quot;&gt;8. Delete Object&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void deleteObject(AmazonS3 amazonS3,String bucketName){
-  String objectKey=&quot;object key 1&quot;;
-  amazonS3.deleteObject(new DeleteObjectRequest(bucketName,objectKey));
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Use deleteObject() to delete the object from the bucket.&lt;/p&gt;
-
-&lt;h2 id=&quot;9-copy-object&quot;&gt;9. Copy Object&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;// copy object in bucketName1 having key - objectKey1 to bucketName2 having key - objectKey2
-public static void copyObjectFromOneKeyToAnother(AmazonS3 amazonS3){
-  String bucketName1=&quot;bucketnametocreate&quot;; // source bucket name
-  String bucketName2=&quot;bucketName2&quot;; // destination bucket name
-  String objectKey1=&quot;objectKey1&quot;;   // source object key
-  String objectKey2=&quot;objectKey2&quot;;   // destination object key
-  amazonS3.copyObject(new CopyObjectRequest(bucketName1,objectKey1,bucketName2,objectKey2));
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can also copy object from one bucket to another bucket by using copyObject().&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note - Bucket needs to be exist before copying&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;10-read-file-content&quot;&gt;10. Read File Content&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void readFileContent(AmazonS3 amazonS3,String bucketName) throws IOException {
-    String objectKey=&quot;object key 1&quot;;
-    S3Object s3Object=amazonS3.getObject(bucketName,objectKey);
-    BufferedReader reader = new BufferedReader(new InputStreamReader(s3Object.getObjectContent()));
-    String line = null;
-    // read input stream line by line
-    while ((line = reader.readLine()) != null) {
-      LOG.info(&quot;line - &quot;+line);
-    }
-  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Call getObjectContent() to get the input steam and then read line by line using BufferedReader object.&lt;/p&gt;
-
-&lt;p&gt;You are successfully able to execute most common operations on bucket and objects.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/techypoint/amazon-s3.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial describes the basics operations on bucket and objects using java sdk.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/operations/operations.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/operations/operations.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Versioning</title><link href="http://localhost:4000/AmazonS3/versioning" rel="alternate" type="text/html" title="Amazon S3 Versioning" /><published>2020-05-31T00:00:00+05:30</published><updated>2020-05-31T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/versioning</id><content type="html" xml:base="http://localhost:4000/AmazonS3/versioning">&lt;h2 id=&quot;what-is-amazon-s3-versioning&quot;&gt;What is Amazon S3 Versioning&lt;/h2&gt;
-
-&lt;p&gt;Versioning in aws s3 means to keep &lt;strong&gt;variants of the same object.&lt;/strong&gt;
-Versioning can be helpful in maintaining different states of objects.
-If versioning is enabled for bucket, Amazon S3 automatically creates &lt;strong&gt;version id&lt;/strong&gt; for the object.&lt;/p&gt;
-
-&lt;p&gt;Eg -
-In the bucket, you have two object with the same key but with different version id&lt;/p&gt;
-
-&lt;p&gt;Object 1  - object 1 key + version id(1)&lt;/p&gt;
-
-&lt;p&gt;Object 2  - object 1 key + version id(2)&lt;/p&gt;
-
-&lt;p&gt;Version enabled buckets can be recovered from accidental deletion or overwrite.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note - you need to explicitly enable version for the bucket.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;enable-versioning-in-a-bucket&quot;&gt;Enable Versioning In a Bucket&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 1 - Login in to your Amazon S3 account.&lt;/li&gt;
-  &lt;li&gt;Step 2 - Search s3 on search bar and select S3&lt;/li&gt;
+  &lt;li&gt;Login to &lt;a href=&quot;https://mailchimp.com&quot; title=&quot;MailChimp&quot;&gt;MailChimp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Go to Create option and select Email option.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;AWS Management Console Panel&quot; title=&quot;AWS Management Console Panel&quot; src=&quot;/assets/img/amazon-s3/versioning/aws_console_panel.png&quot; /&gt;
+  &lt;img alt=&quot;MailChimp Email Option&quot; title=&quot;MailChimp Email Option&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_email_option.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 3 - Click on bucket name&lt;/li&gt;
+  &lt;li&gt;Go to Automated tab and select Share blog updates option&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Amazon S3 Bucket list&quot; title=&quot;Amazon S3 Bucket list&quot; src=&quot;/assets/img/amazon-s3/versioning/amazon-s3-bucket-list.png&quot; /&gt;
+  &lt;img alt=&quot;MailChimp Share Blog Updates&quot; title=&quot;MailChimp Share Blog Updates&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_share_blog_updates.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 4 - Go to Properties and Enable Versioning.&lt;/li&gt;
+  &lt;li&gt;Enter Campaign Name and select your audience to which you want to send updates and then click Begin&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;AWS Management Console Panel&quot; title=&quot;AWS Management Console Panel&quot; src=&quot;/assets/img/amazon-s3/versioning/bucket_properties.png&quot; /&gt;
+  &lt;img alt=&quot;MailChimp Audience Selection&quot; title=&quot;MailChimp Audience Selection&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_audience_selection.png&quot; /&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Now you are successfully able to enable versioning of a bucket.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">What is Amazon S3 Versioning</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/versioning/Versioning.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/versioning/Versioning.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Set Up Java Project</title><link href="http://localhost:4000/AmazonS3/setup-java-project" rel="alternate" type="text/html" title="Amazon S3 Set Up Java Project" /><published>2020-05-30T00:00:00+05:30</published><updated>2020-05-30T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/setUpJavaProject</id><content type="html" xml:base="http://localhost:4000/AmazonS3/setup-java-project">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;This tutorial will help you in creating access key and secret key which required in making connection.
-Then we will create project in java and create connection with Amazon S3.&lt;/p&gt;
-
-&lt;h2 id=&quot;now-lets-create-your-access-key-and-secret-key&quot;&gt;Now lets create your access key and secret key&lt;/h2&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;Step 1 - Login in to your Amazon S3 account.&lt;/li&gt;
-  &lt;li&gt;Step 2 - Click on My Security Credentials&lt;/li&gt;
+  &lt;li&gt;In this screen, enter your live feed.xml URL and choose other options also.
+After that, click on Next&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Security Credentials Option&quot; title=&quot;Security Credentials Option&quot; src=&quot;/assets/img/amazon-s3/setup-java-project/security_credential_option.png&quot; /&gt;
+  &lt;img alt=&quot;MailChimp RSS Feed Setup&quot; title=&quot;MailChimp RSS Feed Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_rss_feed_setup.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 3 - Now select Access keys (access key id and secret access key)&lt;/li&gt;
+  &lt;li&gt;In this screen, I will go with Entire audience option. You can choose which fits you best. After that, click on Next&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;AWS Security Credentials&quot; title=&quot;AWS Security Credentials&quot; src=&quot;/assets/img/amazon-s3/setup-java-project/aws_security_credentials.png&quot; /&gt;
+  &lt;img alt=&quot;MailChimp Recipients Setup&quot; title=&quot;MailChimp Recipients Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_recipients_setup.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 4 - click on create new Access key, you will get the option of download key file.&lt;/li&gt;
+  &lt;li&gt;This screen is all about email subject lines, whether you want to share on social media and tracking options. All options are self explanatory. After filling options, click on Next&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;AWS Credential Download Option&quot; title=&quot;AWS Credential Download Option&quot; src=&quot;/assets/img/amazon-s3/setup-java-project/aws_credential_download_option.png&quot; /&gt;
+  &lt;img alt=&quot;MailChimp Campaign Info Setup&quot; title=&quot;MailChimp Campaign Info Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_campaign_info_setup.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 5 - In the file, you will get access key and secret key.&lt;/li&gt;
+  &lt;li&gt;This screen is to create template for your Email. Basically, how to show your RSS feed data in Email.
+In Layout, I will go with 1 column template&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Template&quot; title=&quot;MailChimp Template&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_template.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In this, you need to customize template design.
+Drag and Drop RSS items from blocks and delete previous block. Customize your design and you can see preview and send test mail options also.&lt;/p&gt;
+
+    &lt;p&gt;After Customization, click on Next.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Template Design&quot; title=&quot;MailChimp Template Design&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_template_design.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;You are all set to send updates. Click on start RSS and its done.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp RSS Done&quot; title=&quot;MailChimp RSS Done&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_rss_done.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now whenever you create a post, it will automatically send to your selected audience.&lt;/p&gt;
+
+&lt;p&gt;You can analyze information like&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;total opens mail&lt;/li&gt;
+  &lt;li&gt;total clicks on mail&lt;/li&gt;
+  &lt;li&gt;forwarded mail&lt;/li&gt;
+  &lt;li&gt;and many more through &lt;strong&gt;Campaign Dashboard on MailChimp portal&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;now-set-up-java-project&quot;&gt;Now Set Up Java Project&lt;/h2&gt;
+&lt;p&gt;Now you have successfully created a blog with almost all necessary features.&lt;/p&gt;
 
+&lt;p&gt;We will target next on &lt;strong&gt;how to rank high in search results i.e SEO&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt;Create a maven project in your favourite IDE.&lt;/li&gt;
-  &lt;li&gt;Add maven dependency for AWS java sdk in pom.xml&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mailchimp.com&quot; title=&quot;MailChimp&quot;&gt;For MailChimp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Explore MailChimp Portal&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;nt&quot;&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.amazonaws&lt;span class=&quot;nt&quot;&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;nt&quot;&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;aws-java-sdk-s3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;nt&quot;&gt;&amp;lt;version&amp;gt;&lt;/span&gt;1.11.781&lt;span class=&quot;nt&quot;&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
-   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will talk about the most important part i.e SEO and how to integrate SEO best practices.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Share Post Updates Using MailChimp</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/share-post-updates/share-post.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/share-post-updates/share-post.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SignUp Form(Subscribe) Using MailChimp</title><link href="http://localhost:4000/create-a-website/signUp-mailchimp" rel="alternate" type="text/html" title="SignUp Form(Subscribe) Using MailChimp" /><published>2020-06-28T19:00:00+05:30</published><updated>2020-06-28T19:00:00+05:30</updated><id>http://localhost:4000/create-a-website/sign-up-mailchimp</id><content type="html" xml:base="http://localhost:4000/create-a-website/signUp-mailchimp">&lt;h1 id=&quot;signup-formsubscribe-using-mailchimp&quot;&gt;SignUp Form(Subscribe) Using MailChimp&lt;/h1&gt;
+
+&lt;p&gt;In this Tutorial, we will talk about how we will integrate Sign Up Form on our website.&lt;/p&gt;
+
+&lt;p&gt;This feature lets users subscribe for latest updates. We are integrating this using MailChimp.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-mailchimp&quot;&gt;What is MailChimp&lt;/h2&gt;
+
+&lt;p&gt;MailChimp is all-in-one integrated marketing platform for small business.
+Its easy to use and free for starting.
+It is an email marketing technique and helps in expanding your reach.&lt;/p&gt;
+
+&lt;p&gt;Whenever you add a new post, it will be available to the subscriber through RSS feed.
+You can also target your audience by segmenting them.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-we-will-do-&quot;&gt;What we will do-&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Sign up on MailChimp.&lt;/li&gt;
+  &lt;li&gt;Design Sign Up Form Code&lt;/li&gt;
+  &lt;li&gt;Integrate Code on Your website&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-sign-up&quot;&gt;1. Sign Up&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Go to &lt;a href=&quot;https://mailchimp.com&quot; title=&quot;MailChimp&quot;&gt;MailChimp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Step 2 - Click On Sing Up Free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Homepage&quot; title=&quot;MailChimp Homepage&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-homepage.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Fill the form and click Sign Up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp SignUp Form&quot; title=&quot;MailChimp SignUp Form&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - Go to Email box and verify your email address.&lt;/li&gt;
+  &lt;li&gt;Step 5 - After verification and confirming you are human. You will see below screen. Choose Free Plan and Click Complete button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Plans&quot; title=&quot;MailChimp Plans&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-plans.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 6 - Now set up your account and Continue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp SetUp Account&quot; title=&quot;MailChimp SetUp Account&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-setup-account.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 7 - Now Tell Something about your business and enter website URL and Continue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Tell Me Business&quot; title=&quot;MailChimp Tell Me Business&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-tellme-business.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 8 - Now enter your address details and phone number.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Add Address&quot; title=&quot;MailChimp Add Address&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-add-address.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 9 - Now select suitable option and Continue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Contacts&quot; title=&quot;MailChimp Contacts&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-contacts.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 10 - Choose option based on your purpose and continue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Offer&quot; title=&quot;MailChimp Offer&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-offer.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 11 - Subscribe to the options and click on Lets Go.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Subscribe Option&quot; title=&quot;MailChimp Subscribe Option&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-subscribe-option.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;p&gt;You have successfully able to sign up&lt;/p&gt;
+
+&lt;h3 id=&quot;2-design-sign-up-form-code&quot;&gt;2. Design Sign Up Form Code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Now go to create option on the top-left corner and select SignUp Form Option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Mailchimp Create Signup Form&quot; title=&quot;Mailchimp Create Signup Form&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-create-signup-form.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 2 - Select the Embedded form type and Click on Begin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Mailchimp Signup Form Type&quot; title=&quot;Mailchimp Signup Form Type&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form-type.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 3 - Now there are different designs of Form. You can choose whichever suits your website design.&lt;/p&gt;
+
+    &lt;p&gt;I will go with Horizontal design.&lt;/p&gt;
+
+    &lt;p&gt;You can change the form title. After changing, copy code from screen&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Begin Mailchimp Signup Form --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nf&quot;&gt;#mc_embed_signup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Helvetica&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Arial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mc_embed_signup&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;action=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://github.us10.list-manage.com/subscribe/post?u=8e538f972fa09484ba232492f&amp;amp;amp;id=5b5863d2f0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;method=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mc-embedded-subscribe-form&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mc-embedded-subscribe-form&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;validate&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_blank&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;novalidate&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mc_embed_signup_scroll&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;label&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;for=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mce-EMAIL&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Subscribe for more recipes&lt;span class=&quot;nt&quot;&gt;&amp;lt;/label&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;EMAIL&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mce-EMAIL&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email address&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;position: absolute; left: -5000px;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b_8e538f972fa09484ba232492f_5b5863d2f0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;tabindex=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clear&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Subscribe&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;subscribe&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mc-embedded-subscribe&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!--End mc_embed_signup--&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;3-integrate-code-on-our-website&quot;&gt;3. Integrate Code on our website&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Create signUp.md and paste code in it.&lt;/li&gt;
+  &lt;li&gt;Step 2 - Now you can include signUp.md file in your posts or in your post layout file.
+I am including it in 2020-06-12-butterChicken.markdown file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![Butter Chicken](/assets/img/non-veg/butterChicken.jpg &quot;Butter Chicken&quot;)
+{% include signUp.md %}
+# Butter Chicken Recipe&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now open your blog and you will see the magic. You will see a subscribe option below image and that’s it.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp SignUp Design&quot; title=&quot;MailChimp SignUp Design&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-design.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now save your changes to Github Account.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Save Changes&quot; title=&quot;MailChimp Save Changes&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-save-changes.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now any users can subscribe for updates and you can expand your audience.&lt;/p&gt;
+
+&lt;p&gt;You can see your subscribed users under &lt;strong&gt;Audience section on MailChimp portal&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;MailChimp Audience Portal&quot; title=&quot;MailChimp Audience Portal&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-audience-portal.png&quot; /&gt;
+	&lt;/div&gt;
+
+&lt;p&gt;There are many other features and customization available-&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;But one you may wish to add is to confirm the email address of the subscriber.
+For that, you need to enable double opt-in option.
+&lt;a href=&quot;https://mailchimp.com/help/set-signup-preferences&quot; title=&quot;How to enable double opt-in option&quot;&gt;How to enable double opt-in option&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;You can also share post to your audience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Now to create connection with AmazonS3, you will need to know
+  &lt;li&gt;&lt;a href=&quot;https://mailchimp.com&quot; title=&quot;MailChimp&quot;&gt;For MailChimp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Explore MailChimp Portal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will talk about how you can share post to your audience whenever you create a post(will automate process).&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">SignUp Form(Subscribe) Using MailChimp</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/signUp-mailchimp/subscribe.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Comment Box Using Disqus</title><link href="http://localhost:4000/create-a-website/comment-disqus" rel="alternate" type="text/html" title="Comment Box Using Disqus" /><published>2020-06-28T18:40:00+05:30</published><updated>2020-06-28T18:40:00+05:30</updated><id>http://localhost:4000/create-a-website/integrate-disqus</id><content type="html" xml:base="http://localhost:4000/create-a-website/comment-disqus">&lt;h1 id=&quot;comment-box-using-disqus&quot;&gt;Comment Box Using Disqus&lt;/h1&gt;
+
+&lt;p&gt;In this tutorial, we will create comment box using Disqus so that others can share its views.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-we-will-do-&quot;&gt;What we will do-&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Sign Up On Disqus.&lt;/li&gt;
+  &lt;li&gt;Integrate code in our website.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;1-sign-up&quot;&gt;1. Sign Up&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Go to &lt;a href=&quot;https://disqus.com&quot; title=&quot;Disqus&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Step 2 - Click on Get Started&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Homepage&quot; title=&quot;Disqus Homepage&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-homepage.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Enter following details or can choose other options. After that click Sign Up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Sign Up&quot; title=&quot;Disqus Sign Up&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-signUp.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - Then choose I want to install Disqus on my site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Install Option&quot; title=&quot;Disqus Install Option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-install-option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 5 - Enter website name and category and then click on create site button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus create site page&quot; title=&quot;Disqus create site page&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-create-site.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 6 - In this screen, Select a basic plan and click on Subscibe now.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Plan Option&quot; title=&quot;Disqus Plan Option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-plan-option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 7 - Now Select On Install Universal Code option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Platform option&quot; title=&quot;Disqus Platform option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-platform.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 8 - In this screen, we will see how to Integrate code in our website and video instruction is also available.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-integrate-code&quot;&gt;2. Integrate Code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Copy code from screen, code similar to below code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;disqus_thread&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// DON'T EDIT BELOW THIS LINE&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://https-vbisht7038-github-io.disqus.com/embed.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;data-timestamp&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;noscript&amp;gt;&lt;/span&gt;Please enable JavaScript to view the &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://disqus.com/?ref_noscript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;comments powered by Disqus.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 2 - Now create comment-disqus.md in _include folder and paste above code in it and add css code for designing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;#disqus_thread {
+  margin-top: 50px;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Now replace below lines for page identification so that Disqus can easily identify comment box is located on which page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;this.page.url = &quot;{{ page.url || prepend: site.url}}&quot;;
+this.page.identifier = &quot;{{ page.url }}&quot;;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - Now you have markdown file, you need to just include it in your post.md file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;center&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-xs-12 col-sm-9 col-md-8 col-lg-8 col-xl-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;post-cont&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  {{ content }}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- comment box --&amp;gt;&lt;/span&gt;
+  {% include comment-disqus.md %}
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- comment box --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 5 - Go to your blog, you will see a comment box but with a message to verify your email address.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Email Verification&quot; title=&quot;Disqus Email Verification&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-email-verification.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Verify your email address and you are all done.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Comment box&quot; title=&quot;Disqus Comment box&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-comment-done.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now save your changes to Github account.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Disqus Save Changes&quot; title=&quot;Disqus Save Changes&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-save-changes.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;On Disqus portal&lt;/strong&gt;,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;you can change look and feel of comment box.&lt;/li&gt;
+  &lt;li&gt;you can see the latest comments and deletes them&lt;/li&gt;
+  &lt;li&gt;and much more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;For &lt;a href=&quot;https://disqus.com&quot; title=&quot;Disqus&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Explore Disqus Portal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will talk about how to integrate Sign Up Form Using MailChimp.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Comment Box Using Disqus</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/comment-disqus/comment.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/comment-disqus/comment.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Create a Blog Part 3</title><link href="http://localhost:4000/create-a-website/create-a-blog-part3" rel="alternate" type="text/html" title="Create a Blog Part 3" /><published>2020-06-28T18:20:00+05:30</published><updated>2020-06-28T18:20:00+05:30</updated><id>http://localhost:4000/create-a-website/create-a-blog-part3</id><content type="html" xml:base="http://localhost:4000/create-a-website/create-a-blog-part3">&lt;h1 id=&quot;create-a-blog-for-your-website---part-3&quot;&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 3&lt;/h1&gt;
+
+&lt;h2 id=&quot;prerequisite&quot;&gt;PREREQUISITE&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 1&lt;/p&gt;
+
+    &lt;p&gt;In PART 1 - we have created basic website using Jekyll. Before Going further, you need to read &lt;a href=&quot;/create-a-website/create-a-blog-part1&quot;&gt;PART 1&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 2&lt;/p&gt;
+
+    &lt;p&gt;In PART 2 - we have created blog post for our website using Jekyll. Before going further, you need to read &lt;a href=&quot;/create-a-website/create-a-blog-part2&quot;&gt;PART 2&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this part i.e PART 3, we are going to create a page to show all the blog posts.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-we-need-to-create-this-page-for-all-blog-posts&quot;&gt;Why we need to create this page for all blog posts?&lt;/h3&gt;
+&lt;p&gt;because when a user lands to your homepage, he/she needs a way to your blog posts.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-we-will-do-&quot;&gt;What we will do-&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create a blog.md file in base directory.&lt;/li&gt;
+  &lt;li&gt;Add blog link in navigation.md&lt;/li&gt;
+  &lt;li&gt;Instead of manually copying the post content to this page, Jekyll gives a feature to access all the posts in _post directory.
+This feature helps a lot in your future post development. You don’t need to update post content everywhere. Just create a post and it’s done.&lt;/li&gt;
+  &lt;li&gt;Design this page.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Created blog.md in base directory.&lt;/li&gt;
+  &lt;li&gt;Add blog link in navigation.md&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav-item&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav-link&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/blog&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;BLOG&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now add Front Matters like title, description, permalink in blog.md and copy the HTML code. We are using post layout for this file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+layout: post
+permalink: /blog/
+description: &quot;This Page contains cooking recipe posts&quot;
+---
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;blog-posts&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;grid-container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+{% for post in site.posts %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;card&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;card-info&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-user user-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-hidden=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;true&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt; {{post.author}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;  
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clockCont&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-clock-o clock-icon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;{{ post.date | date_to_long_string: &quot;ordinal&quot;, &quot;US&quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bg-img&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{post.title}}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{post.blogImg}}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;    
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;{{post.description}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'{{post.url}}'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; READ MORE&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+{% endfor%}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Here, apart from HTML code, there are Jekyll variables and Jekyll Liquid.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Jekyll Variables&lt;/strong&gt; - Jekyll provides some default variables related to post and site. Here we are using&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;AWS account&lt;/li&gt;
-      &lt;li&gt;AWS security credentials (Access key and Secret Key)&lt;/li&gt;
-      &lt;li&gt;AWS Region&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;site.posts&lt;/strong&gt;- A reverse chronological list of all posts.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;post.url&lt;/strong&gt;- The URL of the post without the domain, but with a leading slash, e.g. /2008/12/14/my-post.html.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;post.date&lt;/strong&gt;- The date assigned to the post. This can be overridden in a post’s front matter by specifying a new date/time in the format.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;post.description&lt;/strong&gt; - description of the post&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;post.author&lt;/strong&gt; - author of the post&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;post.blogImg&lt;/strong&gt; - image for the blog&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can also create your own front Matter and used to display information.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jekyll Liquid&lt;/strong&gt; - lets you output content of variable using two curly braces. For Eg -&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{{variable}}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CSS for this page -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;#blog-posts .card{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#blog-posts span.clockCont i {
+    margin-right: 5px;
+}
+#blog-posts .card-info span {
+    margin-right: 10px;
+}
+#blog-posts img{
+  height: 500px;
+}
+#blog-posts a {
+  background-color: transparent;
+  border: 1px solid #2196F3;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  border-radius: .25rem;
+}
+#blog-posts .content p{
+  margin: 5px 0px !important;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now go to your website and checkout blog post through navigation panel.&lt;/p&gt;
+
+&lt;p&gt;Now save or push changes to the github Account.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;save blog part 3&quot; title=&quot;save blog part 3&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part3/save-blog3.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now we are successfully able to create a blog and ready to publish posts but there is one feature missing i.e &lt;strong&gt;user engagement&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have dedicated further tutorials for this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;For Jekyll - &lt;a href=&quot;https://www.youtube.com/watch?v=T1itpPvFWHI&amp;amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&quot; title=&quot;Jekyll Youtube Playlist&quot;&gt;Jekyll Youtube Playlist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/front-matter&quot; title=&quot;For Front Matter&quot;&gt;For Front Matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/variables&quot; title=&quot;For Variables&quot;&gt;For Variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/liquid&quot; title=&quot;For Liquid&quot;&gt;For Liquid&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/basic-syntax&quot; title=&quot;For Markdown&quot;&gt;For Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to integrate commenting for our blog posts.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">CREATE A BLOG FOR YOUR WEBSITE - PART 3</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/create-a-blog-part3/blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/create-a-blog-part3/blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Create a Blog Part 2</title><link href="http://localhost:4000/create-a-website/create-a-blog-part2" rel="alternate" type="text/html" title="Create a Blog Part 2" /><published>2020-06-28T18:10:00+05:30</published><updated>2020-06-28T18:10:00+05:30</updated><id>http://localhost:4000/create-a-website/create-a-blog-part2</id><content type="html" xml:base="http://localhost:4000/create-a-website/create-a-blog-part2">&lt;h1 id=&quot;create-a-blog-for-your-website---part-2&quot;&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 2&lt;/h1&gt;
+
+&lt;h2 id=&quot;prerequisite&quot;&gt;PREREQUISITE&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 1&lt;/p&gt;
+
+    &lt;p&gt;In PART 1 - we have created basic website using Jekyll. Before going further, you need to read &lt;a href=&quot;/create-a-website/create-a-blog-part1&quot;&gt;PART 1&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this part i.e PART 2, we are going to create blog posts for our website.&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-structue-of-the-blog-looks-like-&quot;&gt;Basic Structue of the blog looks like-&lt;/h3&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Blog Structue&quot; title=&quot;Blog Structue&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part2/blog_structure.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the project, there is a _posts folder which will contains all the blog posts.
+There is already a post created by Jekyll for your reference.&lt;/p&gt;
+
+&lt;p&gt;Lets understand the basics of blog post&lt;/p&gt;
+
+&lt;p&gt;Open post file, you will see something like this -&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+layout: post
+title:  &quot;Welcome to Jekyll!&quot;
+date:   2020-06-12 23:26:47 +0530
+categories: jekyll update
+---&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here, this blog post is using&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;layout- post layout(layout available in default theme by Jekyll).&lt;/li&gt;
+  &lt;li&gt;title- Title of the Page&lt;/li&gt;
+  &lt;li&gt;date- post date&lt;/li&gt;
+  &lt;li&gt;categories- defines post category&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Theses key value pairs between triple-dashed lines are called &lt;strong&gt;Front Matters&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many default Front Matter provided by Jekyll which you can use. Link is available in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;What we need to create a non veg category recipe blog post&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;We will create a custom layout named post.md just like home.md in _layouts folder.&lt;/li&gt;
+  &lt;li&gt;Rename file from 2020-06-12-welcome-to-jekyll.markdown to 2020-06-12-butterChicken.markdown
+    &lt;ul&gt;
+      &lt;li&gt;File Name should be in this format only - YYYY-MM-DD-name-here.md&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;We need to provide URL to the post using &lt;strong&gt;permalink&lt;/strong&gt; front matter.&lt;/li&gt;
+  &lt;li&gt;Then we will modify other Front Matters for our post like title, date and categories.&lt;/li&gt;
+  &lt;li&gt;At last, write blog post&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;create post.md in _layouts folder and lets create a layout which has navigation and footer and in between your blog content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Content-Type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/html; charset=utf-8&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width,initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/x-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img/favicon.ico&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/css/blog_style.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Navigation --&amp;gt;&lt;/span&gt;
+{% include navigation.md %}
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Navigation --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- blog content --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainContainer&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;left&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-xs-1 col-sm-1 col-md-2 col-lg-2 col-xl-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;center&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-xs-12 col-sm-9 col-md-8 col-lg-8 col-xl-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;post-cont&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  {{ content }}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;right&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-xs-12 col-sm-3 col-md-2 col-lg-2 col-xl-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;  
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- blog content --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- footer --&amp;gt;&lt;/span&gt;
+{% include footer.md %}
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- footer --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/js/script.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here, we will create a different css file - blog_style.css same as style.css but few changes for our blog design.&lt;/p&gt;
+
+&lt;p&gt;Changes -  Removed below css&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;#mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;and added&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;#mainContainer{
+  margin-bottom: 25px;
+  margin-top: 100px;
+}
+
+#mainContainer img{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#mainContainer div#center #post-cont p{
+  line-height: 32px;
+  margin-top: 1em;
+  font-size: 21px;
+  letter-spacing: -.003em;
+  margin-bottom: -.46em;
+  font-family: medium-content-serif-font,Georgia,Cambria,times new roman,Times,serif;
+}
+#mainContainer div#center #post-cont h1,h2,h3 {
+  margin-top: 1.95em!important;
+  font-weight: 600!important;
+}
+#mainContainer div#center #post-cont li {
+    line-height: 32px;
+    font-size: 21px;
+    letter-spacing: -.003em;
+    font-family: medium-content-serif-font,Georgia,Cambria,times new roman,Times,serif;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{{content}}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;will copy the content of the file in which you will use this layout. So blog post data gets replaced by Jekyll.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rename file to 2020-06-12-butterChicken.markdown.&lt;/li&gt;
+  &lt;li&gt;In the post, we added permalink Front Matter to specify the URL of the blog post&lt;/li&gt;
+  &lt;li&gt;We changed other Front Matters in the post to -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+layout: post
+title:  &quot;Butter Chicken Recipe&quot;
+description: &quot;Butter Chicken Recipe For Non veg Lovers&quot;
+author: Varun Bisht
+date:   2020-06-12 23:26:47 +0530
+categories: non-veg
+permalink: &quot;/non-veg/butterChicken&quot;
+blogImg: &quot;/assets/img/non-veg/butterChicken.jpg&quot;
+---&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;author and blogImg are Custom Front Matters and we will use them in next tutorial.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;write blog - this need to be done by you. You can use markdown language to write heading, inserting images and links. Its very simple.
+For Eg- To write heading, you can use- # Butter Chicken Recipe&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can delete old files which we created in &lt;a href=&quot;/create-a-website/create-a-blog-part1&quot;&gt;PART 1&lt;/a&gt;, I am renaming to filename_old so that these files are available to you for reference.&lt;/p&gt;
+
+&lt;p&gt;Now save or push changes to Github Account.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Save Post&quot; title=&quot;Save Post&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part2/save_post.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now you can access this post at &lt;a href=&quot;https://vbisht7038.github.io/non-veg/butterChicken&quot; title=&quot;Butter Chicken Recipe&quot;&gt;Butter Chicken Recipe&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In part 2, we are successfully able to create a blog post.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;For Jekyll - &lt;a href=&quot;https://www.youtube.com/watch?v=T1itpPvFWHI&amp;amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&quot; title=&quot;Jekyll Youtube Playlist&quot;&gt;Jekyll Youtube Playlist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/front-matter&quot; title=&quot;For Front Matter&quot;&gt;For Front Matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.markdownguide.org/basic-syntax&quot; title=&quot;For Markdown&quot;&gt;For Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In Part 3&lt;/strong&gt;, we will create a page to show the blog posts.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">CREATE A BLOG FOR YOUR WEBSITE - PART 2</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/create-a-blog-part2/blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/create-a-blog-part2/blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Create a Blog Part 1</title><link href="http://localhost:4000/create-a-website/create-a-blog-part1" rel="alternate" type="text/html" title="Create a Blog Part 1" /><published>2020-06-28T18:00:00+05:30</published><updated>2020-06-28T18:00:00+05:30</updated><id>http://localhost:4000/create-a-website/create-a-blog-part1</id><content type="html" xml:base="http://localhost:4000/create-a-website/create-a-blog-part1">&lt;h1 id=&quot;create-a-blog-for-your-website---part-1&quot;&gt;CREATE A BLOG FOR YOUR WEBSITE - PART 1&lt;/h1&gt;
+
+&lt;p&gt;Till now, we have created a website(hompage + about us + contact us).&lt;/p&gt;
+
+&lt;p&gt;But some of you are looking to integrate blogging or to start blogging. So this tutorial is for those who wants to create a blog website.&lt;/p&gt;
+
+&lt;p&gt;I have divided this blog into three parts -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;PART 1 - We first create a new Jekyll project and then move all the things we have build till now to this project.&lt;/li&gt;
+  &lt;li&gt;PART 2 - We will create blog posts for our website.&lt;/li&gt;
+  &lt;li&gt;PART 3 - Show all the blog post on the page so that users can navigate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;- If you are just looking for website not blogs. Then you can skip this tutorial for now and continue with further tutorials.
+But Jekyll knowledge is required for further tutorials.&lt;/p&gt;
+
+&lt;h2 id=&quot;prerequisite&quot;&gt;PREREQUISITE&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-jekyll&quot;&gt;1. Jekyll&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a static site generator that transforms your plain text into websites and blogs. It is build on Ruby language.&lt;/p&gt;
+
+&lt;p&gt;We will be using Jekyll which is compatible with github and easy to learn.
+Jekyll also has free plugins which later simplifies and fast your development.
+Trust me, its very easy.&lt;/p&gt;
+
+&lt;p&gt;You can use any other tool which is suitable to you but we are going to use Jekyll in further tutorials for development (as it makes development easy and fast).&lt;/p&gt;
+
+&lt;p&gt;So before going further, Jekyll knowledge is required.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt; - Please watch Jekyll tutorials as it is necessary for futher tutorials.
+I have provided some Jekyll video tutorials in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;h2 id=&quot;install-jekyll-on-ubuntu&quot;&gt;Install Jekyll on Ubuntu&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Run this command on terminal-
+    &lt;ul&gt;
+      &lt;li&gt;sudo apt-get install ruby-full build-essential zlib1g-dev&lt;/li&gt;
+      &lt;li&gt;gem install jekyll bundler&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Check jekyll is installed or not
+    &lt;ul&gt;
+      &lt;li&gt;jekyll -v&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Code to create connection with Amazon S3&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Jekyll New Project&quot; title=&quot;Jekyll New Project&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/install_jekyll.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Link is provided for installation on other systems in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;public static void main(String[] args) {
-    // now create BasicAWSCredentials object by using access key and secret key
-    BasicAWSCredentials basicAWSCredentials=new BasicAWSCredentials(&quot;pass access key&quot;,
-        &quot;pass secret key&quot;);
-    // get AmazonS3 Client by passing basicAWSCredentials and specify region which is closest to you
-    // or let it pick default region
-    AmazonS3 amazonS3 = AmazonS3ClientBuilder.standard()
-        .withCredentials(new AWSStaticCredentialsProvider(basicAWSCredentials))
-        .withRegion(Regions.AP_SOUTH_1)
-        .build();
-  }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;After Installing Ruby and Jekyll, now creates a Jekyll project.&lt;/p&gt;
 
-&lt;p&gt;You are successfully able to create java project and able to make connection with Amazon S3.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/techypoint/amazon-s3.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial will help you in creating access key and secret key which required in making connection. Then we will create project in java and create connection with Amazon S3.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/setup-java-project/Set-Up-Java-Project.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/setup-java-project/Set-Up-Java-Project.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Amazon S3 Creating a Bucket</title><link href="http://localhost:4000/AmazonS3/create-a-bucket" rel="alternate" type="text/html" title="Amazon S3 Creating a Bucket" /><published>2020-05-29T00:00:00+05:30</published><updated>2020-05-29T00:00:00+05:30</updated><id>http://localhost:4000/AmazonS3/createABucket</id><content type="html" xml:base="http://localhost:4000/AmazonS3/create-a-bucket">&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;This tutorial shows how to create a bucket in Amazon S3 through AWS Management Console.&lt;/p&gt;
-
-&lt;h2 id=&quot;now-lets-create-a-bucket&quot;&gt;Now Lets create a bucket&lt;/h2&gt;
-
+&lt;h2 id=&quot;create-a-jekyll-project&quot;&gt;Create a Jekyll project&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 1 - Create an account on Amazon S3&lt;/li&gt;
-  &lt;li&gt;Step 2 - After Creating account, login into Amazon S3&lt;/li&gt;
+  &lt;li&gt;Step 1 - Go to the directory where you want to create project.&lt;/li&gt;
+  &lt;li&gt;Step 2 - Create new Jekyll project - jekyll new vbisht7038.github.io&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Amazon Login Screen&quot; title=&quot;Amazon Login Screen&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/amazon_login_screen.png&quot; /&gt;
+  &lt;img alt=&quot;Jekyll New Project&quot; title=&quot;Jekyll New Project&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll-new-project.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 3 - Search s3 on search bar and select S3&lt;/li&gt;
+  &lt;li&gt;Step 3 - cd vbisht7038.github.io&lt;/li&gt;
+  &lt;li&gt;Step 4 - To access your website, run command- bundle exec jekyll serve&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;AWS Management Console Panel&quot; title=&quot;AWS Management Console Panel&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/aws_console_panel.png&quot; /&gt;
+  &lt;img alt=&quot;Jekyll Serve Command&quot; title=&quot;Jekyll Serve Command&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_serve_command.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Step 4 - After Selecting S3, you will get the option to create bucket&lt;/li&gt;
-  &lt;li&gt;Step 5 - Click on create bucket button and enter bucket name and make it public for now.&lt;/li&gt;
+  &lt;li&gt;Step 5 - Open &lt;a href=&quot;http://localhost:4000&quot; title=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; url on browser, you will see a dummy website.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Create a bucket screen&quot; title=&quot;create a bucket screen&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/create_bucket_screen.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 6 - You will see the created bucket in the list.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Bucket list screen&quot; title=&quot;bucket list screen&quot; src=&quot;/assets/img/amazon-s3/creating-a-bucket/bucket_list_screen.png&quot; /&gt;
+  &lt;img alt=&quot;Jekyll Demo Page&quot; title=&quot;Jekyll Demo Page&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_demo_page.png&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Now you are successfully able to create bucket in Amazon S3 account.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="amazon s3" /><summary type="html">Objective This tutorial shows how to create a bucket in Amazon S3 through AWS Management Console.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/amazon-s3/creating-a-bucket/creating-a-bucket.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Now you have successfully created Jekyll project and able to access it on website.&lt;/p&gt;
+
+&lt;h3 id=&quot;move-existing-project-to-jekyll&quot;&gt;MOVE EXISTING PROJECT TO JEKYLL&lt;/h3&gt;
+
+&lt;p&gt;We will create seaparate html file for navigation, contact us, footer and we will include them in main index file.
+We are creating separate file for them so that they can be easily integrate in other pages. For Eg- blog posts&lt;/p&gt;
+
+&lt;p&gt;Project structure we are going to create-&lt;/p&gt;
+
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Jekyll Project Structure&quot; title=&quot;Jekyll Project Structure&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create _layouts folder in the base directory.
+    &lt;ul&gt;
+      &lt;li&gt;All the page template files are kept here.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create home.md (.md is for markdown files)
+    &lt;ul&gt;
+      &lt;li&gt;.md files gets convert to .html file by Jekyll.&lt;/li&gt;
+      &lt;li&gt;you can see that index.markdown is using home layout.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Copy your index file content into home.md file.&lt;/li&gt;
+  &lt;li&gt;Create _includes folder in the base directory.
+    &lt;ul&gt;
+      &lt;li&gt;All files which needs to be included or embeded in other pages will place here.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create contact.md then cut and paste contact us HTML code from home.md to contact.md and include that file in home.md&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% include contact.md %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Create footer.md and cut and paste footer HTML code and then include&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% include footer.md %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Create navigation.md and cut and paster navigation HTML code and then include&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% include navigation.md %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now create assets folder - all static files will be kept here&lt;/li&gt;
+  &lt;li&gt;then copy img, css and js folder inside assets folder.&lt;/li&gt;
+  &lt;li&gt;change image,css and js path in .md files
+    &lt;ul&gt;
+      &lt;li&gt;from to src=”img/logo_red.png to&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   src=&quot;{{ &quot;/assets/img/logo.jpg&quot; | prepend: site.url}}
+   &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from href=”css/ to href=”/assets/css/&lt;/li&gt;
+  &lt;li&gt;from src=”js/ to src=”/assets/js/&lt;/li&gt;
+  &lt;li&gt;from href=”#aboutus” to href=”/#aboutus”&lt;/li&gt;
+  &lt;li&gt;from href=”#” to href=”/#”&lt;/li&gt;
+  &lt;li&gt;modify &lt;strong&gt;url: “https://vbisht7038.github.io”&lt;/strong&gt; in _config.yml file.&lt;/li&gt;
+  &lt;li&gt;Go to the browser and refresh URL - localhost:4000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you have just recreated your website in Jekyll project.&lt;/p&gt;
+
+&lt;h3 id=&quot;push-website-to-github&quot;&gt;PUSH WEBSITE TO GITHUB&lt;/h3&gt;
+
+&lt;p&gt;For git commands, Take a look at our &lt;a href=&quot;/create-a-website/git-use&quot;&gt;Git Use Tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create this directory as Git directory.&lt;/li&gt;
+  &lt;li&gt;Then add git repository url which you previously created.&lt;/li&gt;
+  &lt;li&gt;Take all the changes from Github Account.&lt;/li&gt;
+  &lt;li&gt;Now Push all the changes to the Github Account.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Recreate Website Push&quot; title=&quot;Recreate Website Push&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/recreate_website_push.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can check website and it needs to be work perfectly.&lt;/p&gt;
+
+&lt;p&gt;In Part 1, we are successfully able to recreate our website using Jekyll.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/installation&quot; title=&quot;For Jekyll Installation&quot;&gt;For Jekyll Installation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For Jekyll - &lt;a href=&quot;https://www.youtube.com/watch?v=T1itpPvFWHI&amp;amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&quot; title=&quot;Jekyll Youtube Playlist&quot;&gt;Jekyll Youtube Playlist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/structure/&quot; title=&quot;Jekyll directory structure&quot;&gt;Jekyll directory structure&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In Part 2&lt;/strong&gt;, we are going to create Blog Posts using Jekyll.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">CREATE A BLOG FOR YOUR WEBSITE - PART 1</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/create-a-blog-part1/blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/create-a-blog-part1/blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Contact Us Page Using FormsPree</title><link href="http://localhost:4000/create-a-website/contact-mail" rel="alternate" type="text/html" title="Contact Us Page Using FormsPree" /><published>2020-06-28T17:45:00+05:30</published><updated>2020-06-28T17:45:00+05:30</updated><id>http://localhost:4000/create-a-website/integrate-formspree</id><content type="html" xml:base="http://localhost:4000/create-a-website/contact-mail">&lt;h1 id=&quot;contact-us-page-using-formspree&quot;&gt;Contact Us Page Using FormsPree&lt;/h1&gt;
+
+&lt;p&gt;In this tutorial, We will create contact Us page through which user can mail you.&lt;/p&gt;
+
+&lt;p&gt;FormsPree lets you insert mail functionality in your website.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-lets-integrate-it--&quot;&gt;So lets Integrate it -&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sign Up on FormsPree&lt;/li&gt;
+  &lt;li&gt;Create Form&lt;/li&gt;
+  &lt;li&gt;Integrate Form in your website&lt;/li&gt;
+  &lt;li&gt;Mail inbox&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;1-sign-up&quot;&gt;1. Sign Up&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Go to &lt;a href=&quot;https://formspree.io&quot; title=&quot;FormsPree&quot;&gt;FormsPree&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Step 2 - Click on Sign Up&lt;/li&gt;
+  &lt;li&gt;Step 3 - Enter your email address and password for sign up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;FormsPree Register Page&quot; title=&quot;FormsPree Register Page&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_register_page.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - Click on Register.&lt;/li&gt;
+  &lt;li&gt;Step 5 - Now go to your email inbox and verify your email address.&lt;/li&gt;
+  &lt;li&gt;Step 6 - After verification, you will get this screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;FormsPree Inbox&quot; title=&quot;FormsPree Inbox&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_inbox.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;create-form&quot;&gt;CREATE FORM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Click on + icon and enter form name and email address in which you want mails to and then click create form button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;FormsPree Create Form&quot; title=&quot;FormsPree Create Form&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_create_form.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 2 - Click on Form Name, Now go to Settings tab and enter your domain name in Restrict to Domain textbox and save changes.&lt;/p&gt;
+
+    &lt;p&gt;In my case, it is - https://vbisht7038.github.io&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;FormsPree Form Setting&quot; title=&quot;FormsPree Form Setting&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree-settings.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;integrate-form-in-your-website&quot;&gt;INTEGRATE FORM IN YOUR WEBSITE&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 1 - Now go to Integration tab and copy the code from &lt;strong&gt;HTML&lt;/strong&gt; tab.
+You can copy from &lt;strong&gt;HTML with file uploads&lt;/strong&gt; tab, if you also want file upload option.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Step 2 - Place this code in yout Html file and design it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After designing, HTML code for &lt;strong&gt;Contact Us&lt;/strong&gt; is -&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contactus&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;FEEL FREE TO CONTACT&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;autocomplete=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;off&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;action=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://formspree.io/mvowkjdn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;method=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;POST&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row upper-half&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name-cont&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;NAME&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email-cont&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_replyto&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;EMAIL&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;message-cont&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;message&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rows=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;7&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;message&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;MESSAGE&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/textarea&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;submit-cont&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Send Mail&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;I have updated this code in index.html and added css in style.css&lt;/p&gt;
+
+&lt;p&gt;We have designed our contact page and now its time to push this code to Github repository so that our users can mail us.&lt;/p&gt;
+
+&lt;p&gt;You know the steps, but I will show again&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Push Contact Us Feature&quot; title=&quot;Push Contact Us Feature&quot; src=&quot;/assets/img/create-a-website/contact-mail/push_contact_us_feature.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;mail-inbox&quot;&gt;MAIL INBOX&lt;/h3&gt;
+
+&lt;p&gt;You can check mails in the Submission tab of your Form.&lt;/p&gt;
+
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;FormsPree Submission Tab&quot; title=&quot;FormsPree Submission Tab&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_submission_tab.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;For FormsPree, you can check other features on your formspree account- &lt;a href=&quot;https://formspree.io&quot; title=&quot;FormsPree&quot;&gt;FormsPree&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to create blogs for our website.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Contact Us Page Using FormsPree</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/contact-mail/contact.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/contact-mail/contact.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Use Custom Domain For Github Pages</title><link href="http://localhost:4000/create-a-website/custom-domain-for-github-pages" rel="alternate" type="text/html" title="Use Custom Domain For Github Pages" /><published>2020-06-28T17:30:00+05:30</published><updated>2020-06-28T17:30:00+05:30</updated><id>http://localhost:4000/create-a-website/custom-domain-for-github-pages</id><content type="html" xml:base="http://localhost:4000/create-a-website/custom-domain-for-github-pages">&lt;h1 id=&quot;add-custom-domain-to-github-pages&quot;&gt;Add Custom Domain To Github Pages&lt;/h1&gt;
+
+&lt;p&gt;If you don’t like your domain which ends with github.io. Then you can purchase a domain from domain providers and add it in Github Pages.
+Custom domain basically adds to your brand value and later you can easily switch to other web hosting providers.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-we-will-do--&quot;&gt;What we will do -&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Buy a domain from domain providers&lt;/li&gt;
+  &lt;li&gt;Integrate this domain for Github Pages&lt;/li&gt;
+  &lt;li&gt;Create A and CNAME record in your DNS Provider DNS Setting&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-buy-domain-from-domain-provider&quot;&gt;1. Buy domain from domain provider.&lt;/h3&gt;
+&lt;p&gt;You can buy domain from any domain provider.
+&lt;a href=&quot;https://www.youtube.com/watch?v=ONyEEfNxHcQ&quot; title=&quot;How to buy Domain From GoDaddy&quot;&gt;How to buy Domain From GoDaddy&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-integrate-this-domain-for-github-pages&quot;&gt;2. Integrate this domain for Github Pages&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;After Buying Domain, Login to Github Account&lt;/li&gt;
+  &lt;li&gt;Go to your repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Github Repository Option&quot; title=&quot;Github Repository Option&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/repository_option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Go to Repository Setting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Github Repository Setting Option&quot; title=&quot;Github Repository Setting Option&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/repository_setting_option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In this screen, Go to Github Pages and Enter domain in Custom Domain textbox and Click On Save.&lt;/p&gt;
+
+    &lt;p&gt;This will create a CNAME file in the root of your repository branch.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;- Tick Enforce HTTPS checkbox.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;- In Next tutorial, fetch or pull code from Github as Github created a CNAME file.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Github Custom Domain Option&quot; title=&quot;Github Custom Domain Option&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/github_custom_domain.png&quot; /&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;3-create-a-and-cname-record-in-your-dns-provider-dns-setting&quot;&gt;3. Create A and CNAME record in your DNS Provider DNS Setting&lt;/h3&gt;
+&lt;p&gt;Now Go to your DNS Provider Domain Setting, add CNAME and A record&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;To create an A record, point your apex domain to the IP addresses for GitHub Pages.&lt;/p&gt;
+
+    &lt;p&gt;These are the IP address of Github Pages at the time of creating this post.You can check latest IPs from the link provided in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;185.199.108.153&lt;/li&gt;
+      &lt;li&gt;185.199.109.153&lt;/li&gt;
+      &lt;li&gt;185.199.110.153&lt;/li&gt;
+      &lt;li&gt;185.199.111.153&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To create a CNAME record, point www to the site hosted at username.gitub.io.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Below is the screenshot of GoDaddy Domain Setting-&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;GoDaddy Domain Setting&quot; title=&quot;GoDaddy Domain Setting&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/DomainSettings.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sometimes, these changes takes times to reflect so dont worry.&lt;/p&gt;
+
+&lt;p&gt;After these stpes, Search website using custom domain and it works perfectly.&lt;/p&gt;
+
+&lt;p&gt;In Further tutorials, We are using github.io domain but you can use your custom domain.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Buy Domain- Youtube&lt;/li&gt;
+  &lt;li&gt;To Integrate Custom Domain - &lt;a href=&quot;https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site&quot; title=&quot;managing-a-custom-domain-for-your-github-pages-site&quot;&gt;managing a custom-domain for your github pages site&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how users can contact you.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Add Custom Domain To Github Pages</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/custom-domain-for-github-pages/custom_domain.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/custom-domain-for-github-pages/custom_domain.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Design Home Page</title><link href="http://localhost:4000/create-a-website/homepage-design" rel="alternate" type="text/html" title="Design Home Page" /><published>2020-06-28T16:30:00+05:30</published><updated>2020-06-28T16:30:00+05:30</updated><id>http://localhost:4000/create-a-website/homepage-design</id><content type="html" xml:base="http://localhost:4000/create-a-website/homepage-design">&lt;h1 id=&quot;homepage-design&quot;&gt;HomePage Design&lt;/h1&gt;
+
+&lt;p&gt;In this tutorial, we design homepage for the website which includes-&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Navigation&lt;/li&gt;
+  &lt;li&gt;Front Page&lt;/li&gt;
+  &lt;li&gt;About Me/About Company&lt;/li&gt;
+  &lt;li&gt;Contact Us&lt;/li&gt;
+  &lt;li&gt;Footer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;basic-structue-of-the-website-looks-like-&quot;&gt;Basic Structue of the website looks like-&lt;/h3&gt;
+
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;HomePage Structue&quot; title=&quot;HomePage Structue&quot; src=&quot;/assets/img/create-a-website/homepage-design/homepage_layout.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;- I am not focusing on designing websites that you can learn online or from youtube.&lt;/p&gt;
+
+&lt;h2 id=&quot;html-code-for-homepage&quot;&gt;HTML code for homepage&lt;/h2&gt;
+
+&lt;p&gt;I am providing you the code piece by piece.
+You can write this code in index.html&lt;/p&gt;
+
+&lt;h3 id=&quot;navigation-html--&quot;&gt;Navigation HTML -&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar navbar-expand-md navbar-dark fixed-top&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNav&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-brand&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;techylane logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img/logo_red.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-toggler&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;button&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-toggle=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#navbarResponsive&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-toggle-icon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-bars fa-1x&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse navbar-collapse&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbarResponsive&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-nav ml-auto&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav-item&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav-link&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#aboutus&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;About Me&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;front-page-html--&quot;&gt;Front Page HTML -&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;header&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;masthead&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container h-100&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image-cont row h-100 align-items-end&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-12 text-center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;font-weight-light&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Check out Latest Cooking Recipe&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;lead&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;EXPLORE&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bottom-right&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Photo by Alyson McPhee on Unsplash&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;about-me-html--&quot;&gt;About Me HTML -&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aboutus&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-sm-4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img-wrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Photo by Febrian Zakaria on Unsplash&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Photo by Febrian Zakaria on Unsplash&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img/profile.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-sm-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Varun Bisht&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Chef&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Welcome to our cooking channel 'FOODY BLOG'&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Here, we will teach you all kind of food recipes from simple to sophisticated, from North Indian to South Indian,
+     Gujarati to Marathi, Punjabi to Oriya.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt; Come check out our recipes and travel your journey from a starter Cook to a complete chef.
+     It's said that u can win anyone's heart by Good food. We along with mastering you in good food will teach you some kitchen
+     hacks and tips which will help you grow better each day.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;footer-html--&quot;&gt;Footer HTML -&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid padding&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row text-center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;address col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Address:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;F-9/91, Sector-100&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Rohini, Delhi-110089&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can find full code(including css and js) - &lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot; title=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;https://github.com/vbisht7038/vbisht7038.github.io.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have designed our homepage and now its time to push this code to Github repository so that our awesome website design will be visible to others.&lt;/p&gt;
+
+&lt;p&gt;You know the steps, but i will show you again&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Push HomePage Steps&quot; title=&quot;Push HomePage Steps&quot; src=&quot;/assets/img/create-a-website/homepage-design/push_homepage_steps.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Desiging website - youtube&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to add Custom Domain to Github Pages.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">HomePage Design</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/homepage-design/design.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/homepage-design/design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to use Git</title><link href="http://localhost:4000/create-a-website/git-use" rel="alternate" type="text/html" title="How to use Git" /><published>2020-06-28T15:00:00+05:30</published><updated>2020-06-28T15:00:00+05:30</updated><id>http://localhost:4000/create-a-website/git-use</id><content type="html" xml:base="http://localhost:4000/create-a-website/git-use">&lt;h1 id=&quot;how-to-get-and-save-website-code-to-github-using-git&quot;&gt;How to Get and Save Website Code to Github using Git&lt;/h1&gt;
+
+&lt;p&gt;To get and save c ode, you need to learn few commands of Git.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-git&quot;&gt;What is Git?&lt;/h2&gt;
+&lt;p&gt;Basically, Git is the most widely used version control system.
+It helps in managing and tracking code.
+In our case, You are able to get and save code on the Github repository using Git.&lt;/p&gt;
+
+&lt;h2 id=&quot;install-git-on-linux&quot;&gt;Install Git on linux&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Open terminal&lt;/li&gt;
+  &lt;li&gt;Step 2 - Run this command- sudo apt-get update&lt;/li&gt;
+  &lt;li&gt;Step 3 - Run this command- sudo apt-get install git&lt;/li&gt;
+  &lt;li&gt;Step 4 - Verify the installation was successfull or not by running this command- git –version&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If all goes right, you will be able to successfully install Git.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;strong&gt;install Git on Mac and Windows&lt;/strong&gt; using link available in Further Study Material.&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-operations--&quot;&gt;Basic operations -&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1. Copy repository to local system&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Command- git clone repository_url&lt;/p&gt;
+
+&lt;p&gt;Eg - git clone https://github.com/vbisht7038/vbisht7038.github.io.git&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Push changes done to the repository&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Commands-&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;git add .&lt;/li&gt;
+  &lt;li&gt;git commit -m’your message’&lt;/li&gt;
+  &lt;li&gt;git push origin master&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then enter your email and password&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Initialize directory as Git repository&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git init&lt;/li&gt;
+  &lt;li&gt;git remote add origin git_repository_url&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;now-lets-do-some-changes-to-the-website&quot;&gt;Now Lets do some changes to the Website&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clone your repository to local system, Go to directory and run git clone https://github.com/vbisht7038/vbisht7038.github.io.git&lt;/li&gt;
+  &lt;li&gt;cd vbisht7038.github.io&lt;/li&gt;
+  &lt;li&gt;Create index.html file and enter below code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt; Just the beginning, more to come&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now push or save this changes to the github repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;First Commit&quot; title=&quot;First Commit&quot; src=&quot;/assets/img/create-a-website/git-use/first-commit.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You are successfully able to push your changes to the Github Account.&lt;/p&gt;
+
+&lt;h3 id=&quot;enable-github-pages&quot;&gt;Enable Github Pages&lt;/h3&gt;
+
+&lt;p&gt;This is the final step to make your website live. After this step, anyone can access your website.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Step 1 - Login To Github account.&lt;/li&gt;
+  &lt;li&gt;Step 2 - Go to you repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Repository Option&quot; title=&quot;Repository Option&quot; src=&quot;/assets/img/create-a-website/git-use/repository_option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 3 - Click on Setting option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Repository Setting Option&quot; title=&quot;Repository Setting Option&quot; src=&quot;/assets/img/create-a-website/git-use/repository_setting_option.png&quot; /&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Step 4 - Scroll down to GitHub Pages and change source to master branch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Github Pages&quot; title=&quot;Github Pages&quot; src=&quot;/assets/img/create-a-website/git-use/github_pages.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;After changing source, Your site is published at &lt;a href=&quot;https://vbisht7038.github.io&quot; title=&quot;https://vbisht7038.github.io&quot;&gt;https://vbisht7038.github.io&lt;/a&gt; messages comes.&lt;/p&gt;
+
+&lt;p&gt;Now go to the browser and search - &lt;a href=&quot;https://vbisht7038.github.io&quot; title=&quot;https://vbisht7038.github.io&quot;&gt;https://vbisht7038.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You will see your site with changes -&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;Blog Site&quot; title=&quot;Blog Site&quot; src=&quot;/assets/img/create-a-website/git-use/blog_site.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Your site is &lt;strong&gt;HTTPS&lt;/strong&gt; enabled.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, we created our website and pushed some code successfully.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;For Git - &lt;a href=&quot;https://www.atlassian.com/git/tutorials/what-is-git&quot; title=&quot;what-is-git&quot;&gt;what is Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For Installation - &lt;a href=&quot;https://www.atlassian.com/git/tutorials/install-git&quot; title=&quot;Install Git&quot;&gt;Install Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For HTTPS - &lt;a href=&quot;https://www.cloudflare.com/learning/ssl/what-is-https&quot; title=&quot;what-is-https&quot;&gt;what is HTTPs&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will make cool website homepage design.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">How to Get and Save Website Code to Github using Git</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/git-use/git.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/git-use/git.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
