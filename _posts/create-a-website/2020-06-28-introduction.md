@@ -89,6 +89,9 @@ In my opinion, build a **FREE** website(which we will tell you how) and then dec
 11. [Integrate Comment Box Using Disqus]({% post_url create-a-website/2020-06-28-integrate-disqus %} "Integrate Comment Box Using Disqus")
 12. [Integrate Sign Up Form(Subscribe Form) Using MailChimp]({% post_url create-a-website/2020-06-28-sign-up-mailchimp %} "Integrate Sign Up Form(Subscribe Form) Using MailChimp")
 13. [Share Post to Subscribers Automatically]({% post_url create-a-website/2020-06-28-share-post %} "Share Post to Subscribers Automatically")
+14. [Implement On-Page SEO]({% post_url create-a-website/2020-07-25-seo-part1 %} "On-Page SEO")
+15. [Implement Technical SEO]({% post_url create-a-website/2020-07-25-seo-part2 %} "Technical SEO")
+16. [Implement Off-Site SEO]({% post_url create-a-website/2020-07-25-seo-part3 %} "Off-Site SEO")
 
 You can skip to any tutorial if you want, but I will recommend to watch series tutorial by tutorial as they are linked to each other.
 
