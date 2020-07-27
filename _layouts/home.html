@@ -28,7 +28,7 @@
       <ul class="latest-posts-list">
         {% for post in site.posts limit:4%}
         <li class="post-item">
-          <a class="flex flex-col">
+          <a href="{{post.url}}" class="flex flex-col">
               <figure class="image-section relative">
                   <img class="object-fit lazy" src="{{post.image}}">
                 </figure>
@@ -68,7 +68,7 @@
         {% for post in site.posts %}
         {% if post.trending == true %}
         <li class="trending-item">
-          <a class="flex col">
+          <a href="{{post.url}}" class="flex col">
               <figure class="image-section relative">
                   <img class="object-fit lazy" src="{{post.image}}">
                 </figure>
