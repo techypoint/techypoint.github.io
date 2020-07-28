@@ -20,7 +20,7 @@ description: "This Page contains blogs related to java, java blogs, amazon S3 bl
           </svg>{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
   </div>
   <div class="bg-img test">
-    <img alt="{{post.title}}" src="{{post.image}}">
+    <img class="object-fit" alt="{{post.title}}" src="{{post.image}}">
   </div>
   <div class="content">    
     <p>{{post.description}}</p>

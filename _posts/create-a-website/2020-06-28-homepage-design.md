@@ -22,7 +22,7 @@ In this tutorial, we design homepage for the website which includes-
 ### Basic Structue of the website looks like-
 
 <div class="imgCont">
-  <img alt="HomePage Structue" title="HomePage Structue" src="/assets/img/create-a-website/homepage-design/homepage_layout.png"/>
+  <img class="object-fit" alt="HomePage Structue" title="HomePage Structue" src="/assets/img/create-a-website/homepage-design/homepage_layout.png"/>
 </div>
 
 **Note**- I am not focusing on designing websites that you can learn online or from youtube.
@@ -36,7 +36,7 @@ You can write this code in index.html
 {% highlight html %}{% raw %}
 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img alt="techylane logo" src="img/logo_red.png"></a>
+    <a class="navbar-brand" href="#"><img class="object-fit" alt="techylane logo" src="img/logo_red.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggle-icon"><i class="fa fa-bars fa-1x"></i></span>
     </button>
@@ -73,7 +73,7 @@ You can write this code in index.html
 <div class="row">
   <div class="col-sm-4">
     <div class="img-wrap">
-      <img alt="Photo by Febrian Zakaria on Unsplash" title="Photo by Febrian Zakaria on Unsplash" src="img/profile.jpg"/>
+      <img class="object-fit" alt="Photo by Febrian Zakaria on Unsplash" title="Photo by Febrian Zakaria on Unsplash" src="img/profile.jpg"/>
     </div>
   </div>
 <div class="col-sm-8">
@@ -112,7 +112,7 @@ We have designed our homepage and now its time to push this code to Github repos
 
 You know the steps, but i will show you again
 <div class="imgCont">
-  <img alt="Push HomePage Steps" title="Push HomePage Steps" src="/assets/img/create-a-website/homepage-design/push_homepage_steps.png"/>
+  <img class="object-fit" alt="Push HomePage Steps" title="Push HomePage Steps" src="/assets/img/create-a-website/homepage-design/push_homepage_steps.png"/>
 </div>
 
 <a href="https://github.com/vbisht7038/vbisht7038.github.io.git">Click to get the full Implementation of this tutorial on Github</a>

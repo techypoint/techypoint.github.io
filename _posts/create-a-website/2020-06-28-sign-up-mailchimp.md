@@ -36,40 +36,40 @@ You can also target your audience by segmenting them.
 - Step 1 - Go to [MailChimp](https://mailchimp.com "MailChimp")
 - Step 2 - Click On Sing Up Free
 <div class="imgCont">
-  <img alt="MailChimp Homepage" title="MailChimp Homepage" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-homepage.png" />
+  <img class="object-fit" alt="MailChimp Homepage" title="MailChimp Homepage" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-homepage.png" />
 </div>
 - Step 3 - Fill the form and click Sign Up
 <div class="imgCont">
-  <img alt="MailChimp SignUp Form" title="MailChimp SignUp Form" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form.png" />
+  <img class="object-fit" alt="MailChimp SignUp Form" title="MailChimp SignUp Form" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form.png" />
 </div>
 - Step 4 - Go to Email box and verify your email address.
 - Step 5 - After verification and confirming you are human. You will see below screen. Choose Free Plan and Click Complete button.
 <div class="imgCont">
-  <img alt="MailChimp Plans" title="MailChimp Plans" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-plans.png" />
+  <img class="object-fit" alt="MailChimp Plans" title="MailChimp Plans" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-plans.png" />
 </div>
 - Step 6 - Now set up your account and Continue.
 <div class="imgCont">
-  <img alt="MailChimp SetUp Account" title="MailChimp SetUp Account" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-setup-account.png" />
+  <img class="object-fit" alt="MailChimp SetUp Account" title="MailChimp SetUp Account" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-setup-account.png" />
 </div>
 - Step 7 - Now Tell Something about your business and enter website URL and Continue
 <div class="imgCont">
-  <img alt="MailChimp Tell Me Business" title="MailChimp Tell Me Business" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-tellme-business.png" />
+  <img class="object-fit" alt="MailChimp Tell Me Business" title="MailChimp Tell Me Business" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-tellme-business.png" />
 </div>
 - Step 8 - Now enter your address details and phone number.
 <div class="imgCont">
-  <img alt="MailChimp Add Address" title="MailChimp Add Address" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-add-address.png" />
+  <img class="object-fit" alt="MailChimp Add Address" title="MailChimp Add Address" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-add-address.png" />
 </div>
 - Step 9 - Now select suitable option and Continue.
 <div class="imgCont">
-  <img alt="MailChimp Contacts" title="MailChimp Contacts" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-contacts.png" />
+  <img class="object-fit" alt="MailChimp Contacts" title="MailChimp Contacts" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-contacts.png" />
 </div>
 - Step 10 - Choose option based on your purpose and continue.
 <div class="imgCont">
-  <img alt="MailChimp Offer" title="MailChimp Offer" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-offer.png" />
+  <img class="object-fit" alt="MailChimp Offer" title="MailChimp Offer" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-offer.png" />
 </div>
 - Step 11 - Subscribe to the options and click on Lets Go.
 <div class="imgCont">
-  <img alt="MailChimp Subscribe Option" title="MailChimp Subscribe Option" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-subscribe-option.png" />
+  <img class="object-fit" alt="MailChimp Subscribe Option" title="MailChimp Subscribe Option" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-subscribe-option.png" />
 	</div>
 You have successfully able to sign up
 
@@ -77,11 +77,11 @@ You have successfully able to sign up
 
 - Step 1 - Now go to create option on the top-left corner and select SignUp Form Option.
 <div class="imgCont">
-  <img alt="Mailchimp Create Signup Form" title="Mailchimp Create Signup Form" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-create-signup-form.png" />
+  <img class="object-fit" alt="Mailchimp Create Signup Form" title="Mailchimp Create Signup Form" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-create-signup-form.png" />
 </div>
 - Step 2 - Select the Embedded form type and Click on Begin.
 <div class="imgCont">
-  <img alt="Mailchimp Signup Form Type" title="Mailchimp Signup Form Type" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form-type.png" />
+  <img class="object-fit" alt="Mailchimp Signup Form Type" title="Mailchimp Signup Form Type" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form-type.png" />
 </div>
 - Step 3 - Now there are different designs of Form. You can choose whichever suits your website design.
 
@@ -122,12 +122,12 @@ I am including it in 2020-06-12-butterChicken.markdown file
 
 Now open your blog and you will see the magic. You will see a subscribe option below image and that's it.
 <div class="imgCont">
-  <img alt="MailChimp SignUp Design" title="MailChimp SignUp Design" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-design.png" />
+  <img class="object-fit" alt="MailChimp SignUp Design" title="MailChimp SignUp Design" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-design.png" />
 </div>
 
 Now save your changes to Github Account.
 <div class="imgCont">
-  <img alt="MailChimp Save Changes" title="MailChimp Save Changes" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-save-changes.png" />
+  <img class="object-fit" alt="MailChimp Save Changes" title="MailChimp Save Changes" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-save-changes.png" />
 </div>
 
 
@@ -135,7 +135,7 @@ Now any users can subscribe for updates and you can expand your audience.
 
 You can see your subscribed users under **Audience section on MailChimp portal**.
 <div class="imgCont">
-  <img alt="MailChimp Audience Portal" title="MailChimp Audience Portal" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-audience-portal.png" />
+  <img class="object-fit" alt="MailChimp Audience Portal" title="MailChimp Audience Portal" src="/assets/img/create-a-website/signUp-mailchimp/mailchimp-audience-portal.png" />
 	</div>
 
 There are many other features and customization available-

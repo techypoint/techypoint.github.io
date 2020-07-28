@@ -31,7 +31,7 @@ It is basically a xml file which contains website information.
 
    Below is a screenshot of RSS feed
 <div class="imgCont">
-  <img alt="Foody Blog RSS Feed" title="Foody Blog RSS Feed" src="/assets/img/create-a-website/share-post-updates/foodyblog_rss_feed.png" />
+  <img class="object-fit" alt="Foody Blog RSS Feed" title="Foody Blog RSS Feed" src="/assets/img/create-a-website/share-post-updates/foodyblog_rss_feed.png" />
 </div>
 
 
@@ -70,44 +70,44 @@ Save these changes to Github
 - Login to [MailChimp](https://mailchimp.com "MailChimp")
 - Go to Create option and select Email option.
 <div class="imgCont">
-  <img alt="MailChimp Email Option" title="MailChimp Email Option" src="/assets/img/create-a-website/share-post-updates/mailchimp_email_option.png" />
+  <img class="object-fit" alt="MailChimp Email Option" title="MailChimp Email Option" src="/assets/img/create-a-website/share-post-updates/mailchimp_email_option.png" />
 </div>
 - Go to Automated tab and select Share blog updates option
 <div class="imgCont">
-  <img alt="MailChimp Share Blog Updates" title="MailChimp Share Blog Updates" src="/assets/img/create-a-website/share-post-updates/mailchimp_share_blog_updates.png" />
+  <img class="object-fit" alt="MailChimp Share Blog Updates" title="MailChimp Share Blog Updates" src="/assets/img/create-a-website/share-post-updates/mailchimp_share_blog_updates.png" />
 </div>
 - Enter Campaign Name and select your audience to which you want to send updates and then click Begin
 <div class="imgCont">
-  <img alt="MailChimp Audience Selection" title="MailChimp Audience Selection" src="/assets/img/create-a-website/share-post-updates/mailchimp_audience_selection.png" />
+  <img class="object-fit" alt="MailChimp Audience Selection" title="MailChimp Audience Selection" src="/assets/img/create-a-website/share-post-updates/mailchimp_audience_selection.png" />
 </div>
 - In this screen, enter your live feed.xml URL and choose other options also.
 After that, click on Next
 <div class="imgCont">
-  <img alt="MailChimp RSS Feed Setup" title="MailChimp RSS Feed Setup" src="/assets/img/create-a-website/share-post-updates/mailchimp_rss_feed_setup.png" />
+  <img class="object-fit" alt="MailChimp RSS Feed Setup" title="MailChimp RSS Feed Setup" src="/assets/img/create-a-website/share-post-updates/mailchimp_rss_feed_setup.png" />
 </div>
 - In this screen, I will go with Entire audience option. You can choose which fits you best. After that, click on Next
 <div class="imgCont">
-  <img alt="MailChimp Recipients Setup" title="MailChimp Recipients Setup" src="/assets/img/create-a-website/share-post-updates/mailchimp_recipients_setup.png" />
+  <img class="object-fit" alt="MailChimp Recipients Setup" title="MailChimp Recipients Setup" src="/assets/img/create-a-website/share-post-updates/mailchimp_recipients_setup.png" />
 </div>
 - This screen is all about email subject lines, whether you want to share on social media and tracking options. All options are self explanatory. After filling options, click on Next
 <div class="imgCont">
-  <img alt="MailChimp Campaign Info Setup" title="MailChimp Campaign Info Setup" src="/assets/img/create-a-website/share-post-updates/mailchimp_campaign_info_setup.png" />
+  <img class="object-fit" alt="MailChimp Campaign Info Setup" title="MailChimp Campaign Info Setup" src="/assets/img/create-a-website/share-post-updates/mailchimp_campaign_info_setup.png" />
 </div>
 - This screen is to create template for your Email. Basically, how to show your RSS feed data in Email.
 In Layout, I will go with 1 column template
 <div class="imgCont">
-  <img alt="MailChimp Template" title="MailChimp Template" src="/assets/img/create-a-website/share-post-updates/mailchimp_template.png" />
+  <img class="object-fit" alt="MailChimp Template" title="MailChimp Template" src="/assets/img/create-a-website/share-post-updates/mailchimp_template.png" />
 </div>
 - In this, you need to customize template design.
 Drag and Drop RSS items from blocks and delete previous block. Customize your design and you can see preview and send test mail options also.
 
    After Customization, click on Next.
 <div class="imgCont">
-  <img alt="MailChimp Template Design" title="MailChimp Template Design" src="/assets/img/create-a-website/share-post-updates/mailchimp_template_design.png" />
+  <img class="object-fit" alt="MailChimp Template Design" title="MailChimp Template Design" src="/assets/img/create-a-website/share-post-updates/mailchimp_template_design.png" />
 </div>
 - You are all set to send updates. Click on start RSS and its done.
 <div class="imgCont">
-  <img alt="MailChimp RSS Done" title="MailChimp RSS Done" src="/assets/img/create-a-website/share-post-updates/mailchimp_rss_done.png" />
+  <img class="object-fit" alt="MailChimp RSS Done" title="MailChimp RSS Done" src="/assets/img/create-a-website/share-post-updates/mailchimp_rss_done.png" />
 </div>
 
 Now whenever you create a post, it will automatically send to your selected audience.

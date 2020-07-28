@@ -53,7 +53,7 @@ I have provided some Jekyll video tutorials in **Further Study Material**.
    - jekyll -v
 
 <div class="imgCont">
-  <img alt="Jekyll New Project" title="Jekyll New Project" src="/assets/img/create-a-website/create-a-blog-part1/install_jekyll.png"/>
+  <img class="object-fit" alt="Jekyll New Project" title="Jekyll New Project" src="/assets/img/create-a-website/create-a-blog-part1/install_jekyll.png"/>
 </div>
 Link is provided for installation on other systems in **Further Study Material**.
 
@@ -63,16 +63,16 @@ After Installing Ruby and Jekyll, now creates a Jekyll project.
 - Step 1 - Go to the directory where you want to create project.
 - Step 2 - Create new Jekyll project - jekyll new vbisht7038.github.io
 <div class="imgCont">
-  <img alt="Jekyll New Project" title="Jekyll New Project" src="/assets/img/create-a-website/create-a-blog-part1/jekyll-new-project.png"/>
+  <img class="object-fit" alt="Jekyll New Project" title="Jekyll New Project" src="/assets/img/create-a-website/create-a-blog-part1/jekyll-new-project.png"/>
 </div>
 - Step 3 - cd vbisht7038.github.io
 - Step 4 - To access your website, run command- bundle exec jekyll serve
 <div class="imgCont">
-  <img alt="Jekyll Serve Command" title="Jekyll Serve Command" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_serve_command.png"/>
+  <img class="object-fit" alt="Jekyll Serve Command" title="Jekyll Serve Command" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_serve_command.png"/>
 </div>
 - Step 5 - Open [http://localhost:4000](http://localhost:4000 "http://localhost:4000") url on browser, you will see a dummy website.
 <div class="imgCont">
-  <img alt="Jekyll Demo Page" title="Jekyll Demo Page" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_demo_page.png"/>
+  <img class="object-fit" alt="Jekyll Demo Page" title="Jekyll Demo Page" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_demo_page.png"/>
 </div>
 
 Now you have successfully created Jekyll project and able to access it on website.
@@ -85,7 +85,7 @@ We are creating separate file for them so that they can be easily integrate in o
 Project structure we are going to create-
 
 <div class="imgCont">
-  <img alt="Jekyll Project Structure" title="Jekyll Project Structure" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png"/>
+  <img class="object-fit" alt="Jekyll Project Structure" title="Jekyll Project Structure" src="/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png"/>
 </div>
 
 - Create _layouts folder in the base directory.
@@ -133,7 +133,7 @@ For git commands, Take a look at our [Git Use Tutorial]({% post_url create-a-web
 3. Take all the changes from Github Account.
 4. Now Push all the changes to the Github Account.
 <div class="imgCont">
-  <img alt="Recreate Website Push" title="Recreate Website Push" src="/assets/img/create-a-website/create-a-blog-part1/recreate_website_push.png"/>
+  <img class="object-fit" alt="Recreate Website Push" title="Recreate Website Push" src="/assets/img/create-a-website/create-a-blog-part1/recreate_website_push.png"/>
 </div>
 
 You can check website and it needs to be work perfectly.

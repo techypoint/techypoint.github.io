@@ -29,26 +29,26 @@ FormsPree lets you insert mail functionality in your website.
 - Step 2 - Click on Sign Up
 - Step 3 - Enter your email address and password for sign up.
 <div class="imgCont">
-  <img alt="FormsPree Register Page" title="FormsPree Register Page" src="/assets/img/create-a-website/contact-mail/formspree_register_page.png"/>
+  <img class="object-fit" alt="FormsPree Register Page" title="FormsPree Register Page" src="/assets/img/create-a-website/contact-mail/formspree_register_page.png"/>
 </div>
 - Step 4 - Click on Register.
 - Step 5 - Now go to your email inbox and verify your email address.
 - Step 6 - After verification, you will get this screen.
 <div class="imgCont">
-  <img alt="FormsPree Inbox" title="FormsPree Inbox" src="/assets/img/create-a-website/contact-mail/formspree_inbox.png"/>
+  <img class="object-fit" alt="FormsPree Inbox" title="FormsPree Inbox" src="/assets/img/create-a-website/contact-mail/formspree_inbox.png"/>
 </div>
 
 ### CREATE FORM
 
 - Step 1 - Click on + icon and enter form name and email address in which you want mails to and then click create form button.
 <div class="imgCont">
-  <img alt="FormsPree Create Form" title="FormsPree Create Form" src="/assets/img/create-a-website/contact-mail/formspree_create_form.png"/>
+  <img class="object-fit" alt="FormsPree Create Form" title="FormsPree Create Form" src="/assets/img/create-a-website/contact-mail/formspree_create_form.png"/>
 </div>
 - Step 2 - Click on Form Name, Now go to Settings tab and enter your domain name in Restrict to Domain textbox and save changes.
 
    In my case, it is - https://vbisht7038.github.io
 <div class="imgCont">
-  <img alt="FormsPree Form Setting" title="FormsPree Form Setting" src="/assets/img/create-a-website/contact-mail/formspree-settings.png"/>
+  <img class="object-fit" alt="FormsPree Form Setting" title="FormsPree Form Setting" src="/assets/img/create-a-website/contact-mail/formspree-settings.png"/>
 </div>
 
 ### INTEGRATE FORM IN YOUR WEBSITE
@@ -91,7 +91,7 @@ We have designed our contact page and now its time to push this code to Github r
 
 You know the steps, but I will show again
 <div class="imgCont">
-  <img alt="Push Contact Us Feature" title="Push Contact Us Feature" src="/assets/img/create-a-website/contact-mail/push_contact_us_feature.png"/>
+  <img class="object-fit" alt="Push Contact Us Feature" title="Push Contact Us Feature" src="/assets/img/create-a-website/contact-mail/push_contact_us_feature.png"/>
 </div>
 
 ### MAIL INBOX
@@ -99,7 +99,7 @@ You know the steps, but I will show again
 You can check mails in the Submission tab of your Form.
 
 <div class="imgCont">
-  <img alt="FormsPree Submission Tab" title="FormsPree Submission Tab" src="/assets/img/create-a-website/contact-mail/formspree_submission_tab.png"/>
+  <img class="object-fit" alt="FormsPree Submission Tab" title="FormsPree Submission Tab" src="/assets/img/create-a-website/contact-mail/formspree_submission_tab.png"/>
 </div>
 
 <a href="https://github.com/vbisht7038/vbisht7038.github.io.git">Click to get the full Implementation of this tutorial on Github</a>
