@@ -3,7 +3,7 @@
   width: auto;
   overflow: hidden;
   font-size: 16px;
-  margin-top: 35px;
+  margin-top: 0;
 }
 
 .PageNavigation a {
@@ -11,11 +11,11 @@
   width: 50%;
   float: left;
   margin: 1em 0;
-  color: black;
+  color: #0082e5;
 }
 
 .PageNavigation a:hover{
-  color: red;
+  color: #37a8ff;
 }
 
 .PageNavigation .prev {
@@ -137,76 +137,6 @@
 }
 /* blog card */
 
-/* main body */
-
-#mainContainer{
-  margin-bottom: 25px;
-  margin-top: 48px;
-}
-
-#mainContainer .imgCont{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  position: relative;
-}
-
-#mainContainer .imgCont img{
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-/* Bottom right text */
-.imgCont .bottom-right {
-  position: absolute;
-  background-color: white;
-  bottom: 8px;
-  right: 16px;
-}
-
-#mainContainer div#left{
-  /* background-color: blue; */
-  /* height: 400px; */
-  display: block!important;
-}
-#mainContainer div#center #post-cont p{
-  line-height: 32px;
-  margin-top: 1em;
-  font-size: 16px;
-  letter-spacing: -0.003em;
-  margin-bottom: -0.46em;
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-#mainContainer div#center #post-cont ul,#mainContainer div#center #post-cont ol{
-margin-top: 1rem !important;
-}
-
-#mainContainer div#center #post-cont li ul{
-  margin-top: 0 !important;
-}
-
-#mainContainer div#center #post-cont li{
-  line-height: 32px;
-  font-size: 16px;
-  letter-spacing: -0.003em;
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-#mainContainer div#center #post-cont h1{
-  margin-top: 1.95em !important;
-  font-weight: 600 !important;
-}
-#mainContainer div#center #post-cont h2{
-  margin-top: 1.95em !important;
-  font-weight: 600 !important;
-}
-
-#mainContainer div#center #post-cont h3{
-  margin-top: 1.95em !important;
-  font-weight: 600 !important;
-}
-/* main body */
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   div#left{
@@ -239,10 +169,6 @@ margin-top: 1rem !important;
   div#left{
     display: block !important;
   }
-  .nav-link{
-    font-size: 1.1em !important;
-    /* color: #A9A9A9 !important; */
-  }
   #mainContainer div#center #post-cont p,#mainContainer div#center #post-cont li,.PageNavigation{
     font-size: 21px;
   }
@@ -273,6 +199,91 @@ margin-top: 1rem !important;
         }
         .bg-img{
           height: 200px;
+        }
+      }
+    }
+  }
+}
+
+.blog-post{
+  margin-top: 32px;
+  .left-section{
+    width: 70%;
+    margin-right: 5%;
+    .heading{
+      font-weight: 700;
+      line-height: 48px;
+      color: #28304c;
+      margin: 0;
+    }
+    .social-share{
+      align-items: center;
+      justify-content: space-between;
+      .published-date{
+        color: rgba(0,0,0,.5);
+      }
+      .toggle-share{
+        .social-share-inner{
+          border: 1px solid #ebeced;
+          border-radius: 4px;
+          color: #8f96a3;
+          width: 62px;
+          padding: 15px 20px;
+          height: 50px;
+          transition: background-color .2s,border-color .2s,color .2s;
+          .share-icon{
+            height: 20px;
+            width: 20px;
+          }
+          span{
+            display: none;
+          }
+        }
+      }
+    }
+    .imgCont{
+      margin-top: 16px;
+    }
+    .post-content{
+      padding: 32px 0;
+      p, li {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        color: #0e121a;
+        margin-bottom: 24px!important;
+      }
+      ul {
+        list-style: disc;
+        padding-left: 50px;
+      }
+    }
+  }
+
+  .right-section{
+    flex: 1;
+    .similar-blogs{
+      .heading{
+        color: #28304c;
+        font-size: 24px;
+        line-height: 34px;
+      }
+      .similar-item {
+        margin-top: 24px;
+        a{
+          flex-direction: column;
+          .content{
+            .published-date{
+              font-size: 14px;
+              line-height: 24px;
+              color: rgba(0,0,0,.6);
+            }
+            .title{
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 32px;
+            }
+          }
         }
       }
     }
