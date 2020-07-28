@@ -1,4 +1,368 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-25T19:46:52+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Share Post Updates Using MailChimp</title><link href="http://localhost:4000/create-a-website/share-post-updates" rel="alternate" type="text/html" title="Share Post Updates Using MailChimp" /><published>2020-06-28T19:30:00+05:30</published><updated>2020-06-28T19:30:00+05:30</updated><id>http://localhost:4000/create-a-website/share-post</id><content type="html" xml:base="http://localhost:4000/create-a-website/share-post-updates">&lt;h1 id=&quot;share-post-updates-using-mailchimp&quot;&gt;Share Post Updates Using MailChimp&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-28T18:52:57+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Off-Site SEO</title><link href="http://localhost:4000/create-a-website/off-site-seo" rel="alternate" type="text/html" title="Off-Site SEO" /><published>2020-07-25T00:00:00+05:30</published><updated>2020-07-25T00:00:00+05:30</updated><id>http://localhost:4000/create-a-website/seo-part3</id><content type="html" xml:base="http://localhost:4000/create-a-website/off-site-seo">&lt;h1 id=&quot;offsite-seo&quot;&gt;Offsite SEO&lt;/h1&gt;
+
+&lt;p&gt;Off-Site SEO is all about bringing traffic to your website without changing your website.
+This seo techniques bring &lt;strong&gt;authority and trustworthiness&lt;/strong&gt; to your website.
+It includes-&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Backlinks&lt;/li&gt;
+  &lt;li&gt;Guest Blogging&lt;/li&gt;
+  &lt;li&gt;Social media marketing&lt;/li&gt;
+  &lt;li&gt;Influencer Marketing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Backlinks&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This is the most important part of Offsite SEO. Backlink is a link from someones website to your website.
+ Higher the backlinks will lead to better site ranking than similar site with fewer backlinks.
+ Weightage of backlink increases when refering website is trustworthy and popular.&lt;/p&gt;
+
+    &lt;p&gt;We will learn how to get this backlink easily in next points.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Guest Blogging&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Guest Blogging is the way of writing content on someone’s website. In this content, you will basically refer your website blogs i.e backlink to get traffic. This way you will get traffic from trustworthy domains.&lt;/p&gt;
+
+    &lt;p&gt;You can write content on platforms like &lt;a href=&quot;https://medium.com&quot; title=&quot;Medium&quot;&gt;Medium&lt;/a&gt; and &lt;a href=&quot;https://ghost.org&quot; title=&quot;Ghost&quot;&gt;Ghost&lt;/a&gt; which is free for blogging.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Social media marketing&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Social marketing does not contribute directly to SEO. But it contributes to SEO in many ways-&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;Sharing post on social media will lead to viral of your post and ulitmately leads to overall traffic increase on the website.&lt;/li&gt;
+      &lt;li&gt;Sharing of social media posts will create backlink to your website which builds website Authority.&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;You can share your post on social media likes twitter, facebook, instagram and linkedin.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Influencer Marketing&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Influencer marketing means collaborating with online influencer so that they can endorse your product.
+ Influencer does not need to be celebrity, he/she must have large number of online audience.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are the ways which leads to your website traffic and help in building your brand.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind, it takes a long time to build an audience and patience is most important.&lt;/p&gt;
+
+&lt;p&gt;This lead to the end of this SEO series. In the upcoming posts, we will introduce on &lt;strong&gt;How to integrate Cloudflare&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lyfemarketing.com/blog/social-media-seo&quot; title=&quot;Social Media Marketing&quot;&gt;Social Media Marketing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://moz.com/learn/seo/off-site-seo&quot; title=&quot;Off-Site SEO&quot;&gt;Off-Site SEO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://influencermarketinghub.com/what-is-influencer-marketing/&quot; title=&quot;Influencer Marketing&quot;&gt;Influencer Marketing&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Offsite SEO</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/off-site-seo/seo.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/off-site-seo/seo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">On-Page SEO</title><link href="http://localhost:4000/create-a-website/on-page-seo" rel="alternate" type="text/html" title="On-Page SEO" /><published>2020-07-25T00:00:00+05:30</published><updated>2020-07-25T00:00:00+05:30</updated><id>http://localhost:4000/create-a-website/seo-part1</id><content type="html" xml:base="http://localhost:4000/create-a-website/on-page-seo">&lt;h1 id=&quot;search-engine-optimizationseo&quot;&gt;Search Engine Optimization(SEO)&lt;/h1&gt;
+
+&lt;p&gt;SEO is very important for our website search results. SEO tells crawlers about the intent of our site.
+There is no harcode rule to get better search results. Google changes or improves its algorithm for better search results.
+This tutorial is all about implementing best practices of SEO.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-searching-works&quot;&gt;How Searching works&lt;/h2&gt;
+
+&lt;p&gt;We have hosted our website and users can search using our domain name. But users does not know about us.
+Users search by typing intent or purpose on search engine and search engine shows results on the basis of user query.&lt;/p&gt;
+
+&lt;p&gt;So how is it possible?&lt;/p&gt;
+
+&lt;p&gt;Google collects our website information by sending request to our website with the help of crawlers.
+Crawlers are basically software programs that collects information from website.&lt;/p&gt;
+
+&lt;p&gt;Google stores our website information in their servers and show search results on the basis of user query.
+Google also consider data other than our website information like users clicks, users engagement etc which improves search results.&lt;/p&gt;
+
+&lt;h2 id=&quot;seo-types&quot;&gt;SEO Types&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;On-Page SEO&lt;/li&gt;
+  &lt;li&gt;Technical SEO&lt;/li&gt;
+  &lt;li&gt;Off-Site SEO&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;1-on-page-seo&quot;&gt;1. On-Page SEO&lt;/h3&gt;
+&lt;p&gt;On-Page SEO is all about the content on website. It helps in creating page that helps in finding answers for user query.
+It includes -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;page content&lt;/li&gt;
+  &lt;li&gt;keywords&lt;/li&gt;
+  &lt;li&gt;meta tags&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;h3 id=&quot;1-content&quot;&gt;1. Content&lt;/h3&gt;
+&lt;p&gt;This is the most important part of your website. Your website content should be original.
+Do not copy from other website as your content will gets reject.&lt;/p&gt;
+
+&lt;p&gt;Try to make unique and quality content.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-keywords&quot;&gt;2. Keywords&lt;/h3&gt;
+&lt;p&gt;This tag provides additional information of the page to the search engines. Do not try to add unncessary tags or excessively.
+We need to insert &lt;strong&gt;keyword&lt;/strong&gt; meta tag for every page. Follow below steps for this&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;To Search related keywords&lt;/p&gt;
+
+    &lt;p&gt;use &lt;a href=&quot;https://keywordseverywhere.com&quot; title=&quot;keywords Everywhere&quot;&gt;keywords Everywhere&lt;/a&gt; to analyze related and trending keywords.
+ Video related to this is available in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After searching keywords, Lets integrate keywords tag in our website&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add keyword meta tag in both file - home.md and post.md&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;keywords&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.keywords }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add &lt;strong&gt;keywords&lt;/strong&gt; front matter in each post and pages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+keywords: &quot;non veg recipe,non veg gravy,butterChicken,healthy butter chicken recipe&quot;
+---&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now go to your post or page and check keywords meta tag in page source.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-meta-tags&quot;&gt;3. Meta Tags&lt;/h3&gt;
+&lt;p&gt;There are many meta tags which tells about the meta information of the page. But not all are important for SEO.
+Important meta tags-&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Title tag&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This tells search engine the title of the page. Try to keep title short and unique. Eg-&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Butter Chicken Recipe | Foody Blog&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Description tag&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This tells search engine about the description of the page. Both title and description tag is shown by the google on search results. Eg-&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Butter Chicken Recipe For Non veg Lovers&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Viewport tag&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This tells the browser on how to render web page on different devices or screens. This tag tell the search engine that page is mobile friendly. Eg-&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width,initial-scale=1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Content Type tag&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This tells the browser about the type of document and character encoding for the page. Eg-&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Content-Type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/html; charset=utf-8&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Canonical tag&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This helps the search engine to prevent duplicate content issue.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;canonical&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://localhost:4000/non-veg/butterChicken&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Robots meta tag&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This tells the search engine on how to crawl or index website page. This tag is mostly used when you don’t want your page to get crawl or index. Eg-&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;robots&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;noindex&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Social Media Tags&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Tags for social media tell how your website link will be visible to the social media platform. Eg-&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Butter Chicken Recipe&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:locale&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en_US&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Butter Chicken Recipe For Non veg Lovers&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:url&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://localhost:4000/non-veg/butterChicken&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:site_name&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Foody Blog&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;article&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Lets integrate all this meta tags in our website, for this we will use jekyll seo plugin.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;add gem ‘jekyll-seo-tag’ in Gemfile&lt;/li&gt;
+  &lt;li&gt;add jekyll-seo-tag entry in plugin in _config.yml file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;plugins:
+  - jekyll-seo-tag&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;now add below entry in home.md and post.md&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% seo %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After doing this steps, this plugin will automatically picks title, description from post front matters
+and populate other meta tags also.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+title:  &quot;Butter Chicken Recipe&quot;
+description: &quot;Butter Chicken Recipe For Non veg Lovers&quot;
+author: Varun Bisht
+date:   2020-06-12 23:26:47 +0530
+---&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now save your changes to Github account.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;save seo part1&quot; title=&quot;save seo part1&quot; src=&quot;/assets/img/create-a-website/on-page-seo/save-seo-part1.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After saving changes, go to your web page and view page source by right Click.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+  &lt;img alt=&quot;seo meta tags&quot; title=&quot;seo meta tags&quot; src=&quot;/assets/img/create-a-website/on-page-seo/seo-meta-tags.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now we have successfully able to implement On-Page SEO.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;For &lt;a href=&quot;https://www.youtube.com/watch?v=SpKNXGQCHzU&quot; title=&quot;keywords Everywhere&quot;&gt;keywords Everywhere&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For &lt;a href=&quot;https://moz.com/beginners-guide-to-seo&quot; title=&quot;SEO&quot;&gt;SEO&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to integrate best practices for Technical SEO.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Search Engine Optimization(SEO)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/on-page-seo/seo.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/on-page-seo/seo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Technical SEO</title><link href="http://localhost:4000/create-a-website/technical-seo" rel="alternate" type="text/html" title="Technical SEO" /><published>2020-07-25T00:00:00+05:30</published><updated>2020-07-25T00:00:00+05:30</updated><id>http://localhost:4000/create-a-website/seo-part2</id><content type="html" xml:base="http://localhost:4000/create-a-website/technical-seo">&lt;h1 id=&quot;technical-seo&quot;&gt;Technical SEO&lt;/h1&gt;
+&lt;p&gt;Technical SEO is all about crawling, indexing, rendering and site structure, It helps crawlers to access and crawl your website so that your organic ranking will gets improve.
+It includes-&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;URL Structure&lt;/li&gt;
+  &lt;li&gt;Sitemap&lt;/li&gt;
+  &lt;li&gt;HTTPS&lt;/li&gt;
+  &lt;li&gt;Responsiveness&lt;/li&gt;
+  &lt;li&gt;Website Loading Speed&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;URL Structure&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;try to use keyword in the URL. Eg- https://vbisht7038.github.io/non-veg/butterChicken&lt;/li&gt;
+      &lt;li&gt;use hyphen as word seapartor&lt;/li&gt;
+      &lt;li&gt;maintain structure in the URL. Eg- http://www.yourdomain.com/category/subcategory/topic&lt;/li&gt;
+      &lt;li&gt;use short URL&lt;/li&gt;
+      &lt;li&gt;avoid complex words in URL&lt;/li&gt;
+      &lt;li&gt;avoid dynamic URL&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Sitemap&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Sitemap is an xml file which contains all your website links. It helps search engines to crawl your website easily.
+ To integrate sitemap.xml in your website, we will use Jekyll sitemap plugin.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;add gem ‘jekyll-sitemap’ in Gemfile&lt;/li&gt;
+      &lt;li&gt;add jekyll-sitemap entry in plugin in _config.yml file&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;   plugins:
+     - jekyll-sitemap&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now save your changes to GitHub Account.&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+     &lt;img alt=&quot;save sitemap plugin&quot; title=&quot;save sitemap plugin&quot; src=&quot;/assets/img/create-a-website/technical-seo/save-sitemap-plugin.png&quot; /&gt;
+   &lt;/div&gt;
+
+&lt;p&gt;Now you can check sitemap.xml at &lt;a href=&quot;https://vbisht7038.github.io/sitemap.xml&quot; title=&quot;Foody Blog sitemap&quot;&gt;Foody Blog sitemap&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;imgCont&quot;&gt;
+     &lt;img alt=&quot;foodyblog sitemap&quot; title=&quot;foodyblog sitemap&quot; src=&quot;/assets/img/create-a-website/technical-seo/foody-blog-sitemap.png&quot; /&gt;
+   &lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;HTTPS&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;URL with https means they are secure and search engine gives preference over non secure URL.
+ We have already discussed &lt;a href=&quot;/create-a-website/custom-domain-for-github-pages&quot; title=&quot;how to enable HTTPS&quot;&gt;how to enable HTTPS&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Responsiveness&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Responsiveness means your website renders well on a variety of screen sizes or devices.
+ We created our website design mobile friendly. You can check this on your mobile browser.&lt;/p&gt;
+    &lt;div class=&quot;imgCont&quot;&gt;
+   &lt;img alt=&quot;foody blog mobile design&quot; title=&quot;foody blog mobile design&quot; src=&quot;/assets/img/create-a-website/technical-seo/foody_blog_mobile_design.png&quot; /&gt;
+ &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Website Loading Speed&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This is one of the most important factor in terms of SEO. Website needs to be load fast as user cannot wait for slow website.&lt;/p&gt;
+
+    &lt;p&gt;You can check page speed on various website - &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights&quot; title=&quot;google developers page speed test&quot;&gt;Google developers page speed test&lt;/a&gt; and &lt;a href=&quot;https://gtmetrix.com&quot; title=&quot;GT Metrix&quot;&gt;GT Metrix&lt;/a&gt;. These website also suggest what action needs to be taken to load page fast.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Compress images&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;p&gt;Always compress your images as it reduces image size to significant amount.
+ We use &lt;a href=&quot;https://tinyjpg.com&quot; title=&quot;tinyjpg&quot;&gt;tinyjpg&lt;/a&gt; for compressing image.&lt;/p&gt;
+
+        &lt;p&gt;Eg- butterChicken.jpg image size comparison&lt;/p&gt;
+
+        &lt;p&gt;before compressing- 3.6mB&lt;/p&gt;
+
+        &lt;p&gt;after compressing- 165kB&lt;/p&gt;
+
+        &lt;p&gt;Around 95% reduction in size.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Resource Caching&lt;/strong&gt;
+ Apply cache header to the static resources. We will learn this on &lt;strong&gt;How to integrate Cloudflare tutorial.&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Minify CSS and Javascript&lt;/strong&gt;
+ Minify means to remove unnecessary data from js and css like comments, spaces, shot variable and function name etc.
+ We will learn this on &lt;strong&gt;How to integrate Cloudflare tutorial.&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Avoid unnecessary use of js and css&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Apart from above ways, there are also other ways which you will learn with time and by searching more about this.
+If you want to go deeper on this topic, there are links provided in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://moz.com/beginners-guide-to-seo/technical-seo&quot; title=&quot;MOZ Technical SEO&quot;&gt;MOZ Technical SEO&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to integrate best practices for Off-Site SEO.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Technical SEO Technical SEO is all about crawling, indexing, rendering and site structure, It helps crawlers to access and crawl your website so that your organic ranking will gets improve. It includes- URL Structure Sitemap HTTPS Responsiveness Website Loading Speed</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/technical-seo/seo.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/technical-seo/seo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Share Post Updates Using MailChimp</title><link href="http://localhost:4000/create-a-website/share-post-updates" rel="alternate" type="text/html" title="Share Post Updates Using MailChimp" /><published>2020-06-28T19:30:00+05:30</published><updated>2020-06-28T19:30:00+05:30</updated><id>http://localhost:4000/create-a-website/share-post</id><content type="html" xml:base="http://localhost:4000/create-a-website/share-post-updates">&lt;h1 id=&quot;share-post-updates-using-mailchimp&quot;&gt;Share Post Updates Using MailChimp&lt;/h1&gt;
 
 &lt;p&gt;In this Tutorial, we will teach you how you can share blog updates automatically by sending post straight to contacts inboxes.&lt;/p&gt;
 
@@ -1094,307 +1458,4 @@ You can copy from &lt;strong&gt;HTML with file uploads&lt;/strong&gt; tab, if yo
   &lt;li&gt;For FormsPree, you can check other features on your formspree account- &lt;a href=&quot;https://formspree.io&quot; title=&quot;FormsPree&quot;&gt;FormsPree&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to create blogs for our website.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Contact Us Page Using FormsPree</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/contact-mail/contact.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/contact-mail/contact.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Use Custom Domain For Github Pages</title><link href="http://localhost:4000/create-a-website/custom-domain-for-github-pages" rel="alternate" type="text/html" title="Use Custom Domain For Github Pages" /><published>2020-06-28T17:30:00+05:30</published><updated>2020-06-28T17:30:00+05:30</updated><id>http://localhost:4000/create-a-website/custom-domain-for-github-pages</id><content type="html" xml:base="http://localhost:4000/create-a-website/custom-domain-for-github-pages">&lt;h1 id=&quot;add-custom-domain-to-github-pages&quot;&gt;Add Custom Domain To Github Pages&lt;/h1&gt;
-
-&lt;p&gt;If you don’t like your domain which ends with github.io. Then you can purchase a domain from domain providers and add it in Github Pages.
-Custom domain basically adds to your brand value and later you can easily switch to other web hosting providers.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-we-will-do--&quot;&gt;What we will do -&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Buy a domain from domain providers&lt;/li&gt;
-  &lt;li&gt;Integrate this domain for Github Pages&lt;/li&gt;
-  &lt;li&gt;Create A and CNAME record in your DNS Provider DNS Setting&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;so-lets-start--&quot;&gt;So lets start -&lt;/h3&gt;
-
-&lt;h3 id=&quot;1-buy-domain-from-domain-provider&quot;&gt;1. Buy domain from domain provider.&lt;/h3&gt;
-&lt;p&gt;You can buy domain from any domain provider.
-&lt;a href=&quot;https://www.youtube.com/watch?v=ONyEEfNxHcQ&quot; title=&quot;How to buy Domain From GoDaddy&quot;&gt;How to buy Domain From GoDaddy&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-integrate-this-domain-for-github-pages&quot;&gt;2. Integrate this domain for Github Pages&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;After Buying Domain, Login to Github Account&lt;/li&gt;
-  &lt;li&gt;Go to your repository&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Github Repository Option&quot; title=&quot;Github Repository Option&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/repository_option.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Go to Repository Setting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Github Repository Setting Option&quot; title=&quot;Github Repository Setting Option&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/repository_setting_option.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;In this screen, Go to Github Pages and Enter domain in Custom Domain textbox and Click On Save.&lt;/p&gt;
-
-    &lt;p&gt;This will create a CNAME file in the root of your repository branch.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;- Tick Enforce HTTPS checkbox.&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;- In Next tutorial, fetch or pull code from Github as Github created a CNAME file.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Github Custom Domain Option&quot; title=&quot;Github Custom Domain Option&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/github_custom_domain.png&quot; /&gt;
-&lt;/div&gt;
-&lt;h3 id=&quot;3-create-a-and-cname-record-in-your-dns-provider-dns-setting&quot;&gt;3. Create A and CNAME record in your DNS Provider DNS Setting&lt;/h3&gt;
-&lt;p&gt;Now Go to your DNS Provider Domain Setting, add CNAME and A record&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;To create an A record, point your apex domain to the IP addresses for GitHub Pages.&lt;/p&gt;
-
-    &lt;p&gt;These are the IP address of Github Pages at the time of creating this post.You can check latest IPs from the link provided in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;185.199.108.153&lt;/li&gt;
-      &lt;li&gt;185.199.109.153&lt;/li&gt;
-      &lt;li&gt;185.199.110.153&lt;/li&gt;
-      &lt;li&gt;185.199.111.153&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;To create a CNAME record, point www to the site hosted at username.gitub.io.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Below is the screenshot of GoDaddy Domain Setting-&lt;/p&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;GoDaddy Domain Setting&quot; title=&quot;GoDaddy Domain Setting&quot; src=&quot;/assets/img/create-a-website/custom-domain-for-github-pages/DomainSettings.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Sometimes, these changes takes times to reflect so dont worry.&lt;/p&gt;
-
-&lt;p&gt;After these stpes, Search website using custom domain and it works perfectly.&lt;/p&gt;
-
-&lt;p&gt;In Further tutorials, We are using github.io domain but you can use your custom domain.&lt;/p&gt;
-
-&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Buy Domain- Youtube&lt;/li&gt;
-  &lt;li&gt;To Integrate Custom Domain - &lt;a href=&quot;https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site&quot; title=&quot;managing-a-custom-domain-for-your-github-pages-site&quot;&gt;managing a custom-domain for your github pages site&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how users can contact you.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Add Custom Domain To Github Pages</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/custom-domain-for-github-pages/custom_domain.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/custom-domain-for-github-pages/custom_domain.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Design Home Page</title><link href="http://localhost:4000/create-a-website/homepage-design" rel="alternate" type="text/html" title="Design Home Page" /><published>2020-06-28T16:30:00+05:30</published><updated>2020-06-28T16:30:00+05:30</updated><id>http://localhost:4000/create-a-website/homepage-design</id><content type="html" xml:base="http://localhost:4000/create-a-website/homepage-design">&lt;h1 id=&quot;homepage-design&quot;&gt;HomePage Design&lt;/h1&gt;
-
-&lt;p&gt;In this tutorial, we design homepage for the website which includes-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Navigation&lt;/li&gt;
-  &lt;li&gt;Front Page&lt;/li&gt;
-  &lt;li&gt;About Me/About Company&lt;/li&gt;
-  &lt;li&gt;Contact Us&lt;/li&gt;
-  &lt;li&gt;Footer&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;basic-structue-of-the-website-looks-like-&quot;&gt;Basic Structue of the website looks like-&lt;/h3&gt;
-
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;HomePage Structue&quot; title=&quot;HomePage Structue&quot; src=&quot;/assets/img/create-a-website/homepage-design/homepage_layout.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;- I am not focusing on designing websites that you can learn online or from youtube.&lt;/p&gt;
-
-&lt;h2 id=&quot;html-code-for-homepage&quot;&gt;HTML code for homepage&lt;/h2&gt;
-
-&lt;p&gt;I am providing you the code piece by piece.
-You can write this code in index.html&lt;/p&gt;
-
-&lt;h3 id=&quot;navigation-html--&quot;&gt;Navigation HTML -&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar navbar-expand-md navbar-dark fixed-top&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mainNav&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-brand&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;techylane logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img/logo_red.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-toggler&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;button&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-toggle=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-target=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#navbarResponsive&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-toggle-icon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-bars fa-1x&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse navbar-collapse&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbarResponsive&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-nav ml-auto&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav-item&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nav-link&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#aboutus&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;About Me&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;front-page-html--&quot;&gt;Front Page HTML -&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;header&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;masthead&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container h-100&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image-cont row h-100 align-items-end&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-12 text-center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;font-weight-light&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Check out Latest Cooking Recipe&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;lead&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;EXPLORE&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bottom-right&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Photo by Alyson McPhee on Unsplash&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;about-me-html--&quot;&gt;About Me HTML -&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;aboutus&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-sm-4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img-wrap&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Photo by Febrian Zakaria on Unsplash&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Photo by Febrian Zakaria on Unsplash&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img/profile.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-sm-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Varun Bisht&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Chef&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Welcome to our cooking channel 'FOODY BLOG'&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Here, we will teach you all kind of food recipes from simple to sophisticated, from North Indian to South Indian,
-     Gujarati to Marathi, Punjabi to Oriya.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt; Come check out our recipes and travel your journey from a starter Cook to a complete chef.
-     It's said that u can win anyone's heart by Good food. We along with mastering you in good food will teach you some kitchen
-     hacks and tips which will help you grow better each day.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;footer-html--&quot;&gt;Footer HTML -&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container-fluid padding&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row text-center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;address col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Address:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;F-9/91, Sector-100&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Rohini, Delhi-110089&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can find full code(including css and js) - &lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot; title=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;https://github.com/vbisht7038/vbisht7038.github.io.git&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We have designed our homepage and now its time to push this code to Github repository so that our awesome website design will be visible to others.&lt;/p&gt;
-
-&lt;p&gt;You know the steps, but i will show you again&lt;/p&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Push HomePage Steps&quot; title=&quot;Push HomePage Steps&quot; src=&quot;/assets/img/create-a-website/homepage-design/push_homepage_steps.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Desiging website - youtube&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to add Custom Domain to Github Pages.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">HomePage Design</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/homepage-design/design.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/homepage-design/design.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to use Git</title><link href="http://localhost:4000/create-a-website/git-use" rel="alternate" type="text/html" title="How to use Git" /><published>2020-06-28T15:00:00+05:30</published><updated>2020-06-28T15:00:00+05:30</updated><id>http://localhost:4000/create-a-website/git-use</id><content type="html" xml:base="http://localhost:4000/create-a-website/git-use">&lt;h1 id=&quot;how-to-get-and-save-website-code-to-github-using-git&quot;&gt;How to Get and Save Website Code to Github using Git&lt;/h1&gt;
-
-&lt;p&gt;To get and save c ode, you need to learn few commands of Git.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-git&quot;&gt;What is Git?&lt;/h2&gt;
-&lt;p&gt;Basically, Git is the most widely used version control system.
-It helps in managing and tracking code.
-In our case, You are able to get and save code on the Github repository using Git.&lt;/p&gt;
-
-&lt;h2 id=&quot;install-git-on-linux&quot;&gt;Install Git on linux&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 1 - Open terminal&lt;/li&gt;
-  &lt;li&gt;Step 2 - Run this command- sudo apt-get update&lt;/li&gt;
-  &lt;li&gt;Step 3 - Run this command- sudo apt-get install git&lt;/li&gt;
-  &lt;li&gt;Step 4 - Verify the installation was successfull or not by running this command- git –version&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If all goes right, you will be able to successfully install Git.&lt;/p&gt;
-
-&lt;p&gt;You can &lt;strong&gt;install Git on Mac and Windows&lt;/strong&gt; using link available in Further Study Material.&lt;/p&gt;
-
-&lt;h2 id=&quot;basic-operations--&quot;&gt;Basic operations -&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;1. Copy repository to local system&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Command- git clone repository_url&lt;/p&gt;
-
-&lt;p&gt;Eg - git clone https://github.com/vbisht7038/vbisht7038.github.io.git&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Push changes done to the repository&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Commands-&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;git add .&lt;/li&gt;
-  &lt;li&gt;git commit -m’your message’&lt;/li&gt;
-  &lt;li&gt;git push origin master&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Then enter your email and password&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Initialize directory as Git repository&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;git init&lt;/li&gt;
-  &lt;li&gt;git remote add origin git_repository_url&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;now-lets-do-some-changes-to-the-website&quot;&gt;Now Lets do some changes to the Website&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Clone your repository to local system, Go to directory and run git clone https://github.com/vbisht7038/vbisht7038.github.io.git&lt;/li&gt;
-  &lt;li&gt;cd vbisht7038.github.io&lt;/li&gt;
-  &lt;li&gt;Create index.html file and enter below code&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt; Just the beginning, more to come&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Now push or save this changes to the github repository.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;First Commit&quot; title=&quot;First Commit&quot; src=&quot;/assets/img/create-a-website/git-use/first-commit.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You are successfully able to push your changes to the Github Account.&lt;/p&gt;
-
-&lt;h3 id=&quot;enable-github-pages&quot;&gt;Enable Github Pages&lt;/h3&gt;
-
-&lt;p&gt;This is the final step to make your website live. After this step, anyone can access your website.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 1 - Login To Github account.&lt;/li&gt;
-  &lt;li&gt;Step 2 - Go to you repository.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Repository Option&quot; title=&quot;Repository Option&quot; src=&quot;/assets/img/create-a-website/git-use/repository_option.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 3 - Click on Setting option.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Repository Setting Option&quot; title=&quot;Repository Setting Option&quot; src=&quot;/assets/img/create-a-website/git-use/repository_setting_option.png&quot; /&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Step 4 - Scroll down to GitHub Pages and change source to master branch.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Github Pages&quot; title=&quot;Github Pages&quot; src=&quot;/assets/img/create-a-website/git-use/github_pages.png&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;After changing source, Your site is published at &lt;a href=&quot;https://vbisht7038.github.io&quot; title=&quot;https://vbisht7038.github.io&quot;&gt;https://vbisht7038.github.io&lt;/a&gt; messages comes.&lt;/p&gt;
-
-&lt;p&gt;Now go to the browser and search - &lt;a href=&quot;https://vbisht7038.github.io&quot; title=&quot;https://vbisht7038.github.io&quot;&gt;https://vbisht7038.github.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You will see your site with changes -&lt;/p&gt;
-&lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Blog Site&quot; title=&quot;Blog Site&quot; src=&quot;/assets/img/create-a-website/git-use/blog_site.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Your site is &lt;strong&gt;HTTPS&lt;/strong&gt; enabled.&lt;/p&gt;
-
-&lt;p&gt;In this tutorial, we created our website and pushed some code successfully.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;further-study-material&quot;&gt;Further Study Material&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;For Git - &lt;a href=&quot;https://www.atlassian.com/git/tutorials/what-is-git&quot; title=&quot;what-is-git&quot;&gt;what is Git&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;For Installation - &lt;a href=&quot;https://www.atlassian.com/git/tutorials/install-git&quot; title=&quot;Install Git&quot;&gt;Install Git&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;For HTTPS - &lt;a href=&quot;https://www.cloudflare.com/learning/ssl/what-is-https&quot; title=&quot;what-is-https&quot;&gt;what is HTTPs&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will make cool website homepage design.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">How to Get and Save Website Code to Github using Git</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/git-use/git.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/git-use/git.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;strong&gt;In the next tutorial&lt;/strong&gt;, we will focus on how to create blogs for our website.&lt;/p&gt;</content><author><name>Varun Bisht</name></author><category term="create a website" /><summary type="html">Contact Us Page Using FormsPree</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/create-a-website/contact-mail/contact.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/create-a-website/contact-mail/contact.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
