@@ -28,14 +28,14 @@
       <ul class="latest-posts-list">
         {% for post in site.posts limit:4%}
         <li class="post-item">
-          <a class="flex flex-col">
+          <a href="{{post.url}}" class="flex flex-col">
               <figure class="image-section relative">
                   <img class="object-fit lazy" src="{{post.image}}">
                 </figure>
                 <div class="lower-section">
                   <p class="category">{{post.category}}</p>
                   <h2 class="heading">{{post.title}}</h2>
-                  <p class="content">{{post.description}}</p>
+                  <p class="content">{{post.blogDesc}}</p>
                 </div>
           </a>
         </li>
@@ -68,7 +68,7 @@
         {% for post in site.posts %}
         {% if post.trending == true %}
         <li class="trending-item">
-          <a class="flex col">
+          <a href="{{post.url}}" class="flex col">
               <figure class="image-section relative">
                   <img class="object-fit lazy" src="{{post.image}}">
                 </figure>
@@ -76,7 +76,7 @@
                   <p class="category">{{post.category}}</p>
                   <p class="s-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
                   <h2 class="heading">{{post.title}}</h2>
-                  <p class="content">{{post.description}}</p>
+                  <p class="content">{{post.blogDesc}}</p>
                 </div>
           </a>
         </li>

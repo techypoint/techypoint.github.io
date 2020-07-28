@@ -8,14 +8,13 @@ description: "This Page contains blogs related to java, java blogs, amazon S3 bl
 {% for post in site.posts %}
 <div class="card">
   <div class="card-info">
-    
       <span class="user-profile">
         <svg class="svg-icon">
           <use xlink:href="#user-profile" />
         </svg>
         {{post.author}}
       </span>  
-    <span class="clockCont"> 
+    <span class="clockCont">
       <svg class="svg-icon">
             <use xlink:href="#timer" />
           </svg>{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
