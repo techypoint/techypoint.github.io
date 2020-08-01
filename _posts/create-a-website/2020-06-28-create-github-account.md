@@ -27,20 +27,20 @@ It ranges from open source and also fits for business.
 
    After filling, Click on Create Account.
 <div class="imgCont">
-  <img alt="Create Account Screen" title="Create Account Screen" src="/assets/img/create-a-website/create-github-account/create-account-screen.png"/>
+  <img class="object-fit" alt="Create Account Screen" title="Create Account Screen" src="/assets/img/create-a-website/create-github-account/create-account-screen.png"/>
 </div>
 - Step 4 - In this screen, Click on Join a free plan button.
 <div class="imgCont">
-  <img alt="Join Free Plan" title="Join Free Plan" src="/assets/img/create-a-website/create-github-account/join-free-plan.png"/>
+  <img class="object-fit" alt="Join Free Plan" title="Join Free Plan" src="/assets/img/create-a-website/create-github-account/join-free-plan.png"/>
 </div>
 - Step 5 - Choose the option which suits you best and then click on Complete Setup.
 - Step 6 - Now you get this screen
 <div class="imgCont">
-  <img alt="Verify Email Address" title="Verify Email Address" src="/assets/img/create-a-website/create-github-account/verify-email-address.png"/>
+  <img class="object-fit" alt="Verify Email Address" title="Verify Email Address" src="/assets/img/create-a-website/create-github-account/verify-email-address.png"/>
 </div>
 - Step 7 - Now verify by clicking on the link you get in email box. After clicking on link, you will get below screen.
 <div class="imgCont">
-  <img alt="GitHub Skip Now" title="GitHub Skip Now" src="/assets/img/create-a-website/create-github-account/github-skip-now.png"/>
+  <img class="object-fit" alt="GitHub Skip Now" title="GitHub Skip Now" src="/assets/img/create-a-website/create-github-account/github-skip-now.png"/>
 </div>
 - Step 8 - Choose skip for now option.
 
@@ -51,11 +51,11 @@ You have successfully created your Github account.
 - Step 1 - Login to your Github Account.
 - Step 2 - After login, you will get below screen.
 <div class="imgCont">
-  <img alt="GitHub Homepage" title="GitHub Homepage" src="/assets/img/create-a-website/create-github-account/github-homepage.png"/>
+  <img class="object-fit" alt="GitHub Homepage" title="GitHub Homepage" src="/assets/img/create-a-website/create-github-account/github-homepage.png"/>
 </div>
 - Step 3 - Click on Create Repository
 <div class="imgCont">
-  <img alt="Create Repository Screen" title="Create Repository Screen" src="/assets/img/create-a-website/create-github-account/create_repository_screen.png"/>
+  <img class="object-fit" alt="Create Repository Screen" title="Create Repository Screen" src="/assets/img/create-a-website/create-github-account/create_repository_screen.png"/>
 </div>
 In this screen, Enter Repository name in the same format we have filled.
 
@@ -64,7 +64,7 @@ In this screen, Enter Repository name in the same format we have filled.
   Select public option to make this repository public.
 - Step 4 - Click on Create repository and you will get below screen.
 <div class="imgCont">
-  <img alt="Repository Download Screen" title="Repository Download Screen" src="/assets/img/create-a-website/create-github-account/repostiory-download-screen.png"/>
+  <img class="object-fit" alt="Repository Download Screen" title="Repository Download Screen" src="/assets/img/create-a-website/create-github-account/repostiory-download-screen.png"/>
 </div>
 - Step 5 - Copy the repository link which we will use in next tutorial.
 

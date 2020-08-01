@@ -58,7 +58,7 @@ description: "This Page contains cooking recipe posts"
     <span class="clockCont"> <i class="fa fa-clock-o clock-icon"></i>{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
   </div>
   <div class="bg-img">
-    <img alt="{{post.title}}" src="{{post.blogImg}}">
+    <img class="object-fit" alt="{{post.title}}" src="{{post.blogImg}}">
   </div>
   <div class="content">    
     <p>{{post.description}}</p>
@@ -116,7 +116,7 @@ Now go to your website and checkout blog post through navigation panel.
 
 Now save or push changes to the github Account.
 <div class="imgCont">
-  <img alt="save blog part 3" title="save blog part 3" src="/assets/img/create-a-website/create-a-blog-part3/save-blog3.png"/>
+  <img class="object-fit" alt="save blog part 3" title="save blog part 3" src="/assets/img/create-a-website/create-a-blog-part3/save-blog3.png"/>
 </div>
 
 Now we are successfully able to create a blog and ready to publish posts but there is one feature missing i.e **user engagement**.

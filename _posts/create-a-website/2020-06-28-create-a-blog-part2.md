@@ -24,7 +24,7 @@ In this part i.e PART 2, we are going to create blog posts for our website.
 
 ### Basic Structue of the blog looks like-
 <div class="imgCont">
-  <img alt="Blog Structue" title="Blog Structue" src="/assets/img/create-a-website/create-a-blog-part2/blog_structure.png"/>
+  <img class="object-fit" alt="Blog Structue" title="Blog Structue" src="/assets/img/create-a-website/create-a-blog-part2/blog_structure.png"/>
 </div>
 
 In the project, there is a _posts folder which will contains all the blog posts.
@@ -175,7 +175,7 @@ You can delete old files which we created in [PART 1]({% post_url create-a-websi
 
 Now save or push changes to Github Account.
 <div class="imgCont">
-  <img alt="Save Post" title="Save Post" src="/assets/img/create-a-website/create-a-blog-part2/save_post.png" />
+  <img class="object-fit" alt="Save Post" title="Save Post" src="/assets/img/create-a-website/create-a-blog-part2/save_post.png" />
 </div>
 
 Now you can access this post at [Butter Chicken Recipe](https://vbisht7038.github.io/non-veg/butterChicken "Butter Chicken Recipe")

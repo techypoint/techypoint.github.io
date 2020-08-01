@@ -18,15 +18,15 @@ Then we will create project in java and create connection with Amazon S3.
 - Step 1 - Login in to your Amazon S3 account.
 - Step 2 - Click on My Security Credentials
 <div class="imgCont">
-  <img alt="Security Credentials Option" title="Security Credentials Option" src="/assets/img/amazon-s3/setup-java-project/security_credential_option.png" />
+  <img class="object-fit" alt="Security Credentials Option" title="Security Credentials Option" src="/assets/img/amazon-s3/setup-java-project/security_credential_option.png" />
 </div>
 - Step 3 - Now select Access keys (access key id and secret access key)
 <div class="imgCont">
-  <img alt="AWS Security Credentials" title="AWS Security Credentials" src="/assets/img/amazon-s3/setup-java-project/aws_security_credentials.png" />
+  <img class="object-fit" alt="AWS Security Credentials" title="AWS Security Credentials" src="/assets/img/amazon-s3/setup-java-project/aws_security_credentials.png" />
 </div>
 - Step 4 - click on create new Access key, you will get the option of download key file.
 <div class="imgCont">
-  <img alt="AWS Credential Download Option" title="AWS Credential Download Option" src="/assets/img/amazon-s3/setup-java-project/aws_credential_download_option.png" />
+  <img class="object-fit" alt="AWS Credential Download Option" title="AWS Credential Download Option" src="/assets/img/amazon-s3/setup-java-project/aws_credential_download_option.png" />
 </div>
 - Step 5 - In the file, you will get access key and secret key.
 

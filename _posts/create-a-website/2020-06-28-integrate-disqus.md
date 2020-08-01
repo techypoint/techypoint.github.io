@@ -24,27 +24,27 @@ In this tutorial, we will create comment box using Disqus so that others can sha
 - Step 1 - Go to [Disqus](https://disqus.com "Disqus")
 - Step 2 - Click on Get Started
 <div class="imgCont">
-  <img alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/create-a-website/comment-disqus/disqus-homepage.png" />
+  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/create-a-website/comment-disqus/disqus-homepage.png" />
 </div>
 - Step 3 - Enter following details or can choose other options. After that click Sign Up.
 <div class="imgCont">
-  <img alt="Disqus Sign Up" title="Disqus Sign Up" src="/assets/img/create-a-website/comment-disqus/disqus-signUp.png" />
+  <img class="object-fit" alt="Disqus Sign Up" title="Disqus Sign Up" src="/assets/img/create-a-website/comment-disqus/disqus-signUp.png" />
 </div>
 - Step 4 - Then choose I want to install Disqus on my site.
 <div class="imgCont">
-  <img alt="Disqus Install Option" title="Disqus Install Option" src="/assets/img/create-a-website/comment-disqus/disqus-install-option.png" />
+  <img class="object-fit" alt="Disqus Install Option" title="Disqus Install Option" src="/assets/img/create-a-website/comment-disqus/disqus-install-option.png" />
 </div>
 - Step 5 - Enter website name and category and then click on create site button.
 <div class="imgCont">
-  <img alt="Disqus create site page" title="Disqus create site page" src="/assets/img/create-a-website/comment-disqus/disqus-create-site.png" />
+  <img class="object-fit" alt="Disqus create site page" title="Disqus create site page" src="/assets/img/create-a-website/comment-disqus/disqus-create-site.png" />
 </div>
 - Step 6 - In this screen, Select a basic plan and click on Subscibe now.
 <div class="imgCont">
-  <img alt="Disqus Plan Option" title="Disqus Plan Option" src="/assets/img/create-a-website/comment-disqus/disqus-plan-option.png" />
+  <img class="object-fit" alt="Disqus Plan Option" title="Disqus Plan Option" src="/assets/img/create-a-website/comment-disqus/disqus-plan-option.png" />
 </div>
 - Step 7 - Now Select On Install Universal Code option.
 <div class="imgCont">
-  <img alt="Disqus Platform option" title="Disqus Platform option" src="/assets/img/create-a-website/comment-disqus/disqus-platform.png" />
+  <img class="object-fit" alt="Disqus Platform option" title="Disqus Platform option" src="/assets/img/create-a-website/comment-disqus/disqus-platform.png" />
 </div>
 - Step 8 - In this screen, we will see how to Integrate code in our website and video instruction is also available.
 
@@ -98,17 +98,17 @@ this.page.identifier = "{{ page.url }}";
 {% endraw %}{% endhighlight %}
 - Step 5 - Go to your blog, you will see a comment box but with a message to verify your email address.
 <div class="imgCont">
-  <img alt="Disqus Email Verification" title="Disqus Email Verification" src="/assets/img/create-a-website/comment-disqus/disqus-email-verification.png" />
+  <img class="object-fit" alt="Disqus Email Verification" title="Disqus Email Verification" src="/assets/img/create-a-website/comment-disqus/disqus-email-verification.png" />
 </div>
 
 Verify your email address and you are all done.
 <div class="imgCont">
-  <img alt="Disqus Comment box" title="Disqus Comment box" src="/assets/img/create-a-website/comment-disqus/disqus-comment-done.png" />
+  <img class="object-fit" alt="Disqus Comment box" title="Disqus Comment box" src="/assets/img/create-a-website/comment-disqus/disqus-comment-done.png" />
 </div>
 
 Now save your changes to Github account.
 <div class="imgCont">
-  <img alt="Disqus Save Changes" title="Disqus Save Changes" src="/assets/img/create-a-website/comment-disqus/disqus-save-changes.png" />
+  <img class="object-fit" alt="Disqus Save Changes" title="Disqus Save Changes" src="/assets/img/create-a-website/comment-disqus/disqus-save-changes.png" />
 </div>
 
 **On Disqus portal**,
