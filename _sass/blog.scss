@@ -257,11 +257,31 @@
         list-style: disc;
         padding-left: 50px;
       }
+      .highlight{
+        .code-toolbar{
+          position: relative;
+          code.language-html{
+            padding-top: 30px;
+          }
+          .toolbar{
+            position: absolute;
+            top: 0;
+            right: 0;
+            button{
+              background: #358ccb;
+              border: none;
+              color: #fff;
+              font-size: 12px;
+              padding: 5px 15px;
+            }
+          }
+        }
+      }
     }
   }
 
   .right-section{
-    flex: 1;
+    width: 25%;
     .similar-blogs{
       .heading{
         color: #28304c;
@@ -285,6 +305,92 @@
             }
           }
         }
+      }
+    }
+
+    #mc_embed_signup{
+      background: #133271;
+      padding: 24px;
+      *{
+        color: #fff;
+        text-align: left;
+      }
+      label{
+        font-size: 24px;
+        font-weight: 500;
+        padding: 0;
+      }
+      #mce-EMAIL{
+        border: none;
+        background: #fff;
+        padding: 0 16px;
+        margin: 16px 0;
+        max-width: 100%;
+      }
+      .clear{
+        text-align: center;
+        width: 100%;
+        #mc-embedded-subscribe{
+          background: transparent;
+          color: #fff;
+          font-size: 16px;
+          border: 1px solid #fff;
+          padding: 0 24px;
+          letter-spacing: .88px;
+          border-radius: 4px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:767px){
+  .blog-post{
+    flex-direction: column;
+    .left-section{
+      width: 100%;
+      margin-right: 0;
+      padding: 0 16px;
+    }
+    .right-section{
+      width: 100%;
+      .similar-blogs{
+        display: inline-block;
+        white-space: nowrap;
+        overflow-x: scroll;
+        width: 100%;
+        overflow-y: hidden;
+        margin-top: 24px;
+        background: #e4eef5;
+        padding: 48px 0;
+        &::-webkit-scrollbar {
+          width: 0 !important;
+          height: 0;
+        }
+        .heading{
+          padding: 0 16px;
+        }
+        .similar-item{
+          margin-top: 24px;
+          display: inline-block;
+          width: 300px;
+          white-space: normal;
+          margin-right: 16px;
+          margin-bottom: 0;
+          &:nth-child(2){
+            margin-left: 16px;
+          }
+          .content{
+            background: #fff;
+            padding: 5px 12px;
+            margin-top: -5px;
+          }
+          
+        }
+      }
+      #mc_embed_signup .clear #mc-embedded-subscribe{
+        text-align: center;
       }
     }
   }

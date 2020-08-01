@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-28T18:52:57+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Off-Site SEO</title><link href="http://localhost:4000/create-a-website/off-site-seo" rel="alternate" type="text/html" title="Off-Site SEO" /><published>2020-07-25T00:00:00+05:30</published><updated>2020-07-25T00:00:00+05:30</updated><id>http://localhost:4000/create-a-website/seo-part3</id><content type="html" xml:base="http://localhost:4000/create-a-website/off-site-seo">&lt;h1 id=&quot;offsite-seo&quot;&gt;Offsite SEO&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-01T21:52:17+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">TechyLane - Tech Tutorials</title><subtitle>Our site gives you technical series related to java, java related topics, amazon S3. Our aim is to provide a brief knowledge on these topics so that you can easily understand them.</subtitle><entry><title type="html">Off-Site SEO</title><link href="http://localhost:4000/create-a-website/off-site-seo" rel="alternate" type="text/html" title="Off-Site SEO" /><published>2020-07-25T00:00:00+05:30</published><updated>2020-07-25T00:00:00+05:30</updated><id>http://localhost:4000/create-a-website/seo-part3</id><content type="html" xml:base="http://localhost:4000/create-a-website/off-site-seo">&lt;h1 id=&quot;offsite-seo&quot;&gt;Offsite SEO&lt;/h1&gt;
 
 &lt;p&gt;Off-Site SEO is all about bringing traffic to your website without changing your website.
 This seo techniques bring &lt;strong&gt;authority and trustworthiness&lt;/strong&gt; to your website.
@@ -239,12 +239,12 @@ date:   2020-06-12 23:26:47 +0530
 
 &lt;p&gt;Now save your changes to Github account.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;save seo part1&quot; title=&quot;save seo part1&quot; src=&quot;/assets/img/create-a-website/on-page-seo/save-seo-part1.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;save seo part1&quot; title=&quot;save seo part1&quot; src=&quot;/assets/img/create-a-website/on-page-seo/save-seo-part1.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;After saving changes, go to your web page and view page source by right Click.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;seo meta tags&quot; title=&quot;seo meta tags&quot; src=&quot;/assets/img/create-a-website/on-page-seo/seo-meta-tags.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;seo meta tags&quot; title=&quot;seo meta tags&quot; src=&quot;/assets/img/create-a-website/on-page-seo/seo-meta-tags.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now we have successfully able to implement On-Page SEO.&lt;/p&gt;
@@ -298,12 +298,12 @@ It includes-&lt;/p&gt;
 
 &lt;p&gt;Now save your changes to GitHub Account.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-     &lt;img alt=&quot;save sitemap plugin&quot; title=&quot;save sitemap plugin&quot; src=&quot;/assets/img/create-a-website/technical-seo/save-sitemap-plugin.png&quot; /&gt;
+     &lt;img class=&quot;object-fit&quot; alt=&quot;save sitemap plugin&quot; title=&quot;save sitemap plugin&quot; src=&quot;/assets/img/create-a-website/technical-seo/save-sitemap-plugin.png&quot; /&gt;
    &lt;/div&gt;
 
 &lt;p&gt;Now you can check sitemap.xml at &lt;a href=&quot;https://vbisht7038.github.io/sitemap.xml&quot; title=&quot;Foody Blog sitemap&quot;&gt;Foody Blog sitemap&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-     &lt;img alt=&quot;foodyblog sitemap&quot; title=&quot;foodyblog sitemap&quot; src=&quot;/assets/img/create-a-website/technical-seo/foody-blog-sitemap.png&quot; /&gt;
+     &lt;img class=&quot;object-fit&quot; alt=&quot;foodyblog sitemap&quot; title=&quot;foodyblog sitemap&quot; src=&quot;/assets/img/create-a-website/technical-seo/foody-blog-sitemap.png&quot; /&gt;
    &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -318,7 +318,7 @@ It includes-&lt;/p&gt;
     &lt;p&gt;Responsiveness means your website renders well on a variety of screen sizes or devices.
  We created our website design mobile friendly. You can check this on your mobile browser.&lt;/p&gt;
     &lt;div class=&quot;imgCont&quot;&gt;
-   &lt;img alt=&quot;foody blog mobile design&quot; title=&quot;foody blog mobile design&quot; src=&quot;/assets/img/create-a-website/technical-seo/foody_blog_mobile_design.png&quot; /&gt;
+   &lt;img class=&quot;object-fit&quot; alt=&quot;foody blog mobile design&quot; title=&quot;foody blog mobile design&quot; src=&quot;/assets/img/create-a-website/technical-seo/foody_blog_mobile_design.png&quot; /&gt;
  &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -387,7 +387,7 @@ It is basically a xml file which contains website information.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Foody Blog RSS Feed&quot; title=&quot;Foody Blog RSS Feed&quot; src=&quot;/assets/img/create-a-website/share-post-updates/foodyblog_rss_feed.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Foody Blog RSS Feed&quot; title=&quot;Foody Blog RSS Feed&quot; src=&quot;/assets/img/create-a-website/share-post-updates/foodyblog_rss_feed.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;what-we-will-do-&quot;&gt;What we will do-&lt;/h3&gt;
@@ -442,45 +442,45 @@ description: &amp;gt;- # this means to ignore newlines until &quot;baseurl:
   &lt;li&gt;Go to Create option and select Email option.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Email Option&quot; title=&quot;MailChimp Email Option&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_email_option.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Email Option&quot; title=&quot;MailChimp Email Option&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_email_option.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Go to Automated tab and select Share blog updates option&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Share Blog Updates&quot; title=&quot;MailChimp Share Blog Updates&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_share_blog_updates.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Share Blog Updates&quot; title=&quot;MailChimp Share Blog Updates&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_share_blog_updates.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Enter Campaign Name and select your audience to which you want to send updates and then click Begin&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Audience Selection&quot; title=&quot;MailChimp Audience Selection&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_audience_selection.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Audience Selection&quot; title=&quot;MailChimp Audience Selection&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_audience_selection.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;In this screen, enter your live feed.xml URL and choose other options also.
 After that, click on Next&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp RSS Feed Setup&quot; title=&quot;MailChimp RSS Feed Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_rss_feed_setup.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp RSS Feed Setup&quot; title=&quot;MailChimp RSS Feed Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_rss_feed_setup.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;In this screen, I will go with Entire audience option. You can choose which fits you best. After that, click on Next&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Recipients Setup&quot; title=&quot;MailChimp Recipients Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_recipients_setup.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Recipients Setup&quot; title=&quot;MailChimp Recipients Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_recipients_setup.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;This screen is all about email subject lines, whether you want to share on social media and tracking options. All options are self explanatory. After filling options, click on Next&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Campaign Info Setup&quot; title=&quot;MailChimp Campaign Info Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_campaign_info_setup.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Campaign Info Setup&quot; title=&quot;MailChimp Campaign Info Setup&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_campaign_info_setup.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;This screen is to create template for your Email. Basically, how to show your RSS feed data in Email.
 In Layout, I will go with 1 column template&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Template&quot; title=&quot;MailChimp Template&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_template.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Template&quot; title=&quot;MailChimp Template&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_template.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -491,13 +491,13 @@ Drag and Drop RSS items from blocks and delete previous block. Customize your de
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Template Design&quot; title=&quot;MailChimp Template Design&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_template_design.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Template Design&quot; title=&quot;MailChimp Template Design&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_template_design.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;You are all set to send updates. Click on start RSS and its done.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp RSS Done&quot; title=&quot;MailChimp RSS Done&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_rss_done.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp RSS Done&quot; title=&quot;MailChimp RSS Done&quot; src=&quot;/assets/img/create-a-website/share-post-updates/mailchimp_rss_done.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now whenever you create a post, it will automatically send to your selected audience.&lt;/p&gt;
@@ -552,56 +552,56 @@ You can also target your audience by segmenting them.&lt;/p&gt;
   &lt;li&gt;Step 2 - Click On Sing Up Free&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Homepage&quot; title=&quot;MailChimp Homepage&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-homepage.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Homepage&quot; title=&quot;MailChimp Homepage&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-homepage.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 3 - Fill the form and click Sign Up&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp SignUp Form&quot; title=&quot;MailChimp SignUp Form&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp SignUp Form&quot; title=&quot;MailChimp SignUp Form&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 4 - Go to Email box and verify your email address.&lt;/li&gt;
   &lt;li&gt;Step 5 - After verification and confirming you are human. You will see below screen. Choose Free Plan and Click Complete button.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Plans&quot; title=&quot;MailChimp Plans&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-plans.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Plans&quot; title=&quot;MailChimp Plans&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-plans.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 6 - Now set up your account and Continue.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp SetUp Account&quot; title=&quot;MailChimp SetUp Account&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-setup-account.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp SetUp Account&quot; title=&quot;MailChimp SetUp Account&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-setup-account.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 7 - Now Tell Something about your business and enter website URL and Continue&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Tell Me Business&quot; title=&quot;MailChimp Tell Me Business&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-tellme-business.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Tell Me Business&quot; title=&quot;MailChimp Tell Me Business&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-tellme-business.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 8 - Now enter your address details and phone number.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Add Address&quot; title=&quot;MailChimp Add Address&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-add-address.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Add Address&quot; title=&quot;MailChimp Add Address&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-add-address.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 9 - Now select suitable option and Continue.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Contacts&quot; title=&quot;MailChimp Contacts&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-contacts.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Contacts&quot; title=&quot;MailChimp Contacts&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-contacts.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 10 - Choose option based on your purpose and continue.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Offer&quot; title=&quot;MailChimp Offer&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-offer.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Offer&quot; title=&quot;MailChimp Offer&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-offer.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 11 - Subscribe to the options and click on Lets Go.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Subscribe Option&quot; title=&quot;MailChimp Subscribe Option&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-subscribe-option.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Subscribe Option&quot; title=&quot;MailChimp Subscribe Option&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-subscribe-option.png&quot; /&gt;
 	&lt;/div&gt;
 &lt;p&gt;You have successfully able to sign up&lt;/p&gt;
 
@@ -611,13 +611,13 @@ You can also target your audience by segmenting them.&lt;/p&gt;
   &lt;li&gt;Step 1 - Now go to create option on the top-left corner and select SignUp Form Option.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Mailchimp Create Signup Form&quot; title=&quot;Mailchimp Create Signup Form&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-create-signup-form.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Mailchimp Create Signup Form&quot; title=&quot;Mailchimp Create Signup Form&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-create-signup-form.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 2 - Select the Embedded form type and Click on Begin.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Mailchimp Signup Form Type&quot; title=&quot;Mailchimp Signup Form Type&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form-type.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Mailchimp Signup Form Type&quot; title=&quot;Mailchimp Signup Form Type&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-form-type.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -662,19 +662,19 @@ I am including it in 2020-06-12-butterChicken.markdown file&lt;/li&gt;
 
 &lt;p&gt;Now open your blog and you will see the magic. You will see a subscribe option below image and that’s it.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp SignUp Design&quot; title=&quot;MailChimp SignUp Design&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-design.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp SignUp Design&quot; title=&quot;MailChimp SignUp Design&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-signup-design.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now save your changes to Github Account.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Save Changes&quot; title=&quot;MailChimp Save Changes&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-save-changes.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Save Changes&quot; title=&quot;MailChimp Save Changes&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-save-changes.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now any users can subscribe for updates and you can expand your audience.&lt;/p&gt;
 
 &lt;p&gt;You can see your subscribed users under &lt;strong&gt;Audience section on MailChimp portal&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;MailChimp Audience Portal&quot; title=&quot;MailChimp Audience Portal&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-audience-portal.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;MailChimp Audience Portal&quot; title=&quot;MailChimp Audience Portal&quot; src=&quot;/assets/img/create-a-website/signUp-mailchimp/mailchimp-audience-portal.png&quot; /&gt;
 	&lt;/div&gt;
 
 &lt;p&gt;There are many other features and customization available-&lt;/p&gt;
@@ -710,37 +710,37 @@ For that, you need to enable double opt-in option.
   &lt;li&gt;Step 2 - Click on Get Started&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Homepage&quot; title=&quot;Disqus Homepage&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-homepage.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Homepage&quot; title=&quot;Disqus Homepage&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-homepage.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 3 - Enter following details or can choose other options. After that click Sign Up.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Sign Up&quot; title=&quot;Disqus Sign Up&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-signUp.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Sign Up&quot; title=&quot;Disqus Sign Up&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-signUp.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 4 - Then choose I want to install Disqus on my site.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Install Option&quot; title=&quot;Disqus Install Option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-install-option.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Install Option&quot; title=&quot;Disqus Install Option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-install-option.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 5 - Enter website name and category and then click on create site button.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus create site page&quot; title=&quot;Disqus create site page&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-create-site.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus create site page&quot; title=&quot;Disqus create site page&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-create-site.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 6 - In this screen, Select a basic plan and click on Subscibe now.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Plan Option&quot; title=&quot;Disqus Plan Option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-plan-option.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Plan Option&quot; title=&quot;Disqus Plan Option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-plan-option.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 7 - Now Select On Install Universal Code option.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Platform option&quot; title=&quot;Disqus Platform option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-platform.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Platform option&quot; title=&quot;Disqus Platform option&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-platform.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 8 - In this screen, we will see how to Integrate code in our website and video instruction is also available.&lt;/li&gt;
@@ -805,17 +805,17 @@ this.page.identifier = &quot;{{ page.url }}&quot;;&lt;/code&gt;&lt;/pre&gt;&lt;/
   &lt;li&gt;Step 5 - Go to your blog, you will see a comment box but with a message to verify your email address.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Email Verification&quot; title=&quot;Disqus Email Verification&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-email-verification.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Email Verification&quot; title=&quot;Disqus Email Verification&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-email-verification.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Verify your email address and you are all done.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Comment box&quot; title=&quot;Disqus Comment box&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-comment-done.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Comment box&quot; title=&quot;Disqus Comment box&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-comment-done.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now save your changes to Github account.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Disqus Save Changes&quot; title=&quot;Disqus Save Changes&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-save-changes.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Disqus Save Changes&quot; title=&quot;Disqus Save Changes&quot; src=&quot;/assets/img/create-a-website/comment-disqus/disqus-save-changes.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;On Disqus portal&lt;/strong&gt;,&lt;/p&gt;
@@ -893,7 +893,7 @@ description: &quot;This Page contains cooking recipe posts&quot;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clockCont&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fa fa-clock-o clock-icon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;{{ post.date | date_to_long_string: &quot;ordinal&quot;, &quot;US&quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bg-img&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{post.title}}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{post.blogImg}}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;object-fit&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{post.title}}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{post.blogImg}}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;    
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;{{post.description}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
@@ -957,7 +957,7 @@ description: &quot;This Page contains cooking recipe posts&quot;
 
 &lt;p&gt;Now save or push changes to the github Account.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;save blog part 3&quot; title=&quot;save blog part 3&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part3/save-blog3.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;save blog part 3&quot; title=&quot;save blog part 3&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part3/save-blog3.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now we are successfully able to create a blog and ready to publish posts but there is one feature missing i.e &lt;strong&gt;user engagement&lt;/strong&gt;.&lt;/p&gt;
@@ -991,7 +991,7 @@ description: &quot;This Page contains cooking recipe posts&quot;
 
 &lt;h3 id=&quot;basic-structue-of-the-blog-looks-like-&quot;&gt;Basic Structue of the blog looks like-&lt;/h3&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Blog Structue&quot; title=&quot;Blog Structue&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part2/blog_structure.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Blog Structue&quot; title=&quot;Blog Structue&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part2/blog_structure.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In the project, there is a _posts folder which will contains all the blog posts.
@@ -1153,7 +1153,7 @@ For Eg- To write heading, you can use- # Butter Chicken Recipe&lt;/p&gt;
 
 &lt;p&gt;Now save or push changes to Github Account.&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Save Post&quot; title=&quot;Save Post&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part2/save_post.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Save Post&quot; title=&quot;Save Post&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part2/save_post.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now you can access this post at &lt;a href=&quot;https://vbisht7038.github.io/non-veg/butterChicken&quot; title=&quot;Butter Chicken Recipe&quot;&gt;Butter Chicken Recipe&lt;/a&gt;&lt;/p&gt;
@@ -1221,7 +1221,7 @@ I have provided some Jekyll video tutorials in &lt;strong&gt;Further Study Mater
 &lt;/ol&gt;
 
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Jekyll New Project&quot; title=&quot;Jekyll New Project&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/install_jekyll.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Jekyll New Project&quot; title=&quot;Jekyll New Project&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/install_jekyll.png&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;Link is provided for installation on other systems in &lt;strong&gt;Further Study Material&lt;/strong&gt;.&lt;/p&gt;
 
@@ -1233,20 +1233,20 @@ I have provided some Jekyll video tutorials in &lt;strong&gt;Further Study Mater
   &lt;li&gt;Step 2 - Create new Jekyll project - jekyll new vbisht7038.github.io&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Jekyll New Project&quot; title=&quot;Jekyll New Project&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll-new-project.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Jekyll New Project&quot; title=&quot;Jekyll New Project&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll-new-project.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 3 - cd vbisht7038.github.io&lt;/li&gt;
   &lt;li&gt;Step 4 - To access your website, run command- bundle exec jekyll serve&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Jekyll Serve Command&quot; title=&quot;Jekyll Serve Command&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_serve_command.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Jekyll Serve Command&quot; title=&quot;Jekyll Serve Command&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_serve_command.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 5 - Open &lt;a href=&quot;http://localhost:4000&quot; title=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; url on browser, you will see a dummy website.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Jekyll Demo Page&quot; title=&quot;Jekyll Demo Page&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_demo_page.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Jekyll Demo Page&quot; title=&quot;Jekyll Demo Page&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_demo_page.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now you have successfully created Jekyll project and able to access it on website.&lt;/p&gt;
@@ -1259,7 +1259,7 @@ We are creating separate file for them so that they can be easily integrate in o
 &lt;p&gt;Project structure we are going to create-&lt;/p&gt;
 
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Jekyll Project Structure&quot; title=&quot;Jekyll Project Structure&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Jekyll Project Structure&quot; title=&quot;Jekyll Project Structure&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/jekyll_project_structure.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;
@@ -1328,7 +1328,7 @@ We are creating separate file for them so that they can be easily integrate in o
   &lt;li&gt;Now Push all the changes to the Github Account.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Recreate Website Push&quot; title=&quot;Recreate Website Push&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/recreate_website_push.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Recreate Website Push&quot; title=&quot;Recreate Website Push&quot; src=&quot;/assets/img/create-a-website/create-a-blog-part1/recreate_website_push.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;You can check website and it needs to be work perfectly.&lt;/p&gt;
@@ -1367,7 +1367,7 @@ We are creating separate file for them so that they can be easily integrate in o
   &lt;li&gt;Step 3 - Enter your email address and password for sign up.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;FormsPree Register Page&quot; title=&quot;FormsPree Register Page&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_register_page.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;FormsPree Register Page&quot; title=&quot;FormsPree Register Page&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_register_page.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;Step 4 - Click on Register.&lt;/li&gt;
@@ -1375,7 +1375,7 @@ We are creating separate file for them so that they can be easily integrate in o
   &lt;li&gt;Step 6 - After verification, you will get this screen.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;FormsPree Inbox&quot; title=&quot;FormsPree Inbox&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_inbox.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;FormsPree Inbox&quot; title=&quot;FormsPree Inbox&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_inbox.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;create-form&quot;&gt;CREATE FORM&lt;/h3&gt;
@@ -1384,7 +1384,7 @@ We are creating separate file for them so that they can be easily integrate in o
   &lt;li&gt;Step 1 - Click on + icon and enter form name and email address in which you want mails to and then click create form button.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;FormsPree Create Form&quot; title=&quot;FormsPree Create Form&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_create_form.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;FormsPree Create Form&quot; title=&quot;FormsPree Create Form&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_create_form.png&quot; /&gt;
 &lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -1394,7 +1394,7 @@ We are creating separate file for them so that they can be easily integrate in o
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;FormsPree Form Setting&quot; title=&quot;FormsPree Form Setting&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree-settings.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;FormsPree Form Setting&quot; title=&quot;FormsPree Form Setting&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree-settings.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;integrate-form-in-your-website&quot;&gt;INTEGRATE FORM IN YOUR WEBSITE&lt;/h3&gt;
@@ -1440,7 +1440,7 @@ You can copy from &lt;strong&gt;HTML with file uploads&lt;/strong&gt; tab, if yo
 
 &lt;p&gt;You know the steps, but I will show again&lt;/p&gt;
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;Push Contact Us Feature&quot; title=&quot;Push Contact Us Feature&quot; src=&quot;/assets/img/create-a-website/contact-mail/push_contact_us_feature.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;Push Contact Us Feature&quot; title=&quot;Push Contact Us Feature&quot; src=&quot;/assets/img/create-a-website/contact-mail/push_contact_us_feature.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;mail-inbox&quot;&gt;MAIL INBOX&lt;/h3&gt;
@@ -1448,7 +1448,7 @@ You can copy from &lt;strong&gt;HTML with file uploads&lt;/strong&gt; tab, if yo
 &lt;p&gt;You can check mails in the Submission tab of your Form.&lt;/p&gt;
 
 &lt;div class=&quot;imgCont&quot;&gt;
-  &lt;img alt=&quot;FormsPree Submission Tab&quot; title=&quot;FormsPree Submission Tab&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_submission_tab.png&quot; /&gt;
+  &lt;img class=&quot;object-fit&quot; alt=&quot;FormsPree Submission Tab&quot; title=&quot;FormsPree Submission Tab&quot; src=&quot;/assets/img/create-a-website/contact-mail/formspree_submission_tab.png&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/vbisht7038/vbisht7038.github.io.git&quot;&gt;Click to get the full Implementation of this tutorial on Github&lt;/a&gt;&lt;/p&gt;
