@@ -1,0 +1,74 @@
+.about-us{
+  background: #e7f1f7;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  min-height: calc(100vh - 90px);
+  .heading{
+    font-size: 36px;
+    font-weight: 600;
+    color: #133271;
+    line-height: 48px;
+    margin-top: 0;
+  }
+  .about-me{
+    align-items: center;
+    margin-bottom: 32px;
+    .about-desc{
+      order: 2;
+      margin-left: 32px;
+      .title{
+        font-size: 32px;
+        line-height: 48px;
+      }
+      .content{
+        font-size: 18px;
+        color: rgba(0,0,0,.6);
+        line-height: 28px;
+      }
+    }
+    figure{
+      height: 150px;
+      width: 150px;
+    }
+  }
+  .desc-me{
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 32px;
+  }
+  .follow{
+    font-size: 18px;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 32px;
+    line-height: 28px;
+  }
+  .you-too-can{
+    margin-bottom: 32px;
+    h2{
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 24px;
+      color: #133271;
+      font-weight: 600;
+    }
+    p{
+      font-size: 18px;
+      line-height: 28px;
+      color: rgba(0,0,0,0.6);
+      margin-bottom: 32px;
+    }
+  }
+  .contact{
+    font-size: 18px;
+    color: #133271;
+    line-height: 32px;
+  }
+}
+
+@media (max-width:767px){
+  .about-us{
+    padding: 48px 16px;
+  }
+}
