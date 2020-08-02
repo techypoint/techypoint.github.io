@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="google-site-verification" content="2552ysw8xadzie_z1W191DP3y06hZWYhA40ULvZFRFk" />
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% seo %}
+  <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | prepend: site.url}}" />
+  <link href="/assets/css/about-us.css" rel="stylesheet">
+  <!-- // for subscribe -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6KWR5GVFG7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-6KWR5GVFG7');
+  </script>
+</head>
+<body>
+  {% include header.html %}
+  
+  <section class="about-us">
+    <div class="container">
+        <h1 class="heading">About Me</h1>
+        <div class="about-me flex">
+          <div class="about-desc">
+              <p class="title">Varun Bisht</p>
+              <p class="content">Founder of Techylane.com</p>
+              <p class="content">Full Time Software Engineer</p>
+          </div>
+          <figure class="relative">
+            <img class="object-fit">
+          </figure>
+        </div>
+        <div class="desc-me">
+            I have been working in IT industry for around 5 years with technologies related to Java and Front End.
+            While building applications, there are topics which need detailed research which takes a lot of time and effort of the developer.
+            So to save time and effort of the developers, I will try to provide detailed knowledge of these topics through this platform.
+            Basically my blogs comprises of tutorial series or independent topic. My blog will mainly focus on the practical implementation rather theoretical aspect of the topic.
+            I hope my blogs will help you save your time.
+        </div>
+        <p class="follow">You can follow me on <a href="https://twitter.com/varunbi85147052" target="_blank">twitter</a></p>
+        <div class="you-too-can">
+            <h2>Be an author for this website</h2>
+    
+            <p>Techylane.com is all about technical tutorial and series. Tutorial are mostly related to java but we also include tutorials which are somehow solves or helps developers.
+            Our tutorials are to the point and mostly focused on practical implementation.</p>
+            
+            <p>You can also contribute to this website as unknown or as author. But to contribute, you must have experience in that technology.</p>
+            <p>Our website uses English for post so good command over it is must.</p>
+        </div>
+        <p class="contact">To Contribute, just <a href="/contact-us">contact us</a> and we will revert you for futher discussion.</p>
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
