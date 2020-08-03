@@ -224,6 +224,10 @@
         color: rgba(0,0,0,.5);
       }
       .toggle-share{
+        transition: .3s ease-in;
+        .social-links{
+          display: none;
+        }
         .social-share-inner{
           border: 1px solid #ebeced;
           border-radius: 4px;
@@ -231,13 +235,58 @@
           width: 62px;
           padding: 15px 20px;
           height: 50px;
-          transition: background-color .2s,border-color .2s,color .2s;
+          transition: .3s ease-in;
+          cursor: pointer;
           .share-icon{
             height: 20px;
             width: 20px;
           }
           span{
             display: none;
+          }
+        }
+      }
+      .toggle-share.open{
+        display: flex;
+        .social-share-inner{
+          width: 100px;
+          border-right: 0;
+          height: 55px;
+          align-items: center;
+          display: flex;
+          span{
+            display: inline-block;
+            font-size: 12px;
+            margin-left: 4px;
+            text-transform: uppercase;
+            font-weight: 500;
+          }
+        }
+        .social-links{
+          display: flex;
+          .social-channel{
+            display: flex;
+            .icon{
+              border: 1px solid #ebeced;
+              padding: 18px 15px 10px 20px;
+              border-right: 0;
+              .share-icon{
+                height: 20px;
+                width: 18px;
+                color: #0082e5;
+              }
+              &:last-child{
+                border-right: 1px solid #ebeced;
+              }
+            }
+            .twitter-icon, .linkedin-icon{
+              .share-icon{
+                height: 16px;
+              }
+            }
+            .twitter-icon .share-icon{
+              margin-top: 3px;
+            }
           }
         }
       }
@@ -353,6 +402,13 @@
       width: 100%;
       margin-right: 0;
       padding: 0 16px;
+      .social-share{
+        align-items: unset;
+        flex-direction: column;
+        .published-date{
+          margin-bottom: 4px;
+        }
+      }
     }
     .right-section{
       width: 100%;
@@ -379,15 +435,29 @@
           white-space: normal;
           margin-right: 16px;
           margin-bottom: 0;
+          height: 266px;
+          a{
+            height: 100%;
+            figure{
+              height: 175px;
+            }
+            .content{
+              background: #fff;
+              padding: 5px 12px;
+              height: calc(100% - 175px);
+              .title{
+                line-height: 26px;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+          }
           &:nth-child(2){
             margin-left: 16px;
           }
-          .content{
-            background: #fff;
-            padding: 5px 12px;
-            margin-top: -5px;
-          }
-          
         }
       }
       #mc_embed_signup .clear #mc-embedded-subscribe{

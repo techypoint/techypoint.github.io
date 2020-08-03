@@ -44,11 +44,42 @@
                 <svg class="svg-icon share-icon">
                   <use xlink:href="#share" />
                 </svg>
-                <span>Share It On : </span>
+                <span>Share</span>
               </div>
 
               <ul class="social-links">
-
+                <li class="social-channel">
+                  <a  href="https://www.facebook.com/sharer.php?u={{page.url | prepend: site.url }}" target="popup"
+                  onclick="window.open('https://www.facebook.com/sharer.php?u={{page.url | prepend: site.url }}','popup','width=600,height=600'); return false;" class="icon fb-icon">
+                    <svg class="svg-icon share-icon">
+                      <use xlink:href="#facebook" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-channel">
+                  <a href="https://twitter.com/share?url={{page.url | prepend: site.url }}" target="popup"
+                  onclick="window.open('https://twitter.com/share?url={{page.url | prepend: site.url }}','popup','width=600,height=600'); return false;" class="icon twitter-icon">
+                    <svg class="svg-icon share-icon">
+                      <use xlink:href="#twitter" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-channel">
+                  <a href="https://www.linkedin.com/shareArticle?url={{page.url | prepend: site.url }}" target="popup"
+                  onclick="window.open('https://www.linkedin.com/shareArticle?url={{page.url | prepend: site.url }}','popup','width=600,height=600'); return false;" class="icon linkedin-icon">
+                    <svg class="svg-icon share-icon">
+                      <use xlink:href="#linkedin" />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-channel">
+                  <a href="https://wa.me/?text={{page.url | prepend: site.url }}" target="popup"
+                  onclick="window.open('https://wa.me/?text={{page.url | prepend: site.url }}','popup','width=600,height=600'); return false;" class="icon whatsapp-icon">
+                    <svg class="svg-icon share-icon">
+                      <use xlink:href="#WhatsAppIcon" />
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -77,30 +108,30 @@
           <h2 class="heading">Similar Blogs</h2>
           {% assign maxRelated = 3 %}
           {% assign maxRelatedCounter = 0 %}
-{% for category in site.categories %}
-{% if category[0] contains page.category %}
-{% assign posts = category[1] | sample: 4 %}
-{% for post in posts %}
-{% if post.url != page.url %}
-<li class="similar-item ">
-  <a href="{{post.url}}" class="flex flex-col">
-    <figure class="relative">
-      <img class="object-fit" src="{{post.featureImage}}" />
-    </figure>
-    <div class="content">
-      <p class="published-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
-      <h2 class="title">{{post.title}}</h2>
-    </div>
-  </a>
-</li>
-{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-  {% if maxRelatedCounter >= maxRelated %}
-  {% break %}
-  {% endif %}
-{% endif %}
-{% endfor %}
-{% endif %}
-{% endfor %}
+          {% for category in site.categories %}
+          {% if category[0] contains page.category %}
+          {% assign posts = category[1] | sample: 4 %}
+          {% for post in posts %}
+          {% if post.url != page.url %}
+          <li class="similar-item ">
+            <a href="{{post.url}}" class="flex flex-col">
+              <figure class="relative">
+                <img class="object-fit" src="{{post.featureImage}}" />
+              </figure>
+              <div class="content">
+                <p class="published-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
+                <h2 class="title">{{post.title}}</h2>
+              </div>
+            </a>
+          </li>
+          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+          {% break %}
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endfor %}
         </ul>
 
         {% include right-ads.html %}

@@ -103,6 +103,7 @@
           height: 100%;
           width: 100%;
           top: 0;
+          background-size: cover;
           filter: blur(3px);
           opacity: .8;
         }
@@ -137,6 +138,45 @@
           }
         }
       }
+    }
+  }
+}
+
+@media (max-width:767px){
+  .contact-us{
+    padding: 48px 0;
+    > .container{
+      padding: 0 16px;
+    }
+    .subscribe-form{
+      .container{
+        flex-direction: column;
+        padding: 0 16px;
+        .left-s{
+          width: 100%;
+          .title{
+            font-size: 36px;
+            line-height: 48px;
+            margin-bottom: 12px;
+          }
+          .subheading{
+            font-size: 18px;
+            line-height: 28px;
+            width: 100%;
+            text-align: justify;
+          }
+        }
+        .right-s{
+          width: 100%;
+        }
+      }
+    }
+    #contactus{
+      margin-left: -16px;
+      margin-right: -16px;
+    }
+    .subscribe-dwn #contactus .fomr-ocnt form{
+      width: 80%;
     }
   }
 }
