@@ -38,7 +38,7 @@
         <div id=post-cont>
           <h1 class="heading">{{page.title}}</h1>
           <div class="social-share flex">
-            <p class="published-date">July 25, 2020</p>
+            <p class="published-date">{{ page.date | date_to_long_string: "ordinal", "US" }}</p>
             <div class="toggle-share">
               <div class="social-share-inner">
                 <svg class="svg-icon share-icon">
@@ -75,41 +75,34 @@
       <div class="right-section">
         <ul class="similar-blogs">
           <h2 class="heading">Similar Blogs</h2>
-          <li class="similar-item ">
-            <a class="flex flex-col">
-              <figure class="relative">
-                <img class="object-fit" src="{{page.featureImage}}" />
-              </figure>
-              <div class="content">
-                <p class="published-date">June 27, 2020</p>
-                <h2 class="title">Share Post Updates Using MailChimp</h2>
-              </div>
-            </a>
-          </li>
-          <li class="similar-item ">
-            <a class="flex flex-col">
-              <figure class="relative">
-                <img class="object-fit" src="{{page.featureImage}}" />
-              </figure>
-              <div class="content">
-                <p class="published-date">June 27, 2020</p>
-                <h2 class="title">Share Post Updates Using MailChimp</h2>
-              </div>
-            </a>
-          </li>
-          <li class="similar-item ">
-            <a class="flex flex-col">
-              <figure class="relative">
-                <img class="object-fit" src="{{page.featureImage}}" />
-              </figure>
-              <div class="content">
-                <p class="published-date">June 27, 2020</p>
-                <h2 class="title">Share Post Updates Using MailChimp</h2>
-              </div>
-            </a>
-          </li>
-
+          {% assign maxRelated = 3 %}
+          {% assign maxRelatedCounter = 0 %}
+{% for category in site.categories %}
+{% if category[0] contains page.category %}
+{% assign posts = category[1] | sample: 4 %}
+{% for post in posts %}
+{% if post.url != page.url %}
+<li class="similar-item ">
+  <a href="{{post.url}}" class="flex flex-col">
+    <figure class="relative">
+      <img class="object-fit" src="{{post.featureImage}}" />
+    </figure>
+    <div class="content">
+      <p class="published-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
+      <h2 class="title">{{post.title}}</h2>
+    </div>
+  </a>
+</li>
+{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+  {% if maxRelatedCounter >= maxRelated %}
+  {% break %}
+  {% endif %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
         </ul>
+
         {% include right-ads.html %}
         {% include belowImageAd.md %}
         {% include subscribe.html %}
