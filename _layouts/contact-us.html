@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="google-site-verification" content="2552ysw8xadzie_z1W191DP3y06hZWYhA40ULvZFRFk" />
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% seo %}
+  <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | prepend: site.url}}" />
+  <link href="/assets/css/contact-us.css" rel="stylesheet">
+  <!-- // for subscribe -->
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6KWR5GVFG7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-6KWR5GVFG7');
+  </script>
+</head>
+
+<body>
+  {% include header.html %}
+
+  <section class="contact-us">
+    <div class="container">
+      <h1 class="heading">Feel Free to Get in Touch</h1>
+      <div class="desc-me">
+        <p>
+          If you face any problem on website related to any topic or have any doubt related to topic, please feel free to reach.</p>
+        <p class="process">To make this process easy and fast</p>
+        <ul>
+          <li>1. Please mention the url of topic</li>
+          <li>2. Short description of the problem</li>
+          <li>3. Screenshot of the error</li>
+          <li>4. Proper solution of the topic which has wrong solution on our website</li>
+        </ul>
+      </div>
+    </div>
+    <div class="subscribe-form">
+      <div class="container">
+        <div class="left-s">
+          <h2 class="title"><span>Subscribe</span> to our weekly newsletter</h2>
+          <p class="subheading">Get all our latest, hottest and trending technical content delivered fresh to your inbox.</p>
+        </div>
+        <div class="right-s">
+          {% include subscribe.html %}
+        </div>
+      </div>
+
+    </div>
+    <div class="subscribe-dwn container">
+      <p>If you have a question or a comment, please email us at support@techylane.com or use the form below to contact us.</p>
+      <p>If you are interested in writing technical blogs with us, please contact us.</p>
+      <p>We look forward to being of service.</p>
+
+      <p>We endeavour to answer all questions within 48 hours.</p>
+
+      {% include contact.html %}
+    </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

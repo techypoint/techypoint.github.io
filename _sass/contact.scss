@@ -1,0 +1,182 @@
+.contact-us{
+  background: #e7f1f7;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  min-height: calc(100vh - 90px);
+  .heading{
+    font-size: 36px;
+    font-weight: 600;
+    color: #133271;
+    line-height: 48px;
+    margin-top: 0;
+  }
+  .desc-me{
+    p{
+      font-size: 18px;
+      color: rgba(0,0,0,.6);
+      line-height: 28px;
+    }
+    .process{
+      margin-top: 24px;
+    }
+    ul{
+      padding-left: 32px;
+      margin-top: 12px;
+      li{
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(0,0,0,0.6);
+      }
+    }
+  }
+  .subscribe-form{
+    background: #000;
+    padding: 24px 0;
+    margin: 48px 0;
+    .container{
+      display: flex;
+      .left-s{
+        width: 40%;
+        .title{
+          font-size: 48px;
+          color: #fff;
+          font-weight: 400; 
+          line-height: 70px;
+          margin-bottom: 24px;
+          span{
+            color: #da6916;
+          }
+        }
+        .subheading{
+          color: #acacac;
+          font-size: 24px;
+          line-height: 35px;
+          width: 70%;
+        }
+      }
+      .right-s{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        *{
+          width: 100%;
+        }
+        #mc_embed_signup_scroll{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          #mce-EMAIL{
+            background: #fff;
+            border: none;
+            height: 45px;
+            width: 70%;
+            padding: 0 16px;
+            margin-bottom: 24px;
+          }
+          #mc-embedded-subscribe{
+            background: #da6916;
+            padding: 5px;
+            height: auto;
+            width: 70%;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .subscribe-dwn{
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+    line-height: 28px;
+    #contactus{
+      .fomr-ocnt{
+        padding: 60px 0;
+        margin-top: 48px;
+        .background-comp{
+          background: url(https://s3.amazonaws.com/ceblog/wp-content/uploads/2012/04/09114839/email-3543958_1280.jpg) no-repeat;
+          position: absolute;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          background-size: cover;
+          filter: blur(3px);
+          opacity: .8;
+        }
+        form{
+          display: flex;
+          flex-direction: column;
+          width: 40%;
+          margin: 0 auto;
+          box-shadow: 0 0 15px rgba(46,98,130,.15);
+          background: #fff;
+          padding: 32px;
+          position: relative;
+          input{
+            width: 100%;
+            height: 40px;
+            border: none;
+            padding: 0 16px;
+            margin-bottom: 12px;
+            background: #f5f9fc;
+          }
+          textarea{
+            width: 100%;
+            height: 100px;
+            border: none;
+            padding: 10px 16px;
+            margin-bottom: 12px;
+            background: #f5f9fc;
+          }
+          .submit{
+            background: #488c94;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:767px){
+  .contact-us{
+    padding: 48px 0;
+    > .container{
+      padding: 0 16px;
+    }
+    .subscribe-form{
+      .container{
+        flex-direction: column;
+        padding: 0 16px;
+        .left-s{
+          width: 100%;
+          .title{
+            font-size: 36px;
+            line-height: 48px;
+            margin-bottom: 12px;
+          }
+          .subheading{
+            font-size: 18px;
+            line-height: 28px;
+            width: 100%;
+            text-align: justify;
+          }
+        }
+        .right-s{
+          width: 100%;
+        }
+      }
+    }
+    #contactus{
+      margin-left: -16px;
+      margin-right: -16px;
+    }
+    .subscribe-dwn #contactus .fomr-ocnt form{
+      width: 80%;
+    }
+  }
+}

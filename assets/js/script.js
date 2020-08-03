@@ -23,6 +23,18 @@
         header.classList.remove('sticky-header');
       }
     });
+
+    const toggleSocialBar = document.querySelector('.social-share-inner');
+    if(toggleSocialBar){
+      toggleSocialBar.addEventListener('click', ()=>{
+        const parent = toggleSocialBar.closest('.toggle-share');
+        if(parent.classList.contains('open')){
+          parent.classList.remove('open');
+        }else{
+          parent.classList.add('open');
+        }
+      })
+    }
   }
 
   const loadEvents = () => {
