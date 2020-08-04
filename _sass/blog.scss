@@ -352,10 +352,15 @@
               font-size: 20px;
               font-weight: 500;
               line-height: 32px;
+              color: #231f20;
             }
           }
         }
       }
+    }
+
+    .adsbygoogle, #mc_embed_signup{
+      margin-top: 24px;
     }
 
     #mc_embed_signup{
@@ -409,6 +414,9 @@
           margin-bottom: 4px;
         }
       }
+      .post-content ul{
+        padding-left: 20px;
+      }
     }
     .right-section{
       width: 100%;
@@ -459,6 +467,9 @@
             margin-left: 16px;
           }
         }
+      }
+      .adsbygoogle{
+        width: 100%;
       }
       #mc_embed_signup .clear #mc-embedded-subscribe{
         text-align: center;
