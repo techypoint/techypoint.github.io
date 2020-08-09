@@ -35,6 +35,35 @@
         }
       })
     }
+
+    const subscribeBtn = document.querySelector('.subscribe .subs-btn');
+    if(subscribeBtn){
+      subscribeBtn.addEventListener('click', ()=>{
+        const subscribeModal = document.querySelector('.subscribe-modal');
+        if(window.innerWidth < 767 && headerToggleBar){
+          headerToggleBar.click();
+        }
+        if(subscribeModal){
+          if(subscribeModal.classList.contains('open')){
+            subscribeModal.classList.remove('open');
+          }else{
+            subscribeModal.classList.add('open');
+          }
+        }
+      });
+    }
+
+    const subscribeClose = document.querySelector('.subscribe-close');
+    if(subscribeClose){
+      const subscribeModal = document.querySelector('.subscribe-modal');
+      subscribeClose.addEventListener('click',()=>{
+        if(subscribeModal){
+          if(subscribeModal.classList.contains('open')){
+            subscribeModal.classList.remove('open');
+          }
+        }
+      });
+    }
   }
 
   const loadEvents = () => {
