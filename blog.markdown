@@ -17,10 +17,10 @@ description: "This Page contains blogs related to java, java blogs, amazon S3 bl
     <span class="clockCont">
       <svg class="svg-icon">
             <use xlink:href="#timer" />
-          </svg>{{ post.date | date_to_long_string: "ordinal", "US" }}</span>
+          </svg>{{ post.date | date: '%B %d, %Y' }}</span>
   </div>
   <div class="bg-img test">
-    <img class="object-fit" alt="{{post.title}}" src="{{post.image}}">
+    <img loading="lazy" class="object-fit" alt="{{post.title}}" src="{{post.image}}">
   </div>
   <div class="content">    
     <p>{{post.description}}</p>

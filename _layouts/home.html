@@ -74,7 +74,7 @@
                 </figure>
                 <div class="lower-section flex">
                   <p class="category">{{post.category}}</p>
-                  <p class="s-date">{{ post.date | date_to_long_string: "ordinal", "US" }}</p>
+                  <p class="s-date">{{ post.date | date: '%B %d, %Y' }}</p>
                   <h2 class="heading">{{post.title}}</h2>
                   <p class="content">{{post.blogDesc}}</p>
                 </div>
