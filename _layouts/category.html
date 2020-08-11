@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <body>
+
+    <h1>Bakchodi mat kra kr kaam krna hai toh tameez se and with professionalism</h1>
+
+<h3> current category</h3>
+category name- {{page.category}}<br><br><br>
+
+
+<h1>All category list- </h1>
+<ul class="categories-list flex">
+  {% for category in site.categories %}
+  <li class="categories-item">
+    category name- <a class="cat-lnk">{{category[0]}}</a>
+    <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
+
+  </li>
+  {% endfor %}
+</ul>
+
+<br><br><br>
+<h3>posts in current category</h3>
+{% for post in page.posts %}
+author name- {{post.author}}<br>
+post date- {{ post.date | date: '%B %d, %Y' }}<br>
+Image Info -<br>
+title - {{post.title}}<br>
+image path - {{post.image}}<br>
+post description- {{post.description}}<br>
+<br><br><br><br><br>
+{% endfor%}
+
+  </body>
+</html>

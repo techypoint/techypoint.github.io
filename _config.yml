@@ -34,7 +34,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-category-pages
 
+
+category_layout: "category.html"
 defaults:
   -
     scope:
