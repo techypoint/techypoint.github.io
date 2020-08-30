@@ -30,6 +30,12 @@
             text-transform: capitalize;
           }
         }
+        .categories-item.active{
+          a{
+            color: #0082e5;
+            font-weight: 600;
+          }
+        }
       }
     }
     .category-comp{
@@ -175,7 +181,7 @@
         }
       }
     }
-  } 
+  }
 }
 
 @media (max-width:540px){

@@ -56,7 +56,7 @@
       <ul class="categories-list flex">
         {% for category in site.categories %}
         <li class="categories-item">
-          <a class="cat-lnk">{{category[0]}}</a>
+          <a class="cat-lnk" href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{category[0]}}</a>
         </li>
         {% endfor %}
       </ul>

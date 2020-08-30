@@ -22,9 +22,15 @@
         <h1 class="cat-heading">Categories</h1>
         <ul class="categories-list flex">
           {% for category in site.categories %}
+             {% if page.category == category[0]%}
+          <li class="categories-item active">
+            <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
+          </li>
+             {% else %}
           <li class="categories-item">
             <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
           </li>
+             {% endif %}
           {% endfor %}
         </ul>
       </section>
