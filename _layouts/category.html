@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <body>
 
-    <h1>Bakchodi mat kra kr kaam krna hai toh tameez se and with professionalism</h1>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="google-site-verification" content="2552ysw8xadzie_z1W191DP3y06hZWYhA40ULvZFRFk" />
+  <meta name="keywords" content="{{ page.keywords }}">
+  <link href="/assets/css/category-styles.css" rel="stylesheet">
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
-<h3> current category</h3>
-category name- {{page.category}}<br><br><br>
+</head>
 
+<body>
+  {% include header.html %}
+  {% include icons.html %}
 
-<h1>All category list- </h1>
-<ul class="categories-list flex">
-  {% for category in site.categories %}
-  <li class="categories-item">
-    category name- <a class="cat-lnk">{{category[0]}}</a>
-    <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
+  <section class="category-page">
+    <div class="container flex">
+      <section class="filters">
+        <h1 class="cat-heading">Categories</h1>
+        <ul class="categories-list flex">
+          {% for category in site.categories %}
+          <li class="categories-item">
+            <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="category-comp">
+        <h1 class="heading">{{page.category}}</h1>
+        <ul class="categories-list flex">
+          {% for post in page.posts %}
+          <li class="cat-item">
+            <a>
+              <figure class="cat-img">
+                <img class="object-fit" src="{{post.image}}" alt="{{post.title}}">
+              </figure>
+              <div class="content">
+                <div class="upper-content flex">
+                  <p class="author">{{post.author}}</p>
+                  <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+                </div>
+                <p class="title">{{post.title}}</p>
+                <p class="desc">{{post.description}}</p>
+              </div>
+            </a>
 
-  </li>
-  {% endfor %}
-</ul>
+          </li>
+          {% endfor%}
+        </ul>
+      </section>
+    </div>
+  </section>
+  {% include footer.html %}
+  {% include subscribe-modal.html %}
+  <script src="/assets/js/script.js"></script>
+</body>
 
-<br><br><br>
-<h3>posts in current category</h3>
-{% for post in page.posts %}
-author name- {{post.author}}<br>
-post date- {{ post.date | date: '%B %d, %Y' }}<br>
-Image Info -<br>
-title - {{post.title}}<br>
-image path - {{post.image}}<br>
-post description- {{post.description}}<br>
-<br><br><br><br><br>
-{% endfor%}
-
-  </body>
 </html>
