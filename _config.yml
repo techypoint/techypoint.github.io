@@ -34,17 +34,16 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-category-pages
+  # - jekyll-category-pages
 
-
-category_layout: "category.html"
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# category_layout: "category.html"
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
 
 sass:
     style: compressed
