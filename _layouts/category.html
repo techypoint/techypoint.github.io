@@ -39,7 +39,7 @@
         <ul class="categories-list flex">
           {% for post in site.categories[page.category] %}
           <li class="cat-item">
-            <a>
+            <a href='{{post.url}}'>
               <figure class="cat-img">
                 <img class="object-fit" src="{{post.image}}" alt="{{post.title}}">
               </figure>
@@ -52,7 +52,6 @@
                 <p class="desc">{{post.description}}</p>
               </div>
             </a>
-
           </li>
           {% endfor%}
         </ul>

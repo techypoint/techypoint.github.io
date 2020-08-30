@@ -37,13 +37,13 @@ plugins:
   # - jekyll-category-pages
 
 # category_layout: "category.html"
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       layout: "post"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 sass:
     style: compressed
