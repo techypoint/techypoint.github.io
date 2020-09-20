@@ -1,13 +1,13 @@
 ---
 title: "Docker Internal Concepts"
 author: "Varun Bisht"
-description: "Website basics terms and concepts-hosting, domain name, Git and SEO"
-keywords: "web hosting,hosting meaning,domain name meaning,Git,SEO"
+description: "Namespaces is a linux feature which helps in making container isolate. It manages what can be seen by the container i.e it basically divides the kernel resources to the set of processes which can not be seen by other set of processes."
+blogDesc: "Namespaces is a linux feature which helps in making container isolate. It manages what can be seen by the container i.e it basically divides the kernel resources to the set of processes which can not be seen by other set of processes."
+keywords: "docker namespace example,docker cgroup,how does docker isolate processes,anatomy of a container,how docker works with kernel,how docker works under the hood"
 category: "docker"
 permalink: "/docker/internal-concepts"
-date: 2020-08-19 11:00:00 am
-image: "/assets/img/docker/docker-internal-concepts.png"
-featureImage: "/assets/img/docker/docker-internal-concepts.png"
+image: "/assets/img/docker/internal-concepts/docker-internal-concepts.png"
+featureImage: "/assets/img/docker/internal-concepts/docker-internal-concepts.png"
 ---
 You must be wondering how docker interally works or what are the underlying technologies used by docker.
 Docker Inc company works with the containerization technologies. Containers exist in the linux before docker.
@@ -17,7 +17,7 @@ Docker Inc company works with the containerization technologies. Containers exis
 2. Control Groups
 3. Union File System
 
-## Namespaces
+## 1. Namespaces
 
 Namespaces is a linux feature which helps in making container isolate. It manages what can be seen by the container i.e it basically divides the kernel resources to the set of processes which can not be seen by other set of processes.
 
@@ -33,17 +33,18 @@ This means each container runs in a separate namespaces.
 
 Lets see this with example -
 
-1. We will check whether nginx service process is running on our system or not.
+- We will check whether nginx service process is running on our system or not.
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~$ ps aux|grep nginx
 varun    12841  0.0  0.0   6360   848 pts/1    S+   16:14   0:00 grep --color=auto nginx
 No nginx service process is running on our system.
-2. After that, we will run a nginx container and this container automatically runs nginx service on startup.
+{% endraw %}{% endhighlight %}
+- After that, we will run a nginx container and this container automatically runs nginx service on startup.
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~$ sudo docker run -d nginx
 bc678607bf7c9af588dda37837dbc22e32ae8fbc158426b95a06d6648a8bbfa9
 {% endraw %}{% endhighlight %}
-3. Then we will check nginx service process running in a container(you need to install ps in docker)
+- Then we will check nginx service process running in a container(you need to install ps in docker)
 **command to install ps** - apt-get update && apt-get install procps
 
 After installing, check nginx service process
@@ -62,8 +63,8 @@ nginx       31  0.0  0.0  11020  2564 ?        S    10:45   0:00 nginx: worker p
 root       358  0.0  0.0   3080   880 pts/0    S+   10:47   0:00 grep nginx
 {% endraw %}{% endhighlight %}
 
-Here, proc  ess exists with PID - 1 and 31
-4. After checking nginx service process in a container, we will check nginx service process on our system.
+Here, process exists with PID - 1 and 31
+- After checking nginx service process in a container, we will check nginx service process on our system.
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~$ sudo ps aux|grep nginx
 root     12924  0.0  0.0  10624  5824 ?        Ss   16:15   0:00 nginx: master process nginx -g daemon off;
@@ -72,11 +73,11 @@ varun    13712  0.0  0.0   6360   924 pts/2    S+   16:17   0:00 grep --color=au
 {% endraw %}{% endhighlight %}
 On our system, process exits with PID - 12924 and 12992
 
-We can clearly see that process running in our system are not visible inside container but process created in the container are available on our system with different PId. This shows that docker creates container in different namespaces.
+We can clearly see that process running in our system are not visible inside container but process created in the container are available on our system with different PID. This shows that docker creates container in different namespaces.
 
 We can also check namespaces assigned to process
-- To check current process - sudo ls -lah /proc/$$/ns
-- To check specific process - sudo ls -lah /proc/pid/ns
+- **To check current process namespaces** - sudo ls -lah /proc/$$/ns
+- **To check specific process namespaces** - sudo ls -lah /proc/pid/ns
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~$ sudo ls -lah /proc/12924/ns
 total 0
@@ -108,7 +109,7 @@ You can easily see that these process have different namespaces id
 
 **Note-** This also shows that they share resources with system and this is not the case with Virtual Machine(VM).
 
-## Control Groups
+## 2. Control Groups
 
 Namespaces tells what container can see but Control groups tells us how much it can see. This means it limits the memory, CPU, disk I/O and network for processes.
 
@@ -131,9 +132,9 @@ WARNING: No swap limit support
 {% endraw %}{% endhighlight %}
 If you get above warning, then you need to enable limiting resources.
 
-- To enable, add **GRUB_CMDLINE_LINUX="cdgroup_enable=memory swapaccount=1"** in grub config file.
+- To enable, add **GRUB_CMDLINE_LINUX="cdgroup_enable=memory swapaccount=1"** in grub config file(/etc/default/grub)
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/grub_configuration.png" />
+  <img class="object-fit" alt="Grub Configuration" title="Grub Configuration" src="/assets/img/docker/internal-concepts/grub_configuration.png" />
 </div>
 - Then update grub configuration
 {% highlight html %}{% raw %}
@@ -150,7 +151,7 @@ done
 {% endraw %}{% endhighlight %}
 - After update, restart your system for the chages to reflect.
 
-## Union File System
+## 3. Union File System
 
 UnionFS is a feature through which different files system files and directories can be combined to form a union.
 You can learn more aboout this from [UnionFS wikipedia](https://en.wikipedia.org/wiki/UnionFS "UnionFS wikipedia") in detail.
@@ -159,6 +160,4 @@ It helps docker in managing by creating layer which makes it fast and lightweigh
 Above are the features which are used by docker to create containers.
 
 
-## Overview Of Runtime Containers
-
-Docker uses containerd, runc
+**In the next tutorial**, we will talk about the docker runtime components.

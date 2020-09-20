@@ -1,13 +1,13 @@
 ---
 title: "Docker Networking"
 author: "Varun Bisht"
-description: "Website basics terms and concepts-hosting, domain name, Git and SEO"
-keywords: "web hosting,hosting meaning,domain name meaning,Git,SEO"
+description: "Networking allows docker containers to communicate with each other. Docker daemon creates three network by default for you on installation."
+blogDesc: "Networking allows docker containers to communicate with each other. Docker daemon creates three network by default for you on installation.1. Bridge 2. Host 3. None .Bridge network creates a software bridge that allows communication between the containers that are attached to it."
+keywords: "docker networking tutorial,docker network create,docker network example,docker network command,docker bridge network"
 category: "docker"
 permalink: "/docker/networking"
-date: 2020-08-18 11:00:00 am
-image: "/assets/img/docker/docker-networking.png"
-featureImage: "/assets/img/docker/docker-networking.png"
+image: "/assets/img/docker/networking/docker-networking.png"
+featureImage: "/assets/img/docker/networking/docker-networking.png"
 ---
 Networking allows docker containers to communicate with each other.
 
@@ -16,7 +16,7 @@ Docker daemon creates three network by default for you on installation.
 2. Host
 3. None
 
-## 1. To view docker networks
+### 1. To view docker networks
 **command-** sudo docker network ls
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~/my-pro-projects/docker-tutorial-data$ sudo docker network ls
@@ -26,7 +26,7 @@ a6bc016d1d99        host                host                local
 c630fc777cd6        none                null                local
 {% endraw %}{% endhighlight %}
 
-## 2. To describe network details
+### 2. To describe network details
 
 **command-** sudo docker network inspect network-name
 
@@ -74,9 +74,9 @@ varun@varun-ThinkPad-L490:~/my-pro-projects/docker-tutorial-data$ sudo docker ne
 
 This json object contains informaton like subnet, Gateway, config options and all containers attached to this network.
 
-# Different Docker Networks
+## Different Docker Networks
 
-## 1. Bridge Network
+### 1. Bridge Network
 
 This network creates a software bridge that allows communication between the containers that are attached to it.
 By default, container uses **bridge network**.
@@ -94,45 +94,38 @@ docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 {% endraw %}{% endhighlight %}
 Containers attached to this bridge network can communicate only through ips and does not resolve each other through name.
 <div class="imgCont">
-  <img class="object-fit" alt="Github Repository Option" title="Github Repository Option" src="/assets/img/docker/bridge-network.png" />
+  <img class="object-fit" alt="Bridge Network" title="Bridge Network" src="/assets/img/docker/networking/bridge-network.png" />
 </div>
 In the figure, you can see that container 1 to 4 are connected to each other through bridge **docker0**.
 But there are sometimes you need to run few containers in the one network and few containers in other network. For Eg-
 You want to group backend services and front end services separately. We can achieve this using **user defined networks** which we will learn later in this tutorial and will also discuss difference between the two.
 
-## 2. None Network
+### 2. None Network
 
 Containers created with this network doesnot support any network interface and are completely isolated.
 <div class="imgCont">
-  <img class="object-fit" alt="Github Repository Option" title="Github Repository Option" src="/assets/img/docker/none-network.png" />
+  <img class="object-fit" alt="None Network" title="None Network" src="/assets/img/docker/networking/none-network.png" />
 </div>
 
-## 3. Host Network
+### 3. Host Network
 
 Containers using this network does not get isolated from the docker host network instead they share the host's network namespace i.e. container's applicaion is accessible through docker host ip.
 
 <div class="imgCont">
-  <img class="object-fit" alt="Github Repository Option" title="Github Repository Option" src="/assets/img/docker/host-network.png" />
+  <img class="object-fit" alt="Host Network" title="Host Network" src="/assets/img/docker/networking/host-network.png" />
 </div>
 
-But it also creates a restriction as you are not able to run two containers appplication on the same port because only both applicaions can use the same port.
-
-
-### Specify which network to use
-
-**command-** sudo docker run --net network-name image-name
-
-For Eg- sudo docker run --net host my-app
+But it also creates a restriction as you are not able to run two containers appplication on the same port because both applications can not use the same port.
 
 ## User Defined Bridge Network
 
 You can create custom bridge network as it has more benefits than default bridge networks.
 This network isolates containers in it from other networks container. You can see this in figure below-
 <div class="imgCont">
-  <img class="object-fit" alt="Github Repository Option" title="Github Repository Option" src="/assets/img/docker/user-defined-bridge-network.png" />
+  <img class="object-fit" alt="User Defined Bridge Network" title="User Defined Bridge Network" src="/assets/img/docker/networking/user-defined-bridge-network.png" />
 </div>
 
-## Create User Defined network
+### Create User Defined network
 **command**- sudo docker network create network-name
 
 {% highlight html %}{% raw %}
@@ -204,20 +197,35 @@ varun@varun-ThinkPad-L490:~/my-pro-projects/docker-tutorial-data$ sudo docker ne
 {% endraw %}{% endhighlight %}
 You can check containers info attached to it in **Containers** key.
 
-## Remove Network
+## Docker Networking Commands
+
+### 1. To view docker networks
+command- sudo docker network ls
+
+### 2. Specify which network to use
+
+**command-** sudo docker run --net network-name image-name
+
+For Eg- sudo docker run --net host my-app
+
+### 3. To Remove Network
 **command-** sudo docker network rm network-name
 
 For Eg- sudo docker network rm network1
 
-## Connect User Defined Bridge Network to Running container
+### 4. To Connect User Defined Bridge Network to Running container
 **command-** sudo docker network connect network-name container-id
 
 For Eg- sudo docker network connect network1 92eeab618f5d
 
-## Disconnect User Defined Bridge Network to Running container
+### 5. To Disconnect User Defined Bridge Network to Running container
 **command-** sudo docker network disconnect network-name container-id
 
 For Eg- sudo docker network disconnect network1 92eeab618f5d
+
+### 6. To describe network details
+
+**command-** sudo docker network inspect network-name
 
 ## Default Bridge Vs User Defned Bridge
 
@@ -250,13 +258,16 @@ For Eg- sudo docker network disconnect network1 92eeab618f5d
   </tr>
   <tr>
     <td class="tg-xkfo"><span style="font-weight:bold">Isolation</span></td>
-    <td class="tg-pidv">Containers by default uses this network and any other unrelated <br>containers can connect</td>
+    <td class="tg-pidv">Containers by default uses this network and any other unrelated containers can connect</td>
     <td class="tg-lto5">Only containers belonging to this network can communicate</td>
   </tr>
   <tr>
     <td class="tg-mo2v"><span style="font-weight:bold">Attach/Detach</span></td>
     <td class="tg-i49k">To attach/detach, you need to stop container</td>
-    <td class="tg-qssw">Container can be attach or detach from the network anytime during <br>its lifetime</td>
+    <td class="tg-qssw">Container can be attach or detach from the network anytime during its lifetime</td>
   </tr>
 </tbody>
 </table>
+
+### Further Study Material
+1. [Docker Networking](https://docs.docker.com/network "Docker Networking")

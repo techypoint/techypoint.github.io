@@ -1,22 +1,21 @@
 ---
 title: "Docker Image Layering"
 author: "Varun Bisht"
-description: "Website basics terms and concepts-hosting, domain name, Git and SEO"
-keywords: "web hosting,hosting meaning,domain name meaning,Git,SEO"
+description: "When docker builds images it stores it layer by layer so that it does not have to download it again and again. Each layer in the image describes an instruction."
+keywords: "docker image layers list,writable layer of container,docker image layer visualization,copy on write strategy in docker,docker's image layering system"
 category: "docker"
 permalink: "/docker/image-layers"
-date: 2020-08-16 11:00:00 am
-image: "/assets/img/docker/docker-image-layering.png"
-featureImage: "/assets/img/docker/docker-image-layering.png"
+image: "/assets/img/docker/image-layers/docker-image-layering.png"
+featureImage: "/assets/img/docker/image-layers/docker-image-layering.png"
 ---
 In this tutorial, we are gonna discuss how Docker build and store image and how it is used by containers.
 
-When docker builds images it stores it layer by layer so that it does not have to download it again and again.
+When docker builds images, it stores layer by layer so that it does not have to download it again and again.
 Each layer in the image describes an instruction.
 
 Let's understand it with an example -
 
-Here is our Dockerfile used in this tutorial.
+Here is our Dockerfile used in [Docker File Tutorial]({% post_url docker/2020-09-12-create-docker-image %} "Docker File Tutorial").
 {% highlight html %}{% raw %}
 1- FROM ubuntu
 2- RUN apt-get update
@@ -27,22 +26,22 @@ Here is our Dockerfile used in this tutorial.
 
 Here, Each instruction creates a layer which are mentioned below.
 1. **Layer 1** - Base ubuntu image used
-2. **Layer 2** - updates on apt packages
-3. **Layer 3** - install Nginx packages
-4. **Layer 4** - copy source code
+2. **Layer 2** - Updates on apt packages
+3. **Layer 3** - Install Nginx packages
+4. **Layer 4** - Copy source code
 5. **Layer 5** - Update Command to run Nginx
 
 Below is the diagram which helps you in visualize tha layers.
 
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/image-layer.png" />
+  <img class="object-fit" alt="Image Layers" title="Image Layers" src="/assets/img/docker/image-layers/image-layer.png" />
 </div>
 
 It stores this instruction layer by layer. Now when you do changes in any layer only that layer is rebuilt.
 
 Let's change the command in the fifth layer and rebuild the image.
 
-Changed Dockerfile content-
+### Changed Dockerfile content-
 
 {% highlight html %}{% raw %}
 # - is used to comment in Dockerfile
@@ -87,11 +86,11 @@ All these layer are read only so you are wondering **how containers works.**
 
 So lets discuss what happen when you create a container.
 
-When you create a container, docker deamon create a **Read-Write** layer on the top of image and make it available to the container.
+When you create a container, docker daemon create a **Read-Write** layer on the top of image and make it available to the container.
 Any changes made to the container will gets save in this layer. This layer is also known as **Container Layer**.
 Below diagram shows when you create more than one container of an image.
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/container-layer.png" />
+  <img class="object-fit" alt="Container Layer" title="Container Layer" src="/assets/img/docker/image-layers/container-layer.png" />
 </div>
 
 When you remove the container, all the changes made will gets removed and there is no change in image.
@@ -106,7 +105,7 @@ Why there is no change in image layer if a file which exists in image layer is m
 **Case 2-** When higher layer or container wants to modify the file in lower layer. The file first gets copied to that layer and then modified. This concept is known as **copy-on-write**.
 
 
-The contents of the images layer and container layer is managed by **storage drivers**. Each storage driver manages differently.
+The content of the image layer and container layer is managed by **storage drivers**. Each storage driver manages differently.
 Storage drivers supported by docker are-
 1. overlay2 or overlay
 2. aufs
@@ -116,3 +115,8 @@ Storage drivers supported by docker are-
 6. vfs
 
 You can learn about these storage drivers from - [Storage Driver](https://docs.docker.com/storage/storagedriver/select-storage-driver "Storage Driver")
+
+### Further Study Material
+1. [Storage Driver](https://docs.docker.com/storage/storagedriver/select-storage-driver "Storage Driver")
+
+**In the next tutorial**, we will talk about the docker hub.

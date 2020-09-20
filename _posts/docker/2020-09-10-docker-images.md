@@ -1,30 +1,31 @@
 ---
 title: "Docker Image"
 author: "Varun Bisht"
-description: "Website basics terms and concepts-hosting, domain name, Git and SEO"
-keywords: "web hosting,hosting meaning,domain name meaning,Git,SEO"
+description: "Docker Image is a read only template using which docker container gets created. You can use docker images directly from docker hub or you can create custom images."
+blogDesc: "Docker Image is a read only template using which docker container gets created. You can use docker images directly from docker hub or you can create custom images."
+keywords: "run docker image,docker images list,docker images command,docker image tutorial"
 category: "docker"
 permalink: "/docker/images"
-date: 2020-08-13 11:00:00 am
-image: "/assets/img/docker/docker-images.png"
-featureImage: "/assets/img/docker/docker-images.png"
+trending: true
+image: "/assets/img/docker/images/docker-images.png"
+featureImage: "/assets/img/docker/images/docker-images.png"
 ---
-Docker Image is a read only template using which docker container gets created. You can use docker images directly from docker hub or you can create custom images. For Eg- you can use linux image and install your application on it with additional confgiurations.
-An image is moslty depend on another image i.e **base image.**
+Docker Image is a read only template using which docker container gets created. You can use docker images directly from docker hub or you can create custom images. For Eg- you can use linux image and install your application on it with additional configurations.
+An image is mostly depend on another image i.e **base image.**
 
 You can create your custom image by creating **Docker File** which contains instructions to create the images.
 Each instruction in docker file creates a layer. Whenever you recreate images after doing changes in docker file. Then only those layers which contain those changes gets rebuilt.
 
+## Lets explore operations on image
 
-So lets start -
-
-Run this command- sudo docker run hello-world
+### 1. To run docker image
+**command-** sudo docker run hello-world
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/hello-world-image.png" />
+  <img class="object-fit" alt="Hello world Image" title="Hello world Image" src="/assets/img/docker/images/hello-world-image.png" />
 </div>
 After running this command, read the output of this. It explains what happened in background.
 
-## 1. To list all images
+### 2. To list all images
 
 **command-** sudo docker image ls
 {% highlight html %}{% raw %}
@@ -37,13 +38,13 @@ There are 5 columns-
 1. **REPOSITORY** - It is just like git repository. It can contain versions of the docker image.
 Docker Hub is a registry that contains collections of docker repositories.
 2. **TAG** - It represent the verison of the docker image. **latest** tag means the last build without a specific tag.
-3. **IMAGE ID** - unique identifier of the images.
+3. **IMAGE ID** - unique identifier of the image.
 4. **CREATED** - time when image created.
 5. **SIZE** - size of the image.
 
 You can see the options in the command using man command. For Eg- sudo man docker images
 
-## 2. To pull docker image
+### 3. To pull docker image
 
 **command-** sudo docker pull imageName:tag
 
@@ -51,7 +52,7 @@ By default, docker pulls latest tag image.
 For Eg-
    1. **Latest tag image-** sudo docker pull nginx
    2. **Image with specific tag-** sudo docker pull nginx:1.19.2
-   3. **Image from different regsitry-** sudo docker pull yourregistry.local:5000/testimage
+   3. **Image from different registry-** sudo docker pull yourregistry.local:5000/testimage
    4. **To download all version of the image-** sudo docker pull -a nginx
 
 {% highlight html %}{% raw %}
@@ -81,7 +82,7 @@ hello-world         latest              bf756fb1ae65        7 months ago        
 varun@varun-ThinkPad-L490:~$
 {% endraw %}{% endhighlight %}
 
-## 3. To Remove docker image
+### 4. To Remove docker image
 
 **command-** sudo docker image rm image:tag
 
@@ -101,7 +102,7 @@ Deleted: sha256:9a14852344d88a1fdf8297914729834521ec1c77a27e7e7e394f9c1ef9b87f9d
 Deleted: sha256:74299126f8099031c5bbd4774147f4
 {% endraw %}{% endhighlight %}
 
-## 4. To inspect docker image
+### 5. To inspect docker image
 **command-** sudo docker inspect image:tag
 
 This command returns the detailed information of the image.
@@ -141,7 +142,7 @@ varun@varun-ThinkPad-L490:~/my-pro-projects/website/techypoint.github.io$ sudo d
                 "CONFIG=\t--prefix=/etc/nginx \t--sbin-path=/usr/sbin/nginx \t--modules-path=/usr/lib/nginx/modules \t--conf-path=/etc/nginx/nginx.conf \t--error-log-p
 {% endraw %}{% endhighlight %}
 
-link of detailed inspection
+### Further Study Material
+1. [Docker Image Commands](https://docs.docker.com/engine/reference/commandline/image "Docker Image Commands")
 
-Further tutorials
-https://docs.docker.com/engine/reference/commandline/pull/
+**In the next tutorial**, we will talk about the docker containers.

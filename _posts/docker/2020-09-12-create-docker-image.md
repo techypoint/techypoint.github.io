@@ -1,13 +1,12 @@
 ---
 title: "DockerFile"
 author: "Varun Bisht"
-description: ""
-keywords: ""
+description: "Dockerfile is a text file which contains set of instructions with arguments on how to build image. There are also many images on docker hub like mysql, jenkins, centos, elastic etc which you can use."
+keywords: "dockerfile tutorial,dockerfile example,docker build dockerfile,create docker image from scratch"
 category: "docker"
-permalink: "/docker/create-docker-image"
-date: 2020-08-15 11:00:00 am
-image: "/assets/img/docker/docker-file.png"
-featureImage: "/assets/img/docker/docker-file.png"
+permalink: "/docker/docker-file"
+image: "/assets/img/docker/docker-file/docker-file.png"
+featureImage: "/assets/img/docker/docker-file/docker-file.png"
 ---
 In the previous tutorials, we are using images like ubuntu from the docker hub official library.
 There are also many images on docker hub like mysql, jenkins, centos, elastic etc which you can use. But sometimes you need to create your own image for packaging your application so that you can easily distibute to others.
@@ -22,13 +21,15 @@ Dockerfile contains
 FROM ubuntu
 RUN apt-get update
 {% endraw %}{% endhighlight %}
-Here, **FROM** and **RUN** are instructions.
+Here,
 
+**FROM** and **RUN** are instructions.
 **ubuntu** and **apt-get update** are arguments.
 
 So lets create an image of an application. But Before building image lets understand the application.
 
-**APPLICATION EXPLANATION -** Our application installs nginx and runs it.
+### APPLICATION EXPLANATION
+Our application installs nginx and runs it.
 
 Below are the steps to build our application-
 - install nginx
@@ -36,12 +37,12 @@ Below are the steps to build our application-
 - write text-'Hey, I am your application' in index.html
 - run nginx service
 
-Test Nginx server by opening docker container ip. Now this is a simple application so lets dockerize it.
+Test Nginx server by opening url. Now this is a simple application so lets dockerize it.
 
-Lets Dockerize application-
+### Let's Dockerize application-
 
 - We have created index.html file already.
-- Dockerfile content -
+- Create file named- Dockerfile and its content is mentioned below
 {% highlight html %}{% raw %}
 # - is used to comment in Dockerfile
 # Start from the base image and we used ubuntu
@@ -55,15 +56,15 @@ COPY . /var/www/html/
 CMD nginx -g 'daemon off;'
 {% endraw %}{% endhighlight %}
 Now we successfully created Dockerfile. Here in docker file we just instructed how to build image(our application image).
-You can learn in detail of Dockerfile from [DockerFile Reference](https://docs.docker.com/engine/reference/builder "DockerFile Reference")
+You can learn in detail of Dockerfile instructions from [DockerFile Reference](https://docs.docker.com/engine/reference/builder "DockerFile Reference")
 
-- run this command on the directory where your Dockerfile lies.
+- To build docker image, run this command on the directory where your Dockerfile lies.
 
    **command-** sudo docker build -t image_name:tag_name dir
 
    For Eg-
-   1. without tag- sudo docker build -t my-app .
-   2. with tag- sudo docker build -t my-app:v1 .
+   1. **To create image without tag** - sudo docker build -t my-app .
+   2. **To create image with tag** - sudo docker build -t my-app:v1 .
 
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~/my-pro-projects/docker-tutorial-data$ sudo docker build -t my-app .
@@ -105,7 +106,7 @@ Successfully tagged my-app:latest
 {% endraw %}{% endhighlight %}
 
 You can easily see from above output that docker runs instructions of your Dockerfile one by one.
-This one by one execution forms the layers which we will dicsuss in further tutorials.
+This one by one execution forms the layers which we will discuss in [Docker Image layers]({% post_url docker/2020-09-13-image-layers %} "Docker Image layers").
 
 Now you can see the image created by you-
 {% highlight html %}{% raw %}
@@ -117,4 +118,9 @@ ubuntu              latest              1e4467b07108        4 weeks ago         
 hello-world         latest              bf756fb1ae65        7 months ago        13.3kB
 {% endraw %}{% endhighlight %}
 
-You are successfully able to create custom image and you can run this image's container by **sudo docker run my-app**.
+You are successfully able to create custom image and you can run this image's container by **sudo docker run my-app**
+
+### Further Study Material
+1. [DockerFile Reference](https://docs.docker.com/engine/reference/builder "DockerFile Reference")
+
+**In the next tutorial**, we will talk about the docker image layers.

@@ -7,7 +7,6 @@ keywords: "disqus jekyll,disqus blog,disqus integration,disqus comments,add comm
 category: "create a website"
 permalink: "/create-a-website/comment-disqus"
 date: 2020-06-28 18:40:00 pm
-trending: true
 image: "/assets/img/create-a-website/comment-disqus/comment.jpg"
 featureImage: "/assets/img/create-a-website/comment-disqus/comment.jpg"
 imgText: "Image by Werner Moser from Pixabay"

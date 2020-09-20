@@ -1,13 +1,12 @@
 ---
 title: "Docker Hub"
 author: "Varun Bisht"
-description: "Website basics terms and concepts-hosting, domain name, Git and SEO"
-keywords: "web hosting,hosting meaning,domain name meaning,Git,SEO"
+description: "Docker Hub is a place where you can store your images and make available to others. It is same as Github where you store and share your code with others."
+keywords: "docker push,download docker image manually,docker pull,docker login"
 category: "docker"
 permalink: "/docker/repositories"
-date: 2020-08-17 11:00:00 am
-image: "/assets/img/docker/docker-hub.png"
-featureImage: "/assets/img/docker/docker-hub.png"
+image: "/assets/img/docker/repositories/docker-hub.png"
+featureImage: "/assets/img/docker/repositories/docker-hub.png"
 ---
 Docker Hub is a place where you can store your images and make available to others. It is same as Github where you store and share your code with others.
 
@@ -24,11 +23,11 @@ We will teach you how you can push image created in the previous tutorial.
 
 - After Login, Click on the Create a Repository
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/create-docker-repository.png" />
+  <img class="object-fit" alt="Create Docker Repository" title="Create Docker Repository" src="/assets/img/docker/repositories/create-docker-repository.png" />
 </div>
 - Enter name, description and set visibility to public and then create button.
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/docker-repository-setup.png" />
+  <img class="object-fit" alt="Docker Repository Setup" title="Docker Repository Setup" src="/assets/img/docker/repositories/docker-repository-setup.png" />
 </div>
 
 You have successfully created repository.
@@ -92,11 +91,10 @@ Now you are successfully able to push the image to docker hub.
 
 You can check image on docker hub
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/docker-hub-images.png" />
+  <img class="object-fit" alt="Docker Hub Images" title="Docker Hub Images" src="/assets/img/docker/repositories/docker-hub-images.png" />
 </div>
 
 ### 4. Pull image from docker hub
-- remove image from your local
 - Pull image from docker Hub
 
    **command-** sudo docker pull techylane/my-app:v1
@@ -115,3 +113,5 @@ You can check image on docker hub
    docker.io/techylane/my-app:v1
 {% endraw %}{% endhighlight %}
 You are successfully able to pull image from docker hub.
+
+**In the next tutorial**, we will talk about the docker Internal concepts.

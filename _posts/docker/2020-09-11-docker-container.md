@@ -1,20 +1,21 @@
 ---
 title: "Docker Container"
 author: "Varun Bisht"
-description: "Website basics terms and concepts-hosting, domain name, Git and SEO"
-keywords: "web hosting,hosting meaning,domain name meaning,Git,SEO"
+description: "Container is a runtime instance of Docker image. You can perform operations on container like run, stop, delete etc.By Default, any changes done in container will not persist and also container is isolated."
+blogDesc: "Container is a runtime instance of Docker image. You can perform operations on container like run, stop, delete etc.By Default, any changes done in container will not persist and also container is isolated."
+keywords: "docker containers list,docker container tutorial,docker container command,docker container lifecycle management,container life cycle docker,how to read docker stats,docker stats memory usage"
 category: "docker"
 permalink: "/docker/container"
-date: 2020-08-14 11:00:00 am
-image: "/assets/img/docker/docker-container.png"
-featureImage: "/assets/img/docker/docker-container.png"
+trending: true
+image: "/assets/img/docker/container/docker-container.png"
+featureImage: "/assets/img/docker/container/docker-container.png"
 ---
 Container is a runtime instance of Docker image. You can perform operations on container like run, stop, delete etc.
 By Default, any changes done in container will not persist and also container is isolated. You can provide storage and network confgiuration at the start of container.
 
 They are lightweight, fast and designed to use resources effectively.
 
-So lets start-
+## Lets explore operations on container
 
 First download the ubuntu image to run its container-
 {% highlight html %}{% raw %}
@@ -31,8 +32,8 @@ Status: Downloaded newer image for ubuntu:latest
 docker.io/library/ubuntu:latest
 {% endraw %}{% endhighlight %}
 
-## 1. To run container
-This command creates the container and run it.
+### 1. To run container
+Below command creates the container and run it.
 
 **command-** sudo docker run -it ubuntu
 
@@ -47,13 +48,13 @@ root@b30e94715e59:/#
 Here you will enter in the bash terminal of docker ubuntu image.
 That's it, it is very simple and fast to start a container.
 
-## 2. To list docker container
+### 2. To list docker container
 
 **command -** sudo docker container ls or sudo docker ps
 
 For Eg-
-1. to list running container- sudo docker ps or sudo docker container ls
-2. to list all containers - sudo docker ps -a or sudo docker container ls -a
+- **To list running containers** - sudo docker ps or sudo docker container ls
+- **To list all containers** - sudo docker ps -a or sudo docker container ls -a
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~$ sudo docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
@@ -72,10 +73,19 @@ b30e94715e59        ubuntu              "/bin/bash"         6 minutes ago       
 varun@varun-ThinkPad-L490:~$
 {% endraw %}{% endhighlight %}
 
-## 3. To remove docker container
+In output, there are few columns -
+1. **CONTAINER ID** - Id of the container you created
+2. **IMAGE** - Name of image container uses
+3. **COMMAND** - command responsible for running the container
+4. **CREATED** - when container gets created
+5. **STATUS** - show the status of the container
+6. **PORTS** - port mapping between host and container.
+7. **NAMES** - name of the container in human redable format
 
-- To remove container- sudo docker container rm container-id
-- To remove container by force- sudo docker container rm -f container-id
+### 3. To remove docker container
+
+- **To remove container** - sudo docker container rm container-id
+- **To remove container by force** - sudo docker container rm -f container-id
 
 {% highlight html %}{% raw %}
 varun@varun-ThinkPad-L490:~$ sudo docker container ls -a
@@ -86,14 +96,14 @@ varun@varun-ThinkPad-L490:~$ sudo docker container rm bb005879c5b5
 bb005879c5b5
 {% endraw %}{% endhighlight %}
 
-# Docker LifeCycle
+
+## Docker Container LifeCycle
 
 <div class="imgCont">
-  <img class="object-fit" alt="Disqus Homepage" title="Disqus Homepage" src="/assets/img/docker/docker-lifecycle.png" />
+  <img class="object-fit" alt="Docker Container LifeCycle" title="Docker Container LifeCycle" src="/assets/img/docker/container/docker-container-lifecycle.png" />
 </div>
 
-
-## 1. CREATED STATE
+### 1. CREATED STATE
 
 **To create container-** sudo docker container create image-name
 
@@ -108,7 +118,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 you can see that container is in **Created** state.
 
-## 2. RUNNING STATE
+### 2. RUNNING STATE
 
 **To start container-** sudo docker container start container-id
 
@@ -125,7 +135,7 @@ Difference between **docker run** and **docker start**-
 1. Docker run creates the container and start it i.e docker run = docker create + docker start
 2. Docker start launches a container which is in stopped state or in created state. It maintains the settings and data changes previously.
 
-## 3. STOPPED STATE
+### 3. STOPPED STATE
 
 **To stop container-** sudo docker container stop container-id
 
@@ -141,7 +151,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 17dca6cd4444        ubuntu              "/bin/bash"         29 seconds ago      Exited (0) 1 second ago                       bold_wu
 {% endraw %}{% endhighlight %}
 
-## 4. KILLED STATE
+### 4. KILLED STATE
 
 **To kill container-** sudo docker container kill container-id
 
@@ -160,7 +170,7 @@ Difference between **docker stop** and **docker kill**-
 1. Docker stop - It kills the container gracefully i.e it sends SIGTERM and then SIGKILL after grace period.
 1. Docker kill - It kills the container directly i.e it sends SIGKILL.
 
-## 5. PAUSED STATE
+### 5. PAUSED STATE
 
 **To puase container-** sudo docker container pause container-id
 
@@ -177,7 +187,7 @@ f6619b8c20c3        ubuntu              "/bin/bash"         14 seconds ago      
 {% endraw %}{% endhighlight %}
 
 The status of the container is **paused**.
-## 6. UN-PAUSED STATE
+### 6. UN-PAUSED STATE
 
 **To un-pause container-** sudo docker container unpause container-id
 
@@ -190,21 +200,20 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 f6619b8c20c3        ubuntu              "/bin/bash"         4 minutes ago       Up 4 minutes                            jolly_moore
 {% endraw %}{% endhighlight %}
 
-# Docker Container useful command
+## Docker Container useful command
 
-## 1. To see docker resource usage statistics
+### 1. To see docker resource usage statistics
 
 **command-** sudo docker stats container-id
-
 For Eg-
-1. to see particular container resource usage- sudo docker stats container-id
-2. to see all running container usage- sudo docker stats
+- **to see particular container resource usage** - sudo docker stats container-id
+- **to see all running container usage** - sudo docker stats
 {% highlight html %}{% raw %}
 CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
 b30e94715e59        funny_matsumoto     0.00%               2.504MiB / 15.32GiB   0.02%               24.4kB / 0B         0B / 0B             1
 {% endraw %}{% endhighlight %}
 
-## 2. To see top process in container
+### 2. To see top process in container
 
 **command-** sudo docker top container-id
 {% highlight html %}{% raw %}
@@ -213,3 +222,8 @@ UID                 PID                 PPID                C                   
 root                21042               21024               0                   18:54               pts/0               00:00:00            /bin/bash
 varun@varun-ThinkPad-L490:~$
 {% endraw %}{% endhighlight %}
+
+### Further Study Material
+1. [Docker Container Commands](https://docs.docker.com/engine/reference/commandline/container "Docker Container Commands")
+
+**In the next tutorial**, we will talk about about how to create docker image.

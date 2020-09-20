@@ -44,3 +44,12 @@ root       908  0.1  0.3 1415136 49188 ?       Ssl  12:34   0:43 /usr/bin/contai
 root       561  0.0  0.0 108812  5568 ?        Sl   20:56   0:00  \_ containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime
 root       582  0.3  0.0   2292   680 ?        Ss   20:56   0:00      \_ sleep 6000
 root    
+
+
+
+topics -
+
+docker install
+difference between docker and vm
+docker image vs container
+docker entrypoint vs cmd
