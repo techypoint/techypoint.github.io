@@ -37,7 +37,7 @@
       <section class="category-comp">
         <h1 class="heading">{{page.category}}</h1>
         <ul class="categories-list flex">
-          {% for post in site.categories[page.category] %}
+          {% for post in site.categories[page.category] reversed%}
           <li class="cat-item">
             <a href='{{post.url}}'>
               <figure class="cat-img">
