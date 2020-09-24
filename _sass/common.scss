@@ -49,12 +49,40 @@ a{
   display: block !important;
 }
 
+.main-heading{
+  font-size: 36px;
+  margin: 0;
+  line-height: 48px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 8px;
+  display: inline-block;
+  letter-spacing: 2px;
+  &::after{
+    background: linear-gradient(to right, #c8d1e4, #1d59d2, #c8d1e4);
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    height: 2px;
+  }
+}
+
 @media (max-width:767px){
   .mob-visible{
     display: block !important;
   }
   .pc-visible{
     display: none !important;
+  }
+
+  .main-heading{
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    letter-spacing: 1px
   }
 }
 

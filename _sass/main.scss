@@ -103,8 +103,7 @@
   background: url(/assets/img/backgound.jpg) no-repeat;
   background-size: cover;
   background-position: bottom;
-  margin: 60px 0;
-  margin-top: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,22 +128,33 @@
 }
 
 .blog-categories{
-  margin-bottom: 36px;
+  margin: 36px 0;
   .categories-list{
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      &::-webkit-scrollbar {
+        width: 0 !important;
+        height: 0;
+      }
     .categories-item{
-      width: 25%;
-      height: 100px;
+      height: auto;
       border-radius: 15px;
       margin-right: 24px;
-      margin-bottom: 24px;
-      display: flex;
+      display: inline-block;
+        white-space: normal;
+        width: auto;
+        padding: 24px 48px;
+        margin-right: 16px;
       .cat-lnk{
         width: 100%;
         color: #0082e5;
         text-align: center;
         font-size: 20px;
         font-weight: 500;
-        line-height: 96px;
+        line-height: 28px;
         text-transform: capitalize;
       }
       &:nth-child(2n+1){
@@ -372,6 +382,9 @@
 
   .blog-categories{
     margin-bottom: 0;
+    .main-heading{
+      margin-left: 16px;
+    }
     .categories-list{
       display: inline-block;
       white-space: nowrap;
@@ -402,6 +415,9 @@
 
   .trending-blogs{
     padding: 48px 0;
+    .main-heading{
+      margin-left: 16px;
+    }
     .trending-list{
       display: inline-block;
       white-space: nowrap;
