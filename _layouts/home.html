@@ -23,8 +23,21 @@
 <body>
   {% include header.html %}
   {% include icons.html %}
+  <section class="blog-categories flex">
+    <div class="container">
+      <h1 class="main-heading">Featured Categories</h1>
+      <ul class="categories-list flex">
+        {% for category in site.categories %}
+        <li class="categories-item">
+          <a class="cat-lnk" href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{category[0]}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
   <section class="latest-posts flex">
     <div class="container">
+      <h1 class="main-heading">Latest Posts</h1>
       <ul class="latest-posts-list">
         {% for post in site.posts limit:4%}
         <li class="post-item">
@@ -51,19 +64,10 @@
       </div>
     </div>
   </section>
-  <section class="blog-categories flex">
-    <div class="container">
-      <ul class="categories-list flex">
-        {% for category in site.categories %}
-        <li class="categories-item">
-          <a class="cat-lnk" href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{category[0]}}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
+  
   <section class="trending-blogs">
     <div class="container">
+      <h1 class="main-heading">Trending Blogs</h1>
       <ul class="trending-list flex">
         {% for post in site.posts %}
         {% if post.trending == true %}
