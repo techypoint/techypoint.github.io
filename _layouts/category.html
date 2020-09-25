@@ -24,11 +24,11 @@
           {% for category in site.categories %}
              {% if page.category == category[0]%}
           <li class="categories-item active">
-            <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
+            <a href="{{ site.url }}/category/{{ category | first | slugify }}">{{ category | first }}</a>
           </li>
              {% else %}
           <li class="categories-item">
-            <a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a>
+            <a href="{{ site.url }}/category/{{ category | first | slugify }}">{{ category | first }}</a>
           </li>
              {% endif %}
           {% endfor %}
@@ -37,9 +37,9 @@
       <section class="category-comp">
         <h1 class="heading">{{page.category}}</h1>
         <ul class="categories-list flex">
-          {% for post in page.posts %}
+          {% for post in site.categories[page.category] reversed%}
           <li class="cat-item">
-            <a>
+            <a href='{{post.url}}'>
               <figure class="cat-img">
                 <img class="object-fit" src="{{post.image}}" alt="{{post.title}}">
               </figure>
@@ -52,7 +52,6 @@
                 <p class="desc">{{post.description}}</p>
               </div>
             </a>
-
           </li>
           {% endfor%}
         </ul>
