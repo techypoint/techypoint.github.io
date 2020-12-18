@@ -3,13 +3,13 @@ title: "Debug out of memory error in java"
 author: "Varun Bisht"
 description: "We will tell you how to debug OutOfMemory Error in Java using Eclipse Memory Analyzer. We will demonstrate two examples and will debug it step by step. We will also learn what are the configuration required and how to take heap dump in Java."
 blogDesc: "We will tell you how to debug OutOfMemory Error in Java using Eclipse Memory Analyzer. We will demonstrate two examples and will debug it step by step. We will also learn what are the configuration required and how to take heap dump in Java."
-keywords: "java lang outofmemoryerror java heap space,how to debug outofmemoryerror java heap space,how to analyze out of memory error in java,out of memory exception java example,how to find memory leaks in java using eclipse"
+keywords: "java lang outofmemoryerror java heap space,how to debug outofmemoryerror java heap space,how to analyze out of memory error in java,debug system outofmemoryexception,how to debug out of memory error in java"
 category: "java"
 permalink: "/java/debug-outofmemory-error-in-java"
 image: "/assets/img/java/debug-outofmemory-error-in-java/outOfMemory.png"
 featureImage: "/assets/img/java/debug-outofmemory-error-in-java/outOfMemory.png"
 ---
-In this tutorial, we will learn how to debug out of memory exception in java. We will learn what is this error and causes for it. Then, We will write two programs that produce **OutOfMemory Error** and will take its heap dump and analyze it.
+In this tutorial, we will learn how to debug out of memory error in java. We will learn what is this error and causes for it. Then, We will write two programs that produce **OutOfMemory Error** and will take its heap dump and analyze it.
 
 We will run our application with 128mb heap size i.e -Xmx=128m and -Xms=128m
 
