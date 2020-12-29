@@ -15,9 +15,20 @@
       });
     }
 
+    const categoryNav = document.querySelector('.category-nav-item');
+    if(categoryNav){
+      categoryNav.addEventListener('click', ()=>{
+        const parent = event.currentTarget.parentNode;
+        if(parent){
+          parent.classList.toggle('open');
+        }
+
+      });
+    }
+
     window.addEventListener('scroll', ()=>{
       const header = document.querySelector('.header-section');
-      if(window.pageYOffset > header.clientHeight){
+      if(window.pageYOffset >= header.clientHeight){
          header.classList.add('sticky-header');
       }else{
         header.classList.remove('sticky-header');
