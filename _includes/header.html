@@ -11,6 +11,16 @@
         <li class="menu-item flex fcenter">
           <a class="nav-link f14" href="/blog">Blog</a>
         </li>
+        <li class="menu-item flex fcenter mob-visible">
+          <a class="nav-link f14 category-nav-item">Categories</a>
+          <ul class="categories-list flex">
+            {% for category in site.categories %}
+            <li class="categories-item">
+              <a class="cat-lnk" href="{{ site.url }}/category/{{ category | first | slugify }}" >{{category[0]}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
         <li class="menu-item flex fcenter">
           <a class="nav-link f14" href="/contact-us">Contact Us</a>
         </li>
