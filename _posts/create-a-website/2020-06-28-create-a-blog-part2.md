@@ -7,7 +7,6 @@ keywords: "jekyll post,create a blog google,how to create a blog for free,free b
 category: "create a website"
 permalink: "/create-a-website/create-a-blog-part2"
 date: 2020-06-28 18:10:00 pm
-trending: true
 image: "/assets/img/create-a-website/create-a-blog-part2/blog.jpg"
 featureImage: "/assets/img/create-a-website/create-a-blog-part2/blog.jpg"
 imgText: "Photo by Miguel Á. Padriñán from Pexels"

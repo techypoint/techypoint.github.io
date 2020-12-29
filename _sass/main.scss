@@ -19,6 +19,7 @@
         padding-left: 15px;
         .category{
           font-size: 12px;
+          width: 50%;
           text-transform: capitalize;
         }
         .heading{
@@ -50,13 +51,14 @@
           padding: 15px 0;
           .category{
             font-size: 14px;
+            width: 50%;
             text-transform: capitalize;
           }
           .heading{
             font-size: 36px;
             font-weight: 500;
             line-height: 48px;
-            
+
           }
           .content{
             font-size: 18px;
@@ -75,6 +77,7 @@
       .lower-section{
         .category{
           color: #0082e5;
+          width: 50%;
           text-transform: capitalize;
         }
         .heading{
@@ -196,6 +199,7 @@
         .category{
           font-weight: 400;
           font-size: 16px;
+          width: 50%;
           line-height: 24px;
           color: #0082e5;
           text-transform: capitalize;
@@ -242,7 +246,7 @@
       .title{
         font-size: 48px;
         color: #fff;
-        font-weight: 400; 
+        font-weight: 400;
         line-height: 70px;
         margin-bottom: 24px;
         span{
@@ -388,7 +392,7 @@
     .categories-list{
       display: inline-block;
       white-space: nowrap;
-      width: auto;
+      width: 100%;
       overflow-x: scroll;
       overflow-y: hidden;
       &::-webkit-scrollbar {
